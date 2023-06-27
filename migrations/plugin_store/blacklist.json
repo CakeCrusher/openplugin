@@ -12,7 +12,8 @@
     "ChatWithBible",
     "ChatWithQuran",
     "CryptoPrices",
-    "FreshTech"
+    "FreshTech",
+    "ABCmouse"
   ],
   "excessive_tokens": [
     "staypia",
@@ -25,6 +26,8 @@
     "CheckTheChain",
     "Checkers",
     "CloudDiagramGen",
-    "Diagrams"
+    "Diagrams",
+    "Ai_PDF",
+    "Creaticode_Extension_of_MIT_Scratch"
   ]
 }
