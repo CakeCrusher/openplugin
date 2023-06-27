@@ -1,4 +1,4 @@
-name: publish
+name: pypiPublish
 on:
   push:
     branches:
@@ -23,11 +23,13 @@ jobs:
           pip install setuptools wheel twine
 
       - name: Build package
-        run: python setup.py sdist bdist_wheel
+        run: |
+          cd pypi-client
+          python setup.py sdist bdist_wheel
 
       - name: Publish to PyPI
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
         run: |
-          python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+          python -m twine upload --repository-url https://upload.pypi.org/legacy/ pypi-client/dist/*
