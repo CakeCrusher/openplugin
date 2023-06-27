@@ -16,6 +16,10 @@ def get_supported_plugins():
         return json.load(f)
 
 def openplugin_completion(early_access_token: str, plugin_name: str = None, fail_silently: bool = False, **chatgpt_args):
+    # Ensure an early access token is provided.
+    if not early_access_token:
+        raise ValueError(f"An early access token must be provided.")
+
     # Ensure the provided model is supported.
     model = chatgpt_args.get("model", "gpt-3.5-turbo-0613")
     if model not in SUPPORTED_MODELS:

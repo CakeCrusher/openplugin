@@ -9,6 +9,7 @@ jobs:
 
     env:
       IS_GITHUB_ACTION: true
+      EARLY_ACCESS_TOKEN: ${{ secrets.EARLY_ACCESS_TOKEN }}
 
     steps:
     - uses: actions/checkout@v2

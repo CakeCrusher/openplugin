@@ -32,4 +32,4 @@ jobs:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
         run: |
-          python -m twine upload --repository-url https://upload.pypi.org/legacy/ pypi-client/dist/*
+          python -m twine upload --repository-url https://upload.pypi.org/legacy/ pypi-client/dist/* --verbose
