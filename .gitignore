@@ -3,6 +3,8 @@ EnvOpenpluginClient
 env.sh
 __pycache__
 .pytest_cache
+manualTests
+EnvManualTesting
 
 # ignore pip build directories
 **.egg**

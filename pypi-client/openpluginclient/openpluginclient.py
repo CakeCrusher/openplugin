@@ -1,6 +1,7 @@
 import json
 import requests
 import os
+from pathlib import Path
 
 SUPPORTED_MODELS = ["gpt-4-0613", "gpt-3.5-turbo-0613"]
 DEVELOPMENT = False
@@ -8,10 +9,7 @@ if (os.getenv("DEVELOPMENT") == "true"):
     DEVELOPMENT = True
 
 def get_supported_plugins():
-    current_dir = os.getcwd()
-    print("current_dir", current_dir)
-    file_path = os.path.join(current_dir, 'pypi-client', 'openpluginclient', 'plugins.json')
-    print("file_path", file_path)
+    file_path = Path(__file__).parent / "plugins.json"
     with open(file_path, 'r') as f:
         return json.load(f)
 
