@@ -10,12 +10,12 @@ else:
     sys.path.insert(0, './')
 
 EARLY_ACCESS_TOKEN = os.environ.get("EARLY_ACCESS_TOKEN")
-DEVELOPMENT = os.environ.get("DEVELOPMENT") == "true"
-print("DEVELOPMENT", DEVELOPMENT)
+OPENPLUGIN_DEVELOPMENT = os.environ.get("OPENPLUGIN_DEVELOPMENT") == "true"
+print("OPENPLUGIN_DEVELOPMENT", OPENPLUGIN_DEVELOPMENT)
 
 from openpluginclient import openplugin_completion
 
-@pytest.mark.skipif(not DEVELOPMENT, reason="Skipping test. Not in DEVELOPMENT mode")
+@pytest.mark.skipif(not OPENPLUGIN_DEVELOPMENT, reason="Skipping test. Not in OPENPLUGIN_DEVELOPMENT mode")
 def test_openplugin_completion_todo():
     todo = f'test_chat_completion_{random.randint(0, 100000)}'
 

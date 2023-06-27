@@ -4,9 +4,6 @@ import os
 from pathlib import Path
 
 SUPPORTED_MODELS = ["gpt-4-0613", "gpt-3.5-turbo-0613"]
-DEVELOPMENT = False
-if (os.getenv("DEVELOPMENT") == "true"):
-    DEVELOPMENT = True
 
 def get_supported_plugins():
     file_path = Path(__file__).parent / "plugins.json"
@@ -44,10 +41,8 @@ def openplugin_completion(early_access_token: str, plugin_name: str = None, fail
     }
 
     try:
-        # make a post request to localhost:3000
         server = "https://openplugin-api-30b78451a615.herokuapp.com"
-        if DEVELOPMENT:
-            server = "http://localhost:3000"
+        # server = "http://localhost:3000" # For local testing
         
         response = requests.post(f"{server}/chat_completion", json=body)
         json_response = response.json()
