@@ -2,12 +2,29 @@
   "non_whitelisted": [
     "Coursera",
     "video_insights",
-    "KAYAK"
+    "KAYAK",
+    "ArtCollection",
+    "AskMarcie",
+    "Avalara",
+    "BOXIL_SaaS",
+    "Broadway",
+    "BubbleGoods",
+    "ChatWithBible",
+    "ChatWithQuran",
+    "CryptoPrices",
+    "FreshTech"
   ],
   "excessive_tokens": [
-    "staypia"
+    "staypia",
+    "DAIZY"
   ],
   "misc": [
-    "portfoliopilot"
+    "portfoliopilot",
+    "Bohita",
+    "C3_Glide",
+    "CheckTheChain",
+    "Checkers",
+    "CloudDiagramGen",
+    "Diagrams"
   ]
 }
