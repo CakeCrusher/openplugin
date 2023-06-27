@@ -1,0 +1,10 @@
+EnvOpenpluginClient
+.env
+env.sh
+__pycache__
+.pytest_cache
+
+# ignore pip build directories
+**.egg**
+**dist
+**build

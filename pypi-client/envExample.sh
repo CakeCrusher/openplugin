@@ -1,0 +1,2 @@
+set DEVELOPMENT=true
+set EARLY_ACCESS_TOKEN=

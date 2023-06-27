@@ -1,0 +1,13 @@
+{
+  "non_whitelisted": [
+    "Coursera",
+    "video_insights",
+    "KAYAK"
+  ],
+  "excessive_tokens": [
+    "staypia"
+  ],
+  "misc": [
+    "portfoliopilot"
+  ]
+}
