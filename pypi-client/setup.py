@@ -4,14 +4,14 @@ from setuptools import setup, find_packages
 setup(
        # the name must match the folder name 'verysimplemodule'
         name='openpluginclient', 
-        version="0.1.3",
+        version="0.1.4",
         author="Sebastian Sosa",
         author_email="1sebastian1sosa1@gmail.com",
         description='Python package for accessing ChatGPT plugins via API',
         long_description='Client for accessing ChatGPT plugins via OpenPlugin API',
         packages=find_packages(),
         package_data={
-            "openplugin": ["*.json"],  # include all .json files in the openplugin package
+            "openpluginclient": ["*.json"],  # include all .json files in the openplugin package
         },
         exclude=['tests'],
         install_requires=[
