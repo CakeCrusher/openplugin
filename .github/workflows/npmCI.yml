@@ -1,0 +1,34 @@
+name: npmCI
+on: push
+jobs:
+  ci:
+    name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
+
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        node: ['18.x']
+        os: [ubuntu-latest]
+    env:
+      EARLY_ACCESS_TOKEN: ${{ secrets.EARLY_ACCESS_TOKEN }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Use Node ${{ matrix.node }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Install deps and build (with cache)
+        uses: bahmutov/npm-install@v1
+
+      - name: Copy plugins.json
+        run: cp npm-client/openpluginclient/src/plugins.json npm-client/openpluginclient/dist/plugins.json
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Test
+        run: yarn test --ci --coverage --maxWorkers=1
