@@ -4,9 +4,10 @@ The same powerful functionality as the ChatGPT API + ChatGPT plugins!
 ## Supported plugins [PLUGINS.md](https://github.com/CakeCrusher/openplugin-clients/blob/main/PLUGINS.md)
 
 ## Quickstart
+
+### python
 ```bash
 pip install openpluginclient # PyPI install
-# NPM package coming soon!
 ```
 ```py
 from openpluginclient import openplugin_completion
@@ -28,6 +29,34 @@ completion = openplugin_completion(
 
 print(completion)
 ```
+
+### node (js)
+```bash
+npm install openpluginclient # npm install
+```
+```js
+import {openpluginCompletion} from 'openpluginclient'
+
+const pluginName = "ByByAI" // enter plugin "Namespace" as written on PLUGINS.md 
+const completion = await openpluginCompletion({
+  earlyAccessToken: "SebastianS-e54e2881-9aea-4d35-b243-d18600d1fc7b", // (required)
+  pluginName: pluginName, // optional
+  model: "gpt-3.5-turbo-0613", // optional
+  messages: [ // regular ChatGPT messages argument (required)
+      {
+          "role": "user",
+          "content": "Show me a Best Amazon products for puzzles"
+      }
+  ],
+  temperature: 0, // optional
+  // ...other openai.ChatCompletion.create arguments
+})
+
+// print as prettified JSON
+console.log(completion)
+```
+
+### output
 ```sh
 {
   "choices": [

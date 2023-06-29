@@ -67,14 +67,14 @@ export const openpluginCompletion = async (args: OpenPluginArgs) => {
       body: JSON.stringify(body),
     });
 
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-
     const jsonResponse: any = await response.json();
 
     if (jsonResponse.error) {
       throw new Error(`Error: ${jsonResponse.error}`);
+    }
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
 
     return jsonResponse;

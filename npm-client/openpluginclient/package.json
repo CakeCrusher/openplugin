@@ -1,6 +1,6 @@
 {
   "name": "openpluginclient",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "license": "MIT",
   "author": "Sebastian Sosa",
   "main": "dist/index.js",
