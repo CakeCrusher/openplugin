@@ -3,9 +3,7 @@ on: push
 jobs:
   ci:
     name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
-
     runs-on: ${{ matrix.os }}
-
     strategy:
       matrix:
         node: ['18.x']
@@ -21,14 +19,35 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Install deps and build (with cache)
-        uses: bahmutov/npm-install@v1
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+        working-directory: npm-client/openpluginclient
 
-      - name: Copy plugins.json
-        run: cp npm-client/openpluginclient/src/plugins.json npm-client/openpluginclient/dist/plugins.json
+      - name: Cache yarn dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        working-directory: npm-client/openpluginclient
+
+      - name: Build
+        run: yarn build
+        working-directory: npm-client/openpluginclient
+
+      - name: Copy plugins.json to dist
+        run: cp src/plugins.json dist/plugins.json
+        working-directory: npm-client/openpluginclient
 
       - name: Lint
         run: yarn lint
+        working-directory: npm-client/openpluginclient
 
       - name: Test
         run: yarn test --ci --coverage --maxWorkers=1
+        working-directory: npm-client/openpluginclient

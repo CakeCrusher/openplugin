@@ -18,7 +18,6 @@ describe('openpluginCompletion', () => {
         messages: [{ role: 'user', content: `add '${todo}' to my todo list` }],
         temperature: 0,
       });
-      console.log('completion todo', completion.choices);
 
       const todosResponse = await fetch('http://127.0.0.1:3333/todos');
       const todosBody: any = await todosResponse.json();
@@ -36,7 +35,6 @@ describe('openpluginCompletion', () => {
       messages: [{ role: 'user', content: 'show me an image of a dog' }],
       temperature: 0,
     });
-    console.log('completion ImageSearch', completion.choices);
 
     expect(completion.choices[0].message.content.toLowerCase()).toContain(
       'dog'
@@ -49,7 +47,6 @@ describe('openpluginCompletion', () => {
       pluginName: 'ImageSearch',
       messages: [{ role: 'user', content: `show me an image of a dog` }],
     });
-    console.log('completion experiment', JSON.stringify(completion, null, 2));
     expect(completion.choices).toBeTruthy();
   }, 30000);
 });

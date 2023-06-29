@@ -6,16 +6,11 @@ on:
 jobs:
   publish:
     name: Publish to npm
-
     runs-on: ${{ matrix.os }}
-
     strategy:
       matrix:
         node: ['18.x']
         os: [ubuntu-latest]
-    env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -25,12 +20,12 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Install deps and build (with cache)
-        uses: bahmutov/npm-install@v1
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        working-directory: npm-client/openpluginclient
 
-      - name: Copy plugins.json
-        run: cp npm-client/openpluginclient/src/plugins.json npm-client/openpluginclient/dist/plugins.json
-
-      - uses: JS-DevTools/npm-publish@v2
+      - name: Publish
+        uses: JS-DevTools/npm-publish@v2
         with:
           token: ${{ secrets.NPM_AUTH_TOKEN }}
+          package: npm-client/openpluginclient

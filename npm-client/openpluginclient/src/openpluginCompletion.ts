@@ -1,14 +1,12 @@
-import fs from 'fs';
-import path from 'path';
 import 'isomorphic-fetch';
 
 const SUPPORTED_MODELS = ['gpt-4-0613', 'gpt-3.5-turbo-0613'];
 
-function getSupportedPlugins() {
-  const filePath = path.join(__dirname, 'plugins.json');
-  const data = fs.readFileSync(filePath, 'utf-8');
-  return JSON.parse(data);
-}
+// function getSupportedPlugins() {
+//   const filePath = path.join(__dirname, 'plugins.json');
+//   const data = fs.readFileSync(filePath, 'utf-8');
+//   return JSON.parse(data);
+// }
 
 interface OpenPluginArgs {
   earlyAccessToken: string;
@@ -36,12 +34,12 @@ export const openpluginCompletion = async (args: OpenPluginArgs) => {
     );
   }
 
-  const supportedPlugins = getSupportedPlugins();
-  if (pluginName && !supportedPlugins.hasOwnProperty(pluginName)) {
-    throw new Error(
-      `Unsupported plugin '${pluginName}'. For full list of supported plugins, visit https://github.com/CakeCrusher/openplugin-clients/blob/main/PLUGINS.md .`
-    );
-  }
+  // const supportedPlugins = getSupportedPlugins();
+  // if (pluginName && !supportedPlugins.hasOwnProperty(pluginName)) {
+  //   throw new Error(
+  //     `Unsupported plugin '${pluginName}'. For full list of supported plugins, visit https://github.com/CakeCrusher/openplugin-clients/blob/main/PLUGINS.md .`
+  //   );
+  // }
 
   if (!chatgptArgs?.messages) {
     throw new Error(
