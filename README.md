@@ -1,11 +1,66 @@
-# openplugin-client
-The same powerful functionality as the ChatGPT API + ChatGPT plugins!
+<div>
+  <img src="https://i.imgur.com/L3giCRt.png" alt="Your alt text" width="125" align="left">
+    <h1>OpenPlugin</h1>
+  <h3>Integrate with OpenAI's ChatGPT plugins via API.<br/>The same powerful functionality as the ChatGPT api + plugins!</h3>
+  <h3></h3>
+</div>
+
 
 ## Supported plugins [PLUGINS.md](https://github.com/CakeCrusher/openplugin-clients/blob/main/PLUGINS.md)
+<i>demo</i>
 
-## Quickstart
+https://github.com/CakeCrusher/openplugin/assets/37946988/fcc01261-fef9-4f92-8706-cc5ba51ac3bc
 
-### python
+## Core Quickstart
+```shell
+pip install openplugincore
+```
+simplest way to use `openplugincore`
+```py
+from openplugincore import openplugin_completion
+
+openplugin_completion_generation = openplugin_completion(
+    openai_api_key = OPENAI_API_KEY,
+    plugin_name = "Ai_PDF",
+    prompt = chatgpt_prompt,
+    model = "gpt-3.5-turbo-0613",
+    temperature = 0,
+)
+
+print(json.dumps(OpenPlugin_generation, indent=2))
+```
+or for more nuanced use
+```py
+from openplugincore import OpenPlugin
+
+plugin = OpenPlugin("Ai_PDF", OPENAI_API_KEY)
+
+function_response = plugin.fetch_plugin(
+    prompt=chatgpt_prompt,
+    model="gpt-3.5-turbo-0613",
+    temperature=0,
+)
+
+import openai
+openai.api_key = OPENAI_API_KEY
+
+OpenPlugin_generation = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo-0613",
+    messages=[
+        {"role": "user", "content": chatgpt_prompt},
+        function_response
+    ],
+    temperature = 0
+)
+
+print(json.dumps(OpenPlugin_generation, indent=2))
+```   
+<i>rough high level system design / docs</i>
+
+![image](https://github.com/CakeCrusher/openplugin/assets/37946988/36b57d80-7eab-4ed0-9fff-c49885bf32e1)
+
+
+## Client Quickstart
 ```bash
 pip install openpluginclient # PyPI install
 ```
@@ -55,31 +110,9 @@ const completion = await openpluginCompletion({
 // print as prettified JSON
 console.log(completion)
 ```
+<i>high level system design / docs</i>
 
-### output
-```sh
-{
-  "choices": [
-    {
-      "finish_reason": "stop",
-      "index": 0,
-      "message": {
-        "content": "Here are some of the best Amazon products for puzzles:\n\n1. [ALL4JIG 1500 Piece Rotating Puzzle Board with Drawers and Cover](https://www.amazon.com/dp/B09WTSKMVW/?tag=ttd0e-20) - $69.99\n   - Spinning LAZY SUSAN ... innovative, and challenging jigsaw puzzle from Ceaco.\n\nYou can find more details and purchase these puzzles on Amazon.",
-        "role": "assistant"
-      }
-    }
-  ],
-  "created": 1687911893,
-  "id": "chatcmpl-7WDHJ2KUgj3QjxJq0uwU4duhXMD8b",
-  "model": "gpt-3.5-turbo-0613",
-  "object": "chat.completion",
-  "usage": {
-    "completion_tokens": 379,
-    "prompt_tokens": 752,
-    "total_tokens": 1131
-  }
-}
-```
+![image](https://github.com/CakeCrusher/openplugin/assets/37946988/63da7efc-c556-495b-8738-9143b3faece1)
 
 ## Disclaimer
 As OpenPlugin is currently in an alpha state, you may run into errors. Despite some light testing being done by [migrations](https://github.com/CakeCrusher/openplugin-clients/blob/main/migrations/plugin_store/parser.ipynb) not all plugins are thuroughly tests. If you run into any errors, please report them [here](https://github.com/CakeCrusher/openplugin-clients/issues/new?assignees=CakeCrusher&labels=bug&projects=&template=bug_report.md&title=).
