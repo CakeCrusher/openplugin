@@ -1,0 +1,1 @@
+from .openplugincore import OpenPlugin, openplugin_completion

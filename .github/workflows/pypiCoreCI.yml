@@ -1,4 +1,4 @@
-name: pypiCI
+name: pypiCoreCI
 
 on: [push]
 
@@ -8,25 +8,31 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IS_GITHUB_ACTION: true
-      EARLY_ACCESS_TOKEN: ${{ secrets.EARLY_ACCESS_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
     steps:
     - uses: actions/checkout@v2
+    
+    - name: Start ChatgptPluginTodo server
+      uses: CakeCrusher/todoChatgptPlugin@v1.0.2
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.8
+        python-version: '3.10.x'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install setuptools wheel twine
+        
+    - name: Install wheel
+      run: |
+        pip install wheel
 
     - name: Build and check package
       run: |
-        cd pypi-client
+        cd pypi-core
         python setup.py sdist bdist_wheel
         twine check dist/*
 
@@ -37,10 +43,10 @@ jobs:
     - name: Install package and pytest
       run: |
         source venv/bin/activate
-        pip install pypi-client/dist/*.whl
+        pip install pypi-core/dist/*.whl
         pip install pytest
 
     - name: Run tests
       run: |
         source venv/bin/activate
-        python -m pytest pypi-client/tests/ --verbose
+        python -m pytest pypi-core/tests/ --verbose
