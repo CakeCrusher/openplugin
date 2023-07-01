@@ -1,4 +1,4 @@
-name: npmPublish
+name: npmClientPublish
 on:
   push:
     branches:

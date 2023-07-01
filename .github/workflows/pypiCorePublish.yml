@@ -1,4 +1,4 @@
-name: pypiPublish
+name: pypiCorePublish
 on:
   push:
     branches:
@@ -24,12 +24,12 @@ jobs:
 
       - name: Build package
         run: |
-          cd pypi-client
+          cd pypi-core
           python setup.py sdist bdist_wheel
 
       - name: Publish to PyPI
         env:
           TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_CORE_TOKEN }}
         run: |
-          python -m twine upload --repository-url https://upload.pypi.org/legacy/ pypi-client/dist/* --verbose
+          python -m twine upload --repository-url https://upload.pypi.org/legacy/ pypi-core/dist/* --verbose
