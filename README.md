@@ -6,6 +6,8 @@
 </div>
 
 
+[Join Discord Server](https://discord.gg/udP6X9YkD) 
+
 ## Supported plugins [PLUGINS.md](https://github.com/CakeCrusher/openplugin-clients/blob/main/PLUGINS.md)
 <i>demo</i>
 
