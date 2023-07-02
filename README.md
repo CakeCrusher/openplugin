@@ -14,6 +14,8 @@
 
 https://github.com/CakeCrusher/openplugin/assets/37946988/d35c704d-a007-4e5f-b3ea-03df264c0f4e
 
+## Project stucture
+This repo contains 3 packages: [(pypi)`openplugincore`](https://github.com/CakeCrusher/openplugin/tree/main/pypi-core), [(pypi)`openpluginclient`](https://github.com/CakeCrusher/openplugin/tree/main/pypi-client), and [(npm)`openpluginclient`](https://github.com/CakeCrusher/openplugin/tree/main/npm-client/openpluginclient). (pypi)`openplugincore` is the meat of this project, it contains all the tools you need to call OpenAI plugins. Both (pypi)`openpluginclient` and (npm)`openpluginclient` ping an API that uses (pypi)`openplugincore` internally, does not need an OpenAI API key.
 
 ## Core Quickstart
 ```shell
