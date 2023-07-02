@@ -11,7 +11,9 @@
 ## Supported plugins [PLUGINS.md](https://github.com/CakeCrusher/openplugin-clients/blob/main/PLUGINS.md)
 <i>demo</i>
 
-https://github.com/CakeCrusher/openplugin/assets/37946988/fcc01261-fef9-4f92-8706-cc5ba51ac3bc
+
+https://github.com/CakeCrusher/openplugin/assets/37946988/d35c704d-a007-4e5f-b3ea-03df264c0f4e
+
 
 ## Core Quickstart
 ```shell
