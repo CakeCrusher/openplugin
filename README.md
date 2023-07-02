@@ -63,6 +63,8 @@ print(json.dumps(OpenPlugin_generation, indent=2))
 
 
 ## Client Quickstart
+Public early access tokens: `__extra__-c22a34e2-89a8-48b2-8474-c664b577526b`, `__extra__-692df72b-ec3f-49e4-a1ce-fb1fbc34aebd`
+### Python
 ```bash
 pip install openpluginclient # PyPI install
 ```
