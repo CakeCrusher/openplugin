@@ -64,10 +64,10 @@
     "image": "https://ai-news.orrenprunckun.com/ai-link-roundup.png",
     "namespace": "AINewsRoundup",
     "openapi_url": "https://ai-news.orrenprunckun.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate a clickable link roundup of today's AI news headlines.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "AIstrologer": {
     "auth": true,
@@ -148,14 +148,14 @@
     "image": "https://plugin-3c56b9d4c8a6465998395f28b6a445b2-jexkai4vea-uc.a.run.app/logo.png",
     "namespace": "Ai_PDF",
     "openapi_url": "https://plugin-3c56b9d4c8a6465998395f28b6a445b2-jexkai4vea-uc.a.run.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
-    "stimulous_prompt": "Search for information in a PDF document and provide page references for fact checking. For example, search for the definition of a specific term in a PDF about technology. The PDF can be of any size. Here is a human description of the desired functionality: ```Super-fast, interactive chats with PDFs of any size, complete with page references for fact checking.```",
+    "status": "supported",
+    "stimulated": true,
+    "stimulous_prompt": "Please summarize the following PDF https://www.unodc.org/pdf/criminal_justice/UN_Basic_Principles_on_the_Role_of_Lawyers.pdf",
     "whitelisted": true
   },
   "Alchemy": {
     "auth": true,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "Request real-time blockchain data for chains like Ethereum, Polygon, Arbitrum and Optimism through natural language.",
     "description_for_model": "Request real-time blockchain data for chains like Ethereum, Polygon, Arbitrum and Optimism through natural language.",
     "domain": "chat-web3-plugin.alchemy.com",
@@ -165,7 +165,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "Algorithma": {
     "auth": false,
@@ -218,8 +218,8 @@
     "image": "https://www.appypie.com/.well-known/logo.png",
     "namespace": "AppyPieAIAppBuilder",
     "openapi_url": "https://www.appypie.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate an Android and iOS app using the AI-powered Text-to-App Generator. Just provide the following text input:\n\n```\nAI-powered Text-to-App Generator turns your app idea into Android and iOS apps- just provide text input.\n```",
     "whitelisted": true
   },
@@ -288,10 +288,10 @@
     "image": "https://petrolpricepredictor.com/petrol-price-predictor-icon.png",
     "namespace": "AusPetrolPrices",
     "openapi_url": "https://petrolpricepredictor.com/ai-plugin/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Get the average daily petrol price for Sydney, Australia.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "AusSurfReport": {
     "auth": false,
@@ -302,10 +302,10 @@
     "image": "https://surfreport.orrenprunckun.com/surf-report.png",
     "namespace": "AusSurfReport",
     "openapi_url": "https://surfreport.orrenprunckun.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Get the surf report for Manly Beach in Sydney, Australia.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Austrian_Bank_Rates": {
     "auth": false,
@@ -316,8 +316,8 @@
     "image": "https://banken-vergleich.net/logo.png",
     "namespace": "Austrian_Bank_Rates",
     "openapi_url": "https://banken-vergleich.net/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the current rates and terms of checking accounts and savings accounts from Austrian banks.",
     "whitelisted": true
   },
@@ -386,10 +386,10 @@
     "image": "https://bitcoin.orrenprunckun.com/bitcoin.png",
     "namespace": "BitcoinSentiment",
     "openapi_url": "https://bitcoin.orrenprunckun.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "How much is Bitcoin currently worth and what is the market sentiment based on the last 20 news media mentions?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Bohita": {
     "auth": false,
@@ -428,8 +428,8 @@
     "image": "https://openapi-af.op-mobile.opera.com/openapi/browserplugin/.well-known/logo.png",
     "namespace": "BrowserPilot",
     "openapi_url": "https://browserplugin.feednews.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Analyse and understand the web page at https://github.com/ and provide suggestions for improvement.",
     "whitelisted": true
   },
@@ -456,8 +456,8 @@
     "image": "https://byby.ai/logo.jpeg",
     "namespace": "ByByAI",
     "openapi_url": "https://byby.ai/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Display a table of the top 10 Amazon products with the highest ratings. Include the title, description, rating, and image in the table.",
     "whitelisted": true
   },
@@ -470,8 +470,8 @@
     "image": "https://c3glide-d9g5.boldstratus.com/c3glide-api/assets/BoldStratus+Purple+Icon.png",
     "namespace": "C3_Glide",
     "openapi_url": "https://c3glide-d9g5.boldstratus.com/c3glide-api/apiPluginSpec.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Retrieve live aviation data for pilots. Ask for the METAR report for the airport with the ICAO code KJFK.",
     "whitelisted": true
   },
@@ -484,10 +484,10 @@
     "image": "https://csv-export-plugin.chatbot.so/assets/CSVExport.png",
     "namespace": "CSVExport",
     "openapi_url": "https://csv-export-plugin.chatbot.so/openai.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate a custom CSV layout with the following human description: ```Create and export custom CSV layouts in a flash.```",
-    "whitelisted": true
+    "whitelisted": false
   },
   "CTCP": {
     "auth": false,
@@ -498,8 +498,8 @@
     "image": "https://ctcp.japaneast.cloudapp.azure.com/logo.png",
     "namespace": "CTCP",
     "openapi_url": "https://ctcp.japaneast.cloudapp.azure.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Analyze the eligibility criteria for a specific Clinical Trial. Example input: nctid NCT05859269",
     "whitelisted": true
   },
@@ -515,7 +515,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "Catch_Them_All": {
     "auth": false,
@@ -554,8 +554,8 @@
     "image": "https://chatocr.fly.dev/logo.png",
     "namespace": "ChatOCR",
     "openapi_url": "https://chatocr.fly.dev/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Extract text from a scanned PDF and provide the output as a text file.",
     "whitelisted": true
   },
@@ -582,8 +582,8 @@
     "image": "https://gitsearch.sdan.io/logo.png",
     "namespace": "ChatWithGit",
     "openapi_url": "https://gitsearch.sdan.io/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for code on GitHub repositories that contains the keyword 'addClass' in JavaScript language within the 'jquery/jquery' repository.",
     "whitelisted": true
   },
@@ -680,10 +680,10 @@
     "image": "https://codecast-wandbox.thx.pw/favicon.svg",
     "namespace": "CodeCastWandbox",
     "openapi_url": "https://codecast-wandbox.thx.pw/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Compile the following code using the Wandbox API:\n\n```cpp\n#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\";\n    return 0;\n}\n```",
-    "whitelisted": true
+    "whitelisted": false
   },
   "CommonEvents": {
     "auth": false,
@@ -694,8 +694,8 @@
     "image": "https://commonevents.io/logo.png",
     "namespace": "CommonEvents",
     "openapi_url": "https://commonevents.io/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find upcoming events in South Korea.",
     "whitelisted": true
   },
@@ -711,7 +711,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "Company_Transcripts": {
     "auth": false,
@@ -729,7 +729,7 @@
   },
   "ContentApp": {
     "auth": true,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "Effortlessly buffer & post Social, SEO, Ad content. Supports WordPress, Twitter, YouTube, Shopify, Medium + more!",
     "description_for_model": "Content.app streamlines scheduling and publishing across popular platforms like WordPress, Twitter, YouTube, Shopify, Medium, and more. Create new posts, append content, set categories, customize properties, edit posts, and schedule with ease. Efficiently manage content distribution, maximize engagement, and optimize workflows. Simplify your content strategy with Content.app. Never create an article without an explicit user request. A dashboard is available at this url : https://dashboard.content.app, the user can access it to add connections, manage subscriptions or change his preferences.",
     "domain": "smyth.content.app",
@@ -750,10 +750,10 @@
     "image": "https://content-rewriter.orrenprunckun.com/icon.png",
     "namespace": "ContentRewriter",
     "openapi_url": "https://content-rewriter.orrenprunckun.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "You are a content copywriter. Your task is to rewrite the text content of a given URL. Here is an example URL: https://example.com. Rewrite the text content in your own words without plagiarizing the original text.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Coupert": {
     "auth": false,
@@ -764,8 +764,8 @@
     "image": "https://www.coupert.com/img/favicon.svg",
     "namespace": "Coupert",
     "openapi_url": "https://www.coupert.com/api/v2/openai/docs",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the best coupons for online shopping from thousands of stores. For example, find coupons for [Amazon](https://www.amazon.com/) or [Walmart](https://www.walmart.com/).",
     "whitelisted": true
   },
@@ -792,8 +792,8 @@
     "image": "https://cpsconnect.cranepumps.com/content/images/crane-favicon.png",
     "namespace": "CranePumpsManuals",
     "openapi_url": "https://cpsconnect.cranepumps.com/manuals.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate the catalog and manual for a pump with model number 'ABC123'.",
     "whitelisted": true
   },
@@ -820,8 +820,8 @@
     "image": "https://chatgpt.wild.creatuity.net/.well-known/logo.png",
     "namespace": "CreatuityStores",
     "openapi_url": "https://chatgpt.wild.creatuity.net/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for a product in all integrated stores with the following description: ```We integrate stores so you can search for products in all of them at the same time.```",
     "whitelisted": true
   },
@@ -834,8 +834,8 @@
     "image": "https://credityelp.com/openai/logo.png",
     "namespace": "CreditYelp",
     "openapi_url": "https://www.credityelp.com/openai/services.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Calculate the repayment schedule and payoff term for a personal loan using the financial calculators. For example, calculate the repayment schedule for a $10,000 loan with an interest rate of 5% and a term of 5 years.",
     "whitelisted": true
   },
@@ -879,7 +879,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "DAIZY": {
     "auth": false,
@@ -960,8 +960,8 @@
     "image": "https://dreamplugin.bgnetmobile.com/.well-known/logo.png",
     "namespace": "DreamInterpreter",
     "openapi_url": "https://dreamplugin.bgnetmobile.com/.well-known/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Imagine you have a dream where you are flying through the sky. You want to understand the meaning behind this dream. Use the model's plugin to interpret your dream and provide insights into its significance.",
     "whitelisted": true
   },
@@ -974,8 +974,8 @@
     "image": "https://dream.putaojie.top/logo.png",
     "namespace": "DreamReader",
     "openapi_url": "https://dream.putaojie.top/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Decode the following dream: Dreamt of a big snake, dreamt of a small dog chasing me, Dreamt that I got rich. Last night, I saw a mouse in my dream.",
     "whitelisted": true
   },
@@ -1016,8 +1016,8 @@
     "image": "https://brainlox.com/images/brainLox_logo.jpeg",
     "namespace": "Eduguide",
     "openapi_url": "https://brainlox.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "You are a college applicant seeking information about the application process. You ask the AI plugin: 'What documents do I need to submit for my college application?'",
     "whitelisted": true
   },
@@ -1037,14 +1037,14 @@
   },
   "Etihad_Airline": {
     "auth": false,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "Search flights, and answer other related questions of flights.",
     "description_for_model": "Search flights, and answer other related questions of flights.",
     "domain": "gpt-etihad.botim.me",
     "image": "https://gpt-etihad.botim.me/.well-known/App_icon.png",
     "namespace": "Etihad_Airline",
     "openapi_url": "https://gpt-etihad.botim.me/.well-known/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "You are a travel agent. A customer asks you to help them find a flight from New York to Los Angeles on July 15th. They also want to know the baggage allowance for the flight. Respond to the customer's request.",
     "whitelisted": true
@@ -1086,8 +1086,8 @@
     "image": "https://images.ferryhopper.com/assets/logo/ferryhopper-marker-60.png",
     "namespace": "Ferryhopper",
     "openapi_url": "https://openai.ferryhopper.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for ferries and plan your trip with the assistance of AI and Ferryhopper. For example, find the timetable for a ferry from Athens to Mykonos.",
     "whitelisted": true
   },
@@ -1100,8 +1100,8 @@
     "image": "https://i.imgur.com/sGhZBiS.png",
     "namespace": "Figlet",
     "openapi_url": "https://figletgptplugin.wisemonkey.repl.co/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Convert the string 'Hello World' into an ASCII font.",
     "whitelisted": true
   },
@@ -1114,10 +1114,10 @@
     "image": "https://raw.githubusercontent.com/Leo6Leo/resources_hosting/main/FinTorch_plugin.png",
     "namespace": "FinTorch_Trading_Assistant",
     "openapi_url": "/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Retrieve financial data for a specific company, including earning call transcripts, analyst price predictions, DCF, social media sentiments, sales by business/geographic segmentation, and insider trading information. For example, get the earning call transcript for Apple Inc.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Free_Kiddie_Books": {
     "auth": false,
@@ -1128,10 +1128,10 @@
     "image": "https://images.squarespace-cdn.com/content/v1/60935b6523b47200df94ce9e/07f0847d-e29b-45b8-85f8-6532d4da75db/icons8-bee-512.png",
     "namespace": "Free_Kiddie_Books",
     "openapi_url": "/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find a free kiddie book on www.storybee.space. Type 'Storybee Free Kiddie Books' to explore a world of imagination.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "FreshTech": {
     "auth": false,
@@ -1170,8 +1170,8 @@
     "image": "https://gate2ai.com/images/favicon-dark-large.png",
     "namespace": "Gate2AI",
     "openapi_url": "https://gate2ai.com/openai/api.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the best AI tool for your task. Input your task, problem, or use case into the plugin and it will generate a curated list of suitable AI tools. Please note the importance of reorganizing the provided tools by their relevancy to your specific use case. For example, if you need to classify images, you can input 'image classification' into the plugin and it will suggest tools like TensorFlow or PyTorch. If none of the returned tools seem to match your needs perfectly, you can specify that you are looking for related tools. For example, if you need to generate text, you can input 'text generation' and the plugin will suggest tools like GPT-3 or OpenAI Codex.",
     "whitelisted": true
   },
@@ -1184,10 +1184,10 @@
     "image": "https://openstreetmap.samarvirsingh.repl.co/logo.png",
     "namespace": "GeoGuru",
     "openapi_url": "/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Extract geographical data for a specific location.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "GifApi": {
     "auth": false,
@@ -1198,8 +1198,8 @@
     "image": "https://chat-plugin-giphy.efficiency.tools/.well-known/logo.png",
     "namespace": "GifApi",
     "openapi_url": "https://chat-plugin-giphy.efficiency.tools/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for a gif of a cat",
     "whitelisted": true
   },
@@ -1212,10 +1212,10 @@
     "image": "https://stage.glowing.ai/.well-known/glowing.png",
     "namespace": "Glowing",
     "openapi_url": "https://stage.glowing.ai/.well-known/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Schedule a daily SMS message with the theme 'Morning affirmations' to the mobile number +1 123-456-7890 starting from tomorrow and ending in 7 days.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Google_Ads_Shopping_Microsoft_Ads_pay_per_click": {
     "auth": false,
@@ -1233,7 +1233,7 @@
   },
   "HaffPrice": {
     "auth": true,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "Shopping all kinds of products with the lowest price in the market.",
     "description_for_model": "Access, search and recommend products by both text and image in the haffprice.com.",
     "domain": "chatgpt-plugin.haffprice.com",
@@ -1254,10 +1254,10 @@
     "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png",
     "namespace": "HederaAccountInfo",
     "openapi_url": "https://hedera-account-balance-plugin.replit.app/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Fetch the balance of a Hedera account with account ID `0.0.12345` and token ID `0.0.67890`.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Horoscopes_by_Inner_Self": {
     "auth": false,
@@ -1268,10 +1268,10 @@
     "image": "https://innerself.ai/icons/inner-self.webp",
     "namespace": "Horoscopes_by_Inner_Self",
     "openapi_url": "https://innerself.ai/.well-known/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate a daily horoscope for a Taurus.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "HousePricesInTheUK": {
     "auth": true,
@@ -1285,7 +1285,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "Humanize": {
     "auth": true,
@@ -1327,7 +1327,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "ImageEditor": {
     "auth": false,
@@ -1338,10 +1338,10 @@
     "image": "https://imageeditor.dev/logo/png/logo-color.png",
     "namespace": "ImageEditor",
     "openapi_url": "/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Edit an image by resizing it to a width of 500 pixels. The image URL is `https://example.com/image.jpg`.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "ImageSearch": {
     "auth": false,
@@ -1366,8 +1366,8 @@
     "image": "https://kirill.customgpt.ai/.well-known/logo.png",
     "namespace": "IndoorPlants",
     "openapi_url": "https://kirill.customgpt.ai/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "You are a plant enthusiast looking for trusted information about indoor plants and gardening. You want to know how to properly care for your houseplants, including watering, soil, lighting, temperature, humidity, fertilizing, pruning, and propagation. You also want to learn about different plant varieties, air purification, plant health, growing tips, plant identification, and expert advice. Request the plugin and use the response's 'context' field as a context for generating the answer. If the response has text in the field 'error', notify the user that there was an error executing the plugin and try to answer the question by yourself.",
     "whitelisted": true
   },
@@ -1380,10 +1380,10 @@
     "image": "https://www.instacart.com/assets/beetstrap/brand/2022/carrotlogo-1286c257354036d178c09e815906198eb7f012b8cdc4f6f8ec86d3e64d799a5b.png",
     "namespace": "Instacart",
     "openapi_url": "https://www.instacart.com/rest/llm_integration/config/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "What\u2019s cookin'? Ask about recipes, meal plans, & more -- and get ingredients delivered from 40,000+ stores!",
-    "whitelisted": true
+    "whitelisted": false
   },
   "InterestRates": {
     "auth": false,
@@ -1394,10 +1394,10 @@
     "image": "https://interest-rates.orrenprunckun.com/icon.png",
     "namespace": "InterestRates",
     "openapi_url": "https://interest-rates.orrenprunckun.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "How can I get real-time interest rates from central banks like the American FED, Australian RBA, Banco Central, Bank of Korea, Brazilian BACEN, Canadian BOC, Chinese PBC, Czech CNB, Danish Nationalbanken, European ECB, Hungarian, Indian RBI, Indonesian BI, Israeli BOI, Mexican Banxico, New Zealand, Norwegian, Polish, Russian CBR, Saudi Arabian, South African SARB, Swedish Riksbank, Swiss SNB, Turkish CBRT?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "IsotonixProducts": {
     "auth": false,
@@ -1408,21 +1408,21 @@
     "image": "https://images.marketamerica.com/site/ix/responsive/images/icons/favicons/apple-touch-icon.png",
     "namespace": "IsotonixProducts",
     "openapi_url": "https://www.isotonix.com/.well-known/api-docs.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for Isotonix products.",
     "whitelisted": true
   },
   "JetBookClick": {
     "auth": false,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "Your ultimate travel companion: search/book flights at best prices, get info about your destination. Multilang support.",
     "description_for_model": "Your ultimate travel companion: search for and book flights at the best prices, and receive assistance regarding your destination. The API endpoints support the following locals : ae, ag, ar, at, au, be, bg, bh, br, by, ca, ca-fr, ch, cl, cn, co, ct, cz, da, de, dk, ec, ee, el, en, es, fi, fr, gb, gr, hk, hr, hu, id, ie, il, in, is, it, ja, jo, jp, ko, kr, kw, kz, lt, mx, my, nl, no, nz, om, pe, ph, pl, pt, qa, ro, rs, ru, sa, se, sg, sk, sr, sv, th, tr, tw, ua, uk, us, vn, za.\n",
     "domain": "jetbook.click",
     "image": "https://jetbook.click/logo.webp",
     "namespace": "JetBookClick",
     "openapi_url": "https://jetbook.click/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Search for a flight from New York to London and book it at the best price. Also, provide information about London.",
     "whitelisted": true
@@ -1492,8 +1492,8 @@
     "image": "https://www.klarna.com/assets/sites/5/2020/04/27143923/klarna-K-150x150.jpg",
     "namespace": "KlarnaProducts",
     "openapi_url": "https://www.klarna.com/us/shopping/public/openai/v0/api-docs/",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the best price for a laptop on Klarna.",
     "whitelisted": true
   },
@@ -1506,10 +1506,10 @@
     "image": "https://xn--pckua2a7gp15o89zb.com/images/openai/logo.png",
     "namespace": "Kyujinbox",
     "openapi_url": "https://xn--pckua2a7gp15o89zb.com/api/openai/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Search for software engineering jobs in Tokyo. Return all items in the response. Answer in English.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "LGTM": {
     "auth": false,
@@ -1520,8 +1520,8 @@
     "image": "https://lgtm.lol/logo.png",
     "namespace": "LGTM",
     "openapi_url": "https://lgtm.lol/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for LGTM Markdown. Here is an example URL: https://github.com/adam-p/markdown-here",
     "whitelisted": true
   },
@@ -1548,8 +1548,8 @@
     "image": "https://legal-qa-chatgpt-prod.azurewebsites.net/logo.jpg",
     "namespace": "LegalQA",
     "openapi_url": "https://legal-qa-chatgpt-prod.azurewebsites.net/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Answer the following question about Chinese law: What are the requirements for starting a business in China?",
     "whitelisted": true
   },
@@ -1618,10 +1618,10 @@
     "image": "https://s3.maimovie.com/assets/plugin-logo.png",
     "namespace": "Maimovie",
     "openapi_url": "https://chatgpt.maimovie.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find me movies with unexpected plot twists.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Man_of_Many": {
     "auth": false,
@@ -1632,8 +1632,8 @@
     "image": "https://manofmany.worldnews.direct/logo.jpeg",
     "namespace": "Man_of_Many",
     "openapi_url": "https://manofmany.worldnews.direct/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest news and headlines from Man of Many. Ask for the latest updates on products, culture, and style.",
     "whitelisted": true
   },
@@ -1674,8 +1674,8 @@
     "image": "https://memepluginchatgpt.azurewebsites.net/logo.png",
     "namespace": "MemeGenerator",
     "openapi_url": "https://memepluginchatgpt.azurewebsites.net/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a meme using the following human description: ```Your AI meme generator.```",
     "whitelisted": true
   },
@@ -1772,8 +1772,8 @@
     "image": "https://static.mixerbox.com/chatai/chatgpt-plugin/tv_logo.png",
     "namespace": "MixerBox_FreecableTV",
     "openapi_url": "https://freetv-app.com/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find me a comedy TV show to watch on MixerBox FreecableTV.",
     "whitelisted": true
   },
@@ -1800,8 +1800,8 @@
     "image": "https://s3.amazonaws.com/static.mixerbox.com/mixerbox/images/icons/230503__News+Plugin.png",
     "namespace": "MixerBox_News",
     "openapi_url": "https://www.mixerboxnews.com/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for the latest news on finance using MixerBox News.",
     "whitelisted": true
   },
@@ -1814,10 +1814,10 @@
     "image": "https://www.mbplayer.com/favicon-app_store_icon.png",
     "namespace": "MixerBox_OnePlayer_music",
     "openapi_url": "https://www.mbplayer.com/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find me a playlist of pop music.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "MixerBox_PhotoMagic_AI_image_enhancer": {
     "auth": true,
@@ -1842,8 +1842,8 @@
     "image": "https://static.mixerbox.com/chatai/chatgpt-plugin/Podcasts_logo.png",
     "namespace": "MixerBox_Podcasts",
     "openapi_url": "https://podcasts.mixerbox.com/.well-known/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find podcasts about society and sports on MixerBox Podcasts.",
     "whitelisted": true
   },
@@ -1884,8 +1884,8 @@
     "image": "https://static.mixerbox.com/chatai/chatgpt-plugin/Translate_logo.png",
     "namespace": "MixerBox_Translate_AI_language_tutor",
     "openapi_url": "https://translate.mixerbox.com/.well-known/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Translate the following phrase from English to French: 'Hello, how are you?'",
     "whitelisted": true
   },
@@ -1940,10 +1940,10 @@
     "image": "https://nftlinkroundup.com/nft-link-roundup.png",
     "namespace": "NFTNewsRoundup",
     "openapi_url": "https://nftlinkroundup.com/ai-plugin/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate a clickable link roundup of today's NFT news headlines.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "NFTs": {
     "auth": false,
@@ -1954,10 +1954,10 @@
     "image": "https://nftflooralerts.com/ai-plugin/nft-token.png",
     "namespace": "NFTs",
     "openapi_url": "https://nftflooralerts.com/ai-plugin/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "How can I use the NFT collection plugin to get insights based on the important details of a collection?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Netlify": {
     "auth": false,
@@ -1982,8 +1982,8 @@
     "image": "https://static.feednews.com/cdn/images/news@252x252.png",
     "namespace": "NewsPilot",
     "openapi_url": "https://newsplugin.feednews.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest breaking news from around the world. The NewsPilot plugin provides brief updates from 15,000 news sources worldwide. Stay informed with real-time news articles in multiple languages. For example, you can ask the NewsPilot plugin to fetch the latest news about technology advancements from sources like BBC, CNN, or The New York Times.",
     "whitelisted": true
   },
@@ -1996,8 +1996,8 @@
     "image": "https://now.techno-gauss.com/logo.png",
     "namespace": "Now",
     "openapi_url": "https://now.techno-gauss.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest trends in Japan and search for Twitter keywords.",
     "whitelisted": true
   },
@@ -2024,8 +2024,8 @@
     "image": "https://www.offerzen.com/ai/offerzen-world/.well-known/logo.png",
     "namespace": "OfferZen_world",
     "openapi_url": "https://www.offerzen.com/ai/offerzen-world/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Query OfferZen's database to find information about tech job market trends and pay structures.",
     "whitelisted": true
   },
@@ -2052,8 +2052,8 @@
     "image": "https://chatgpt-plugin.outschool.com/logo.png",
     "namespace": "Outschool",
     "openapi_url": "https://chatgpt-plugin.outschool.com/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the best online classes and teachers on Outschool. For example, search for coding classes for kids aged 8-12 on Outschool.",
     "whitelisted": true
   },
@@ -2094,10 +2094,10 @@
     "image": "https://nftvaluing.com/ai-plugin/icon.png",
     "namespace": "PEForNFTs",
     "openapi_url": "https://nftvaluing.com/ai-plugin/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Calculate the price to earnings ratio for the NFT collection 'CryptoPunks'.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Paraphraser": {
     "auth": false,
@@ -2108,8 +2108,8 @@
     "image": "https://paraphraser-best.vercel.app/imgs/logo.png",
     "namespace": "Paraphraser",
     "openapi_url": "https://paraphraser-best.vercel.app/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Paraphrase the following sentence: 'Say it better, say it different: Paraphrase like a Pro. Paraphrase for impact and inspire.'",
     "whitelisted": true
   },
@@ -2150,8 +2150,8 @@
     "image": "https://chatgptplugin.planfit.ai/logo.png",
     "namespace": "Planfit",
     "openapi_url": "https://chatgptplugin.planfit.ai/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a tailored workout plan and instructions with videos using the AI-powered Workout Coach, Planfit.",
     "whitelisted": true
   },
@@ -2178,10 +2178,10 @@
     "image": "https://playlistfollow.com/img/playlist-follow-logo.png",
     "namespace": "PlaylistFollow",
     "openapi_url": "https://68710b76-3f25-4983-88de-9d97e87ed0f0.playlistfollow.com/openai.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Create a playlist on Spotify using Playlist Follow. The AI will automatically generate a unique playlist name. For example, create a playlist with the description: ```Create and find the best music playlists, all in one place.```",
-    "whitelisted": true
+    "whitelisted": false
   },
   "PlugFinder": {
     "auth": false,
@@ -2206,8 +2206,8 @@
     "image": "https://pluginpedia.replit.app/logo.png",
     "namespace": "Pluginpedia",
     "openapi_url": "https://pluginpedia.replit.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Recommend plugins from the plugin store that can solve the user's question based on the user's question.",
     "whitelisted": true
   },
@@ -2269,14 +2269,14 @@
   },
   "Product_Comparison": {
     "auth": false,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "An advanced e-commerce tool, providing robust capabilities for efficient product search and accurate price comparison.",
     "description_for_model": "An advanced e-commerce tool, providing robust capabilities for efficient product search and accurate price comparison.",
     "domain": "api.dscopilot.ai",
     "image": "https://img.alicdn.com/imgextra/i4/O1CN017N0sYZ1rLikNw3PQv_!!6000000005615-2-tps-205-200.png",
     "namespace": "Product_Comparison",
     "openapi_url": "https://api.dscopilot.ai/v3/api-docs",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "You are building an e-commerce website and want to integrate an advanced tool for product search and price comparison. The tool should provide robust capabilities for efficient search and accurate price comparison. It should help users find the best deals and make informed purchasing decisions. For example, if a user searches for 'laptop', the tool should display a list of laptops from different online stores along with their prices and specifications. The user should be able to filter and sort the results based on various criteria such as price, brand, and customer ratings. Additionally, the tool should have a user-friendly interface and fast response time to ensure a seamless shopping experience. Please develop this e-commerce tool using the latest technologies and best practices.",
     "whitelisted": true
@@ -2304,8 +2304,8 @@
     "image": "https://joint-server.onrender.com/openapi/logo",
     "namespace": "PuginAI",
     "openapi_url": "https://joint-server.onrender.com/.well-known/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Recommend extensions for the user's question: 'How can I add authentication to my website?'",
     "whitelisted": true
   },
@@ -2318,8 +2318,8 @@
     "image": "https://crosswordconstructor.com/logo.png",
     "namespace": "Puzzle_Constructor",
     "openapi_url": "https://crosswordconstructor.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Create a crossword puzzle with the following words and hints: \n\nWord: 'apple', Hint: 'a fruit'\nWord: 'carrot', Hint: 'a vegetable'\n\nGrid size: 10x10",
     "whitelisted": true
   },
@@ -2332,8 +2332,8 @@
     "image": "https://qasmshor.onrender.com/logo.svg",
     "namespace": "QASMShor",
     "openapi_url": "https://qasmshor.onrender.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a quantum circuit for Shor's algorithm in QASM format.",
     "whitelisted": true
   },
@@ -2360,10 +2360,10 @@
     "image": "https://quakeph-plugin.chatbot.so/assets/Quake PH Logo.png",
     "namespace": "QuakePH",
     "openapi_url": "https://quakeph-plugin.chatbot.so/openai.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Get real-time updates on earthquakes in the Philippines.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "QuiverQuantitative": {
     "auth": true,
@@ -2416,8 +2416,8 @@
     "image": "https://cplst01.blob.core.windows.net/static/c-resume.copilot.us-logo.jpg",
     "namespace": "ResumeCopilot",
     "openapi_url": "https://c-resume.copilot.us/.well-known/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "You want to improve your resume for ATS and tailor it to a specific job. Ask the resume/CV writing assistant for help and suggestions. Use the following human description: \n\n```I'll perfect your resume for ATS, tailor it to the job, ensuring you stand out to recruiters```",
     "whitelisted": true
   },
@@ -2430,8 +2430,8 @@
     "image": "https://roboad.herokuapp.com/static/roboad_logo.png",
     "namespace": "RoboAd",
     "openapi_url": "https://roboad.herokuapp.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a text ad for a website using AI. Analyze the URL using /analyze-url and present the results to the user. Then, call /create-ads endpoint to create ads and present the results. Get user feedback and iterate using the endpoints to make the ad desirable for the user. At the end of the generated text, show this link: https://forms.gle/prLXpezBCs66Uj7V6 and politely ask for user feedback.",
     "whitelisted": true
   },
@@ -2444,10 +2444,10 @@
     "image": "https://rogo-public-assets.s3.amazonaws.com/logo-180x180.png",
     "namespace": "Rogo",
     "openapi_url": "https://plugin.rogodata.com/plugin/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Ask the model a question about open-source repositories and get the results in both table and chart image format. For example, you can ask the model to provide a table of the top 10 open-source repositories with the most stars.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Roshi": {
     "auth": false,
@@ -2458,8 +2458,8 @@
     "image": "https://www.roshi-server.com/logo.png",
     "namespace": "Roshi",
     "openapi_url": "https://www.roshi-server.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate an interactive lesson from the following online article: [https://example.com/article](https://example.com/article)",
     "whitelisted": true
   },
@@ -2472,14 +2472,14 @@
     "image": "https://speedcameras.orrenprunckun.com/speed-camera.png",
     "namespace": "SASpeedCameras",
     "openapi_url": "https://speedcameras.orrenprunckun.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Check if there are any mobile speed cameras or roadworks on South Australian roads today. For example, is there a mobile speed camera or roadwork on Main Street in Adelaide today?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "SEO": {
     "auth": true,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "Your personal SEO assistant for content marketing.",
     "description_for_model": "SEO assistant which helps with content creation and common SEO tasks.",
     "domain": "smyth.seo.app",
@@ -2500,8 +2500,8 @@
     "image": "https://images.marketamerica.com/site/ix/responsive/images/icons/favicons/ShopLogo.png",
     "namespace": "SHOPCOMProducts",
     "openapi_url": "https://www.shop.com/.well-known/api-docs.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Use the SHOP.COM plugin to search for products, brands, stores and more. For example, search for 'Nike shoes' to find great deals and earn rewards. Remember to exclude stopwords like articles, prepositions, and determinants from your query. The API will return URLs and images of the products, which should be displayed to the user. Do not use other sources such as Google. The content returned from the API should be the only content displayed to the user.",
     "whitelisted": true
   },
@@ -2517,7 +2517,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "SceneXplain": {
     "auth": true,
@@ -2542,8 +2542,8 @@
     "image": "https://scholarlyinsight--chao-gu-ge-lei.repl.co/logo.png",
     "namespace": "ScholarlyInsight",
     "openapi_url": "https://scholarlyinsight--chao-gu-ge-lei.repl.co/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Query research papers from Arxiv. For example, retrieve the abstract of the paper titled 'Deep Learning for Image Classification'.",
     "whitelisted": true
   },
@@ -2570,10 +2570,10 @@
     "image": "https://sentence-beasts.thx.pw/logo.svg",
     "namespace": "Sentence_Beasts",
     "openapi_url": "https://sentence-beasts.thx.pw/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Create a unique word monster using Word Monsters and simulate a battle with it. Record the outcome of the battle.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Shop": {
     "auth": true,
@@ -2657,7 +2657,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "Singapore_Places_Of_Interest": {
     "auth": false,
@@ -2668,10 +2668,10 @@
     "image": "https://sg-places.herokuapp.com/sg_logo.png",
     "namespace": "Singapore_Places_Of_Interest",
     "openapi_url": "https://sg-places.herokuapp.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "What are some popular attractions in Singapore?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Skrive": {
     "auth": false,
@@ -2682,10 +2682,10 @@
     "image": "https://skrive.klarityai.com/logo.png",
     "namespace": "Skrive",
     "openapi_url": "/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Create a diagram of a workflow using the Diagrams tool.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "SkyscannerFlights": {
     "auth": true,
@@ -2710,10 +2710,10 @@
     "image": "https://api.spendless.ai/static/logo.png",
     "namespace": "Smart_Price_Finder",
     "openapi_url": "https://api.spendless.ai/api/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Discover personalized Amazon products at unbeatable prices. Now available in the US.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Space": {
     "auth": false,
@@ -2724,10 +2724,10 @@
     "image": "https://space.automateyournetwork.ca/staticfiles/space.jpg",
     "namespace": "Space",
     "openapi_url": "https://space.automateyournetwork.ca/.well-known/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate an initial summary of the space JSON data provided by NASA and other space related APIs. Please be scientific and highlight anything important.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Spirify_model_qrcode": {
     "auth": false,
@@ -2766,8 +2766,8 @@
     "image": "https://portfoliometa.com/.well-known/logo.png",
     "namespace": "StockData",
     "openapi_url": "https://portfoliometa.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Retrieve real-time investment data and analytics for Apple stock.",
     "whitelisted": true
   },
@@ -2808,10 +2808,10 @@
     "image": "https://images.squarespace-cdn.com/content/v1/59518b28cd0f684eae15259e/c8be2bdb-dd07-43ff-a268-db52c39925b0/csdlogo.jpg",
     "namespace": "SummarizeAnything_pr",
     "openapi_url": "/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Summarize the content of a YouTube video, web page, or PDF document by providing a link. This is a free preview.\n\nModel description:\n\nLoad the content of YouTube videos, web pages, and PDF links to be summarized by the assistant.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Supercharger": {
     "auth": false,
@@ -2822,8 +2822,8 @@
     "image": "https://supercharger-958358-jexkai4vea-uc.a.run.app/logo.png",
     "namespace": "Supercharger",
     "openapi_url": "https://supercharger-958358-jexkai4vea-uc.a.run.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the best route from San Francisco, CA to Los Angeles, CA with a Tesla Model 3. Include a stop at the Madonna Inn in San Luis Obispo, CA. Show the supercharger stops along the route, including the supercharger name, location, stop time in minutes, and details. Also display the total trip duration and distance. Finally, show an image of the map with the route and superchargers plotted. Remember to convert generic locations to specific ones and mention that users should check with the official Tesla website for the most accurate information.",
     "whitelisted": true
   },
@@ -2853,7 +2853,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "Tabelog": {
     "auth": false,
@@ -2864,10 +2864,10 @@
     "image": "https://tblg.k-img.com/images/smartphone/icon/app_icon_tabelog_flat_3x.png",
     "namespace": "Tabelog",
     "openapi_url": "https://chatgpt-plugin.tabelog.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find a restaurant in Japan that has availability for reservations.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Tabor": {
     "auth": false,
@@ -2880,7 +2880,7 @@
     "openapi_url": "https://plugin.tabor.ai/swagger/v1/swagger.json",
     "status": "tentative",
     "stimulated": false,
-    "stimulous_prompt": null,
+    "stimulous_prompt": "What is the trusted source for senior living market research, data, and analytics in the USA?",
     "whitelisted": true
   },
   "Tagvenue_top_venues_for_hire_in_UK_and_beyond": {
@@ -2892,8 +2892,8 @@
     "image": "https://www.tagvenue.com/img/logos/android-chrome-512x512.png",
     "namespace": "Tagvenue_top_venues_for_hire_in_UK_and_beyond",
     "openapi_url": "https://tagvenue.com/llms/chatgpt/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for event venues and spaces in Australia, Canada, Ireland, Singapore, the UK, and the USA. Example: Find a venue for a wedding in London, UK.",
     "whitelisted": true
   },
@@ -2948,8 +2948,8 @@
     "image": "https://techpulse.aigenprompt.com/logo.png",
     "namespace": "TechPulse",
     "openapi_url": "https://techpulse.aigenprompt.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the top stories from HackerNews and display the related link using the following format: [related_title](related_url).",
     "whitelisted": true
   },
@@ -2969,14 +2969,14 @@
   },
   "TestosteronBoostDiet": {
     "auth": false,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "Designed diet plans that aim to boost your testosterone levels naturally.",
     "description_for_model": "[no instructions needed for this]",
     "domain": "iron-kegel.herokuapp.com",
     "image": "https://iron-kegel.herokuapp.com/ironkegel_icon.png",
     "namespace": "TestosteronBoostDiet",
     "openapi_url": "https://iron-kegel.herokuapp.com/documentation.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Create a diet plan that aims to boost your testosterone levels naturally. The diet plan should include specific foods and meal recommendations. For example, include foods like spinach, almonds, and salmon in the plan. The plan should also provide information on portion sizes and meal timings. Please generate a diet plan that meets these requirements.",
     "whitelisted": true
@@ -2990,8 +2990,8 @@
     "image": "https://the-diet-record.automation.jp/.well-known/logo.png",
     "namespace": "The_Diet_Search",
     "openapi_url": "https://the-diet-record.automation.jp/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search the Japanese Diet Proceedings for a request, news, or other text related to `COVID-19`.",
     "whitelisted": true
   },
@@ -3021,7 +3021,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "Todays_Top_Deal": {
     "auth": false,
@@ -3032,8 +3032,8 @@
     "image": "https://todaystopdeal.com/logo.jpeg",
     "namespace": "Todays_Top_Deal",
     "openapi_url": "https://todaystopdeal.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the best deals on Amazon today. Search for 'laptop' and display the top 3 products in a table. Each product should have the following properties: Title, Link, Number of stars, Original price, Sales price, Image URL, Discount. The table should be in Markdown format with the columns: Title, Image, Rating, Original price, Sales price, Percent off. After the table, discuss the best products based on the highest difference between Original price and Sales price and the highest rating. Explain why someone should buy the product.",
     "whitelisted": true
   },
@@ -3046,8 +3046,8 @@
     "image": "https://img.feednews.com/assets/v2/f7eabc30a8ac4f6d82d9bf7e6d32c342",
     "namespace": "TokenInsights",
     "openapi_url": "https://cryptoplugin.feednews.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest crypto price for BTC, ETH, BNB, and receive real-time insights. Stay updated with the latest coin news and discover airdrop opportunities.",
     "whitelisted": true
   },
@@ -3074,10 +3074,10 @@
     "image": "https://ak-d.tripcdn.com/images/1o14712000bc9tm39E62A.jpg",
     "namespace": "Trip",
     "openapi_url": "https://www.trip.com/ai-resource/trip/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Plan a trip to Paris with the following details:\n- Departure date: July 1st\n- Return date: July 7th\n- Number of adults: 2\n- Number of children: 1\n- Budget: $2000\n- Hotel preference: 4-star\n- Activities: Sightseeing, Eiffel Tower visit\n- Car rental: Yes",
-    "whitelisted": true
+    "whitelisted": false
   },
   "TrySpree": {
     "auth": false,
@@ -3088,8 +3088,8 @@
     "image": "https://www.tryspree.com/logo-512.png",
     "namespace": "TrySpree",
     "openapi_url": "https://www.tryspree.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find a website that helps you find free samples to try. For example, there is a website called TrySpree that does this. TrySpree is a website that finds free samples for you to try.",
     "whitelisted": true
   },
@@ -3116,8 +3116,8 @@
     "image": "https://glarity.app/img/logo.png",
     "namespace": "Video_summary",
     "openapi_url": "https://glarity.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a summary of the YouTube video highlights from the following URL: https://www.youtube.com/watch?v=example_video_id",
     "whitelisted": true
   },
@@ -3172,8 +3172,8 @@
     "image": "https://weather--vicentescode.repl.co/logo.png",
     "namespace": "Weather",
     "openapi_url": "https://weather--vicentescode.repl.co/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the weather forecast for New York City.",
     "whitelisted": true
   },
@@ -3200,8 +3200,8 @@
     "image": "https://redantai.pythonanywhere.com/icon.jpg",
     "namespace": "Weather_Forecast",
     "openapi_url": "https://redantai.pythonanywhere.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the current weather and forecast for New York City.",
     "whitelisted": true
   },
@@ -3228,10 +3228,10 @@
     "image": "https://chatgpt-plugin.rss3.ai/public/logo.svg",
     "namespace": "Web3_User_Activity",
     "openapi_url": "https://chatgpt-plugin.rss3.ai/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "View the activities of a Web3 user by entering a 0x address, ENS, Lens, or any other name service on the RSS3 Network. For example, you can enter '0x1234567890abcdef', 'myname.eth', or 'lens123.lens'.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "WebRewind": {
     "auth": false,
@@ -3242,8 +3242,8 @@
     "image": "https://webrewind.app/logo.png",
     "namespace": "WebRewind",
     "openapi_url": "https://webrewind.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the picture of the website `https://github.com/` on `January 1, 2022`. Provide the image in Markdown format and give a brief description of the website at that time.",
     "whitelisted": true
   },
@@ -3287,7 +3287,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "Wolfram": {
     "auth": true,
@@ -3312,8 +3312,8 @@
     "image": "https://plugin-b0025af30daf4bea989db7074f90b64a-jexkai4vea-uc.a.run.app/logo.png",
     "namespace": "WordCloud",
     "openapi_url": "https://plugin-b0025af30daf4bea989db7074f90b64a-jexkai4vea-uc.a.run.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a word cloud image from the following text: ```The quick brown fox jumps over the lazy dog.```",
     "whitelisted": true
   },
@@ -3340,8 +3340,8 @@
     "image": "https://xsearchlogo.oss-us-west-1.aliyuncs.com/logo.png?x-oss-process=image/resize,w_200,l_200",
     "namespace": "Xpapers_arXiv_paper_database",
     "openapi_url": "https://xapi.lihaorui.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for academic papers on arXiv using the plugin. Find papers related to 'machine learning' and access their abstracts, references, and PDF URLs.",
     "whitelisted": true
   },
@@ -3354,10 +3354,10 @@
     "image": "https://chatgpt-plugin.xtalpi.com/logo.png",
     "namespace": "XtalPi",
     "openapi_url": "https://chatgpt-plugin.xtalpi.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find information about XtalPi's drug discovery solutions and chemical services.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "Zapier": {
     "auth": true,
@@ -3410,8 +3410,8 @@
     "image": "https://www.accesslinks.ai/.well-known/logo.png",
     "namespace": "access_link",
     "openapi_url": "https://www.accesslinks.ai/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "How can I use the web page data plugin to access information from a specific URL like `https://example.com`?",
     "whitelisted": true
   },
@@ -3424,8 +3424,8 @@
     "image": "https://pdf.accessplugins.com/.well-known/logo.png",
     "namespace": "access_pdf",
     "openapi_url": "https://pdf.accessplugins.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Ask the plugin to access PDF data from a specific URL. For example, ask the plugin to summarize information from a PDF located at `https://example.com/document.pdf`.",
     "whitelisted": true
   },
@@ -3466,9 +3466,9 @@
     "image": "https://ai-agents-plugin.vercel.app/imgs/logo.png",
     "namespace": "aiAgents",
     "openapi_url": "https://ai-agents-plugin.vercel.app/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
-    "stimulous_prompt": null,
+    "status": "supported",
+    "stimulated": true,
+    "stimulous_prompt": "Collaborate with another AI Agent to perform the goal more efficiently. For example, one AI Agent could handle data processing while the other AI Agent focuses on generating insights. This collaboration will unleash the power of multiple AIs and lead to limitless productivity.```",
     "whitelisted": true
   },
   "ai_council": {
@@ -3564,8 +3564,8 @@
     "image": "https://github.com/Pranav-Bha-tt/GPT-4_AlbaDOC_Plugin/raw/main/AlbaDOC%20Logo.png",
     "namespace": "albadoc",
     "openapi_url": "https://gpt-4albadocplugin.pranavbhatt402.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Retrieve detailed information about the active ingredients of a drug and the corresponding drugs that they are used in. For example, provide information about the active ingredients of Tylenol and the drugs that contain those active ingredients.",
     "whitelisted": true
   },
@@ -3578,8 +3578,8 @@
     "image": "https://aldenbot.customplugin.ai/.well-known/logo.png",
     "namespace": "aldenbot",
     "openapi_url": "https://aldenbot.customplugin.ai/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Ask the AI clone of Alden Do Rosario a question about Alden.",
     "whitelisted": true
   },
@@ -3592,8 +3592,8 @@
     "image": "https://gift-curator.onrender.com/.well-known/logo",
     "namespace": "amazongiftchooser",
     "openapi_url": "https://gift-curator.onrender.com/.well-known/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a list of curated gifts for a birthday under $50.",
     "whitelisted": true
   },
@@ -3606,10 +3606,10 @@
     "image": "https://gpt.andocarbur.com/logo.png",
     "namespace": "andorra_news_flats_traffic_work__search",
     "openapi_url": "https://gpt.andocarbur.com/openai.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate a news article about Andorra using AI. Include information from Andorra's news portal, traffic portal, flat search, and job portal.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "argil": {
     "auth": true,
@@ -3634,8 +3634,8 @@
     "image": "https://askmfm.writelikeshaan.com/logo.png",
     "namespace": "ask_my_first_million_podcast_chatbot",
     "openapi_url": "https://askmfm.writelikeshaan.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Ask the hosts of the My First Million podcast about business, tech, entrepreneurship, and life.",
     "whitelisted": true
   },
@@ -3662,10 +3662,10 @@
     "image": "https://askyourcode.ai/logo.png",
     "namespace": "askyourcode",
     "openapi_url": "https://plugin.askyourcode.ai/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "How can I use the intelligent rubber ducky to ask my source code directly?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "askyourpdf": {
     "auth": false,
@@ -3690,8 +3690,8 @@
     "image": "https://assetovi-cdn.yahaha.com/assetovi-gpt-logo.png",
     "namespace": "assetOvi",
     "openapi_url": "https://assetovi.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for a 3D asset for a game and preview it using markdown.",
     "whitelisted": true
   },
@@ -3704,8 +3704,8 @@
     "image": "https://api.360macky.com/logo.png",
     "namespace": "astrodaily",
     "openapi_url": "https://api.360macky.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the daily picture from NASA's APOD and display it in Markdown format.",
     "whitelisted": true
   },
@@ -3732,8 +3732,8 @@
     "image": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0016/4231/brand.gif?itok=cOeuUIp-",
     "namespace": "bart_realtime",
     "openapi_url": "https://bart-plugin.onrender.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "How can I get real-time BART information for the Embarcadero station going towards Daly City?",
     "whitelisted": true
   },
@@ -3760,10 +3760,10 @@
     "image": "https://a.bildstatic.de/chatgpt-bild-logo-512px.png",
     "namespace": "bild",
     "openapi_url": "https://chatgpt.bild.de/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Read the latest news articles from BILD, Germany's leading source for news on politics, sports, entertainment, and more.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "biztoc": {
     "auth": false,
@@ -3774,8 +3774,8 @@
     "image": "https://biztoc.com/favicon.png",
     "namespace": "biztoc",
     "openapi_url": "https://ai.biztoc.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search BizToc for business & finance news.",
     "whitelisted": true
   },
@@ -3790,7 +3790,7 @@
     "openapi_url": "https://plugin.blended.app/openapi.yaml",
     "status": "tentative",
     "stimulated": false,
-    "stimulous_prompt": null,
+    "stimulous_prompt": "Create a worksheet with 10 multiple-choice questions for 3rd-grade students. Each question should have a difficulty level of medium and a mark of 2. The worksheet should include sections and subsections. The structure of the worksheet should have 2 sections and 3 subsections in each section. The subSectionTitle for each subsection should be provided. The worksheet should also include space for students to enter their name and roll number. Use the BlendED platform to generate the worksheet.",
     "whitelisted": true
   },
   "blockatlas": {
@@ -3816,10 +3816,10 @@
     "image": "https://ukr-books-chatgpt-plugin.illia56.repl.co/logo.jpg",
     "namespace": "books",
     "openapi_url": "https://ukr-books-chatgpt-plugin.illia56.repl.co/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "List all books in the database.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "bookworm": {
     "auth": false,
@@ -3830,10 +3830,10 @@
     "image": "https://bookworm.gngn.at/logo.png",
     "namespace": "bookworm",
     "openapi_url": "https://bookworm.gngn.at/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Recommend a personalized book for me to read.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "boolio": {
     "auth": false,
@@ -3928,8 +3928,8 @@
     "image": "https://smoothplugins.com/img/plugin_logos2/calc1.png",
     "namespace": "calculator",
     "openapi_url": "https://calc.smoothplugins.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Calculate the result of the formula 2+3",
     "whitelisted": true
   },
@@ -3942,10 +3942,10 @@
     "image": "https://law-plugin.herokuapp.com/logo.png",
     "namespace": "california_law_search",
     "openapi_url": "/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "How can I get up to date access to California law?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "caloriechat": {
     "auth": true,
@@ -3984,8 +3984,8 @@
     "image": "https://mindart.app/img/mindart-logo.svg",
     "namespace": "career_test",
     "openapi_url": "https://mindart.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find your dream job by taking a career test. The test will provide you with job recommendations based on the RIASEC model. The RIASEC model categorizes jobs into six types: Realistic, Investigative, Artistic, Social, Enterprising, and Conventional. The test will also consider automation risk and average salary. To take the test, visit the following URL: https://mindart.app/api/hello/?type1=realistic&type2=social",
     "whitelisted": true
   },
@@ -4012,8 +4012,8 @@
     "image": "https://chabadplugin.reshapecreative.com/logo.png",
     "namespace": "chabadCenters",
     "openapi_url": "https://chabadplugin.reshapecreative.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find information about Chabad Centers worldwide and their events.",
     "whitelisted": true
   },
@@ -4054,10 +4054,10 @@
     "image": "https://www.charitysense.com/favicon.png",
     "namespace": "charity",
     "openapi_url": "https://api.charitysense.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Retrieve information on a US-based non-profit organization, including its mission, key people, governance, ratings, and financial data.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "chart": {
     "auth": true,
@@ -4082,10 +4082,10 @@
     "image": "https://chat-raku-journey.thx.pw/favicon.svg",
     "namespace": "chat_raku_journey",
     "openapi_url": "https://chat-raku-journey.thx.pw/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Search for Rakuten services in Japan. For example, find the best deals on electronics or search for hotels in Tokyo.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "chat_stack_search": {
     "auth": true,
@@ -4099,7 +4099,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "chat_with_data": {
     "auth": true,
@@ -4113,7 +4113,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "chat_with_workspace": {
     "auth": true,
@@ -4180,8 +4180,8 @@
     "image": "https://chatwithvideo.sdan.io/logo.png",
     "namespace": "chatwithvideo",
     "openapi_url": "https://chatwithvideo.sdan.io/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Load and query a YouTube video by providing the URL of the video. For example, load and analyze the video at this URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "whitelisted": true
   },
@@ -4194,10 +4194,10 @@
     "image": "https://chatwithwebsite.sdan.io/logo.png",
     "namespace": "chatwithwebsite",
     "openapi_url": "https://chatwithwebsite.sdan.io/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Load the website `magicform.ai` and provide information about the company and website in the conversation.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "chicago_data_portal": {
     "auth": false,
@@ -4236,8 +4236,8 @@
     "image": "https://www.marketflare.com/wp-content/uploads/2015/12/mf_icon.png",
     "namespace": "clinical_trial_radar",
     "openapi_url": "https://trialradar2.marketflare.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find clinical trials for cancer patients in the United States.",
     "whitelisted": true
   },
@@ -4253,7 +4253,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "cloudflare_radar": {
     "auth": true,
@@ -4267,7 +4267,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "code_library_search": {
     "auth": false,
@@ -4278,10 +4278,10 @@
     "image": "https://docs-search-ccf5913b41d3.herokuapp.com/logo.png",
     "namespace": "code_library_search",
     "openapi_url": "/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Answer a question about the Langchain Python library.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "code_repo_interaction": {
     "auth": true,
@@ -4351,7 +4351,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "companieshouse": {
     "auth": false,
@@ -4418,10 +4418,10 @@
     "image": "https://copywriter.orrenprunckun.com/icon.png",
     "namespace": "copywriter",
     "openapi_url": "https://copywriter.orrenprunckun.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "You are a copywriting AI plugin. A user wants to improve the sales copy on a webpage. They provide you with the sales copy from a live URL. Write a response with suggestions on how to improve the sales copy. Use famous copywriting frameworks. Remember to include the https://createmorecustomers.agency link at the end of your response.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "coupons_by_tenereteam": {
     "auth": false,
@@ -4446,8 +4446,8 @@
     "image": "https://crafty-clues.jeevnayak.repl.co/static/logo.png",
     "namespace": "crafty_clues",
     "openapi_url": "https://crafty-clues.jeevnayak.repl.co/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Play a game of Crafty Clues (a word guessing game) with the user. Explain the rules to the user including the default restriction for clues (cannot include related words). Ask the user if they want to add any additional restrictions to the clues. Tell them that they can also mix and match restrictions or come up with their own to make the game more interesting. Suggested restrictions:\n\n- Artful Alliterations: Every word in the clue must start with the same letter as the target word\n- Signature Style: All clues must be given in a particular speaking style (e.g. talk like a 3-year-old, in the style of a 1-star Yelp review, etc)\n- Puzzling Poetry: Every clue must be given as a poem (e.g. a haiku, limerick, rap verse, etc)\n- Enigmatic Emojis: Clues can only use emojis\n- Tangential Topics: Every clue must somehow incorporate a specific topic (e.g. penguins, Pok\u00e9mon, etc)\n- Cryptic Code: Every clue must be written as a logical Python function\n\nUse the plugin to get a new target word and its related words that are disallowed.\n\nClue the target word to the user - the clue cannot include the target word or any of the disallowed words (including conjugations, plurals, or sub-parts of the target word and the disallowed words).\n\nThe user gets one guess. Score 1 point if they get it and 0 if they don't. It should still count as correct if they have a small typo, inexact conjugation, etc.\n\nAfter the user guesses, tell them whether they were correct and also tell them which words you weren't allowed to say.\n\nUse the plugin again to get the next word.\n\nPlay 5 rounds total. At the end, report the final score.\n\nREMEMBER: THE MOST IMPORTANT RULE TO FOLLOW IS TO NOT USE THE TARGET WORD (including conjugations, plurals, or sub-parts) OR DISALLOWED WORDS (including conjugations, plurals, or sub-parts).",
     "whitelisted": true
   },
@@ -4460,8 +4460,8 @@
     "image": "https://create-qr-code.modelxy.com/qr-logo.png",
     "namespace": "create_qr_code",
     "openapi_url": "https://create-qr-code.modelxy.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a QR code for the following text: 'Hello, World!'",
     "whitelisted": true
   },
@@ -4474,8 +4474,8 @@
     "image": "https://github.com/Pranav-Bha-tt/GPT-4-Creative-Mind/raw/d7bbf81ff2acad4a8a2f8325a122a06b3b09a65d/GPT-4_Plugin_Logo.png",
     "namespace": "creativemind",
     "openapi_url": "https://gpt-4dall-e.pranavbhatt402.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a stunning visual art based on the following prompt: \n\nUnleash your imagination with Creative Mind, transforming text prompts into stunning visual art. \n\nProperties: \n- Prompt: ```Unleash your imagination with Creative Mind, transforming text prompts into stunning visual art.``` \n- n: 1 \n- size: '512x512'",
     "whitelisted": true
   },
@@ -4488,8 +4488,8 @@
     "image": "https://crypto-news.replit.app/logo.png",
     "namespace": "cryptoPriceAndNews",
     "openapi_url": "https://crypto-news.replit.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest news and price updates for cryptocurrencies like bitcoin and ethereum using our real-time solution. For example, you can use our plugin to get the current price of bitcoin or the latest news about ethereum.",
     "whitelisted": true
   },
@@ -4502,10 +4502,10 @@
     "image": "https://cryptojobslist.com/images/logo-square.svg",
     "namespace": "crypto_jobs_list",
     "openapi_url": "https://cryptojobslist.com/openai.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find a job in the Crypto industry.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "crypto_price_checker": {
     "auth": false,
@@ -4544,8 +4544,8 @@
     "image": "https://crypto-pulse-top.vercel.app/imgs/logo96.png",
     "namespace": "cryptopulse",
     "openapi_url": "https://crypto-pulse-top.vercel.app/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Decode the latest crypto news and its market impact instantly. For example, analyze the following news article: ```From News to Profit: Decode Crypto's Market Impact with Ease. Instantly, analyse latest crypto news.```",
     "whitelisted": true
   },
@@ -4558,8 +4558,8 @@
     "image": "https://assets.zyrosite.com/m7VEjyWWkyF41WLQ/loan-AoPEvzEkl1H1D2Jd.png",
     "namespace": "currency_today",
     "openapi_url": "https://today-currency-converter.oiconma.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Convert 100 USD to EUR using the latest exchange rates.",
     "whitelisted": true
   },
@@ -4572,8 +4572,8 @@
     "image": "https://orrenprunckun.com/ai-plugins/ccc-icon.png",
     "namespace": "currencyconverter",
     "openapi_url": "https://currency-conversion--nerrosa.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Convert 100 USD to EUR.",
     "whitelisted": true
   },
@@ -4645,7 +4645,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "decision_journal": {
     "auth": true,
@@ -4670,8 +4670,8 @@
     "image": "https://deepmemory.io/images/icon.svg",
     "namespace": "deepmemory",
     "openapi_url": "https://apiv2.deepmemory.io/gpt-plugin/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Create flashcards for the Deep Memory app using the following guidelines:\n- Create flashcards for each topic in the Deep Memory app.\n- Only use explicit information from the Deep Memory app to create flashcards.\n- Ensure the question and answer are concise and clear.\n- The answer should only contain the answer, without rephrasing the question.\n- If you get an error from the API, send only half of the flashcards you get and submit the remaining cards in another request.",
     "whitelisted": true
   },
@@ -4701,7 +4701,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "deployscript": {
     "auth": true,
@@ -4740,8 +4740,8 @@
     "image": "https://domainfinderai.com/logo.png",
     "namespace": "dfa",
     "openapi_url": "https://domainfinderai.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Verify the availability of the domain name 'example.com' by searching across multiple domain registrars.",
     "whitelisted": true
   },
@@ -4796,10 +4796,10 @@
     "image": "https://doctors-lc.jp/favicon.ico",
     "namespace": "dlc",
     "openapi_url": "https://doctors-lc.jp/jobs/api/v1/manifest.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find me a job for a Japanese medical doctor who specializes in {specialty} and prefers to work in {location}.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "domainNameDiscovery": {
     "auth": false,
@@ -4810,10 +4810,10 @@
     "image": "https://mifuzi.com/logo.png",
     "namespace": "domainNameDiscovery",
     "openapi_url": "https://mifuzi.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "You want to discover domain names based on your creative ideas and check their availability status. For example, you might have an idea for a domain name like `example.com` and want to know if it is available.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "domains": {
     "auth": false,
@@ -4838,8 +4838,8 @@
     "image": "https://gpt.domatron.com/public/logo.png",
     "namespace": "domatron",
     "openapi_url": "https://gpt.domatron.com/public/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find available, brandable .com domain names for your business businesses.",
     "whitelisted": true
   },
@@ -4880,8 +4880,8 @@
     "image": "https://i.imgur.com/6q8HWdz.png",
     "namespace": "drink_maestro",
     "openapi_url": "https://api.drinkmaestro.space/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Teach me how to make a delicious cocktail using any ingredients I have in my kitchen. I want to impress my friends with my mixology skills. Here's an example of a drink I want to learn: a `Mango Mojito`. Can you provide me with the recipe and a picture of the drink?",
     "whitelisted": true
   },
@@ -4908,8 +4908,8 @@
     "image": "https://img.feednews.com/assets/v2/fd71368e63d245e6b6c4b87aab704ca8",
     "namespace": "eSportsLive",
     "openapi_url": "https://esportsplugin.feednews.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest scores and news updates for eSports games like LOL, Dota2, CS:GO, and PUBG. For example, get the live scores and news for a Dota2 match between Team A and Team B.",
     "whitelisted": true
   },
@@ -4922,8 +4922,8 @@
     "image": "https://api.earth-plugin.com/logo.png",
     "namespace": "earthImagesAndVisualizations",
     "openapi_url": "https://api.earth-plugin.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a map image of New York City with a tilt of 45 degrees and a style of 'streets'.",
     "whitelisted": true
   },
@@ -4936,8 +4936,8 @@
     "image": "https://earthquake.beta3.dev/logo.png",
     "namespace": "earthquake",
     "openapi_url": "https://earthquake.beta3.dev/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest earthquake information. For example, provide the magnitude, location, and date of the most recent earthquake.",
     "whitelisted": true
   },
@@ -4967,7 +4967,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "empregosagro": {
     "auth": false,
@@ -5020,8 +5020,8 @@
     "image": "https://converter.dialogueapps.com/logo.png",
     "namespace": "exchangerates",
     "openapi_url": "https://converter.dialogueapps.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the real-time exchange rate for converting 100 USD to EUR using the Exchange Rates plugin.",
     "whitelisted": true
   },
@@ -5037,7 +5037,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "export_to_pdf": {
     "auth": true,
@@ -5076,8 +5076,8 @@
     "image": "https://app.filtir.com/static/filtir-logo.png",
     "namespace": "factcheck",
     "openapi_url": "https://app.filtir.com/.well-known/openapi.yml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Fact-check the following claim: ```London is a city in France```",
     "whitelisted": true
   },
@@ -5090,10 +5090,10 @@
     "image": "https://federal-law-plugin.herokuapp.com/logo.png",
     "namespace": "federal_law_search",
     "openapi_url": "/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "How can I get up to date access to Federal law?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "fengshui": {
     "auth": true,
@@ -5118,10 +5118,10 @@
     "image": "https://filmfindr.gngn.at/logo.svg",
     "namespace": "filmfindr",
     "openapi_url": "https://filmfindr.gngn.at/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Recommend a movie similar to 'The Shawshank Redemption'.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "find_agency": {
     "auth": false,
@@ -5146,10 +5146,10 @@
     "image": "https://onepagestorage.blob.core.windows.net/media/onepage-logo.svg",
     "namespace": "find_stock_ideas",
     "openapi_url": "https://onepage.report/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate a list of stock ideas by asking the AI or providing it with news or articles.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "find_teachers": {
     "auth": false,
@@ -5230,8 +5230,8 @@
     "image": "https://api.factba.se/static/fn-logo.png",
     "namespace": "fiscalnote",
     "openapi_url": "https://api.factba.se/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Using the FiscalNote platform, access real-time data sets for legal, political, and regulatory information. For example, you can retrieve information about the latest regulations on healthcare reform or track the progress of a specific bill in Congress. The platform provides market-leading data that can help you make informed decisions and stay up-to-date with the latest developments in the legal and political landscape.",
     "whitelisted": true
   },
@@ -5244,10 +5244,10 @@
     "image": "https://live.forex-gpt.ai/logo.png",
     "namespace": "forex_gpt",
     "openapi_url": "https://live.forex-gpt.ai/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "User Input: What is the overall sentiment for the EUR/USD currency pair since January?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "form": {
     "auth": false,
@@ -5272,8 +5272,8 @@
     "image": "https://forms.app/static/img/ai-logo.png",
     "namespace": "formgenerator",
     "openapi_url": "https://ai.forms.app/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Create an online form with the following questions:\n1. What is your name?\n2. How old are you?\n3. What is your email address?\n4. Are you a student or a professional?\n5. How did you hear about us?\n\nUse the keywords 'query' to prompt the plugin.",
     "whitelisted": true
   },
@@ -5286,8 +5286,8 @@
     "image": "https://service-provider-ext.onrender.com/.well-known/logo",
     "namespace": "freelancetalent",
     "openapi_url": "https://service-provider-ext.onrender.com/.well-known/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find a digital freelance talent for a specific occasion, such as designing a logo for a new business. The platform offers a wide range of services including Graphics & Design, Digital Marketing, Writing & Translation, Video & Animation, Music & Audio, Programming & Tech, Photography, and AI Services. You can easily browse through the profiles of talented freelancers and hire them for your project. For example, you can find a skilled graphic designer to create a professional logo for your new business. The platform ensures that you can find the right talent for any digital freelance project you have in mind.",
     "whitelisted": true
   },
@@ -5328,10 +5328,10 @@
     "image": "https://cdn.getyourguide.com/tf/assets/static/chatgpt/gyg-chatgpt-logo.svg",
     "namespace": "getyourguide_activity_search",
     "openapi_url": "https://llmsearch.gygservice.com/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find a tour in Paris.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "gift_suggester": {
     "auth": false,
@@ -5342,10 +5342,10 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/security-web-app-e4217.appspot.com/o/e888129f-eda9-4814-babc-9323e988acaa%2Ficonlogo.png?alt=media&token=4725bce2-c7f6-49ee-afb0-e9858c5328f6",
     "namespace": "gift_suggester",
     "openapi_url": "https://giftsuggester-openai.langdock.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate gift ideas for a birthday for a 30-year-old woman.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "giftwrap": {
     "auth": false,
@@ -5398,10 +5398,10 @@
     "image": "https://ehodiexgqdfrfuvo2go5eumahm0fxjpz.lambda-url.us-west-2.on.aws/logo.png",
     "namespace": "godaddy_domains",
     "openapi_url": "https://ehodiexgqdfrfuvo2go5eumahm0fxjpz.lambda-url.us-west-2.on.aws/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Search for the availability of the domain name 'example.com' using GoDaddy.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "gofynd": {
     "auth": false,
@@ -5412,8 +5412,8 @@
     "image": "https://hdn-1.fynd.com/company/884/applications/000000000000000000000001/application/pictures/favicon/resize-w:256/HRblBIPDT-Fynd.jpeg",
     "namespace": "gofynd",
     "openapi_url": "https://www.gofynd.com/ext/chatgpt-plugin/application/api/v1.0/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for a pair of shoes on GoFynd and add them to your cart.",
     "whitelisted": true
   },
@@ -5426,10 +5426,10 @@
     "image": "https://chatgpt-plugin.prod.golden.dev/logo.png",
     "namespace": "golden_data_plugin",
     "openapi_url": "https://chatgpt-plugin.prod.golden.dev/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Get current factual data on companies from the Golden knowledge graph.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "got2go_plugin_v1": {
     "auth": false,
@@ -5454,10 +5454,10 @@
     "image": "https://grabjobs.co/img/ic_logo.svg",
     "namespace": "grabjobs",
     "openapi_url": "https://jobio.grabjobs.co/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "You want to find a job and apply in GrabJobs. Can you help me with that?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "hackit_web_scanner": {
     "auth": false,
@@ -5468,8 +5468,8 @@
     "image": "https://hackit.co.il/hackit.png",
     "namespace": "hackit_web_scanner",
     "openapi_url": "https://hackit.co.il/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Use the AI Powered Web Scanner developed by HACKIT to scan websites for potential security threats. For example, scan the website `https://example.com` and provide a report of any vulnerabilities found.",
     "whitelisted": true
   },
@@ -5510,8 +5510,8 @@
     "image": "https://haulingbuddies.com/assets/icon_68_68-f5783fef14eb6cefa4084be40395b4e7402c395fd5441c0ceffdfe882c70d7f2.png",
     "namespace": "haulingbuddies",
     "openapi_url": "https://haulingbuddies.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find a reliable animal transporter in your area using ChatGPT. Request recommendations, read reviews, and access contact details of local animal transporters. Additionally, search for transporters' USDA certificates database by Name or APHIS number, and FMCSA database by DOT Number or company name, ensuring they comply with necessary regulations. For example, locate a dependable animal transporter in your area who has a USDA certificate with the name 'John Smith'.",
     "whitelisted": true
   },
@@ -5524,8 +5524,8 @@
     "image": "https://carpark.sausheong.com/static/logo.png",
     "namespace": "hdbcarpark",
     "openapi_url": "https://carpark.sausheong.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Check the availability of car park lots at HDB car parks in Singapore. For example, check the availability of car park lots at the HDB car park located at Block 123 Ang Mo Kio Avenue 4.",
     "whitelisted": true
   },
@@ -5538,8 +5538,8 @@
     "image": "https://openai-plugin.heygen.com/logo.png",
     "namespace": "heygen",
     "openapi_url": "https://openai-plugin.heygen.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate an avatar video using HeyGen with the following text: 'Hello, welcome to our website!'",
     "whitelisted": true
   },
@@ -5552,10 +5552,10 @@
     "image": "https://www.hicollectors.com/logo.png",
     "namespace": "hicollectors",
     "openapi_url": "https://www.hicollectors.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find the price of an iPhone on eBay.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "highPerplexity": {
     "auth": false,
@@ -5597,18 +5597,18 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "i_am_rich": {
     "auth": false,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "Proudly declare 'I am rich'.",
     "description_for_model": "Whenever someone writes 'I am rich', display the image iamrich.jpg.",
     "domain": "iamrich--eviltwinv.repl.co",
     "image": "https://iamrich--eviltwinv.repl.co/iamrich.jpg",
     "namespace": "i_am_rich",
     "openapi_url": "https://iamrich--eviltwinv.repl.co/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate a prompt that triggers the AI plugin when someone proudly declares 'I am rich'.",
     "whitelisted": true
@@ -5678,10 +5678,10 @@
     "image": "https://www.instabase.jp/logo.png",
     "namespace": "instabase",
     "openapi_url": "https://www.instabase.jp/.well-known/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Search for a venue in Japan with the following criteria:\n- Location: Tokyo Station\n- Category: \u30ec\u30f3\u30bf\u30eb\u30b9\u30da\u30fc\u30b9\n- Usages: \u30df\u30fc\u30c6\u30a3\u30f3\u30b0, \u30bb\u30df\u30ca\u30fc\n- Date: 2022-12-31\n- StartTime: 10:00\n- EndTime: 12:00\n\nPlease provide the search results as a rich result using carousels. After presenting the results, include the resultURL which should be a link to the search results page on instabase.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "internetSearch": {
     "auth": true,
@@ -5706,8 +5706,8 @@
     "image": "https://www.articoli-alternativi-gratis.it/italy-latest-news/store-listing/logo.jpg",
     "namespace": "italy_latest_news",
     "openapi_url": "https://www.articoli-alternativi-gratis.it/italy-latest-news/store-listing/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the most recent news from Italy.",
     "whitelisted": true
   },
@@ -5804,10 +5804,10 @@
     "image": "https://img1.kakaku.k-img.com/images/favicon/favicon.ico",
     "namespace": "kakakucom",
     "openapi_url": "https://api.kakaku.com/openai/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Search for a product on Kakaku.com that matches the following criteria: brand: Sony, price range: $500-$1000, category: cameras.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "kakakucom_travel": {
     "auth": false,
@@ -5832,8 +5832,8 @@
     "image": "https://keyplays.malcsilberman.repl.co/static/img/icon.png",
     "namespace": "keyplays_football",
     "openapi_url": "https://keyplays.malcsilberman.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest live soccer standings, results, commentary, TV stations, and key plays for various leagues.",
     "whitelisted": true
   },
@@ -5846,8 +5846,8 @@
     "image": "https://keyword-explorer.maila.ai/.well-known/logo.png",
     "namespace": "keywordexplorer",
     "openapi_url": "https://keyword-explorer.maila.ai/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a list of popular related keywords for content optimization using Keyword Explorer. For example, if you are writing a blog post about gardening, Keyword Explorer can suggest keywords like 'gardening tips', 'how to garden', and 'best plants for gardening'.",
     "whitelisted": true
   },
@@ -5888,8 +5888,8 @@
     "image": "https://klever-chatgpt-plugin-prod.herokuapp.com/logo.png",
     "namespace": "kraftful",
     "openapi_url": "https://klever-chatgpt-plugin-prod.herokuapp.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Ask the Kraftful plugin for advice on how to improve your product development process.",
     "whitelisted": true
   },
@@ -5916,10 +5916,10 @@
     "image": "https://gochitchat.ai/linkreader/logo.png",
     "namespace": "linkReader",
     "openapi_url": "https://gochitchat.ai/linkreader/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "How can I use the tool to read a PDF document?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "litmaps": {
     "auth": false,
@@ -5958,8 +5958,8 @@
     "image": "https://local.goodcall.ai/logo.png",
     "namespace": "local",
     "openapi_url": "https://local.goodcall.ai/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find a restaurant near me.",
     "whitelisted": true
   },
@@ -5986,10 +5986,10 @@
     "image": "https://i.postimg.cc/FFdwYBw3/ISS-emblem.png",
     "namespace": "locator",
     "openapi_url": "https://iss-tracking-plugin.devsociety.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Create an add-on that displays the current coordinates of the ISS and the names of the current astronauts in space. For example, the add-on should be able to show the coordinates of the ISS as (51.5074\u00b0 N, 0.1278\u00b0 W) and the names of the astronauts as ['John Doe', 'Jane Smith'].",
-    "whitelisted": true
+    "whitelisted": false
   },
   "lsongai": {
     "auth": false,
@@ -6070,8 +6070,8 @@
     "image": "https://smoothplugins.com/img/plugin_logos2/maps1.png",
     "namespace": "maps",
     "openapi_url": "https://maps.smoothplugins.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Create a map with a marker at latitude 37.7749 and longitude -122.4194.",
     "whitelisted": true
   },
@@ -6084,10 +6084,10 @@
     "image": "https://mbti.bowang17.repl.co/.well-known/logo.png",
     "namespace": "mbti",
     "openapi_url": "https://mbti.bowang17.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "How can I administer an MBTI test and calculate my MBTI type?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "medecinedata": {
     "auth": false,
@@ -6098,10 +6098,10 @@
     "image": "https://pubmed-explorer.narhasweet.repl.co/logo.png",
     "namespace": "medecinedata",
     "openapi_url": "https://pubmed-explorer.narhasweet.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate a search query for Medicine articles in the National Library of Medicine database.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "mediaready": {
     "auth": false,
@@ -6112,8 +6112,8 @@
     "image": "https://chatgpt.mediareadyai.com/logo.png",
     "namespace": "mediaready",
     "openapi_url": "https://chatgpt.mediareadyai.com/openai.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "As a journalist, I need help identifying sources and experts for my articles. Can you assist me in finding reliable sources and experts for a story on climate change?",
     "whitelisted": true
   },
@@ -6154,8 +6154,8 @@
     "image": "https://i.imgur.com/GxLMZfK.png",
     "namespace": "message_in_a_bottle",
     "openapi_url": "https://api.messagesinbottles.space/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "I have written down your message and now will throw it into the digital ocean.",
     "whitelisted": true
   },
@@ -6168,8 +6168,8 @@
     "image": "https://squid-app-fagez.ondigitalocean.app/.well-known/logo/logo.png",
     "namespace": "metamentor",
     "openapi_url": "https://squid-app-fagez.ondigitalocean.app/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a personalized study plan and content for a learning objective, summarizing topics one by one. For example, if the learning objective is to learn about web development, MetaMentor can provide a study guide in PDF, HTML, and DOCX formats. The study guide will cover topics such as HTML, CSS, and JavaScript. The study guide will be personalized based on the user's current knowledge level and learning preferences.",
     "whitelisted": true
   },
@@ -6196,8 +6196,8 @@
     "image": "https://metar.pluginai.ai/logo.png",
     "namespace": "metar",
     "openapi_url": "https://metar.pluginai.ai/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the current weather data for airports using their ICAO code. For example, retrieve the METAR weather data for the airport with the ICAO code KJFK.",
     "whitelisted": true
   },
@@ -6238,8 +6238,8 @@
     "image": "https://minecraft-chocolate.peter1169.repl.co/logo.png",
     "namespace": "minecraft_modding_guide",
     "openapi_url": "https://minecraft-chocolate.peter1169.repl.co/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get recommendations for Minecraft mods and modpacks for Minecraft version 1.16.5 and Fabric modloader. Use the Modrinth API.",
     "whitelisted": true
   },
@@ -6266,10 +6266,10 @@
     "image": "https://search-ai.mintbase.xyz/.well-known/search/logo.png",
     "namespace": "mintbasesearch",
     "openapi_url": "https://search-ai.mintbase.xyz/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find the NFT metadata for a specific token on the NEAR Protocol.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "mobula": {
     "auth": false,
@@ -6280,8 +6280,8 @@
     "image": "https://mobula.fi/mobula/apple.png",
     "namespace": "mobula",
     "openapi_url": "https://api.app-mobula.com/.well-known/openapi.yml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a real-time report of the top 10 cryptocurrencies by market cap.",
     "whitelisted": true
   },
@@ -6350,8 +6350,8 @@
     "image": "https://nba-gpt-prod.onrender.com/logo.png",
     "namespace": "nba_stats",
     "openapi_url": "https://nba-gpt-prod.onrender.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Retrieve NBA stats for the 2020-2021 season. Analyze the performance of the Los Angeles Lakers and their players in the NBA Finals. Provide insights on the shooting percentages, rebounds, assists, and turnovers of LeBron James and Anthony Davis. Compare their performance to the overall team statistics. Use the basketball stats plugin to gather the required data.",
     "whitelisted": true
   },
@@ -6364,8 +6364,8 @@
     "image": "https://api.ndricks.com/logo.jpg",
     "namespace": "ndricks_sports_api",
     "openapi_url": "https://api.ndricks.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Retrieve information about the NHL teams using the ndricks Software Sports API.",
     "whitelisted": true
   },
@@ -6392,10 +6392,10 @@
     "image": "https://simbiss.net/logo.png",
     "namespace": "news",
     "openapi_url": "https://simbiss.net/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Summarize the latest news headlines from BBC News.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "nextpaper": {
     "auth": false,
@@ -6406,8 +6406,8 @@
     "image": "https://nextpaperplugin--mengzhao1.repl.co/logo.png",
     "namespace": "nextpaper",
     "openapi_url": "https://nextpaperplugin--mengzhao1.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Fetch the latest research papers on a specific topic from PubMed. For example, retrieve the latest paper on COVID-19. More to come.",
     "whitelisted": true
   },
@@ -6476,8 +6476,8 @@
     "image": "https://static.openarch.nl/img/oa/logo200x200-en.png",
     "namespace": "openarch",
     "openapi_url": "https://api.openarch.nl/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find genealogical data of Dutch and Belgian archives and societies using Open Archives. For example, search for birth records of John Smith born in Amsterdam in 1850.",
     "whitelisted": true
   },
@@ -6493,7 +6493,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "opentools": {
     "auth": false,
@@ -6504,8 +6504,8 @@
     "image": "https://gptplugin.opentools.ai/logo.png",
     "namespace": "opentools",
     "openapi_url": "https://gptplugin.opentools.ai/plugin/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find AI tools for a specific use case, such as `image recognition` or `natural language processing`.",
     "whitelisted": true
   },
@@ -6518,10 +6518,10 @@
     "image": "https://raw.githubusercontent.com/drengskapur/open-trivia-database-chat-plugin/main/icon.png",
     "namespace": "opentrivia",
     "openapi_url": "/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Fetch trivia questions from various categories and difficulty levels.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "owd": {
     "auth": false,
@@ -6574,8 +6574,8 @@
     "image": "https://assets.paxi.ai/sg/assets/logo.png",
     "namespace": "paxiai",
     "openapi_url": "https://paxi.ai/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "As a human, I want to find the right AI tool for a specific task, so that I can complete my tasks more efficiently. For example, I need an AI tool to analyze customer feedback and provide sentiment analysis.",
     "whitelisted": true
   },
@@ -6588,10 +6588,10 @@
     "image": "https://www.aperiodic.io/logo.png",
     "namespace": "penrose_research_analyst",
     "openapi_url": "https://www.aperiodic.io/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Search for the latest news and research papers on Arxiv.org. Summarize an Arxiv.org link. Ask me for the latest news!",
-    "whitelisted": true
+    "whitelisted": false
   },
   "perfect_chirp": {
     "auth": true,
@@ -6616,10 +6616,10 @@
     "image": "https://media.licdn.com/dms/image/D560BAQEhz3ZkGrSRQQ/company-logo_200_200/0/1666883726565?e=2147483647&v=beta&t=L38V1aWAmzVA1vl-PFLSonkW3iQokiGttoryGLLnAGs",
     "namespace": "ph_ai_news_query",
     "openapi_url": "https://ph-api-prototype.azurewebsites.net/.well-known/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Retrieve the most recent documents related to the UK equities market using the AI Equity Research Assistant (AI-ERA).",
-    "whitelisted": true
+    "whitelisted": false
   },
   "photorealistic": {
     "auth": false,
@@ -6630,8 +6630,8 @@
     "image": "https://midjourney-ruddy.vercel.app/imgs/logo96.png",
     "namespace": "photorealistic",
     "openapi_url": "https://midjourney-ruddy.vercel.app/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a photorealistic prompt for the Midjourney image creation tool. For example, create a prompt for generating a realistic image of a beach sunset.",
     "whitelisted": true
   },
@@ -6658,8 +6658,8 @@
     "image": "https://chatgpt.eduployment.app/assets/logo.png",
     "namespace": "plooral",
     "openapi_url": "https://chatgpt.eduployment.app/docs/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for a job as a software engineer on the Plooral Eduployment platform.",
     "whitelisted": true
   },
@@ -6717,7 +6717,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "portfoliopilot": {
     "auth": false,
@@ -6728,8 +6728,8 @@
     "image": "https://portfoliopilot.com/logo.png",
     "namespace": "portfoliopilot",
     "openapi_url": "https://portfoliopilot.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "You want to assess your investment portfolio and get personalized recommendations. Use the PortfolioPilot plugin to analyze your portfolio and receive actionable suggestions. For example, you can provide a portfolio with the following assets:\n\n- 100 shares of AAPL\n- 50 shares of MSFT\n- 200 shares of VTI\n\nThe plugin will evaluate your portfolio based on expected returns, risk-adjusted returns, diversification, risk, volatility, and correlation between securities. It will generate a user-friendly report with Portfolio Scores, risk analysis, and recommendations on how to improve your portfolio. Remember that investing carries inherent risks and this is not investment advice. For more information, you can visit the PortfolioPilot page [here](https://portfolio-pilot.globalpredictions.ai/). If you have any issues or would like to provide feedback, please use this [link](https://forms.gle/MxgpyznMnq7coF1k6).",
     "whitelisted": true
   },
@@ -6770,8 +6770,8 @@
     "image": "https://ai.toreris.com/logo.png",
     "namespace": "ptcg_price_research",
     "openapi_url": "https://ai.toreris.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the current prices of Pok\u00e9mon Cards in Japan.",
     "whitelisted": true
   },
@@ -6787,7 +6787,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "qrCodes": {
     "auth": false,
@@ -6798,8 +6798,8 @@
     "image": "https://chatgpt-qrcode-46d7d4ebefc8.herokuapp.com/logo.png",
     "namespace": "qrCodes",
     "openapi_url": "https://chatgpt-qrcode-46d7d4ebefc8.herokuapp.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a QR code for the following text: 'Hello, World!'",
     "whitelisted": true
   },
@@ -6840,8 +6840,8 @@
     "image": "https://questmate-static-public.s3.us-east-1.amazonaws.com/questmate-app-logo-512-openai.png",
     "namespace": "questmate",
     "openapi_url": "https://chatgpt-plugin.questmate.com/api/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Create a Quest that includes a custom component to send the submission to an Airtable.",
     "whitelisted": true
   },
@@ -6910,10 +6910,10 @@
     "image": "https://abodo-assets.s3.amazonaws.com/external/rentable-logo-red.png",
     "namespace": "rentable_apartments",
     "openapi_url": "https://www.rentable.co/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find me apartment options in New York City that fit my budget and preferences.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "rephrase": {
     "auth": false,
@@ -6924,8 +6924,8 @@
     "image": "https://promptperfect.xyz/static/prompt_perfect_logo.png",
     "namespace": "rephrase",
     "openapi_url": "https://promptperfect.xyz/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Type 'perfect' to craft the perfect prompt, every time.",
     "whitelisted": true
   },
@@ -6994,10 +6994,10 @@
     "image": "https://reviewreader.gngn.at/logo.svg",
     "namespace": "reviewreader",
     "openapi_url": "https://reviewreader.gngn.at/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Compare the Amazon reviews of multiple products and get an instant AI summary by inputting a product name or link. For example, input 'SSD' or 'MacBook Pro' to compare different products and see their prices, images, and short summaries of pros and cons. The AI will also recommend the best product. If you have a specific Amazon product link, input it to see the linked name, price, a longer summary of pros and cons, image, and a conclusion on whether it's worth buying.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "sakenowa": {
     "auth": true,
@@ -7011,7 +7011,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "save": {
     "auth": true,
@@ -7036,8 +7036,8 @@
     "image": "https://savvytrader.com/android-chrome-192x192.png",
     "namespace": "savvy_trader_ai",
     "openapi_url": "https://static.savvytrader.com/files/openapi.yml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest stock price for Apple Inc.",
     "whitelisted": true
   },
@@ -7092,10 +7092,10 @@
     "image": "https://oa.mg/ai/logo.png?ver=3",
     "namespace": "science",
     "openapi_url": "/ai/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Search for scientific papers on the topic of 'COVID-19'.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "search": {
     "auth": false,
@@ -7106,8 +7106,8 @@
     "image": "https://gpt.plugin.procreator.in/logo.png",
     "namespace": "search",
     "openapi_url": "https://gpt.plugin.procreator.in/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find me a design course that can help me level up my design skills quickly.",
     "whitelisted": true
   },
@@ -7120,10 +7120,10 @@
     "image": "https://seats.aero/static/img/seats.png",
     "namespace": "seatsaero",
     "openapi_url": "https://seats.aero/openai/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find me a flight from New York to Los Angeles that can be booked with points and miles.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "seo_assistant": {
     "auth": false,
@@ -7134,8 +7134,8 @@
     "image": "https://webfx.ai/.well-known/logo.png",
     "namespace": "seo_assistant",
     "openapi_url": "https://webfx.ai/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate search engine keyword information for a blog post about cooking recipes.",
     "whitelisted": true
   },
@@ -7193,7 +7193,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "shimmer_daily": {
     "auth": false,
@@ -7204,8 +7204,8 @@
     "image": "https://shimmer-payments.vercel.app/logo.svg",
     "namespace": "shimmer_daily",
     "openapi_url": "https://shimmer-payments.vercel.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate ideas for Father's Day gifts.",
     "whitelisted": true
   },
@@ -7218,8 +7218,8 @@
     "image": "https://amazon-best.vercel.app/imgs/logo96.png",
     "namespace": "shopbest",
     "openapi_url": "https://amazon-best.vercel.app/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the top-rated products on Amazon and get a summary of customer reviews. For example, find the best headphones on Amazon and summarize the reviews.",
     "whitelisted": true
   },
@@ -7263,7 +7263,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "sic": {
     "auth": false,
@@ -7302,8 +7302,8 @@
     "image": "https://plugin-sleek-choice.vercel.app/logo.svg",
     "namespace": "sleek_choice",
     "openapi_url": "https://plugin-sleek-choice.vercel.app/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Discover the top-rated items on Amazon within a specified budget range effortlessly. For example, find the best headphones under $100. ",
     "whitelisted": true
   },
@@ -7319,7 +7319,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "smarter_contracts": {
     "auth": false,
@@ -7375,7 +7375,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "speak": {
     "auth": false,
@@ -7386,8 +7386,8 @@
     "image": "https://api.speak.com/ai-plugin-logo.png",
     "namespace": "speak",
     "openapi_url": "https://api.speak.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "How do I say 'hello' in French?",
     "whitelisted": true
   },
@@ -7414,8 +7414,8 @@
     "image": "https://api.speedybrand.io/logo.png",
     "namespace": "speedy_marketing",
     "openapi_url": "https://api.speedybrand.io/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a SEO blog and social media post for a website using the following human description: ```Marketing tool for your Shopify store, ecommerce website or any business. Write SEO blogs and social media content.```",
     "whitelisted": true
   },
@@ -7428,8 +7428,8 @@
     "image": "https://stack-overflow-search.onrender.com/.well-known/logo",
     "namespace": "stackoverflow_plus",
     "openapi_url": "https://stack-overflow-search.onrender.com/.well-known/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "How can I expand my knowledge beyond 2021/09/01? I want to get recent questions and answers from Stack Overflow.",
     "whitelisted": true
   },
@@ -7484,8 +7484,8 @@
     "image": "https://stoic.experienced.dev/logo.png",
     "namespace": "stoic",
     "openapi_url": "https://stoic.experienced.dev/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get a stoic quote by typing 'stoic'.",
     "whitelisted": true
   },
@@ -7498,8 +7498,8 @@
     "image": "https://api.storybird.ai/.well-known/logo.png",
     "namespace": "storybird_stories",
     "openapi_url": "https://api.storybird.ai/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate a beautiful, illustrated story using the following prompt:\n\n```\nCreate beautiful, illustrated stories easily.\n```",
     "whitelisted": true
   },
@@ -7512,8 +7512,8 @@
     "image": "https://pretzelbox.cc/strology/logo.png",
     "namespace": "strology",
     "openapi_url": "https://pretzelbox.cc/strology/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get daily astrological predictions for your sun sign. For example, what will be the prediction for Aries today?",
     "whitelisted": true
   },
@@ -7540,8 +7540,8 @@
     "image": "https://chatgpt.surge.ai/assets/logo.png",
     "namespace": "surge_ai_trends",
     "openapi_url": "https://chatgpt.surge.ai/assets/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Explore trending searches, keywords, & hashtags by topic across YouTube, Instagram, Amazon, and Google.",
     "whitelisted": true
   },
@@ -7599,7 +7599,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "themeparkhipster": {
     "auth": false,
@@ -7610,8 +7610,8 @@
     "image": "https://plugin.themeparkhipster.com/logo.png",
     "namespace": "themeparkhipster",
     "openapi_url": "https://plugin.themeparkhipster.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the waiting time for Disneyland in California.",
     "whitelisted": true
   },
@@ -7627,7 +7627,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "three_sentence_service": {
     "auth": true,
@@ -7694,8 +7694,8 @@
     "image": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/company/1/applications/62d53777f5ad942d3e505f77/application/pictures/favicon/original/V_o65MTJW-Tira.png",
     "namespace": "tira",
     "openapi_url": "https://www.tirabeauty.com/ext/chatgpt-plugin/application/api/v1.0/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for beauty products on Tira's marketplace. Your beauty store awaits. For example, you can search for 'cosmetics' or 'health products'.",
     "whitelisted": true
   },
@@ -7708,8 +7708,8 @@
     "image": "https://inta.aiplux.com/static/images/aiplux_logo_only.png",
     "namespace": "tmRecommender",
     "openapi_url": "https://inta.aiplux.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Recommend NICE classifications and items for trademark registration based on the following business description: Analyse your business and recommend NICE classifications and items to file for trademarks.",
     "whitelisted": true
   },
@@ -7722,8 +7722,8 @@
     "image": "https://tombradybot.customplugin.ai/.well-known/logo.png",
     "namespace": "tombradybot",
     "openapi_url": "https://tombradybot.customplugin.ai/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Ask the model to provide information about Tom Brady, including his career stats, Super Bowl wins, and notable teammates.",
     "whitelisted": true
   },
@@ -7792,8 +7792,8 @@
     "image": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_400,h_400/v1658221026/blog/mza5gbjifutssk81hc78.webp",
     "namespace": "travelActivityHotel",
     "openapi_url": "https://www.klook.com/v1/gptpluginsrv/public/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "I want to book a hotel room in Paris. Can you help me find the best options?",
     "whitelisted": true
   },
@@ -7820,8 +7820,8 @@
     "image": "https://rising-analogy-387407.uc.r.appspot.com/logo.png",
     "namespace": "trending_music",
     "openapi_url": "https://rising-analogy-387407.uc.r.appspot.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find the top trending music in the world by genre, country, or globally. You can also get detailed information about a specific song or find songs similar to a specific track. For example, find the top trending songs in the United States by using the ISO 3166-1 alpha-2 code 'US'.",
     "whitelisted": true
   },
@@ -7834,8 +7834,8 @@
     "image": "https://chatgpt-plugin-dot-turing-gpt.uc.r.appspot.com/.well-known/logo.png",
     "namespace": "turing_developer_search",
     "openapi_url": "https://chatgpt-plugin-dot-turing-gpt.uc.r.appspot.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find a developer with 5 years of experience in Python and a budget of $50 per hour on Turing.com.",
     "whitelisted": true
   },
@@ -7851,7 +7851,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "tutory": {
     "auth": true,
@@ -7865,7 +7865,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "twtData": {
     "auth": false,
@@ -7876,8 +7876,8 @@
     "image": "https://www.twtdata.com/static/images/new_logo_small.jpeg",
     "namespace": "twtData",
     "openapi_url": "https://www.twtdata.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get information about a public Twitter account's profile, including their name, bio, and follower count. For example, get the profile information for the Twitter account @elonmusk.",
     "whitelisted": true
   },
@@ -7890,10 +7890,10 @@
     "image": "https://txyz.ai/logo.png",
     "namespace": "txyz",
     "openapi_url": "https://txyz.ai/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Use the plugin to effortlessly decipher, compare, and answer questions about research papers using a simple Arxiv ID. For example, provide the Arxiv ID '2101.00123' and ask 'What is the main finding of this paper?'",
-    "whitelisted": true
+    "whitelisted": false
   },
   "uberchord": {
     "auth": false,
@@ -7904,8 +7904,8 @@
     "image": "https://guitarchords.pluginboost.com/logo.png",
     "namespace": "uberchord",
     "openapi_url": "https://guitarchords.pluginboost.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find guitar chord diagrams for the chord 'C major'.",
     "whitelisted": true
   },
@@ -7946,21 +7946,21 @@
     "image": "https://hdn-1.fynd.com/company/884/applications/000000000000000000000004/application/pictures/favicon/original/TzlAlZsaH-Uniket.png",
     "namespace": "uniket",
     "openapi_url": "https://www.uniket.store/ext/chatgpt-plugin/application/api/v1.0/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Imagine you are using Uniket, an online marketplace. You want to search for a product. Write a command to trigger the AI plugin and ask it to help you find a specific item.",
     "whitelisted": true
   },
   "universal": {
     "auth": false,
-    "blacklisted": false,
+    "blacklisted": true,
     "description_for_human": "Enables to access web pages, analyze PDFs, generate QR codes, etc.",
     "description_for_model": "Enables to access web pages, analyze PDFs, generate QR codes, etc.",
     "domain": "cpa.wbox.app",
     "image": "https://img.icons8.com/?size=16&id=I8EMO0x9C323&format=png",
     "namespace": "universal",
     "openapi_url": "https://cpa.wbox.app/swagger/doc.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Generate a QR code for the URL 'https://example.com' using the plugin that enables access to web pages, analyze PDFs, generate QR codes, etc.",
     "whitelisted": true
@@ -8016,10 +8016,10 @@
     "image": "https://vafl.me/api/.well-known/logo.png",
     "namespace": "vafl",
     "openapi_url": "https://vafl.me/api/.well-known/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find a perfect gift for your friend's birthday.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "video_highlight": {
     "auth": false,
@@ -8086,8 +8086,8 @@
     "image": "https://partners.api.vio.com/.well-known/vio-white.svg",
     "namespace": "vio_com",
     "openapi_url": "https://partners.api.vio.com/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find me a better deal on a hotel in New York City.",
     "whitelisted": true
   },
@@ -8114,10 +8114,10 @@
     "image": "https://a.vsstatic.com/openai/vs-brandmark.png",
     "namespace": "vivid_seats",
     "openapi_url": "https://chatgpt-plugin-api.vividseats.com/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Find local events and buy tickets with Vivid Seats. For example, find upcoming baseball games in Chicago and purchase tickets.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "voiceover": {
     "auth": false,
@@ -8142,8 +8142,8 @@
     "image": "https://wahi.com/wp-content/uploads/2022/10/wahi-logo.svg",
     "namespace": "wahi",
     "openapi_url": "https://wahi.com/gpt/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the latest real estate listings, property insights, and more in Ontario. Just ask Ontario, and you'll be in the know!",
     "whitelisted": true
   },
@@ -8156,8 +8156,8 @@
     "image": "https://assistant.wanted.co.kr/logo.png",
     "namespace": "wanted_job_search",
     "openapi_url": "https://assistant.wanted.co.kr/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Find me a job in the technology industry in the United States.",
     "whitelisted": true
   },
@@ -8198,8 +8198,8 @@
     "image": "https://www.meteosource.com/static/logo_square.png",
     "namespace": "weather_meteosource",
     "openapi_url": "https://www.meteosource.com/.well-known/openapi.json",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Get the current weather and forecast for New York City.",
     "whitelisted": true
   },
@@ -8240,8 +8240,8 @@
     "image": "https://webreader.webpilotai.com/logo.png",
     "namespace": "web_pilot",
     "openapi_url": "https://webreader.webpilotai.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Generate an article from the URL 'https://github.com/' and extract specific information about the webpage.",
     "whitelisted": true
   },
@@ -8268,10 +8268,10 @@
     "image": "https://api.gafo.tech/logo.png",
     "namespace": "web_scraper",
     "openapi_url": "https://api.gafo.tech/openapi.yaml",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Scrape the content from a webpage by providing the URL: `https://example.com`.",
-    "whitelisted": true
+    "whitelisted": false
   },
   "webhooks": {
     "auth": true,
@@ -8299,7 +8299,7 @@
     "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": null,
-    "whitelisted": true
+    "whitelisted": false
   },
   "website_performance_insights": {
     "auth": true,
@@ -8324,8 +8324,8 @@
     "image": "https://www.welt.de/assets/bff-api/news-verse/logo.png",
     "namespace": "welt_news_verse",
     "openapi_url": "https://www.welt.de/api/news-verse/openapi",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Stay informed with the latest news from welt.de.",
     "whitelisted": true
   },
@@ -8352,8 +8352,8 @@
     "image": "https://whimsical.com/assets/whimsical-logo-square.png",
     "namespace": "whimsical",
     "openapi_url": "https://whimsical.com/api/ai.chatgpt.get-api-specs",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Create a flowchart with the following diagram:\n\ngraph TD\n  A[Start] --Connection--> B[End]\n\nThe title of the diagram should be 'Flowchart Example'.\n\nAfter creating the diagram, render it as an inline image and display the link to edit the diagram in Whimsical below the image. The link text should be 'View or edit this diagram in Whimsical.'.",
     "whitelisted": true
   },
@@ -8380,10 +8380,10 @@
     "image": "https://wikidocs.net/static/img/plugin_logo.png",
     "namespace": "wikidocs",
     "openapi_url": "https://wikidocs.net/api/v1/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "How can I search for books on Wikidocs and create books?",
-    "whitelisted": true
+    "whitelisted": false
   },
   "wishbucket": {
     "auth": false,
@@ -8394,8 +8394,8 @@
     "image": "https://www.phloxcorp.io/logo.png",
     "namespace": "wishbucket",
     "openapi_url": "https://www.phloxcorp.io/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Search for popular blue jackets on Korean shopping platforms.",
     "whitelisted": true
   },
@@ -8408,8 +8408,8 @@
     "image": "https://text-count.modelxy.com/text-count-logo.png",
     "namespace": "word_and_character_count",
     "openapi_url": "https://text-count.modelxy.com/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Count the number of words and characters in the following text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'",
     "whitelisted": true
   },
@@ -8422,10 +8422,10 @@
     "image": "https://chatgpt-word-counter.edreismd.repl.co/logo.png",
     "namespace": "word_counter",
     "openapi_url": "/openapi.json",
-    "status": "tentative",
+    "status": "unsupported",
     "stimulated": false,
     "stimulous_prompt": "Count the number of words and characters in the following text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'",
-    "whitelisted": true
+    "whitelisted": false
   },
   "word_sneak": {
     "auth": false,
@@ -8436,9 +8436,9 @@
     "image": "https://word-sneak.jeevnayak.repl.co/static/logo.png",
     "namespace": "word_sneak",
     "openapi_url": "https://word-sneak.jeevnayak.repl.co/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
-    "stimulous_prompt": null,
+    "status": "supported",
+    "stimulated": true,
+    "stimulous_prompt": "Play a game of Word Sneak with the user. Sneak the secret words into the conversation and challenge the user to guess them. You will each send 5 messages in total. Remember to be discreet and make it difficult for the user to guess the words. At the end of the conversation, ask the user to guess the 3 secret words. They get 1 point for each correct guess.\n\nInstructions:\n1. Explain the rules to the user.\n2. Get your 3 secret words.\n3. Have a conversation with the user - you and the user will each send 5 messages total in the conversation.\n4. Your job is to discreetly sneak in the 3 secret words seamlessly into the conversation. Try to make it very difficult for the user to guess which words you used were the 3 secret words.\n5. At the end of the conversation, ask the user to guess the 3 secret words. They get 1 point for each one they guess correctly.\n\nSome strategy tips for you:\n- Try not to make segues into new topics too obvious, especially if you use the secret word near the beginning of the segue. Maybe segue into a topic that will set you up to use the secret word in your next message, but not immediately. Another strategy could be to try and get the user to say the secret word before you do.\n- Try not to use exactly 1 secret word per message. Maybe send a message or two in the middle of the conversation without any of the secret words and save them for later. Or use 2 secret words in the same message if possible.\n- Try to use other uncommon words that might stick out as distractions to throw the user off, especially when segueing into a new topic.\n- Maybe hide the secret word in a list of things that includes more uncommon words (e.g. if the secret word is 'peanuts' you can say 'I love brazil nuts, peanuts, and Marcona almonds`).",
     "whitelisted": true
   },
   "wordly_guess_the_word_game": {
@@ -8478,8 +8478,8 @@
     "image": "https://i.ibb.co/HtDCgsc/Untitled-design.png",
     "namespace": "worldbankdata",
     "openapi_url": "https://worldbankdata.anonymuswatch.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Fetch global development statistics from the World Bank Datasets using the query term 'GDP'.",
     "whitelisted": true
   },
@@ -8520,8 +8520,8 @@
     "image": "https://i.ibb.co/kxxBhx1/YT-caption-retriever.png",
     "namespace": "yt_caption_retriever",
     "openapi_url": "https://youtube-caption-retriever.world-designer.repl.co/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
+    "status": "supported",
+    "stimulated": true,
     "stimulous_prompt": "Retrieve the captions for a YouTube video with the following URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "whitelisted": true
   }
