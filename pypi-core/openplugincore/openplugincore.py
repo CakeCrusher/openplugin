@@ -56,7 +56,7 @@ def openplugin_completion(openai_api_key: str, plugin_name: str, prompt: str, **
     return summarize
 
 class OpenPlugin:
-    def __init__(self, plugin_name: str, openai_api_key: str = None, root_url: str = None, verbose: bool = False):
+    def __init__(self, plugin_name: str = None, openai_api_key: str = None, root_url: str = None, verbose: bool = False):
         self.name: str = plugin_name
         self.root_url: str = root_url
         self.description: str = None
@@ -64,7 +64,8 @@ class OpenPlugin:
         self.functions: List[Dict[str, Any]] = None
         self.call_api_fn: Callable = None
         self.verbose: bool = verbose
-
+        if self.name is None and self.root_url is None:
+            raise ValueError("Either plugin_name or root_url must be passed in as a parameter")
         if openai_api_key is None:
             openai_api_key = os.getenv('OPENAI_API_KEY')
             if openai_api_key is None:
@@ -72,10 +73,9 @@ class OpenPlugin:
         os.environ["OPENAI_API_KEY"] = openai_api_key
         openai.api_key = openai_api_key
         self.init(plugin_name)
-        self.name: str = self.manifest["name_for_model"]
         self.description: str = self.manifest["description_for_model"]
 
-    def init(self, plugin_name: str) -> None:
+    def init(self, plugin_name: str = None) -> None:
         base_dir = os.path.dirname(os.path.realpath(__file__))
         plugins_file_path = os.path.join(base_dir, "plugins.json")
         with open(plugins_file_path) as f:
@@ -97,6 +97,8 @@ class OpenPlugin:
         response = requests.get(root_url + "/.well-known/ai-plugin.json")
         response.raise_for_status()  # Raise exception if the request failed
         manifest = response.json()
+        if not self.name:
+            self.name: str = manifest["name_for_model"]
         if self.verbose:
             print(f"\"{self.name}\" manifest: ", json.dumps(manifest, indent=2))
 
@@ -115,6 +117,7 @@ class OpenPlugin:
             raise ValueError("OpenAPI URL not found in manifest")
         if isinstance(openapi_url, Union[OpenAPISpec, str]):
             for conversion in (
+                # each of the below specs can get stuck in a while loop
                 OpenAPISpec.from_url,
                 OpenAPISpec.from_file,
                 OpenAPISpec.from_text,
@@ -208,4 +211,4 @@ class OpenPlugin:
                 content=json.dumps(json_response)
             )
         except json.decoder.JSONDecodeError:
-            raise json.decoder.JSONDecodeError(f"API call failed, API returned the following non-JSON response:\n{json_response.content}")
+            raise json.decoder.JSONDecodeError(f"API call failed, API returned the following non-JSON response:\n{response.content}")

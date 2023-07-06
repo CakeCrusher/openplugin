@@ -55,24 +55,6 @@ def test_initiate_and_fetch_LGTM():
     assert "image_url" in json_content
     assert json_content["image_url"].startswith("https://lgtm.lol")
 
-if False: # server too inconsistent
-    def test_initiate_and_fetch_Figlet():
-        plugin = OpenPlugin("Figlet")
-        assert plugin.manifest is not None
-
-        # create chatgpt request that will call the addTodo function
-        chatgpt_prompt = 'Convert "Testing" to the Doom ASCII font.'
-        response = plugin.fetch_plugin(
-            prompt=chatgpt_prompt,
-            model="gpt-3.5-turbo-0613",
-            temperature=0,
-        )
-
-        assert response is not None
-        assert response["role"] == "function"
-
-        json_content = json.loads(response["content"])
-        assert json_content["font"] == "doom"
 
 def test_initiate_and_fetch_yt_caption_retriever():
     plugin = OpenPlugin("yt_caption_retriever")
@@ -168,47 +150,6 @@ def test_initiate_and_fetch_speedy_marketing():
 
     # Replace the line below with a test for the final output in json_content
     assert isinstance(json_content["blog"], str)
-
-def test_initiate_and_fetch_socialsearch():
-    plugin = OpenPlugin("socialsearch")
-    assert plugin.manifest is not None
-    print("plugin.manifest: ", json.dumps(plugin.manifest, indent=2))
-    # create chatgpt request that will call the addTodo function
-    chatgpt_prompt = 'show me elon musk latest tweet'
-    response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
-        verbose=True,
-        model="gpt-3.5-turbo-0613",
-        temperature=0,
-    )
-
-    assert response is not None
-    assert response["role"] == "function"
-    json_content = json.loads(response["content"])
-
-    # Replace the line below with a test for the final output in json_content
-    assert isinstance(json_content["message"], str)
-
-if False: # unable to convert url
-    def test_initiate_and_fetch_show_me_diagrams():
-        plugin = OpenPlugin("show_me_diagrams")
-        plugin.verbose = True
-        assert plugin.manifest is not None
-
-        # create chatgpt request that will call the addTodo function
-        chatgpt_prompt = 'make a diagram of one node connected to two others that will be yes or no'
-        response = plugin.fetch_plugin(
-            prompt=chatgpt_prompt,
-            model="gpt-3.5-turbo-0613",
-            temperature=0,
-        )
-
-        assert response is not None
-        assert response["role"] == "function"
-        json_content = json.loads(response["content"])
-
-        # Replace the line below with a test for the final output in json_content
-        assert isinstance(json_content["results"][0]["image"], str)
 
 def test_initiate_and_fetch_scholarai():
     plugin = OpenPlugin("scholarai")

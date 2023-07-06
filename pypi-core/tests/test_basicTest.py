@@ -11,7 +11,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 def test_initiate_todo_with_url():
-    plugin = OpenPlugin("NA", root_url="http://localhost:3333")
+    plugin = OpenPlugin(root_url="http://localhost:3333")
     assert plugin.manifest is not None
     assert plugin.manifest.get("name_for_model") == "todo"
 
