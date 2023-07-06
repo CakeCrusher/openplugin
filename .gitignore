@@ -10,3 +10,5 @@ EnvManualTesting
 **.egg**
 **dist
 **build
+
+log.txt
