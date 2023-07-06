@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(
        # the name must match the folder name 'verysimplemodule'
         name='openplugincore', 
-        version="0.3.3",
+        version="0.4.0",
         author="Sebastian Sosa",
         author_email="1sebastian1sosa1@gmail.com",
         description='Seamlessly integrate with OpenAI ChatGPT plugins via API (or client), offering the same powerful functionality as the ChatGPT api + plugins!',

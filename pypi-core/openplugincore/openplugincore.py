@@ -1,4 +1,5 @@
 import json
+from urllib.error import HTTPError
 import requests
 from typing import Any, List, Dict, Union, Tuple, Callable
 import os
@@ -78,8 +79,16 @@ class OpenPlugin:
     def init(self, plugin_name: str = None) -> None:
         base_dir = os.path.dirname(os.path.realpath(__file__))
         plugins_file_path = os.path.join(base_dir, "plugins.json")
-        with open(plugins_file_path) as f:
-            plugins = json.load(f)
+        
+        # fetch plugins from github
+        try:
+            plugins_url = "https://raw.githubusercontent.com/CakeCrusher/openplugin/main/migrations/plugin_store/openplugins.json"
+            response = requests.get(plugins_url)
+            response.raise_for_status()
+            plugins = response.json()
+        except Exception as e:
+            raise HTTPError(f"Unable to fetch plugins from github url '{plugins_url}'")
+    
         # if self.root_url has a value
         if self.root_url is None:
             try:
