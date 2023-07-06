@@ -5,6 +5,7 @@ __pycache__
 .pytest_cache
 manualTests
 EnvManualTesting
+envOpenplugin
 
 # ignore pip build directories
 **.egg**
