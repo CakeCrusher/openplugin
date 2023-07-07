@@ -5174,9 +5174,9 @@
     "image": "https://findafreelancer.replit.app/logo.jpg",
     "namespace": "findafreelancer",
     "openapi_url": "https://findafreelancer.replit.app/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
-    "stimulous_prompt": "Find human freelancers to help complete tasks. Use keywords 'find', 'freelancer' to prompt the plugin.",
+    "status": "supported",
+    "stimulated": true,
+    "stimulous_prompt": "I want to hire a freelancerto create a ecommerce website",
     "whitelisted": true
   },
   "findagift": {
@@ -5202,9 +5202,9 @@
     "image": "https://findatour.replit.app/logo.jpg",
     "namespace": "findatour",
     "openapi_url": "https://findatour.replit.app/.well-known/openapi.yaml",
-    "status": "tentative",
-    "stimulated": false,
-    "stimulous_prompt": "Find a tour, activity, or experience to do in locations across the world. Use keywords 'find', 'tour', 'activity', 'experience' to prompt the plugin.",
+    "status": "supported",
+    "stimulated": true,
+    "stimulous_prompt": "find a tour in paris france",
     "whitelisted": true
   },
   "finnabolag": {
