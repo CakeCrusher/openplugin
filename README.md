@@ -122,6 +122,18 @@ console.log(completion)
 
 ![image](https://github.com/CakeCrusher/openplugin/assets/37946988/63da7efc-c556-495b-8738-9143b3faece1)
 
+## Are you breaching OpenAI Terms of Service by using OpenPlugin?
+No, I have gone through the Terms of Service particularly "service terms" and "usage policies" and  here are the takeaways.
+As with most marketplace type things, the host, OpenAI, is not accountable for the plugins and their use outside of their platform `chat.openai.com`. They also never mention anything about accessing their data that is not explicitly shown to the user, therefore accessing their plugins' payload (how OpenPlugin gets knows about the marketplace plugins), which is used for them to display the plugins, is not against their ToS.
+
+Primary sources:
+
+https://openai.com/policies/terms-of-use
+
+https://openai.com/policies/usage-policies
+
+https://openai.com/policies/service-terms
+
 ## Disclaimer
 As OpenPlugin is currently in an alpha state, you may run into errors. Despite some light testing being done by [migrations](https://github.com/CakeCrusher/openplugin-clients/blob/main/migrations/plugin_store/parser.ipynb) not all plugins are thuroughly tests. If you run into any errors, please report them [here](https://github.com/CakeCrusher/openplugin-clients/issues/new?assignees=CakeCrusher&labels=bug&projects=&template=bug_report.md&title=).
 
