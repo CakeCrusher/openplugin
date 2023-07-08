@@ -1,6 +1,6 @@
 <div>
   <img src="https://i.imgur.com/L3giCRt.png" alt="Your alt text" width="125" align="left">
-    <h1>[OpenPlugin](https://www.openplugin.io/)</h1>
+    <h1><a href="https://www.openplugin.io/">OpenPlugin</h1>
   <h3>Integrate with OpenAI's ChatGPT plugins via API.<br/>The same powerful functionality as the ChatGPT api + plugins!</h3>
   <h3></h3>
 </div>
