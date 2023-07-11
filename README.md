@@ -21,6 +21,7 @@ This repo contains 3 packages: [(pypi)`openplugincore`](https://github.com/CakeC
 - Generate trendy and informed articles: https://colab.research.google.com/drive/1dQsaFrqLdR0HzxXkj5DYmaZ8CtmqA1qt?usp=sharing
 
 ## Core Quickstart
+`openplugincore` requires python version >= `3.10`
 ```shell
 pip install openplugincore
 ```
