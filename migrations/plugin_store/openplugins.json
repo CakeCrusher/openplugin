@@ -115,7 +115,7 @@
   "WordCloud": "https://plugin-b0025af30daf4bea989db7074f90b64a-jexkai4vea-uc.a.run.app",
   "XWeather": "https://openai-plugin.xweather.com",
   "Xpapers_arXiv_paper_database": "https://xapi.lihaorui.com",
-  "__testing__": "http://localhost:3333",
+  "__testing__": "http://127.0.0.1:3333",
   "ab_judge": "https://ab-judge-chatgpt-plugin.fooqoo56.com",
   "abc_to_audio": "https://abcaudio.vynalezce.com",
   "access_link": "https://www.accesslinks.ai",
