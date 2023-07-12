@@ -1,5 +1,5 @@
 import 'isomorphic-fetch';
-import { describe, expect, test } from '@jest/globals';
+import { beforeEach, describe, expect, test } from '@jest/globals';
 import { OpenPlugin } from '../src/index'; // Adjust the import path as necessary
 import { todo_plugin as mock_todo_plugin } from './mockData'
 import dotenv from 'dotenv';
@@ -7,16 +7,51 @@ dotenv.config();
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-describe('OpenPlugin', () => {
-  test('should initiate with url', async () => {
-    const plugin = new OpenPlugin(undefined, OPENAI_API_KEY, "http://127.0.0.1:3333");
-    await plugin.init();
-    expect(plugin.manifest).not.toBeNull(); // If manifest is private, we need to use bracket notation to access it.
-    expect(plugin.plugin_name).toEqual('todo');
-    expect(plugin.functions?.length).toEqual(2);
-    
-    const addTodo_function = plugin.functions?.find((fn) => fn.name === 'addTodo');
+describe('todo root_url tests', () => {
+  test('initiate with url', async () => {
+    const todo_openplugin = new OpenPlugin(undefined, OPENAI_API_KEY, "http://127.0.0.1:3333");
+    await todo_openplugin.init();
+    expect(todo_openplugin.manifest).not.toBeNull(); // If manifest is private, we need to use bracket notation to access it.
+    expect(todo_openplugin.plugin_name).toEqual('todo');
+    expect(todo_openplugin.functions?.length).toEqual(2);
+
+    const addTodo_function = todo_openplugin.functions?.find((fn) => fn.name === 'addTodo');
     expect(addTodo_function).not.toBeNull();
     expect(addTodo_function?.description).toEqual(mock_todo_plugin.functions[0].description);
   });
+});
+
+describe('todo plugin_name tests', () => {
+  const plugin_name = "__testing__";
+  let todo_openplugin: OpenPlugin;
+
+  beforeEach(async () => {
+    todo_openplugin = new OpenPlugin(plugin_name);
+    await todo_openplugin.init();
+  });
+  
+  test('initiate with plugin_name', async () => {
+    
+    expect(todo_openplugin.manifest).not.toBeNull(); // If manifest is private, we need to use bracket notation to access it.
+    expect(todo_openplugin.plugin_name).toEqual(plugin_name);
+    expect(todo_openplugin.functions?.length).toEqual(2);
+
+    const addTodo_function = todo_openplugin.functions?.find((fn) => fn.name === 'addTodo');
+    expect(addTodo_function).not.toBeNull();
+    expect(addTodo_function?.description).toEqual(mock_todo_plugin.functions[0].description);
+  }, 30000);
+
+  test('fetch plugin', async () => {
+    const response = await todo_openplugin.fetch_plugin({
+      prompt: mock_todo_plugin.prompt,
+      model: "gpt-3.5-turbo-0613"
+    });
+    
+    expect(response).not.toBeNull();
+    expect(response.role).toEqual("function");
+    expect(response.name).toEqual("addTodo");
+  
+    const json_content = JSON.parse(response.content);
+    expect(json_content.todo).toEqual(mock_todo_plugin["request_out.json()"].todo);
+  }, 30000);
 });

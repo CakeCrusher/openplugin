@@ -1,5 +1,9 @@
 import 'isomorphic-fetch';
 import { OpenAPISpec, convertOpenAPISpecToOpenAIFunctions } from 'oplangchain/chains/openai_functions';
+import { ChatOpenAI } from "oplangchain/chat_models/openai"
+import { LLMChain } from "oplangchain/chains"
+import { ChatPromptTemplate, HumanMessagePromptTemplate } from "oplangchain/prompts"
+import { JsonOutputFunctionsParser } from "oplangchain/output_parsers"
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -18,6 +22,16 @@ interface OpenPluginFunction {
 type OpenAPIFunction = Record<string, any>;
 type Callable = (...args: any[]) => any;
 type OpenAPISpecType = OpenAPISpec | string;
+
+type LlmChainOutput = {
+  name: string;
+  arguments: any;
+}
+type ChatgptFunctionMessage = {
+  role: "function";
+  name: string;
+  content: string;
+}
 
 export class OpenPlugin {
   plugin_name: string | undefined;
@@ -84,6 +98,12 @@ export class OpenPlugin {
     }
     this.description = this.manifest?.description_for_model;
     [this.functions, this.call_api_fn] = await this.openapi_to_functions_and_call_api_fn(this.manifest);
+    if (!this.functions || this.functions.length === 0) {
+      throw new Error("No plugin functions");
+    }
+    if (!this.call_api_fn) {
+      throw new Error("No api call function");
+    }
   }
   
   async fetch_manifest(root_url: string) {
@@ -106,9 +126,7 @@ export class OpenPlugin {
     return manifest;
   }
   
-  async openapi_to_functions_and_call_api_fn(manifest: any): Promise<
-  [OpenAPIFunction[], Callable]
-  > {
+  async openapi_to_functions_and_call_api_fn(manifest: any): Promise<[OpenAPIFunction[], Callable]> {
     let openapi_url: OpenAPISpecType | undefined = manifest.api.url;
     if (!openapi_url) {
       throw new Error("Manifest does not contain an api.url");
@@ -140,5 +158,87 @@ export class OpenPlugin {
       console.log(`"${this.plugin_name}" functions: `, JSON.stringify(openai_fns, null, 2));
     }
     return [openai_fns, call_api_fn as Callable];
+  }
+  async fetch_plugin(args: any = {}): Promise<ChatgptFunctionMessage> {
+    const { prompt, ...chatgpt_args} = args;
+    const model = chatgpt_args['model'];
+    if (model !== 'gpt-3.5-turbo-0613' && model !== 'gpt-4-0613') {
+      throw new Error('Model must be either gpt-3.5-turbo-0613 or gpt-4-0613');
+    }
+
+    let llm = new ChatOpenAI(chatgpt_args);
+    const prompt_template = ChatPromptTemplate.fromPromptMessages([
+      HumanMessagePromptTemplate.fromTemplate(
+        "{query}"
+      ),
+    ])
+    let llm_chain = new LLMChain({
+      llm,
+      prompt: prompt_template,
+      outputParser: new JsonOutputFunctionsParser({ argsOnly: false }),
+      outputKey: "function",
+      llmKwargs: { functions: this.functions } as any,
+      verbose: this.verbose,
+    });
+
+    let llm_chain_out: LlmChainOutput;
+    // try {
+    llm_chain_out = await llm_chain.run(prompt) as unknown as LlmChainOutput;
+    if (this.verbose) {
+        console.log("Using plugin: " + this.plugin_name);
+    }
+    // } catch (e) {
+    //     if (e.message.includes("function_call")) {
+    //         throw new Error("Not a plugin function");
+    //     } else {
+    //         throw e;
+    //     }
+    // }
+
+    if (!this.functions!.some(function (elem) { return elem["name"] === llm_chain_out["name"]; })) {
+        throw new Error("Not a plugin function");
+    }
+
+    let remove_empty_from_dict = (input_dict: any) => {
+        let cleaned_dict: any = {};
+        for (let k in input_dict) {
+            let v = input_dict[k];
+            if (typeof v === 'object') {
+                v = remove_empty_from_dict(v);
+            }
+            if (v && v !== "none") {
+                cleaned_dict[k] = v;
+            }
+        }
+        return cleaned_dict;
+    }
+    
+    llm_chain_out["arguments"] = remove_empty_from_dict(llm_chain_out["arguments"]);
+    if (this.verbose) {
+        console.log(`${this.plugin_name} llm_chain_out: `, JSON.stringify(llm_chain_out, null, 2));
+    }
+
+    let request_chain = async (name: string, args: any) => {
+        try {
+          let res = await this.call_api_fn!(name, args, null, null); // Assuming call_api_fn is defined in the class
+          return res;
+        } catch (e) {
+          throw new Error(`Failed to call api: ${e}`);
+        }
+    }
+
+    let request_out = await request_chain(llm_chain_out["name"], llm_chain_out["arguments"]);
+    console.log("request_out: ", request_out, typeof request_out)
+    let json_response = await JSON.parse(request_out);
+
+    if (this.verbose) {
+        console.log(`${this.plugin_name} json_response: `, JSON.stringify(json_response, null, 2));
+    }
+
+    return {
+      role: "function",
+      name: llm_chain_out["name"],
+      content: JSON.stringify(json_response)
+    };
   }
 }
