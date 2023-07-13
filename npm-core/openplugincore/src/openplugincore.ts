@@ -108,7 +108,6 @@ export class OpenPlugin {
   
   async fetch_manifest(root_url: string) {
     const manifestUrl = root_url + "/.well-known/ai-plugin.json"
-    console.log(`Fetching manifest from ${manifestUrl}`);
     const response = await fetch(manifestUrl);
     if (!response.ok) {
       throw new Error("Failed to fetch the manifest"); 
@@ -228,7 +227,6 @@ export class OpenPlugin {
     }
 
     let request_out = await request_chain(llm_chain_out["name"], llm_chain_out["arguments"]);
-    console.log("request_out: ", request_out, typeof request_out)
     let json_response = await JSON.parse(request_out);
 
     if (this.verbose) {

@@ -20,32 +20,36 @@ export let todo_plugin: any = {
       "todo": "buy milk"
   },
   "functions": [
-      {
-          "name": "addTodo",
-          "description": "Add a todo to the list",
-          "parameters": {
-              "type": "object",
+    {
+        "name": "addTodo",
+        "description": "Add a todo to the list",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "additionalProperties": {},
               "properties": {
-                  "json": {
-                      "properties": {
-                          "todo": {
-                              "type": "string",
-                              "description": "The todo item to add."
-                          }
-                      },
-                      "type": "object"
-                  }
-              }
-          }
-      },
-      {
-          "name": "getTodos",
-          "description": "Get the list of todos",
-          "parameters": {
+                "todo": {
+                  "type": "string",
+                  "description": "The todo item to add."
+                }
+              },
+              "required": [],
               "type": "object",
-              "properties": {}
-          }
+            },
+          },
+          "required": [ "data" ]
+        },
+    },
+    {
+      "name": "getTodos",
+      "description": "Get the list of todos",
+      "parameters": {
+        "type": "object",
+        "required": [],
+        "properties": {}
       }
+    }
   ]
 }
 
