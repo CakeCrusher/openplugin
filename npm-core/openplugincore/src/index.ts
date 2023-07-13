@@ -1,1 +1,1 @@
-export { OpenPlugin, openpluginCompletion } from './openplugincore'
+export { OpenPlugin, openpluginCompletion } from './openplugincore';
