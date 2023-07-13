@@ -33,6 +33,77 @@ type ChatgptFunctionMessage = {
   content: string;
 }
 
+export const fetchChatCompletion = (args: any) => (
+  fetch('https://api.openai.com/v1/chat/completions', {
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${process.env.OPENAI_API_KEY ?? ''}`,
+    },
+    method: 'POST',
+    body: JSON.stringify(args),
+  })
+)
+
+
+export async function openpluginCompletion(
+  prompt: string, 
+  openaiApiKey: string | undefined = process.env.OPENAI_API_KEY, 
+  pluginName: string | undefined = undefined, 
+  rootUrl: string | undefined = undefined, 
+  chatgptArgs: object
+) {
+  if (!openaiApiKey) {
+    throw new Error("OPENAI_API_KEY not found. You can pass in the parameter openai_api_key. You can also set the environment variable OPENAI_API_KEY=<API-KEY>.");
+  }
+
+  process.env.OPENAI_API_KEY = openaiApiKey;
+  if (!pluginName && !rootUrl) {
+    console.log("NO PLUGIN NAME OR ROOT URL")
+    const res = await fetchChatCompletion({
+      ...chatgptArgs,
+      messages: [
+        { role: "user", content: prompt }
+      ]
+    });
+    const json = await res.json();
+    return json;
+  }
+
+  const plugin = new OpenPlugin(pluginName, openaiApiKey, rootUrl);
+  await plugin.init();
+  let functionResponse: ChatgptFunctionMessage;
+  try {
+    functionResponse = await plugin.fetch_plugin({
+      prompt: prompt,
+      ...chatgptArgs
+    });
+  } catch (e: any) {
+    if (e instanceof Error && (e.message.includes("Not a plugin function") || e.message.includes("No function_call"))) {
+      const res = await fetchChatCompletion({
+        ...chatgptArgs,
+        messages: [
+          { role: "user", content: prompt }
+        ]
+      });
+      const json = await res.json();
+      return json;
+    } else {
+      throw e;
+    }
+  }
+  const allChatgptArgs = {
+    ...chatgptArgs,
+    messages: [
+      { role: "user", content: prompt },
+      functionResponse
+    ]
+  };
+  const summarize = await fetchChatCompletion(allChatgptArgs);
+  const summarizeJson = await summarize.json();
+  return summarizeJson;
+}
+
+
 export class OpenPlugin {
   plugin_name: string | undefined;
   root_url: string | undefined;
@@ -181,18 +252,10 @@ export class OpenPlugin {
     });
 
     let llm_chain_out: LlmChainOutput;
-    // try {
     llm_chain_out = await llm_chain.run(prompt) as unknown as LlmChainOutput;
     if (this.verbose) {
         console.log("Using plugin: " + this.plugin_name);
     }
-    // } catch (e) {
-    //     if (e.message.includes("function_call")) {
-    //         throw new Error("Not a plugin function");
-    //     } else {
-    //         throw e;
-    //     }
-    // }
 
     if (!this.functions!.some(function (elem) { return elem["name"] === llm_chain_out["name"]; })) {
         throw new Error("Not a plugin function");

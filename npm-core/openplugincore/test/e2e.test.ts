@@ -8,6 +8,26 @@ dotenv.config();
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
+test.skip('scholarai', async () => { // demo non function_call
+  const plugin = new OpenPlugin("scholarai", OPENAI_API_KEY, undefined, true);
+  await plugin.init();
+  expect(plugin.manifest).not.toBeNull();
+
+  const chatgpt_prompt = 'When did ww2 happen?';
+  const response = await plugin.fetch_plugin({
+    prompt: chatgpt_prompt,
+    model: "gpt-3.5-turbo-0613",
+    temperature: 0,
+  });
+
+  expect(response).not.toBeNull();
+  expect(response.role).toEqual("function");
+  
+  const json_content = JSON.parse(response.content);
+
+  expect(typeof json_content.total_num_results).toEqual('number');
+}, 30000);
+
 describe('OpenPlugin End to End Tests', () => {
   test('__testing__', async () => {
     const plugin = new OpenPlugin("__testing__", OPENAI_API_KEY);
