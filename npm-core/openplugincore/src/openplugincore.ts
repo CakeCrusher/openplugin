@@ -10,8 +10,6 @@ import {
   HumanMessagePromptTemplate,
 } from 'oplangchain/prompts';
 import { JsonOutputFunctionsParser } from 'oplangchain/output_parsers';
-import dotenv from 'dotenv';
-dotenv.config();
 
 type OpenPluginManifest = {
   description_for_model: string;
