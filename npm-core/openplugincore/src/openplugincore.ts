@@ -144,25 +144,25 @@ export class OpenPlugin {
 
   async init() {
     // fetch plugins from github
-    const plugins_url =
-      'https://raw.githubusercontent.com/CakeCrusher/openplugin/main/migrations/plugin_store/openplugins.json';
+    if (!this.root_url) {
+      const plugins_url =
+        'https://raw.githubusercontent.com/CakeCrusher/openplugin/main/migrations/plugin_store/openplugins.json';
 
-    let plugins: { [key: string]: string };
-    try {
-      const response = await fetch(plugins_url);
-      if (!response.ok) {
+      let plugins: { [key: string]: string };
+      try {
+        const response = await fetch(plugins_url);
+        if (!response.ok) {
+          throw new Error(
+            `Unable to fetch plugins from github url '${plugins_url}'`
+          );
+        }
+        plugins = await response.json();
+      } catch (error) {
         throw new Error(
           `Unable to fetch plugins from github url '${plugins_url}'`
         );
       }
-      plugins = await response.json();
-    } catch (error) {
-      throw new Error(
-        `Unable to fetch plugins from github url '${plugins_url}'`
-      );
-    }
 
-    if (this.root_url === undefined) {
       const pluginUrl = plugins[this.plugin_name!];
       if (pluginUrl === undefined) {
         throw new Error('Plugin not found');
