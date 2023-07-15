@@ -6,7 +6,7 @@ export class OpenPluginMemo {
 
   constructor() {
     this.plugins = new Map();
-    this.pluginsDirectory;
+    this.pluginsDirectory = undefined;
   }
 
   async init() {
