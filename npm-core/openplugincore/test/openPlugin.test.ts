@@ -54,7 +54,7 @@ describe('OpenPlugin todo', () => {
     }, 30000);
 
     test('fetch plugin', async () => {
-      const response = await todo_openplugin.fetch_plugin({
+      const response = await todo_openplugin.fetchPlugin({
         prompt: mock_todo_plugin.prompt,
         model: 'gpt-3.5-turbo-0613',
       });

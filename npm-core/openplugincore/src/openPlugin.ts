@@ -179,7 +179,7 @@ export class OpenPlugin {
     }
     return [openai_fns, callApiFn as Callable];
   }
-  async fetch_plugin(args: any = {}): Promise<ChatgptFunctionMessage> {
+  async fetchPlugin(args: any = {}): Promise<ChatgptFunctionMessage> {
     const { prompt, ...chatgpt_args } = args;
     const model = chatgpt_args['model'];
     if (model !== 'gpt-3.5-turbo-0613' && model !== 'gpt-4-0613') {

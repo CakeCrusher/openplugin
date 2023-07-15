@@ -15,7 +15,7 @@ test.skip('scholarai', async () => {
   expect(plugin.manifest).not.toBeNull();
 
   const chatgpt_prompt = 'When did ww2 happen?';
-  const response = await plugin.fetch_plugin({
+  const response = await plugin.fetchPlugin({
     prompt: chatgpt_prompt,
     model: 'gpt-3.5-turbo-0613',
     temperature: 0,
@@ -56,7 +56,7 @@ describe('OpenPlugin End to End Tests', () => {
     expect(getTodos).not.toBeNull();
     expect(getTodos).toEqual(mock_todo_plugin.functions[1]);
 
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: mock_todo_plugin.prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -79,7 +79,7 @@ describe('OpenPlugin End to End Tests', () => {
     expect(plugin.manifest).not.toBeNull();
 
     const chatgpt_prompt = 'Show me markdown for a 2 by 2 table with LGTM';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -106,7 +106,7 @@ describe('OpenPlugin End to End Tests', () => {
 
     const chatgpt_prompt =
       'give me a 2 sentence summary of the following yt video https://www.youtube.com/watch?v=P310I19L3Ko';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -127,7 +127,7 @@ describe('OpenPlugin End to End Tests', () => {
 
     const chatgpt_prompt =
       'show me the amount of people @Sebasti54919704 is following';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -147,7 +147,7 @@ describe('OpenPlugin End to End Tests', () => {
     expect(plugin.manifest).not.toBeNull();
 
     const chatgpt_prompt = 'create a CRM template with ERP generator';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -172,7 +172,7 @@ describe('OpenPlugin End to End Tests', () => {
     expect(plugin.manifest).not.toBeNull();
 
     const chatgpt_prompt = 'What are the trending searches for "gpu" in amazon';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -197,7 +197,7 @@ describe('OpenPlugin End to End Tests', () => {
     expect(plugin.manifest).not.toBeNull();
 
     const chatgpt_prompt = 'write me an SEO blog about react for marketing';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -218,7 +218,7 @@ describe('OpenPlugin End to End Tests', () => {
 
     const chatgpt_prompt =
       'What scientific research exists for semantic representation of language through brain waves. dont sort.';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -239,7 +239,7 @@ describe('OpenPlugin End to End Tests', () => {
 
     const chatgpt_prompt =
       'I want to code a react ui with hello world please rephrase that';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -265,7 +265,7 @@ describe('OpenPlugin End to End Tests', () => {
 
     const chatgpt_prompt =
       'I dreamt of being in a room without any windows getting smaller overtime';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -292,7 +292,7 @@ describe('OpenPlugin End to End Tests', () => {
 
     const chatgpt_prompt =
       'What stocks should I add for my long term tech portfolio';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -314,7 +314,7 @@ describe('OpenPlugin End to End Tests', () => {
 
     const chatgpt_prompt =
       'Provide me TAF for KJFK with reguards to aviation weather';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -335,7 +335,7 @@ describe('OpenPlugin End to End Tests', () => {
 
     const chatgpt_prompt =
       'Can I have my data be private according to this pdf https://www.unodc.org/pdf/criminal_justice/UN_Basic_Principles_on_the_Role_of_Lawyers.pdf';
-    const response = await plugin.fetch_plugin({
+    const response = await plugin.fetchPlugin({
       prompt: chatgpt_prompt,
       model: 'gpt-3.5-turbo-0613',
       temperature: 0,
@@ -369,7 +369,7 @@ describe('OpenPlugin End to End Tests', () => {
   //   // fs.writeFileSync('logs/functions.json', JSON.stringify(plugin.functions, null, 2));
 
   //   const chatgpt_prompt = 'PLUGIN_PROMPT';
-  //   const response = await plugin.fetch_plugin({
+  //   const response = await plugin.fetchPlugin({
   //     prompt: chatgpt_prompt,
   //     model: "gpt-3.5-turbo-0613",
   //     temperature: 0,

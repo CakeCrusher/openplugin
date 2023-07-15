@@ -36,7 +36,7 @@ export async function openpluginCompletion(
   await plugin.init();
   let functionResponse: ChatgptFunctionMessage;
   try {
-    functionResponse = await plugin.fetch_plugin({
+    functionResponse = await plugin.fetchPlugin({
       prompt: prompt,
       ...chatgptArgs,
     });

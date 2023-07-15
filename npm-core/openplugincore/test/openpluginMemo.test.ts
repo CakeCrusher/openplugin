@@ -13,7 +13,7 @@ describe('configMemo todo', () => {
     expect(todoOpenplugin.manifest).not.toBeNull(); // If manifest is private, we need to use bracket notation to access it.
     expect(todoOpenplugin.functions?.length).toEqual(2);
 
-    const response = await todoOpenplugin.fetch_plugin({
+    const response = await todoOpenplugin.fetchPlugin({
       prompt: mock_todo_plugin.prompt,
       model: 'gpt-3.5-turbo-0613',
     });
