@@ -1,10 +1,10 @@
-EnvOpenpluginClient
+envOpe*
+envMan*
 .env
 env.sh
 __pycache__
 .pytest_cache
 manualTests
-EnvManualTesting
 envOpenplugin
 
 # ignore pip build directories
