@@ -1,0 +1,52 @@
+name: npmCoreCI
+on: push
+jobs:
+  ci:
+    name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node: ['18.x']
+        os: [ubuntu-latest]
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Start ChatgptPluginTodo server
+        uses: CakeCrusher/todoChatgptPlugin@v1.0.4
+
+      - name: Use Node ${{ matrix.node }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+        working-directory: npm-core/openplugincore
+
+      - name: Cache yarn dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        working-directory: npm-core/openplugincore
+
+      - name: Build
+        run: yarn build
+        working-directory: npm-core/openplugincore
+
+      - name: Lint
+        run: yarn lint
+        working-directory: npm-core/openplugincore
+
+      - name: Test
+        run: yarn test --ci --coverage --maxWorkers=1
+        working-directory: npm-core/openplugincore
