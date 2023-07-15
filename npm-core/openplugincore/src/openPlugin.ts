@@ -37,114 +37,47 @@ type ChatgptFunctionMessage = {
   content: string;
 };
 
-export const fetchChatCompletion = (args: any) =>
-  fetch('https://api.openai.com/v1/chat/completions', {
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${process.env.OPENAI_API_KEY ?? ''}`,
-    },
-    method: 'POST',
-    body: JSON.stringify(args),
-  });
-
-export async function openpluginCompletion(
-  prompt: string,
-  openaiApiKey: string | undefined = process.env.OPENAI_API_KEY,
-  pluginName: string | undefined = undefined,
-  rootUrl: string | undefined = undefined,
-  chatgptArgs: object
-) {
-  if (!openaiApiKey) {
-    throw new Error(
-      'OPENAI_API_KEY not found. You can pass in the parameter openai_api_key. You can also set the environment variable OPENAI_API_KEY=<API-KEY>.'
-    );
-  }
-
-  process.env.OPENAI_API_KEY = openaiApiKey;
-  if (!pluginName && !rootUrl) {
-    console.log('NO PLUGIN NAME OR ROOT URL');
-    const res = await fetchChatCompletion({
-      ...chatgptArgs,
-      messages: [{ role: 'user', content: prompt }],
-    });
-    const json = await res.json();
-    return json;
-  }
-
-  const plugin = new OpenPlugin(pluginName, openaiApiKey, rootUrl);
-  await plugin.init();
-  let functionResponse: ChatgptFunctionMessage;
-  try {
-    functionResponse = await plugin.fetch_plugin({
-      prompt: prompt,
-      ...chatgptArgs,
-    });
-  } catch (e: any) {
-    if (
-      e instanceof Error &&
-      (e.message.includes('Not a plugin function') ||
-        e.message.includes('No function_call'))
-    ) {
-      const res = await fetchChatCompletion({
-        ...chatgptArgs,
-        messages: [{ role: 'user', content: prompt }],
-      });
-      const json = await res.json();
-      return json;
-    } else {
-      throw e;
-    }
-  }
-  const allChatgptArgs = {
-    ...chatgptArgs,
-    messages: [{ role: 'user', content: prompt }, functionResponse],
-  };
-  const summarize = await fetchChatCompletion(allChatgptArgs);
-  const summarizeJson = await summarize.json();
-  return summarizeJson;
-}
-
 export class OpenPlugin {
-  plugin_name: string | undefined;
-  root_url: string | undefined;
+  pluginName: string | undefined;
+  rootUrl: string | undefined;
   description: string | null;
   manifest: OpenPluginManifest | null;
   functions: OpenPluginFunction[] | null;
-  call_api_fn: Callable | null;
+  callApiFn: Callable | null;
   verbose: boolean;
 
   constructor(
-    plugin_name: string | undefined = undefined,
-    openai_api_key: string | undefined = process.env.OPENAI_API_KEY,
-    root_url: string | undefined = undefined,
+    pluginName: string | undefined = undefined,
+    rootUrl: string | undefined = undefined,
+    openaiApiKey: string | undefined = process.env.OPENAI_API_KEY,
     verbose: boolean = false
   ) {
-    this.plugin_name = plugin_name;
-    this.root_url = root_url;
+    this.pluginName = pluginName;
+    this.rootUrl = rootUrl;
     this.description = null;
     this.manifest = null;
     this.functions = null;
-    this.call_api_fn = null;
+    this.callApiFn = null;
     this.verbose = verbose;
 
-    if (!this.plugin_name && !this.root_url) {
+    if (!this.pluginName && !this.rootUrl) {
       throw new Error(
-        'Either plugin_name or root_url must be passed in as a parameter'
+        'Either pluginName or rootUrl must be passed in as a parameter'
       );
     }
 
-    if (openai_api_key) {
-      process.env.OPENAI_API_KEY = openai_api_key;
+    if (openaiApiKey) {
+      process.env.OPENAI_API_KEY = openaiApiKey;
     } else {
       throw new Error(
-        'OPENAI_API_KEY not found. You can pass in the parameter openai_api_key. You can also set the environment variable OPENAI_API_KEY=<API-KEY>.'
+        'openaiApiKey not found. You can pass in the parameter openaiApiKey. You can also set the environment variable openaiApiKey=<API-KEY>.'
       );
     }
   }
 
   async init() {
     // fetch plugins from github
-    if (!this.root_url) {
+    if (!this.rootUrl) {
       const plugins_url =
         'https://raw.githubusercontent.com/CakeCrusher/openplugin/main/migrations/plugin_store/openplugins.json';
 
@@ -163,43 +96,44 @@ export class OpenPlugin {
         );
       }
 
-      const pluginUrl = plugins[this.plugin_name!];
+      const pluginUrl = plugins[this.pluginName!];
       if (pluginUrl === undefined) {
         throw new Error('Plugin not found');
       }
-      this.root_url = pluginUrl;
+      this.rootUrl = pluginUrl;
     }
 
-    this.manifest = await this.fetch_manifest(this.root_url);
+    this.manifest = await this.fetchManifest(this.rootUrl);
     if (!this.manifest?.description_for_model) {
       throw new Error('Manifest does not contain a description_for_model');
     }
     this.description = this.manifest?.description_for_model;
-    [this.functions, this.call_api_fn] =
-      await this.openapi_to_functions_and_call_api_fn(this.manifest);
+    [this.functions, this.callApiFn] = await this.openapiToFunctionsAndAllApiFn(
+      this.manifest
+    );
     if (!this.functions || this.functions.length === 0) {
       throw new Error('No plugin functions');
     }
-    if (!this.call_api_fn) {
+    if (!this.callApiFn) {
       throw new Error('No api call function');
     }
   }
 
-  async fetch_manifest(root_url: string) {
-    const manifestUrl = root_url + '/.well-known/ai-plugin.json';
+  async fetchManifest(rootUrl: string) {
+    const manifestUrl = rootUrl + '/.well-known/ai-plugin.json';
     const response = await fetch(manifestUrl);
     if (!response.ok) {
       throw new Error('Failed to fetch the manifest');
     }
     const manifest = await response.json();
 
-    if (!this.plugin_name) {
-      this.plugin_name = manifest.name_for_model;
+    if (!this.pluginName) {
+      this.pluginName = manifest.name_for_model;
     }
 
     if (this.verbose) {
       console.log(
-        `"${this.plugin_name}" manifest: `,
+        `"${this.pluginName}" manifest: `,
         JSON.stringify(manifest, null, 2)
       );
     }
@@ -207,7 +141,7 @@ export class OpenPlugin {
     return manifest;
   }
 
-  async openapi_to_functions_and_call_api_fn(
+  async openapiToFunctionsAndAllApiFn(
     manifest: any
   ): Promise<[OpenAPIFunction[], Callable]> {
     let openapi_url: OpenAPISpecType | undefined = manifest.api.url;
@@ -216,7 +150,7 @@ export class OpenPlugin {
     }
 
     if (this.verbose) {
-      console.log(`"${this.plugin_name}" openapi_url: `, openapi_url);
+      console.log(`"${this.pluginName}" openapi_url: `, openapi_url);
     }
 
     let convertedSpec;
@@ -234,16 +168,16 @@ export class OpenPlugin {
       convertedSpec = OpenAPISpec.fromObject(openapi_url);
     }
 
-    const { openAIFunctions: openai_fns, defaultExecutionMethod: call_api_fn } =
+    const { openAIFunctions: openai_fns, defaultExecutionMethod: callApiFn } =
       convertOpenAPISpecToOpenAIFunctions(convertedSpec);
 
     if (this.verbose) {
       console.log(
-        `"${this.plugin_name}" functions: `,
+        `"${this.pluginName}" functions: `,
         JSON.stringify(openai_fns, null, 2)
       );
     }
-    return [openai_fns, call_api_fn as Callable];
+    return [openai_fns, callApiFn as Callable];
   }
   async fetch_plugin(args: any = {}): Promise<ChatgptFunctionMessage> {
     const { prompt, ...chatgpt_args } = args;
@@ -268,7 +202,7 @@ export class OpenPlugin {
     let llm_chain_out: LlmChainOutput;
     llm_chain_out = (await llm_chain.run(prompt)) as unknown as LlmChainOutput;
     if (this.verbose) {
-      console.log('Using plugin: ' + this.plugin_name);
+      console.log('Using plugin: ' + this.pluginName);
     }
 
     if (
@@ -279,12 +213,12 @@ export class OpenPlugin {
       throw new Error('Not a plugin function');
     }
 
-    let remove_empty_from_dict = (input_dict: any) => {
+    let removeEmptyFromDict = (input_dict: any) => {
       let cleaned_dict: any = {};
       for (let k in input_dict) {
         let v = input_dict[k];
         if (typeof v === 'object') {
-          v = remove_empty_from_dict(v);
+          v = removeEmptyFromDict(v);
         }
         if (v && v !== 'none') {
           cleaned_dict[k] = v;
@@ -293,26 +227,26 @@ export class OpenPlugin {
       return cleaned_dict;
     };
 
-    llm_chain_out['arguments'] = remove_empty_from_dict(
+    llm_chain_out['arguments'] = removeEmptyFromDict(
       llm_chain_out['arguments']
     );
     if (this.verbose) {
       console.log(
-        `${this.plugin_name} llm_chain_out: `,
+        `${this.pluginName} llm_chain_out: `,
         JSON.stringify(llm_chain_out, null, 2)
       );
     }
 
-    let request_chain = async (name: string, args: any) => {
+    let requestChain = async (name: string, args: any) => {
       try {
-        let res = await this.call_api_fn!(name, args, null, null); // Assuming call_api_fn is defined in the class
+        let res = await this.callApiFn!(name, args, null, null); // Assuming callApiFn is defined in the class
         return res;
       } catch (e) {
         throw new Error(`Failed to call api: ${e}`);
       }
     };
 
-    let request_out = await request_chain(
+    let request_out = await requestChain(
       llm_chain_out['name'],
       llm_chain_out['arguments']
     );
@@ -320,7 +254,7 @@ export class OpenPlugin {
 
     if (this.verbose) {
       console.log(
-        `${this.plugin_name} json_response: `,
+        `${this.pluginName} json_response: `,
         JSON.stringify(json_response, null, 2)
       );
     }

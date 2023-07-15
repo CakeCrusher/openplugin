@@ -1,4 +1,4 @@
-import { OpenPlugin } from "./openplugincore";
+import { OpenPlugin } from './openPlugin';
 
 export class OpenPluginMemo {
   plugins: Map<string, OpenPlugin>;
@@ -24,7 +24,7 @@ export class OpenPluginMemo {
     for (const [key, value] of Object.entries(plugins)) {
       this.pluginsDirectory.set(key, value as string);
     }
-    console.log("MEMO READY")
+    console.log('MEMO READY');
   }
 
   async initPlugin(pluginName: string) {
@@ -35,7 +35,11 @@ export class OpenPluginMemo {
     if (pluginUrl === undefined) {
       throw new Error('Plugin not found');
     }
-    const plugin = new OpenPlugin(pluginName, process.env.OPENAI_API_KEY, pluginUrl);
+    const plugin = new OpenPlugin(
+      pluginName,
+      pluginUrl,
+      process.env.OPENAI_API_KEY
+    );
     await plugin.init();
     this.addPlugin(plugin);
     return plugin;
@@ -43,8 +47,8 @@ export class OpenPluginMemo {
 
   // method to add an OpenPlugin to the plugins map
   addPlugin(plugin: OpenPlugin) {
-    if (!plugin.plugin_name) throw new Error("Plugin name not found");
-    this.plugins.set(plugin.plugin_name, plugin);
+    if (!plugin.pluginName) throw new Error('Plugin name not found');
+    this.plugins.set(plugin.pluginName, plugin);
   }
 
   // method to remove an OpenPlugin from the plugins map

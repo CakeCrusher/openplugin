@@ -1,61 +1,23 @@
 import 'isomorphic-fetch';
 import { beforeEach, describe, expect, test } from '@jest/globals';
-import { OpenPlugin, openpluginCompletion } from '../src/index'; // Adjust the import path as necessary
+import { OpenPlugin } from '../src/index'; // Adjust the import path as necessary
 import { todo_plugin as mock_todo_plugin } from './mockData';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-
-describe('openpluginCompletion todo', () => {
-  test('with plugin_name', async () => {
-    const todo = `test_chat_completion_${Math.floor(Math.random() * 100000)}`;
-
-    const completion = await openpluginCompletion(
-      `add '${todo}' to my todo list`,
-      process.env.OPENAI_API_KEY,
-      '__testing__',
-      undefined,
-      { model: 'gpt-3.5-turbo-0613', temperature: 0 }
-    );
-
-    const todosRequest = await fetch('http://127.0.0.1:3333/todos');
-    const todosBody = await todosRequest.json();
-
-    expect(completion['choices'][0]['message']['content']).toContain(todo);
-    expect(todosBody['todos']).toContain(todo);
-  });
-
-  test('with root_url', async () => {
-    const todo = `test_chat_completion_${Math.floor(Math.random() * 100000)}`;
-
-    const completion = await openpluginCompletion(
-      `add '${todo}' to my todo list`,
-      process.env.OPENAI_API_KEY,
-      undefined,
-      'http://127.0.0.1:3333',
-      { model: 'gpt-3.5-turbo-0613', temperature: 0 }
-    );
-
-    const todosRequest = await fetch('http://127.0.0.1:3333/todos');
-    const todosBody = await todosRequest.json();
-
-    expect(completion['choices'][0]['message']['content']).toContain(todo);
-    expect(todosBody['todos']).toContain(todo);
-  });
-});
+const openaiApiKey = process.env.OPENAI_API_KEY;
 
 describe('OpenPlugin todo', () => {
-  describe('todo root_url tests', () => {
+  describe('todo rootUrl tests', () => {
     test('initiate with url', async () => {
       const todo_openplugin = new OpenPlugin(
         undefined,
-        OPENAI_API_KEY,
-        'http://127.0.0.1:3333'
+        'http://127.0.0.1:3333',
+        openaiApiKey
       );
       await todo_openplugin.init();
       expect(todo_openplugin.manifest).not.toBeNull(); // If manifest is private, we need to use bracket notation to access it.
-      expect(todo_openplugin.plugin_name).toEqual('todo');
+      expect(todo_openplugin.pluginName).toEqual('todo');
       expect(todo_openplugin.functions?.length).toEqual(2);
 
       const addTodo_function = todo_openplugin.functions?.find(
@@ -68,18 +30,18 @@ describe('OpenPlugin todo', () => {
     });
   });
 
-  describe('todo plugin_name tests', () => {
-    const plugin_name = '__testing__';
+  describe('todo pluginName tests', () => {
+    const pluginName = '__testing__';
     let todo_openplugin: OpenPlugin;
 
     beforeEach(async () => {
-      todo_openplugin = new OpenPlugin(plugin_name);
+      todo_openplugin = new OpenPlugin(pluginName);
       await todo_openplugin.init();
     });
 
-    test('initiate with plugin_name', async () => {
+    test('initiate with pluginName', async () => {
       expect(todo_openplugin.manifest).not.toBeNull(); // If manifest is private, we need to use bracket notation to access it.
-      expect(todo_openplugin.plugin_name).toEqual(plugin_name);
+      expect(todo_openplugin.pluginName).toEqual(pluginName);
       expect(todo_openplugin.functions?.length).toEqual(2);
 
       const addTodo_function = todo_openplugin.functions?.find(

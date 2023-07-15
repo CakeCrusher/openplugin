@@ -6,11 +6,11 @@ import { todo_plugin as mock_todo_plugin } from './mockData'; // Update this imp
 import dotenv from 'dotenv';
 dotenv.config();
 
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const openaiApiKey = process.env.OPENAI_API_KEY;
 
 test.skip('scholarai', async () => {
   // demo non function_call
-  const plugin = new OpenPlugin('scholarai', OPENAI_API_KEY, undefined, true);
+  const plugin = new OpenPlugin('scholarai', openaiApiKey, undefined, true);
   await plugin.init();
   expect(plugin.manifest).not.toBeNull();
 
@@ -31,7 +31,7 @@ test.skip('scholarai', async () => {
 
 describe('OpenPlugin End to End Tests', () => {
   test('__testing__', async () => {
-    const plugin = new OpenPlugin('__testing__', OPENAI_API_KEY);
+    const plugin = new OpenPlugin('__testing__');
     await plugin.init();
 
     expect(plugin.manifest).not.toBeNull();
@@ -74,7 +74,7 @@ describe('OpenPlugin End to End Tests', () => {
   }, 30000);
 
   test('LGTM', async () => {
-    const plugin = new OpenPlugin('LGTM', OPENAI_API_KEY, undefined, true);
+    const plugin = new OpenPlugin('LGTM', undefined, openaiApiKey, true);
     await plugin.init();
     expect(plugin.manifest).not.toBeNull();
 
@@ -97,8 +97,8 @@ describe('OpenPlugin End to End Tests', () => {
   test('yt_caption_retriever', async () => {
     const plugin = new OpenPlugin(
       'yt_caption_retriever',
-      OPENAI_API_KEY,
       undefined,
+      openaiApiKey,
       true
     );
     await plugin.init();
@@ -121,7 +121,7 @@ describe('OpenPlugin End to End Tests', () => {
   }, 30000);
 
   test('twtData', async () => {
-    const plugin = new OpenPlugin('twtData', OPENAI_API_KEY, undefined, true);
+    const plugin = new OpenPlugin('twtData', undefined, openaiApiKey, true);
     await plugin.init();
     expect(plugin.manifest).not.toBeNull();
 
@@ -142,12 +142,7 @@ describe('OpenPlugin End to End Tests', () => {
   }, 30000);
 
   test('tailor_erp', async () => {
-    const plugin = new OpenPlugin(
-      'tailor_erp',
-      OPENAI_API_KEY,
-      undefined,
-      true
-    );
+    const plugin = new OpenPlugin('tailor_erp', undefined, openaiApiKey, true);
     await plugin.init();
     expect(plugin.manifest).not.toBeNull();
 
@@ -169,8 +164,8 @@ describe('OpenPlugin End to End Tests', () => {
   test('surge_ai_trends', async () => {
     const plugin = new OpenPlugin(
       'surge_ai_trends',
-      OPENAI_API_KEY,
       undefined,
+      openaiApiKey,
       true
     );
     await plugin.init();
@@ -194,8 +189,8 @@ describe('OpenPlugin End to End Tests', () => {
   test('speedy_marketing', async () => {
     const plugin = new OpenPlugin(
       'speedy_marketing',
-      OPENAI_API_KEY,
       undefined,
+      openaiApiKey,
       true
     );
     await plugin.init();
@@ -217,7 +212,7 @@ describe('OpenPlugin End to End Tests', () => {
   }, 30000);
 
   test('scholarai', async () => {
-    const plugin = new OpenPlugin('scholarai', OPENAI_API_KEY, undefined, true);
+    const plugin = new OpenPlugin('scholarai', undefined, openaiApiKey, true);
     await plugin.init();
     expect(plugin.manifest).not.toBeNull();
 
@@ -238,7 +233,7 @@ describe('OpenPlugin End to End Tests', () => {
   }, 30000);
 
   test('rephrase', async () => {
-    const plugin = new OpenPlugin('rephrase', OPENAI_API_KEY, undefined, true);
+    const plugin = new OpenPlugin('rephrase', undefined, openaiApiKey, true);
     await plugin.init();
     expect(plugin.manifest).not.toBeNull();
 
@@ -261,10 +256,10 @@ describe('OpenPlugin End to End Tests', () => {
   test('DreamInterpreter', async () => {
     const plugin = new OpenPlugin(
       'DreamInterpreter',
-      OPENAI_API_KEY,
       undefined,
+      openaiApiKey,
       true
-    ); // Adjust the url as necessary
+    );
     await plugin.init();
     expect(plugin.manifest).not.toBeNull();
 
@@ -288,8 +283,8 @@ describe('OpenPlugin End to End Tests', () => {
     // 400 status code when pinging api, probably misformatted args
     const plugin = new OpenPlugin(
       'portfoliopilot',
-      OPENAI_API_KEY,
       undefined,
+      openaiApiKey,
       true
     );
     await plugin.init();
@@ -313,7 +308,7 @@ describe('OpenPlugin End to End Tests', () => {
 
   test.skip('C3_Glide', async () => {
     // 400 status code when pinging api, probably misformatted args
-    const plugin = new OpenPlugin('C3_Glide', OPENAI_API_KEY, undefined, true);
+    const plugin = new OpenPlugin('C3_Glide', undefined, openaiApiKey, true);
     await plugin.init();
     expect(plugin.manifest).not.toBeNull();
 
@@ -334,7 +329,7 @@ describe('OpenPlugin End to End Tests', () => {
   }, 30000);
 
   test('Ai_PDF', async () => {
-    const plugin = new OpenPlugin('Ai_PDF', OPENAI_API_KEY, undefined, false);
+    const plugin = new OpenPlugin('Ai_PDF', undefined, openaiApiKey, true);
     await plugin.init();
     expect(plugin.manifest).not.toBeNull();
 
@@ -362,7 +357,7 @@ describe('OpenPlugin End to End Tests', () => {
   // 4. Remove the segments under the DELETE comment
 
   // test('PLUGIN', async () => {
-  //   const plugin = new OpenPlugin("PLUGIN", OPENAI_API_KEY);
+  //   const plugin = new OpenPlugin("PLUGIN", undefined, openaiApiKey, true);
   //   await plugin.init();
   //   expect(plugin.manifest).not.toBeNull();
 
