@@ -11,7 +11,7 @@
     "whitelisted": true,
     "stimulous_prompt": "Search a PDF https://americanenglish.state.gov/files/ae/resource_files/the_black_cat.pdf",
     "stimulated": true,
-    "status": "tentative",
+    "status": "supported",
     "js_info": {
       "whitelisted": true,
       "stimulated": true,
