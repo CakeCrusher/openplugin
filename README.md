@@ -21,6 +21,101 @@ This repo contains 3 packages: [(pypi)`openplugincore`](https://github.com/CakeC
 - Generate trendy and informed articles: https://colab.research.google.com/drive/1dQsaFrqLdR0HzxXkj5DYmaZ8CtmqA1qt?usp=sharing
 
 ## Core Quickstart
+### Node (js)
+```shell
+npm install openplugincore
+```
+simplest way to use `openplugincore`
+```js
+import { openpluginCompletion } from 'openplugincore';
+import dotenv from 'dotenv'; // to get .env variables
+dotenv.config(); // to get .env variables
+
+const completion = await openpluginCompletion(
+  "show me a gif of a gangster cat",
+  "GifApi",
+  undefined,
+  process.env.OPENAI_API_KEY,
+  {
+    model: "gpt-3.5-turbo-0613",
+    temperature: 0,
+  }
+);
+
+console.log(completion.choices[0]);
+```
+or for more nuanced use
+```js
+import {OpenPlugin} from 'openplugincore'
+import dotenv from 'dotenv' // to get .env variables
+dotenv.config() // to get .env variables
+
+const imageOpenplugin = new OpenPlugin("GifApi", undefined, process.env.OPENAI_API_KEY);
+await imageOpenplugin.init();
+
+const prompt = "show me a gif of a gangster cat"
+const functionRes = await imageOpenplugin.fetchPlugin({
+  prompt: prompt,
+  model: "gpt-3.5-turbo-0613"
+});
+
+const completionRes = await fetch('https://api.openai.com/v1/chat/completions', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+  },
+  body: JSON.stringify({
+    model: 'gpt-3.5-turbo-0613',
+    messages: [
+      {role: 'user', content: prompt},
+      functionRes
+    ],
+    temperature: 0,
+  }),
+})
+
+const completionResJson = await completionRes.json()
+```
+and to be respectful to plugin APIs you can use `OpenPluginMemo`
+```js
+import { OpenPluginMemo } from 'openplugincore';
+import dotenv from 'dotenv';
+dotenv.config();
+
+const openpluginMemo =  new OpenPluginMemo()
+await openpluginMemo.init()
+
+const firstGifPlugin = await openpluginMemo.initPlugin("GifApi")
+// same as OpenPlugin
+const firstPrompt = "show me a gif of a gangster cat"
+
+const firstFunctionRes = await firstGifPlugin.fetchPlugin({
+  prompt: firstPrompt,
+  model: "gpt-3.5-turbo-0613"
+});
+
+const firstCompletionRes = await fetch('https://api.openai.com/v1/chat/completions', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+  },
+  body: JSON.stringify({
+    model: 'gpt-3.5-turbo-0613',
+    messages: [
+      {role: 'user', content: firstPrompt},
+      firstFunctionRes
+    ],
+    temperature: 0,
+  }),
+})
+const firstCompletionResJson = await firstCompletionRes.json()
+
+console.log(firstCompletionResJson.choices[0]);
+// finish same as OpenPlugin
+```
+### PyPI
 `openplugincore` requires python version >= `3.10`
 ```shell
 pip install openplugincore
