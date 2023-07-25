@@ -17,7 +17,7 @@ const handleArray = (arr: any[], truncateBy: number): any[] => {
   const reducedArray = arr.map((item) => {
     if (typeof item === 'object' && estimateTokens(JSON.stringify(item)) > 20) {
       return truncateJson(item, truncateBy);
-    } else if (typeof item === 'string') {
+    } else if (typeof item === 'string' && estimateTokens(item) > 10) {
       return truncateString(item, truncateBy);
     } else {
       return item;

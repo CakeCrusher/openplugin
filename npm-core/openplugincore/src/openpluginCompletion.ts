@@ -38,6 +38,7 @@ export async function openpluginCompletion(
   try {
     functionResponse = await plugin.fetchPlugin({
       prompt: prompt,
+      truncate: true,
       ...chatgptArgs,
     });
   } catch (e: any) {

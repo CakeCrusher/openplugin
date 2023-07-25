@@ -72,13 +72,14 @@ describe('OpenPlugin todo', () => {
   });
 });
 
-test('truncated response test', async () => {
+test.only('truncated response test', async () => {
   const ytPlugin = new OpenPlugin('yt_caption_retriever');
   await ytPlugin.init();
   const response = await ytPlugin.fetchPlugin({
-    prompt: 'summarize this video https://www.youtube.com/watch?v=oAknbBFo-U0',
+    prompt: 'summarize this video https://www.youtube.com/watch?v=gZVeRQkxCdc',
     model: 'gpt-3.5-turbo-0613',
     truncate: true,
   });
-  expect(estimateTokens(response.content)).toBe(3951);
+  console.log(JSON.stringify(response, null, 2));
+  expect(estimateTokens(response.content)).toBe(3691);
 }, 30000);

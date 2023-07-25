@@ -266,7 +266,7 @@ export class OpenPlugin {
       if (typeof truncate === 'number') {
         truncateTo = truncate;
       } else {
-        const tokenSlack = 56;
+        const tokenSlack = 56 + 300;
         const dummyChatgptMessage = {
           role: 'user',
           content: prompt,
