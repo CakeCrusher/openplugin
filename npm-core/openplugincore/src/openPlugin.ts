@@ -10,6 +10,8 @@ import {
   HumanMessagePromptTemplate,
 } from 'oplangchain/prompts';
 import { JsonOutputFunctionsParser } from 'oplangchain/output_parsers';
+import { estimateTokens, truncateJsonRoot } from './util/prompting';
+import { openaiModelsInfo } from './util/constants';
 
 type OpenPluginManifest = {
   description_for_model: string;
@@ -35,6 +37,12 @@ type ChatgptFunctionMessage = {
   role: 'function';
   name: string;
   content: string;
+};
+type fetchPluginArgs = {
+  prompt: string;
+  truncate?: boolean | number;
+  truncateOffset?: number;
+  [key: string]: any;
 };
 
 export class OpenPlugin {
@@ -179,8 +187,9 @@ export class OpenPlugin {
     }
     return [openai_fns, callApiFn as Callable];
   }
-  async fetchPlugin(args: any = {}): Promise<ChatgptFunctionMessage> {
-    const { prompt, ...chatgpt_args } = args;
+
+  async fetchPlugin(args: fetchPluginArgs): Promise<ChatgptFunctionMessage> {
+    const { prompt, truncate, truncateOffset, ...chatgpt_args } = args;
     const model = chatgpt_args['model'];
     if (model !== 'gpt-3.5-turbo-0613' && model !== 'gpt-4-0613') {
       throw new Error('Model must be either gpt-3.5-turbo-0613 or gpt-4-0613');
@@ -251,6 +260,25 @@ export class OpenPlugin {
       llm_chain_out['arguments']
     );
     let json_response = await JSON.parse(request_out);
+
+    if (truncate) {
+      let truncateTo;
+      if (typeof truncate === 'number') {
+        truncateTo = truncate;
+      } else {
+        const tokenSlack = 56;
+        const dummyChatgptMessage = {
+          role: 'user',
+          content: prompt,
+        };
+        truncateTo =
+          openaiModelsInfo[model].maxTokens -
+          estimateTokens(JSON.stringify(dummyChatgptMessage)) -
+          tokenSlack -
+          (truncateOffset || 0);
+      }
+      json_response = truncateJsonRoot(json_response, truncateTo);
+    }
 
     if (this.verbose) {
       console.log(
