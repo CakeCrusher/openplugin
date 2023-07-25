@@ -3,6 +3,7 @@ import { beforeEach, describe, expect, test } from '@jest/globals';
 import { OpenPlugin } from '../src/index'; // Adjust the import path as necessary
 import { todo_plugin as mock_todo_plugin } from './mockData';
 import dotenv from 'dotenv';
+import { estimateTokens } from '../src/util/prompting';
 dotenv.config();
 
 const openaiApiKey = process.env.OPENAI_API_KEY;
@@ -70,3 +71,14 @@ describe('OpenPlugin todo', () => {
     }, 30000);
   });
 });
+
+test('truncated response test', async () => {
+  const ytPlugin = new OpenPlugin('yt_caption_retriever');
+  await ytPlugin.init();
+  const response = await ytPlugin.fetchPlugin({
+    prompt: 'summarize this video https://www.youtube.com/watch?v=oAknbBFo-U0',
+    model: 'gpt-3.5-turbo-0613',
+    truncate: true,
+  });
+  expect(estimateTokens(response.content)).toBe(3951);
+}, 30000);
