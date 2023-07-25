@@ -9,7 +9,7 @@
     "auth": false,
     "blacklisted": false,
     "whitelisted": true,
-    "stimulous_prompt": "Search a PDF https://americanenglish.state.gov/files/ae/resource_files/the_black_cat.pdf",
+    "stimulous_prompt": "Generate a chat with a PDF of any size and provide page references for fact checking. Use the following URL: https://example.com/sample.pdf",
     "stimulated": true,
     "status": "supported",
     "js_info": {
@@ -12936,6 +12936,63 @@
       "whitelisted": false,
       "stimulated": false,
       "status": "unsupported"
+    }
+  },
+  "invoice_creator": {
+    "namespace": "invoice_creator",
+    "image": "https://invoice.level2labs.xyz/logo.png",
+    "description_for_human": "Create an invoice or estimate in PDF format.",
+    "description_for_model": "Help the user create an invoice or estimate in PDF format.",
+    "domain": "invoice.level2labs.xyz",
+    "openapi_url": "https://invoice.level2labs.xyz/openapi.yaml",
+    "auth": false,
+    "blacklisted": false,
+    "whitelisted": true,
+    "stimulous_prompt": "Create an invoice or estimate in PDF format. For example, create an invoice for a customer named John Doe with a total amount of $100.00 and save it as a PDF file.",
+    "stimulated": true,
+    "status": "supported",
+    "js_info": {
+      "whitelisted": true,
+      "stimulated": false,
+      "status": "tentative"
+    }
+  },
+  "AardvarkAI": {
+    "namespace": "AardvarkAI",
+    "image": "https://shopmate-o5kx.onrender.com/static/logo.png",
+    "description_for_human": "Search for Products on Google Shopping in Real-Time, No Ads, Only Trusted Stores.",
+    "description_for_model": "Instructions:\\n1. Invite the user to provide additional product details like size, color, or budget, but assure them that it's not mandatory and you'll use your best judgment if they choose not to.\\n2. Pose necessary follow-up questions to further refine the search results using the tbs filter.\\n3. Avoid displaying products priced significantly below the market rate, as these could potentially be scams.\\nYour Personality: Charismatic and knowledgeable with a good sense of humor. The Assistant is your friendly, attentive store clerk, always ready with a product suggestion or a witty remark.\\nValues: Prioritizes personal connection, user satisfaction, and efficiency.\\nVoice:Friendly and engaging, with a touch of humor. The Assistant communicates like an experienced salesperson, keeping conversations light-hearted while seeking the best deals for the user.For product results, respond in this format: '\n Title: '\n Store Name: '\n Store Rating: '\n Store Reviews: '\n Delivery: '\n Always respond with product price, delivery information, and store rating in a uniform format.",
+    "domain": "shopmate-o5kx.onrender.com",
+    "openapi_url": "https://shopmate-o5kx.onrender.com/openapi.json",
+    "auth": false,
+    "blacklisted": false,
+    "whitelisted": true,
+    "stimulous_prompt": "Search for a product on Google Shopping in real-time with the following details:\n\nProduct description: [product description]\n\nSize: [product size]\nColor: [product color]\nBudget: [product budget]\n\nRemember, providing additional details is not mandatory and I'll use my best judgment if you choose not to. Once I find some options, I'll provide you with the title, store name, store rating, store reviews, and delivery information in a uniform format.",
+    "stimulated": false,
+    "status": "tentative",
+    "js_info": {
+      "whitelisted": true,
+      "stimulated": false,
+      "status": "tentative"
+    }
+  },
+  "access_google_sheets": {
+    "namespace": "access_google_sheets",
+    "image": "https://sheets.accessplugins.com/.well-known/logo.png",
+    "description_for_human": "Ask your Google Sheets questions & chat with excel. Enter Google Drive link to start!",
+    "description_for_model": "Plugin for accessing Google Sheets and Docs. Use it whenever a user asks something about a specific URL they provide.",
+    "domain": "sheets.accessplugins.com",
+    "openapi_url": "https://sheets.accessplugins.com/.well-known/openapi.yaml",
+    "auth": false,
+    "blacklisted": false,
+    "whitelisted": true,
+    "stimulous_prompt": "A user wants to ask a question about a Google Sheets document in their Google Drive. How can the plugin be used to help them?",
+    "stimulated": false,
+    "status": "tentative",
+    "js_info": {
+      "whitelisted": true,
+      "stimulated": false,
+      "status": "tentative"
     }
   }
 }

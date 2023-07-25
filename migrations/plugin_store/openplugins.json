@@ -378,5 +378,8 @@
   "Netlify": "https://dropgpt.netlify.app",
   "speak": "https://api.speak.com",
   "fiscalnote": "https://api.factba.se",
-  "KlarnaProducts": "https://www.klarna.com"
+  "KlarnaProducts": "https://www.klarna.com",
+  "invoice_creator": "https://invoice.level2labs.xyz",
+  "AardvarkAI": "https://shopmate-o5kx.onrender.com",
+  "access_google_sheets": "https://sheets.accessplugins.com"
 }

@@ -5161,3 +5161,30 @@
 2023-07-17 00:47:59,974 JS KlarnaProducts Complete
 2023-07-17 00:47:59,974 680 JS Processing KAYAK
 2023-07-17 00:47:59,986 JS KAYAK Complete
+2023-07-25 11:55:12,103 691 Processing invoice_creator
+2023-07-25 11:55:12,602 invoice_creator Whitelist Success
+2023-07-25 11:55:24,404 invoice_creator Stimulate Success
+2023-07-25 11:55:24,432 invoice_creator Save to openplugins Success
+2023-07-25 11:55:24,433 invoice_creator Complete
+2023-07-25 11:55:24,448 695 Processing AardvarkAI
+2023-07-25 11:55:25,184 AardvarkAI Whitelist Success
+2023-07-25 11:55:30,091 AardvarkAI Stimulate Error: Invalid URL '//product': No scheme supplied. Perhaps you meant https:////product?
+2023-07-25 11:55:30,116 AardvarkAI Save to openplugins Success
+2023-07-25 11:55:30,116 AardvarkAI Complete
+2023-07-25 11:55:30,130 699 Processing access_google_sheets
+2023-07-25 11:55:30,473 access_google_sheets Whitelist Success
+2023-07-25 11:55:34,619 access_google_sheets Stimulate Error: Not a plugin function
+2023-07-25 11:55:34,645 access_google_sheets Save to openplugins Success
+2023-07-25 11:55:34,645 access_google_sheets Complete
+2023-07-25 12:02:35,523 681 JS Processing invoice_creator
+2023-07-25 12:02:35,867 invoice_creator Whitelist Success
+2023-07-25 12:02:36,480 invoice_creator Stimulate Error: Error: Request failed with status code 400
+2023-07-25 12:02:36,487 JS invoice_creator Complete
+2023-07-25 12:02:36,487 682 JS Processing AardvarkAI
+2023-07-25 12:02:37,059 AardvarkAI Whitelist Success
+2023-07-25 12:02:39,255 AardvarkAI Stimulate Error: Error: Failed to call api: TypeError: Failed to parse URL from /product?tbs=vw%3Al%2Css%3A44
+2023-07-25 12:02:39,262 JS AardvarkAI Complete
+2023-07-25 12:02:39,262 683 JS Processing access_google_sheets
+2023-07-25 12:02:39,520 access_google_sheets Whitelist Success
+2023-07-25 12:02:51,581 access_google_sheets Stimulate Error: Error: No function_call in message [{"text":"The plugin can be used to help the user by providing information and performing actions related to the Google Sheets document in their Google Drive. Here are some ways the plugin can assist the user:\n\n1. Retrieve Document Information: The plugin can fetch information about the Google Sheets document, such as the title, owner, last modified date, and number of sheets.\n\n2. Get Sheet Data: The plugin can retrieve the data from specific sheets within the Google Sheets document. This can include fetching the values, formulas, formatting, and other properties of cells, rows, or columns.\n\n3. Perform Calculations: The plugin can perform calculations on the data within the Google Sheets document. This can include basic arithmetic operations, aggregations, filtering, sorting, and more.\n\n4. Update Sheet Data: The plugin can update the data within the Google Sheets document. This can include modifying cell values, adding or deleting rows or columns, applying formatting, and other editing actions.\n\n5. Share Document: The plugin can assist in sharing the Google Sheets document with other users. This can include adding collaborators, setting permissions, and managing access to the document.\n\n6. Generate Reports: The plugin can generate reports or summaries based on the data within the Google Sheets document. This can include creating charts, tables, or visualizations, and exporting the results in various formats.\n\n7. Automate Tasks: The plugin can automate repetitive tasks within the Google Sheets document. This can include creating scripts or macros to perform actions, such as data import, data cleaning, data validation, and more.\n\nBy utilizing the plugin's capabilities, the user can easily interact with their Google Sheets document, retrieve information, perform calculations, update data, and automate tasks, making it easier to work with their Google Drive documents.","message":{"lc":1,"type":"constructor","id":["langchain","schema","AIMessage"],"kwargs":{"content":"The plugin can be used to help the user by providing information and performing actions related to the Google Sheets document in their Google Drive. Here are some ways the plugin can assist the user:\n\n1. Retrieve Document Information: The plugin can fetch information about the Google Sheets document, such as the title, owner, last modified date, and number of sheets.\n\n2. Get Sheet Data: The plugin can retrieve the data from specific sheets within the Google Sheets document. This can include fetching the values, formulas, formatting, and other properties of cells, rows, or columns.\n\n3. Perform Calculations: The plugin can perform calculations on the data within the Google Sheets document. This can include basic arithmetic operations, aggregations, filtering, sorting, and more.\n\n4. Update Sheet Data: The plugin can update the data within the Google Sheets document. This can include modifying cell values, adding or deleting rows or columns, applying formatting, and other editing actions.\n\n5. Share Document: The plugin can assist in sharing the Google Sheets document with other users. This can include adding collaborators, setting permissions, and managing access to the document.\n\n6. Generate Reports: The plugin can generate reports or summaries based on the data within the Google Sheets document. This can include creating charts, tables, or visualizations, and exporting the results in various formats.\n\n7. Automate Tasks: The plugin can automate repetitive tasks within the Google Sheets document. This can include creating scripts or macros to perform actions, such as data import, data cleaning, data validation, and more.\n\nBy utilizing the plugin's capabilities, the user can easily interact with their Google Sheets document, retrieve information, perform calculations, update data, and automate tasks, making it easier to work with their Google Drive documents.","additional_kwargs":{}}}}]
+2023-07-25 12:02:51,590 JS access_google_sheets Complete

@@ -37,7 +37,13 @@ async function main() {
         const openpluginsInfoLength = openpluginsInfoKeys.length
         let idx = 0
 
+        const onlyNew = true
+
         for (const namespace of Object.keys(openpluginsInfo)) {
+          if (onlyNew && openpluginsInfo[namespace].js_info) {
+            idx += 1
+            continue
+          }
           logToFile(`${idx} JS Processing ${namespace}`)
           if (idx % 20 === 0) {
             console.log(`${idx} of ${openpluginsInfoLength}`)
