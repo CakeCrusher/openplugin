@@ -8,6 +8,8 @@
 
 [Join Discord Server](https://discord.gg/udP6X9YkD) 
 
+OpenPlugin official client, [openplugin.io](https://www.openplugin.io/), now in closed beta!
+
 ## Supported plugins [PLUGINS.md](https://github.com/CakeCrusher/openplugin-clients/blob/main/PLUGINS.md)
 <i>demo</i>
 
