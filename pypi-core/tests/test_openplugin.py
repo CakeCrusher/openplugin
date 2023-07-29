@@ -3,6 +3,7 @@ import pytest
 from .mock_data import todo_plugin
 import os
 from openplugincore import OpenPlugin, openplugin_completion
+from openplugincore.utils.prompting import estimate_tokens
 import random
 import requests
 from dotenv import load_dotenv
@@ -59,3 +60,13 @@ def test_fetch_plugin(todo_openplugin):
     assert response["name"] == "addTodo"
     json_content = json.loads(response["content"])
     assert json_content["todo"] == "buy milk"
+
+def test_truncated_response():
+    yt_plugin = OpenPlugin('yt_caption_retriever', verbose=True)
+    response = yt_plugin.fetch_plugin(
+        prompt='summarize this video https://www.youtube.com/watch?v=gZVeRQkxCdc',
+        model='gpt-3.5-turbo-0613',
+        truncate=True,
+    )
+    assert response is not None
+    assert estimate_tokens(response['content']) > 3600 and estimate_tokens(response['content']) < 3800

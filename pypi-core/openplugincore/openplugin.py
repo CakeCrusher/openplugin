@@ -4,6 +4,8 @@ import requests
 from typing import Any, List, Dict, Union, Tuple, Callable
 import os
 from .types import ChatgptAssistantMessage, ChatgptFunctionMessage, PluginConfigs
+from .utils.constants import openai_models_info
+from .utils.prompting import estimate_tokens, truncate_json_root
 from langchain.chains.openai_functions.openapi import openapi_spec_to_openai_fn
 from langchain.utilities.openapi import OpenAPISpec
 from langchain.output_parsers.openai_functions import JsonOutputFunctionsParser
@@ -160,7 +162,7 @@ class OpenPlugin:
         
         return langchain_messages
 
-    def fetch_plugin(self, prompt: str, **chatgpt_args) -> ChatgptFunctionMessage:
+    def fetch_plugin(self, prompt: str, truncate: Union[bool, int] = False, truncate_offset: int = 0, **chatgpt_args) -> ChatgptFunctionMessage:
         if chatgpt_args.get("model", None) not in ["gpt-3.5-turbo-0613", "gpt-4-0613"]:
             raise ValueError("Model must be either gpt-3.5-turbo-0613 or gpt-4-0613")
         
@@ -211,6 +213,18 @@ class OpenPlugin:
             return res
         request_out = request_chain(**llm_chain_out)
         json_response = request_out.json()
+
+        if truncate:
+            truncate_to = truncate if not isinstance(truncate, bool) else None
+            if truncate_to is None:
+                token_slack = 56 + 300
+                dummy_chatgpt_message = {
+                    "role": "user",
+                    "content": prompt,
+                }
+                truncate_to = openai_models_info[chatgpt_args['model']]['max_tokens'] - estimate_tokens(json.dumps(dummy_chatgpt_message)) - token_slack - truncate_offset
+            json_response = truncate_json_root(json_response, truncate_to)
+
         if self.verbose:
             print(f"\"{self.name}\" json_response: ", json.dumps(json_response, indent=2))
         try:
