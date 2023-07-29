@@ -10,12 +10,12 @@
     "blacklisted": false,
     "whitelisted": true,
     "stimulous_prompt": "Generate a chat with a PDF of any size and provide page references for fact checking. Use the following URL: https://example.com/sample.pdf",
-    "stimulated": true,
-    "status": "supported",
+    "stimulated": false,
+    "status": "unsupported",
     "js_info": {
-      "whitelisted": true,
-      "stimulated": true,
-      "status": "supported"
+      "whitelisted": false,
+      "stimulated": false,
+      "status": "unsupported"
     }
   },
   "telegraph_export": {
@@ -11674,14 +11674,14 @@
     "openapi_url": "https://scholar-ai.net/openapi.yaml",
     "auth": false,
     "blacklisted": false,
-    "whitelisted": true,
+    "whitelisted": false,
     "stimulous_prompt": "Search for scientific papers on the topic of artificial intelligence and save the PDFs to your reference manager.",
-    "stimulated": true,
-    "status": "supported",
+    "stimulated": false,
+    "status": "unsupported",
     "js_info": {
-      "whitelisted": true,
+      "whitelisted": false,
       "stimulated": false,
-      "status": "tentative"
+      "status": "unsupported"
     }
   },
   "vidiq_youtube_research": {

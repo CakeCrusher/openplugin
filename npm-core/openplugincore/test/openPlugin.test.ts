@@ -72,7 +72,7 @@ describe('OpenPlugin todo', () => {
   });
 });
 
-test.only('truncated response test', async () => {
+test('truncated response test', async () => {
   const ytPlugin = new OpenPlugin('yt_caption_retriever');
   await ytPlugin.init();
   const response = await ytPlugin.fetchPlugin({

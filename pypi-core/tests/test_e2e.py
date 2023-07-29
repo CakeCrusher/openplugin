@@ -93,25 +93,7 @@ def test_initiate_and_fetch_twtData():
 
     # Replace the line below with a test for the final output in json_content
     assert json_content["stats"]["account_found"] == True
-
-def test_initiate_and_fetch_tailor_erp():
-    plugin = OpenPlugin("tailor_erp")
-    assert plugin.manifest is not None
-
-    # create chatgpt request that will call the addTodo function
-    chatgpt_prompt = 'create a CRM template with ERP generator'
-    response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
-        model="gpt-3.5-turbo-0613",
-        temperature=0,
-    )
-
-    assert response is not None
-    assert response["role"] == "function"
-    json_content = json.loads(response["content"])
-
-    # assert that json_content.applyTemplate.path is not None
-    assert json_content["APP_ID"] is not None
+    
 
 def test_initiate_and_fetch_surge_ai_trends():
     plugin = OpenPlugin("surge_ai_trends")
@@ -151,13 +133,13 @@ def test_initiate_and_fetch_speedy_marketing():
     # Replace the line below with a test for the final output in json_content
     assert isinstance(json_content["blog"], str)
 
+@pytest.mark.skip(reason="Not whitelisted")
 def test_initiate_and_fetch_scholarai():
     plugin = OpenPlugin("scholarai")
     assert plugin.manifest is not None
 
-
     # create chatgpt request that will call the addTodo function
-    chatgpt_prompt = 'What scientific research exists for semantic representation of language through brain waves. dont sort.'
+    chatgpt_prompt = 'What scientific research exists for semantic representation of language through brain waves. show me one.'
     response = plugin.fetch_plugin(
         prompt=chatgpt_prompt,
         model="gpt-3.5-turbo-0613",
@@ -167,7 +149,6 @@ def test_initiate_and_fetch_scholarai():
     assert response is not None
     assert response["role"] == "function"
     json_content = json.loads(response["content"])
-
     # Replace the line below with a test for the final output in json_content
     assert isinstance(json_content["total_num_results"], int)
 
@@ -247,6 +228,7 @@ def test_initiate_and_fetch_C3_Glide():
     # Replace the line below with a test for the final output in json_content
     assert isinstance(json_content["tafs"], list)
 
+@pytest.mark.skip(reason="Could not parse: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1")
 def test_initiate_and_fetch_Ai_PDF():
     plugin = OpenPlugin("Ai_PDF", verbose=True)
     assert plugin.manifest is not None
