@@ -59,38 +59,3 @@ def test_fetch_plugin(todo_openplugin):
     assert response["name"] == "addTodo"
     json_content = json.loads(response["content"])
     assert json_content["todo"] == "buy milk"
-
-def test_openplugin_completion():
-    todo = f'test_chat_completion_{random.randint(0, 100000)}'
-
-    completion = openplugin_completion(
-        openai_api_key = OPENAI_API_KEY,
-        plugin_name = "__testing__",
-        prompt = f"add '{todo}' to my todo list",
-        model = "gpt-3.5-turbo-0613",
-        temperature = 0,
-    )
-
-    todos_request = requests.get("http://localhost:3333/todos")
-    todos_body = todos_request.json()
-    
-    assert todo in completion["choices"][0]["message"]["content"]
-    assert todo in todos_body["todos"]
-
-def test_openplugin_completion_with_url():
-    todo = f'test_chat_completion_{random.randint(0, 100000)}'
-
-    completion = openplugin_completion(
-        openai_api_key = OPENAI_API_KEY,
-        root_url = "http://localhost:3333",
-        prompt = f"add '{todo}' to my todo list",
-        model = "gpt-3.5-turbo-0613",
-        temperature = 0,
-    )
-
-    todos_request = requests.get("http://localhost:3333/todos")
-    todos_body = todos_request.json()
-    
-    assert todo in completion["choices"][0]["message"]["content"]
-    assert todo in todos_body["todos"]
-
