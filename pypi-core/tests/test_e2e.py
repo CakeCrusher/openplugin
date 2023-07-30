@@ -26,7 +26,7 @@ def test_initiate_and_fetch_todo():
 
     # fetch after chatgpt response
     response = plugin.fetch_plugin(
-        prompt=todo_plugin["prompt"],
+        messages=todo_plugin["messages"],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -43,7 +43,12 @@ def test_initiate_and_fetch_LGTM():
     # # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'Show me markdown for a 2 by 2 table with LGTM'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -63,7 +68,12 @@ def test_initiate_and_fetch_yt_caption_retriever():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'give me a 2 sentence summary of the following yt video https://www.youtube.com/watch?v=P310I19L3Ko'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -82,7 +92,12 @@ def test_initiate_and_fetch_twtData():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'show me the amount of people @Sebasti54919704 is following'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -102,7 +117,12 @@ def test_initiate_and_fetch_surge_ai_trends():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'What are the trnding searches for "gpu" in amazon'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -121,7 +141,12 @@ def test_initiate_and_fetch_speedy_marketing():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'write me an SEO blog about react for marketing'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -141,7 +166,12 @@ def test_initiate_and_fetch_scholarai():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'What scientific research exists for semantic representation of language through brain waves. show me one.'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -159,7 +189,12 @@ def test_initiate_and_fetch_rephrase():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'I want to code a react ui with hello world please rephrase that'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -178,7 +213,12 @@ def test_initiate_and_fetch_DreamInterpreter():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'I dreamt of being in a room without any windows getting smaller overtime'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -197,7 +237,12 @@ def test_initiate_and_fetch_portfoliopilot():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'What stocks should I add for my long term tech portfolio'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -216,7 +261,12 @@ def test_initiate_and_fetch_C3_Glide():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'Provide me TAF for KJFK with reguards to aviation weather'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -236,7 +286,12 @@ def test_initiate_and_fetch_Ai_PDF():
     # create chatgpt request that will call the addTodo function
     chatgpt_prompt = 'Can I have my data be private according to this pdf https://www.unodc.org/pdf/criminal_justice/UN_Basic_Principles_on_the_Role_of_Lawyers.pdf'
     response = plugin.fetch_plugin(
-        prompt=chatgpt_prompt,
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
@@ -271,7 +326,12 @@ TEMPLATE for testing a new plugin
 #     # create chatgpt request that will call the addTodo function
 #     chatgpt_prompt = 'PLUGIN_PROMPT'
 #     response = plugin.fetch_plugin(
-#         prompt=chatgpt_prompt,
+#         messages=[
+#             {
+#                 "role": "user",
+#                 "content": chatgpt_prompt
+#             }
+#         ],
 #         model="gpt-3.5-turbo-0613",
 #         temperature=0,
 #     )

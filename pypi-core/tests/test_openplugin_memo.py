@@ -19,7 +19,7 @@ def test_full_suite():
     assert len(todo_openplugin.functions) == 2
 
     response = todo_openplugin.fetch_plugin(
-        prompt=todo_plugin["prompt"],
+        messages=todo_plugin["messages"],
         model='gpt-3.5-turbo-0613',
     )
 

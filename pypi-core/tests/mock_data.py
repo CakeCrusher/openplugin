@@ -1,5 +1,11 @@
 todo_plugin = {
     "prompt": "add 'buy milk' to my todo list",
+    "messages": [
+        {
+            "role": "user",
+            "content": "add 'buy milk' to my todo list"
+        }
+    ],
     "chat_completion_of_function": {
         "role": "assistant",
         "content": None,

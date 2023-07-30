@@ -52,7 +52,7 @@ def test_openapi_to_functions_and_call_api_fn(todo_openplugin):
 
 def test_fetch_plugin(todo_openplugin):
     response = todo_openplugin.fetch_plugin(
-        prompt=todo_plugin["prompt"],
+        messages=todo_plugin["messages"],
         model="gpt-3.5-turbo-0613"
     )
     assert response is not None
@@ -64,9 +64,75 @@ def test_fetch_plugin(todo_openplugin):
 def test_truncated_response():
     yt_plugin = OpenPlugin('yt_caption_retriever', verbose=True)
     response = yt_plugin.fetch_plugin(
-        prompt='summarize this video https://www.youtube.com/watch?v=gZVeRQkxCdc',
+        messages=[
+            {
+                "role": "user",
+                "content": "summarize this video https://www.youtube.com/watch?v=gZVeRQkxCdc"
+            }
+        ],
         model='gpt-3.5-turbo-0613',
         truncate=True,
     )
     assert response is not None
     assert estimate_tokens(response['content']) > 3600 and estimate_tokens(response['content']) < 3800
+
+def test_messages():
+    plugin = OpenPlugin('__testing__', verbose=True)
+    todo = f'test_chat_completion_{random.randint(0, 100000)}'
+
+    response = plugin.fetch_plugin(
+        messages=[
+            {
+                "role": "system",
+                "content": "hello this message consumes about 100 tokens I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing"
+            },
+            {
+                "role": "user",
+                "content": "hello this message consumes about 100 tokens I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing"
+            },
+            {
+                "role": "assistant",
+                "content": "hello this message consumes about 100 tokens I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing"
+            },
+            {
+                "role": "user",
+                "content": "hello this message consumes about 100 tokens I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing"
+            },
+            {
+                "role": "assistant",
+                "content": "hello this message consumes about 100 tokens I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing"
+            },
+            {
+                "role": "user",
+                "content": "hello this message consumes about 100 tokens I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing"
+            },
+            {
+                "role": "assistant",
+                "content": "hello this message consumes about 100 tokens I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing"
+            },
+            {
+                "role": "user",
+                "content": "hello this message consumes about 100 tokens I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing"
+            },
+            {
+                "role": "assistant",
+                "content": "hello this message consumes about 100 tokens I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing I will extend it just for the sake of testing"
+            },
+            {
+                "role": "user",
+                "content": f"add '{todo}' to my todo list"
+            },
+            {
+                "role": "user",
+                "content": "please add that to my todo list"
+            }
+        ],
+        model='gpt-3.5-turbo-0613',
+        truncate=True
+    )
+
+    todos_request = requests.get("http://localhost:3333/todos")
+    todos_body = todos_request.json()
+
+    assert todo in response["content"]
+    assert todo in todos_body["todos"]

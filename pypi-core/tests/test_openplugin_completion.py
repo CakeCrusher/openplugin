@@ -21,7 +21,12 @@ def test_openplugin_completion():
     completion = openplugin_completion(
         openai_api_key = OPENAI_API_KEY,
         plugin_name = "__testing__",
-        prompt = f"add '{todo}' to my todo list",
+        messages = [
+            {
+                "role": "user",
+                "content": f"add '{todo}' to my todo list"
+            }
+        ],
         model = "gpt-3.5-turbo-0613",
         temperature = 0,
     )
@@ -38,7 +43,12 @@ def test_openplugin_completion_with_url():
     completion = openplugin_completion(
         openai_api_key = OPENAI_API_KEY,
         root_url = "http://localhost:3333",
-        prompt = f"add '{todo}' to my todo list",
+        messages = [
+            {
+                "role": "user",
+                "content": f"add '{todo}' to my todo list"
+            }
+        ],
         model = "gpt-3.5-turbo-0613",
         temperature = 0,
     )
