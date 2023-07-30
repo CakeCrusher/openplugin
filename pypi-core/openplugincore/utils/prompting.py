@@ -9,6 +9,9 @@ from typing import Any, List, Union
 def estimate_tokens(s: str) -> int:
     return len(s) // 2
 
+def tokens_to_chars(tokens: int) -> int:
+    return tokens * 2
+
 
 def truncate_string(s: str, truncate_by: int) -> str:
     url_pattern = re.compile(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')

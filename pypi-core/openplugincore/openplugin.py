@@ -5,7 +5,7 @@ from typing import Any, List, Dict, Union, Tuple, Callable
 import os
 from .types import ChatgptAssistantMessage, ChatgptFunctionMessage, PluginConfigs
 from .utils.constants import openai_models_info
-from .utils.prompting import estimate_tokens, truncate_json_root
+from .utils.prompting import estimate_tokens, tokens_to_chars, truncate_json_root
 from langchain.chains.openai_functions.openapi import openapi_spec_to_openai_fn
 from langchain.utilities.openapi import OpenAPISpec
 from langchain.output_parsers.openai_functions import JsonOutputFunctionsParser
@@ -21,42 +21,6 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 plugin_configs: Dict[str, PluginConfigs] = {}
 
-def openplugin_completion(openai_api_key: str, prompt: str, plugin_name: str = None, root_url: str = None, **chatgpt_args):
-    # set environment variable to OPENAI_API_KEY
-    os.environ["OPENAI_API_KEY"] = openai_api_key
-    openai.api_key = openai_api_key
-    if not plugin_name and not root_url:
-        return openai.ChatCompletion.create(
-            **chatgpt_args,
-            messages=[
-                {"role": "user", "content": prompt}
-            ]
-        )
-    plugin = OpenPlugin(plugin_name=plugin_name, root_url=root_url, openai_api_key=openai_api_key)
-    try:
-        function_response = plugin.fetch_plugin(
-            prompt=prompt,
-            **chatgpt_args
-        )
-    except ValueError as e:
-        if "Not a plugin function" in str(e):
-            return openai.ChatCompletion.create(
-                **chatgpt_args,
-                messages=[
-                    {"role": "user", "content": prompt}
-                ]
-            )
-        else:
-            raise e
-    all_chatgpt_args = {
-        **chatgpt_args,
-        "messages": [
-            {"role": "user", "content": prompt},
-            function_response
-        ]
-    }
-    summarize = openai.ChatCompletion.create(**all_chatgpt_args)
-    return summarize
 
 class OpenPlugin:
     def __init__(self, plugin_name: str = None, openai_api_key: str = None, root_url: str = None, verbose: bool = False):
@@ -162,8 +126,9 @@ class OpenPlugin:
         
         return langchain_messages
 
-    def fetch_plugin(self, prompt: str, truncate: Union[bool, int] = False, truncate_offset: int = 0, **chatgpt_args) -> ChatgptFunctionMessage:
-        if chatgpt_args.get("model", None) not in ["gpt-3.5-turbo-0613", "gpt-4-0613"]:
+    def fetch_plugin(self, messages: list[dict], truncate: Union[bool, int] = False, truncate_offset: int = 0, **chatgpt_args) -> ChatgptFunctionMessage:
+        model = chatgpt_args.get("model", None)
+        if model not in ["gpt-3.5-turbo-0613", "gpt-4-0613"]:
             raise ValueError("Model must be either gpt-3.5-turbo-0613 or gpt-4-0613")
         
         llm =  ChatOpenAI(
@@ -179,8 +144,38 @@ class OpenPlugin:
             # **(llm_kwargs or {}),
         )
         # if it is plugin function response
+        functions_tokens = estimate_tokens(json.dumps(self.functions))
+
         try:
-            llm_chain_out = llm_chain.run(prompt)
+            # MESSAGES TO PROMPT
+            # if there is a message with role system then pop it, iterate through all messages to find it
+            system_message = ''
+            for message in messages:
+                if message["role"] == 'system':
+                    system_message = 'system' + ": " + message['content'] + "\n"
+                    messages.remove(message)
+                    break
+            
+            # print("system_message: ", system_message)
+            # Combine messages into one string
+            messages_aggregate = '\n'.join([f"{message['role']}: {message['content']}" for message in messages])
+            complete_messages_aggregate_tokens = estimate_tokens(system_message + messages_aggregate)
+            # print("complete_messages_aggregate_tokens: ", complete_messages_aggregate_tokens)
+            # print("functions_tokens: ", functions_tokens)
+            messages_truncation_offset = tokens_to_chars(max(complete_messages_aggregate_tokens + functions_tokens - openai_models_info[model]["max_tokens"], 0)) 
+            # print("messages_truncation_offset: ", messages_truncation_offset)
+            messages_aggregate = messages_aggregate[messages_truncation_offset:]
+           
+            # TODO: temp fix to prevent collation of messages
+            if (messages_truncation_offset > 0):
+                messages_aggregate = "user/assistant: " + messages_aggregate
+           
+            complete_messages_aggregate = system_message + messages_aggregate
+            # print("complete_messages_aggregate: ", complete_messages_aggregate)  
+            # print("final length: ", estimate_tokens(complete_messages_aggregate))          
+
+            # Replace prompt with messageAggregate
+            llm_chain_out = llm_chain.run(complete_messages_aggregate)
             if self.verbose:
                 print("Using plugin: " + self.name)
         except KeyError as e:
@@ -218,11 +213,7 @@ class OpenPlugin:
             truncate_to = truncate if not isinstance(truncate, bool) else None
             if truncate_to is None:
                 token_slack = 56 + 300
-                dummy_chatgpt_message = {
-                    "role": "user",
-                    "content": prompt,
-                }
-                truncate_to = openai_models_info[chatgpt_args['model']]['max_tokens'] - estimate_tokens(json.dumps(dummy_chatgpt_message)) - token_slack - truncate_offset
+                truncate_to = openai_models_info[model]['max_tokens'] - estimate_tokens(json.dumps(messages[-1])) - token_slack - truncate_offset
             json_response = truncate_json_root(json_response, truncate_to)
 
         if self.verbose:
