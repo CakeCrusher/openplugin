@@ -23,58 +23,10 @@ This repo contains 4 packages: [(pypi)`openplugincore`](https://github.com/CakeC
 - Generate trendy and informed articles: https://colab.research.google.com/drive/1dQsaFrqLdR0HzxXkj5DYmaZ8CtmqA1qt?usp=sharing
 
 ## Core
-This is the meat of OpenPlugin, it contains all tools you need to interface with ChatGPT plugins as you do on ChatGPT Pro itself.
-### [NPM Package](https://github.com/CakeCrusher/openplugin/tree/main/npm-core/openplugincore)
+This is the meat of OpenPlugin, it contains all tools you need to interface with ChatGPT plugins as you do on ChatGPT Pro.
+
 ### [PyPI Package](https://github.com/CakeCrusher/openplugin/tree/main/pypi-core)
-
-`openplugincore` requires python version >= `3.10`
-```shell
-pip install openplugincore
-```
-simplest way to use `openplugincore`
-```py
-from openplugincore import openplugin_completion
-
-openplugin_completion_generation = openplugin_completion(
-    openai_api_key = OPENAI_API_KEY,
-    plugin_name = "Ai_PDF",
-    prompt = chatgpt_prompt,
-    model = "gpt-3.5-turbo-0613",
-    temperature = 0,
-)
-
-print(json.dumps(OpenPlugin_generation, indent=2))
-```
-or for more nuanced use
-```py
-from openplugincore import OpenPlugin
-
-plugin = OpenPlugin("Ai_PDF", OPENAI_API_KEY)
-
-function_response = plugin.fetch_plugin(
-    prompt=chatgpt_prompt,
-    model="gpt-3.5-turbo-0613",
-    temperature=0,
-)
-
-import openai
-openai.api_key = OPENAI_API_KEY
-
-OpenPlugin_generation = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo-0613",
-    messages=[
-        {"role": "user", "content": chatgpt_prompt},
-        function_response
-    ],
-    temperature = 0
-)
-
-print(json.dumps(OpenPlugin_generation, indent=2))
-```   
-<i> Rough high-level system design/docs </i>
-
-![image](https://github.com/CakeCrusher/openplugin/assets/37946988/36b57d80-7eab-4ed0-9fff-c49885bf32e1)
-
+### [NPM Package](https://github.com/CakeCrusher/openplugin/tree/main/npm-core/openplugincore)
 
 ## Client Quickstart
 Public early access tokens: `__extra__-c22a34e2-89a8-48b2-8474-c664b577526b`, `__extra__-692df72b-ec3f-49e4-a1ce-fb1fbc34aebd`

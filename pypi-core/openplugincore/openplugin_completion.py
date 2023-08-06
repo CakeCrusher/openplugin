@@ -7,7 +7,7 @@ load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
-def openplugin_completion(openai_api_key: str, messages: list[dict], plugin_name: str = None, root_url: str = None, **chatgpt_args):
+def openplugin_completion(openai_api_key: str, messages: list[dict], truncate: bool = True, plugin_name: str = None, root_url: str = None, **chatgpt_args):
     # set environment variable to 
     os.environ["OPENAI_API_KEY"] = openai_api_key
     openai.api_key = openai_api_key
@@ -20,6 +20,7 @@ def openplugin_completion(openai_api_key: str, messages: list[dict], plugin_name
     try:
         function_response = plugin.fetch_plugin(
             messages=messages,
+            truncate=truncate,
             **chatgpt_args
         )
     except ValueError as e:
