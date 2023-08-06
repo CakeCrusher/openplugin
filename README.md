@@ -6,9 +6,9 @@
 </div>
 
 
-[Join Discord Server](https://discord.gg/udP6X9YkD) 
+[Join Discord Server](https://discord.gg/AfHcVutBUT) 
 
-OpenPlugin official client, [openplugin.io](https://www.openplugin.io/), now in closed beta!
+OpenPlugin official client, [openplugin.io](https://www.openplugin.io/), is now in closed beta!
 
 ## Supported plugins [PLUGINS.md](https://github.com/CakeCrusher/openplugin-clients/blob/main/PLUGINS.md)
 <i>demo</i>
@@ -16,108 +16,17 @@ OpenPlugin official client, [openplugin.io](https://www.openplugin.io/), now in 
 
 https://github.com/CakeCrusher/openplugin/assets/37946988/d35c704d-a007-4e5f-b3ea-03df264c0f4e
 
-## Project stucture
-This repo contains 3 packages: [(pypi)`openplugincore`](https://github.com/CakeCrusher/openplugin/tree/main/pypi-core), [(pypi)`openpluginclient`](https://github.com/CakeCrusher/openplugin/tree/main/pypi-client), and [(npm)`openpluginclient`](https://github.com/CakeCrusher/openplugin/tree/main/npm-client/openpluginclient). (pypi)`openplugincore` is the meat of this project, it contains all the tools you need to call OpenAI plugins. Both (pypi)`openpluginclient` and (npm)`openpluginclient` ping an API that uses (pypi)`openplugincore` internally, does not need an OpenAI API key.
+## Project structure
+This repo contains 4 packages: [(pypi)`openplugincore`](https://github.com/CakeCrusher/openplugin/tree/main/pypi-core), [(npm) `openplugincore`](https://github.com/CakeCrusher/openplugin/tree/main/npm-core/openplugincore) [(pypi)`openpluginclient`](https://github.com/CakeCrusher/openplugin/tree/main/pypi-client), and [(npm)`openpluginclient`](https://github.com/CakeCrusher/openplugin/tree/main/npm-client/openpluginclient).
 
 ## Examples
 - Generate trendy and informed articles: https://colab.research.google.com/drive/1dQsaFrqLdR0HzxXkj5DYmaZ8CtmqA1qt?usp=sharing
 
-## Core Quickstart
-### Node (js)
-```shell
-npm install openplugincore
-```
-simplest way to use `openplugincore`
-```js
-import { openpluginCompletion } from 'openplugincore';
-import dotenv from 'dotenv'; // to get .env variables
-dotenv.config(); // to get .env variables
+## Core
+This is the meat of OpenPlugin, it contains all tools you need to interface with ChatGPT plugins as you do on ChatGPT Pro itself.
+### [NPM Package](https://github.com/CakeCrusher/openplugin/tree/main/npm-core/openplugincore)
+### [PyPI Package](https://github.com/CakeCrusher/openplugin/tree/main/pypi-core)
 
-const completion = await openpluginCompletion(
-  "show me a gif of a gangster cat",
-  "GifApi",
-  undefined,
-  process.env.OPENAI_API_KEY,
-  {
-    model: "gpt-3.5-turbo-0613",
-    temperature: 0,
-  }
-);
-
-console.log(completion.choices[0]);
-```
-or for more nuanced use
-```js
-import {OpenPlugin} from 'openplugincore'
-import dotenv from 'dotenv' // to get .env variables
-dotenv.config() // to get .env variables
-
-const imageOpenplugin = new OpenPlugin("GifApi", undefined, process.env.OPENAI_API_KEY);
-await imageOpenplugin.init();
-
-const prompt = "show me a gif of a gangster cat"
-const functionRes = await imageOpenplugin.fetchPlugin({
-  prompt: prompt,
-  model: "gpt-3.5-turbo-0613"
-});
-
-const completionRes = await fetch('https://api.openai.com/v1/chat/completions', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-    Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-  },
-  body: JSON.stringify({
-    model: 'gpt-3.5-turbo-0613',
-    messages: [
-      {role: 'user', content: prompt},
-      functionRes
-    ],
-    temperature: 0,
-  }),
-})
-
-const completionResJson = await completionRes.json()
-```
-and to be respectful to plugin APIs you can use `OpenPluginMemo`
-```js
-import { OpenPluginMemo } from 'openplugincore';
-import dotenv from 'dotenv';
-dotenv.config();
-
-const openpluginMemo =  new OpenPluginMemo()
-await openpluginMemo.init()
-
-const firstGifPlugin = await openpluginMemo.initPlugin("GifApi")
-// same as OpenPlugin
-const firstPrompt = "show me a gif of a gangster cat"
-
-const firstFunctionRes = await firstGifPlugin.fetchPlugin({
-  prompt: firstPrompt,
-  model: "gpt-3.5-turbo-0613"
-});
-
-const firstCompletionRes = await fetch('https://api.openai.com/v1/chat/completions', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-    Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-  },
-  body: JSON.stringify({
-    model: 'gpt-3.5-turbo-0613',
-    messages: [
-      {role: 'user', content: firstPrompt},
-      firstFunctionRes
-    ],
-    temperature: 0,
-  }),
-})
-const firstCompletionResJson = await firstCompletionRes.json()
-
-console.log(firstCompletionResJson.choices[0]);
-// finish same as OpenPlugin
-```
-### PyPI
 `openplugincore` requires python version >= `3.10`
 ```shell
 pip install openplugincore
@@ -162,7 +71,7 @@ OpenPlugin_generation = openai.ChatCompletion.create(
 
 print(json.dumps(OpenPlugin_generation, indent=2))
 ```   
-<i>rough high level system design / docs</i>
+<i> Rough high-level system design/docs </i>
 
 ![image](https://github.com/CakeCrusher/openplugin/assets/37946988/36b57d80-7eab-4ed0-9fff-c49885bf32e1)
 
