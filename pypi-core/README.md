@@ -17,12 +17,12 @@ from openplugincore import openplugin_completion
 
 openplugin_completion_generation = openplugin_completion(
     openai_api_key = os.environ["OPENAI_API_KEY"],
-    plugin_name = "NewsPilot",
+    plugin_name = "GifApi",
     truncate = True, # Defaults to True. Truncates the plugin API response to ensure the LLM's token limit is not exceeded
     messages = [
         {
             "role": "user",
-            "content": "Show me the current news in ukraine"
+            "content": "show me a gif of a gangster cat"
         }
     ],
     model = "gpt-3.5-turbo-0613",
