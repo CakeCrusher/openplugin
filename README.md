@@ -31,7 +31,7 @@ This is the meat of OpenPlugin, it contains all tools you need to interface with
 ## Client
 This outsources the request to an OpenPlugin API that uses `openpluginclient`, so you dont need to worry about the OpenAI api key.
 You will need to pass in one of the following `early access token`: `__extra__-c22a34e2-89a8-48b2-8474-c664b577526b`, `__extra__-692df72b-ec3f-49e4-a1ce-fb1fbc34aebd`
-### [PyPI Client Package](https://pypi.org/project/openpluginclient/)
+### [PyPI Client Package](https://github.com/CakeCrusher/openplugin/tree/main/pypi-client)
 ### [NPM Client Package](https://github.com/CakeCrusher/openplugin/tree/main/npm-client/openpluginclient)
 
 <i>high level system design / docs</i>
