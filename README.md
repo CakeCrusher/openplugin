@@ -51,7 +51,7 @@ https://openai.com/policies/usage-policies
 https://openai.com/policies/service-terms
 
 ## Disclaimer
-As OpenPlugin is currently in an alpha state, you may run into errors. Despite some light testing being done by [migrations](https://github.com/CakeCrusher/openplugin-clients/blob/main/migrations/plugin_store/parser.ipynb) not all plugins are thuroughly tested. If you run into any errors, please report them [here](https://github.com/CakeCrusher/openplugin-clients/issues/new?assignees=CakeCrusher&labels=bug&projects=&template=bug_report.md&title=).
+As OpenPlugin is currently in an alpha state, you may run into errors. Despite some light testing being done by [migrations](https://github.com/CakeCrusher/openplugin-clients/blob/main/migrations/plugin_store/classifier.ipynb) not all plugins are thuroughly tested. If you run into any errors, please report them [here](https://github.com/CakeCrusher/openplugin-clients/issues/new?assignees=CakeCrusher&labels=bug&projects=&template=bug_report.md&title=).
 
 The errors work on a plugin by plugin basis, meaning some will work perfectly while others may not work at all. Some of the errors may be caused by the plugin itself therefore will aso err on [https://chat.openai.com/](https://chat.openai.com/) so double checking would be advisable.
 
