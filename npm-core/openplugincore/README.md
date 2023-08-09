@@ -1,6 +1,10 @@
 # NPM `openplugincore`
 This is the meat of OpenPlugin, it contains all tools you need to interface with ChatGPT plugins as you do on ChatGPT Pro itself.
 
+## Watch out
+Issues and concerns to look out for
+- `You exceeded your current quota` : If your run into an error suggesting `You exceeded your current quota` that could be for several reasons, refer to this [StackOverflow answer](https://stackoverflow.com/a/75898717/9622142) on how to resolve it.
+
 ## Quickstart
 1. Install [openplugincore](https://www.npmjs.com/package/openplugincore)
 ```shell
