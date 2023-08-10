@@ -6,13 +6,13 @@ import os
 from .types import ChatgptAssistantMessage, ChatgptFunctionMessage, PluginConfigs
 from .utils.constants import openai_models_info
 from .utils.prompting import estimate_tokens, tokens_to_chars, truncate_json_root
-from langchain.chains.openai_functions.openapi import openapi_spec_to_openai_fn
-from langchain.utilities.openapi import OpenAPISpec
-from langchain.output_parsers.openai_functions import JsonOutputFunctionsParser
-from langchain.prompts import ChatPromptTemplate
-from langchain.chat_models import ChatOpenAI
-from langchain.schema import HumanMessage, AIMessage, SystemMessage, FunctionMessage
-from langchain import LLMChain
+from oplangchain.chains.openai_functions.openapi import openapi_spec_to_openai_fn
+from oplangchain.utilities.openapi import OpenAPISpec
+from oplangchain.output_parsers.openai_functions import JsonOutputFunctionsParser
+from oplangchain.prompts import ChatPromptTemplate
+from oplangchain.chat_models import ChatOpenAI
+from oplangchain.schema import HumanMessage, AIMessage, SystemMessage, FunctionMessage
+from oplangchain import LLMChain
 import openai
 from dotenv import load_dotenv
 load_dotenv()

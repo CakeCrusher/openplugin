@@ -182,6 +182,7 @@ def test_initiate_and_fetch_scholarai():
     # Replace the line below with a test for the final output in json_content
     assert isinstance(json_content["total_num_results"], int)
 
+@pytest.mark.skip(reason="Not whitelisted")
 def test_initiate_and_fetch_rephrase():
     plugin = OpenPlugin("rephrase")
     assert plugin.manifest is not None
@@ -302,6 +303,28 @@ def test_initiate_and_fetch_Ai_PDF():
 
     # Replace the line below with a test for the final output in json_content
     assert isinstance(json_content[0], str)
+
+def test_initiate_and_fetch_askyourpdf():
+    plugin = OpenPlugin("askyourpdf", verbose=True)
+    assert plugin.manifest is not None
+    
+    chatgpt_prompt = 'summarize this pdf https://eforms.com/download/2018/01/Non-Disclosure-Agreement-Template.pdf'
+    response = plugin.fetch_plugin(
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
+        model="gpt-3.5-turbo-0613",
+        temperature=0,
+    )
+
+    assert response is not None
+    assert response["role"] == "function"
+    json_content = json.loads(response["content"])
+
+    assert len(json_content["summary"]) > 0
 
 """
 TEMPLATE for testing a new plugin
