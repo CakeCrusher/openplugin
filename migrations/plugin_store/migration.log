@@ -5188,3 +5188,2590 @@
 2023-07-25 12:02:39,520 access_google_sheets Whitelist Success
 2023-07-25 12:02:51,581 access_google_sheets Stimulate Error: Error: No function_call in message [{"text":"The plugin can be used to help the user by providing information and performing actions related to the Google Sheets document in their Google Drive. Here are some ways the plugin can assist the user:\n\n1. Retrieve Document Information: The plugin can fetch information about the Google Sheets document, such as the title, owner, last modified date, and number of sheets.\n\n2. Get Sheet Data: The plugin can retrieve the data from specific sheets within the Google Sheets document. This can include fetching the values, formulas, formatting, and other properties of cells, rows, or columns.\n\n3. Perform Calculations: The plugin can perform calculations on the data within the Google Sheets document. This can include basic arithmetic operations, aggregations, filtering, sorting, and more.\n\n4. Update Sheet Data: The plugin can update the data within the Google Sheets document. This can include modifying cell values, adding or deleting rows or columns, applying formatting, and other editing actions.\n\n5. Share Document: The plugin can assist in sharing the Google Sheets document with other users. This can include adding collaborators, setting permissions, and managing access to the document.\n\n6. Generate Reports: The plugin can generate reports or summaries based on the data within the Google Sheets document. This can include creating charts, tables, or visualizations, and exporting the results in various formats.\n\n7. Automate Tasks: The plugin can automate repetitive tasks within the Google Sheets document. This can include creating scripts or macros to perform actions, such as data import, data cleaning, data validation, and more.\n\nBy utilizing the plugin's capabilities, the user can easily interact with their Google Sheets document, retrieve information, perform calculations, update data, and automate tasks, making it easier to work with their Google Drive documents.","message":{"lc":1,"type":"constructor","id":["langchain","schema","AIMessage"],"kwargs":{"content":"The plugin can be used to help the user by providing information and performing actions related to the Google Sheets document in their Google Drive. Here are some ways the plugin can assist the user:\n\n1. Retrieve Document Information: The plugin can fetch information about the Google Sheets document, such as the title, owner, last modified date, and number of sheets.\n\n2. Get Sheet Data: The plugin can retrieve the data from specific sheets within the Google Sheets document. This can include fetching the values, formulas, formatting, and other properties of cells, rows, or columns.\n\n3. Perform Calculations: The plugin can perform calculations on the data within the Google Sheets document. This can include basic arithmetic operations, aggregations, filtering, sorting, and more.\n\n4. Update Sheet Data: The plugin can update the data within the Google Sheets document. This can include modifying cell values, adding or deleting rows or columns, applying formatting, and other editing actions.\n\n5. Share Document: The plugin can assist in sharing the Google Sheets document with other users. This can include adding collaborators, setting permissions, and managing access to the document.\n\n6. Generate Reports: The plugin can generate reports or summaries based on the data within the Google Sheets document. This can include creating charts, tables, or visualizations, and exporting the results in various formats.\n\n7. Automate Tasks: The plugin can automate repetitive tasks within the Google Sheets document. This can include creating scripts or macros to perform actions, such as data import, data cleaning, data validation, and more.\n\nBy utilizing the plugin's capabilities, the user can easily interact with their Google Sheets document, retrieve information, perform calculations, update data, and automate tasks, making it easier to work with their Google Drive documents.","additional_kwargs":{}}}}]
 2023-07-25 12:02:51,590 JS access_google_sheets Complete
+2023-08-10 10:43:24,206 Ai_PDF Whitelist Success
+2023-08-10 10:43:28,297 Ai_PDF Stimulate Error: Not a plugin function
+2023-08-10 10:43:28,769 Ai_PDF Whitelist Success
+2023-08-10 10:43:31,535 Ai_PDF Stimulate Error: Not a plugin function
+2023-08-10 10:43:31,653 0 Processing a_mail_please
+2023-08-10 10:43:31,676 a_mail_please Complete
+2023-08-10 10:43:31,695 1 Processing bestever
+2023-08-10 10:43:31,725 bestever Complete
+2023-08-10 10:43:31,741 2 Processing doc_maker
+2023-08-10 10:43:32,640 doc_maker Whitelist Success
+2023-08-10 10:43:37,414 doc_maker Stimulate Success
+2023-08-10 10:43:37,431 doc_maker Complete
+2023-08-10 10:43:37,446 3 Processing search_european_train_trips_and_schedules
+2023-08-10 10:43:37,471 search_european_train_trips_and_schedules Complete
+2023-08-10 10:43:37,486 4 Processing quickSEO_gpt
+2023-08-10 10:43:37,513 quickSEO_gpt Complete
+2023-08-10 10:43:37,529 5 Processing a_plus_quick_url
+2023-08-10 10:43:37,554 a_plus_quick_url Complete
+2023-08-10 10:43:37,569 6 Processing quick_voicegpt
+2023-08-10 10:43:37,595 quick_voicegpt Complete
+2023-08-10 10:43:37,610 7 Processing a_to_z_video_summary
+2023-08-10 10:43:37,636 a_to_z_video_summary Complete
+2023-08-10 10:43:37,651 8 Processing ab_judge
+2023-08-10 10:43:37,677 ab_judge Complete
+2023-08-10 10:43:37,693 9 Processing SummarizeAnything_pr
+2023-08-10 10:43:37,720 SummarizeAnything_pr Complete
+2023-08-10 10:43:37,735 10 Processing AardvarkAI
+2023-08-10 10:43:38,223 AardvarkAI Whitelist Success
+2023-08-10 10:43:47,974 AardvarkAI Stimulate Success
+2023-08-10 10:43:47,991 AardvarkAI Complete
+2023-08-10 10:43:48,008 11 Processing abc_to_audio
+2023-08-10 10:43:48,960 abc_to_audio Whitelist Success
+2023-08-10 10:43:54,375 abc_to_audio Stimulate Success
+2023-08-10 10:43:54,392 abc_to_audio Complete
+2023-08-10 10:43:54,408 12 Processing able_plugin
+2023-08-10 10:43:56,820 able_plugin Whitelist Success
+2023-08-10 10:44:13,544 able_plugin Stimulate Error: Not a plugin function
+2023-08-10 10:44:13,561 able_plugin Complete
+2023-08-10 10:44:13,576 13 Processing AbleStyle
+2023-08-10 10:44:13,601 AbleStyle Complete
+2023-08-10 10:44:13,616 14 Processing Abortion_Information
+2023-08-10 10:44:13,643 Abortion_Information Complete
+2023-08-10 10:44:13,659 15 Processing AbridgedDueDiligence
+2023-08-10 10:44:13,684 AbridgedDueDiligence Complete
+2023-08-10 10:44:13,698 16 Processing access_google_sheets
+2023-08-10 10:44:16,222 access_google_sheets Whitelist Success
+2023-08-10 10:44:18,791 access_google_sheets Stimulate Error: Not a plugin function
+2023-08-10 10:44:18,808 access_google_sheets Complete
+2023-08-10 10:44:18,824 17 Processing access_link
+2023-08-10 10:44:19,229 access_link Whitelist Success
+2023-08-10 10:44:26,127 access_link Stimulate Success
+2023-08-10 10:44:26,146 access_link Complete
+2023-08-10 10:44:26,162 18 Processing access_pdf
+2023-08-10 10:44:26,589 access_pdf Whitelist Success
+2023-08-10 10:44:28,960 access_pdf Stimulate Error: Not a plugin function
+2023-08-10 10:44:28,977 access_pdf Complete
+2023-08-10 10:44:28,992 19 Processing accurate_pdf_reader
+2023-08-10 10:44:29,842 accurate_pdf_reader Whitelist Success
+2023-08-10 10:44:34,550 accurate_pdf_reader Stimulate Error: Not a plugin function
+2023-08-10 10:44:34,568 accurate_pdf_reader Complete
+2023-08-10 10:44:34,583 20 Processing acquire
+2023-08-10 10:44:34,968 acquire Whitelist Success
+2023-08-10 10:44:38,018 acquire Stimulate Success
+2023-08-10 10:44:38,036 acquire Complete
+2023-08-10 10:44:38,051 21 Processing ad4mat
+2023-08-10 10:44:38,820 ad4mat Whitelist Success
+2023-08-10 10:44:41,237 ad4mat Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 10:44:41,255 ad4mat Complete
+2023-08-10 10:44:41,271 22 Processing AeroDex
+2023-08-10 10:44:41,790 AeroDex Whitelist Success
+2023-08-10 10:44:44,803 AeroDex Stimulate Success
+2023-08-10 10:44:44,820 AeroDex Complete
+2023-08-10 10:44:44,836 23 Processing Affilitizer
+2023-08-10 10:44:45,696 Affilitizer Whitelist Success
+2023-08-10 10:44:48,657 Affilitizer Stimulate Error: Not a plugin function
+2023-08-10 10:44:48,675 Affilitizer Complete
+2023-08-10 10:44:48,691 24 Processing AFinChat
+2023-08-10 10:44:48,716 AFinChat Complete
+2023-08-10 10:44:48,731 25 Processing AgentSQL
+2023-08-10 10:44:48,758 AgentSQL Complete
+2023-08-10 10:44:48,774 26 Processing Agones
+2023-08-10 10:44:49,642 Agones Whitelist Success
+2023-08-10 10:44:54,235 Agones Stimulate Success
+2023-08-10 10:44:54,252 Agones Complete
+2023-08-10 10:44:54,267 27 Processing aiAgents
+2023-08-10 10:44:54,656 aiAgents Whitelist Success
+2023-08-10 10:44:58,851 aiAgents Stimulate Error: Unterminated string starting at: line 2 column 23 (char 24)
+2023-08-10 10:44:58,868 aiAgents Complete
+2023-08-10 10:44:58,883 28 Processing customplugin
+2023-08-10 10:44:59,559 customplugin Whitelist Success
+2023-08-10 10:45:04,913 customplugin Stimulate Error: Unterminated string starting at: line 2 column 23 (char 24)
+2023-08-10 10:45:04,930 customplugin Complete
+2023-08-10 10:45:04,945 29 Processing ai_data_analyst
+2023-08-10 10:45:04,971 ai_data_analyst Complete
+2023-08-10 10:45:04,985 30 Processing aiextensions
+2023-08-10 10:45:05,842 aiextensions Whitelist Success
+2023-08-10 10:45:08,584 aiextensions Stimulate Success
+2023-08-10 10:45:08,602 aiextensions Complete
+2023-08-10 10:45:08,618 31 Processing findagift
+2023-08-10 10:45:09,085 findagift Whitelist Success
+2023-08-10 10:45:11,406 findagift Stimulate Error: Not a plugin function
+2023-08-10 10:45:11,424 findagift Complete
+2023-08-10 10:45:11,439 32 Processing AINewsRoundup
+2023-08-10 10:45:11,467 AINewsRoundup Complete
+2023-08-10 10:45:11,481 33 Processing Ai_PDF
+2023-08-10 10:45:11,770 Ai_PDF Whitelist Success
+2023-08-10 10:45:15,629 Ai_PDF Stimulate Error: Not a plugin function
+2023-08-10 10:45:15,647 Ai_PDF Complete
+2023-08-10 10:45:15,663 34 Processing AIQuest
+2023-08-10 10:45:16,203 Attempting to load an OpenAPI "3.1.0" spec.  This may result in degraded performance. Convert your OpenAPI spec to 3.1.* spec for better support.
+2023-08-10 10:45:16,211 AIQuest Whitelist Success
+2023-08-10 10:45:20,385 AIQuest Stimulate Success
+2023-08-10 10:45:20,403 AIQuest Complete
+2023-08-10 10:45:20,418 35 Processing aitoolhunt
+2023-08-10 10:45:20,443 aitoolhunt Complete
+2023-08-10 10:45:20,457 36 Processing AIMaster
+2023-08-10 10:45:21,513 AIMaster Whitelist Success
+2023-08-10 10:45:24,422 AIMaster Stimulate Success
+2023-08-10 10:45:24,440 AIMaster Complete
+2023-08-10 10:45:24,455 37 Processing tmRecommender
+2023-08-10 10:45:25,055 tmRecommender Whitelist Success
+2023-08-10 10:45:37,575 tmRecommender Stimulate Success
+2023-08-10 10:45:37,592 tmRecommender Complete
+2023-08-10 10:45:37,608 38 Processing AIstrologer
+2023-08-10 10:45:37,633 AIstrologer Complete
+2023-08-10 10:45:37,648 39 Processing aitickerchat_document_retrieval
+2023-08-10 10:45:37,674 aitickerchat_document_retrieval Complete
+2023-08-10 10:45:37,690 40 Processing AladinSearchBooks
+2023-08-10 10:45:39,512 AladinSearchBooks Whitelist Success
+2023-08-10 10:45:40,755 AladinSearchBooks Stimulate Error: Not a plugin function
+2023-08-10 10:45:40,773 AladinSearchBooks Complete
+2023-08-10 10:45:40,788 41 Processing alagaAI
+2023-08-10 10:45:40,990 alagaAI Whitelist Error: 500 Server Error: Internal Server Error for url: https://alaga-ai-h43cosb3ia-uc.a.run.app/.well-known/ai-plugin.json
+2023-08-10 10:45:41,012 alagaAI Complete
+2023-08-10 10:45:41,027 42 Processing alarm_advisor
+2023-08-10 10:45:41,053 alarm_advisor Complete
+2023-08-10 10:45:41,068 43 Processing albadoc
+2023-08-10 10:45:41,819 albadoc Whitelist Success
+2023-08-10 10:45:45,793 albadoc Stimulate Success
+2023-08-10 10:45:45,810 albadoc Complete
+2023-08-10 10:45:45,826 44 Processing Alchemy
+2023-08-10 10:45:45,851 Alchemy Complete
+2023-08-10 10:45:45,866 45 Processing aldenbot
+2023-08-10 10:45:46,679 aldenbot Whitelist Success
+2023-08-10 10:45:52,876 aldenbot Stimulate Success
+2023-08-10 10:45:52,894 aldenbot Complete
+2023-08-10 10:45:52,910 46 Processing Algorithma
+2023-08-10 10:45:54,069 Algorithma Whitelist Success
+2023-08-10 10:45:56,137 Algorithma Stimulate Error: Expecting value: line 1 column 2 (char 1)
+2023-08-10 10:45:56,155 Algorithma Complete
+2023-08-10 10:45:56,171 47 Processing find_teachers
+2023-08-10 10:45:57,186 find_teachers Whitelist Success
+2023-08-10 10:46:03,451 find_teachers Stimulate Success
+2023-08-10 10:46:03,468 find_teachers Complete
+2023-08-10 10:46:03,483 48 Processing amazonfinds
+2023-08-10 10:46:03,509 amazonfinds Complete
+2023-08-10 10:46:03,524 49 Processing amazongiftchooser
+2023-08-10 10:46:03,995 amazongiftchooser Whitelist Success
+2023-08-10 10:46:05,454 amazongiftchooser Stimulate Success
+2023-08-10 10:46:05,472 amazongiftchooser Complete
+2023-08-10 10:46:05,488 50 Processing Ambition
+2023-08-10 10:46:05,514 Ambition Complete
+2023-08-10 10:46:05,528 51 Processing AMAZON_product_desc_generator
+2023-08-10 10:46:08,011 AMAZON_product_desc_generator Whitelist Success
+2023-08-10 10:46:14,100 AMAZON_product_desc_generator Stimulate Error: Not a plugin function
+2023-08-10 10:46:14,117 AMAZON_product_desc_generator Complete
+2023-08-10 10:46:14,133 52 Processing anabot
+2023-08-10 10:46:15,117 anabot Whitelist Success
+2023-08-10 10:46:16,931 error_code=None error_message="'Ask AnaBot' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.0.name'" error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-08-10 10:46:16,931 anabot Stimulate Error: 'Ask AnaBot' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.0.name'
+2023-08-10 10:46:16,948 anabot Complete
+2023-08-10 10:46:16,963 53 Processing analyticsai
+2023-08-10 10:46:16,989 analyticsai Complete
+2023-08-10 10:46:17,004 54 Processing andorra_news_flats_traffic_work__search
+2023-08-10 10:46:18,156 andorra_news_flats_traffic_work__search Whitelist Success
+2023-08-10 10:46:24,993 andorra_news_flats_traffic_work__search Stimulate Error: Not a plugin function
+2023-08-10 10:46:25,011 andorra_news_flats_traffic_work__search Complete
+2023-08-10 10:46:25,026 55 Processing ApexMap
+2023-08-10 10:46:25,398 ApexMap Whitelist Success
+2023-08-10 10:46:28,712 ApexMap Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 10:46:28,732 ApexMap Complete
+2023-08-10 10:46:28,747 56 Processing API_documentation_Bot
+2023-08-10 10:46:29,409 API_documentation_Bot Whitelist Success
+2023-08-10 10:46:30,591 error_code=None error_message="'Ask a Question to API Bot' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.0.name'" error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-08-10 10:46:30,591 API_documentation_Bot Stimulate Error: 'Ask a Question to API Bot' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.0.name'
+2023-08-10 10:46:30,610 API_documentation_Bot Complete
+2023-08-10 10:46:30,627 57 Processing AppyPieAIAppBuilder
+2023-08-10 10:46:31,223 AppyPieAIAppBuilder Whitelist Success
+2023-08-10 10:46:35,023 AppyPieAIAppBuilder Stimulate Success
+2023-08-10 10:46:35,040 AppyPieAIAppBuilder Complete
+2023-08-10 10:46:35,056 58 Processing argil
+2023-08-10 10:46:35,081 argil Complete
+2023-08-10 10:46:35,096 59 Processing ArtCollection
+2023-08-10 10:46:35,121 ArtCollection Complete
+2023-08-10 10:46:35,139 60 Processing AskCars
+2023-08-10 10:46:35,638 AskCars Whitelist Error: 503 Server Error: Service Unavailable for url: https://askcars.ai/.well-known/ai-plugin.json
+2023-08-10 10:46:35,657 AskCars Complete
+2023-08-10 10:46:35,673 61 Processing LinkBot
+2023-08-10 10:46:36,100 LinkBot Whitelist Error: 502 Server Error: Bad Gateway for url: https://linkbot-openai.langdock.com/.well-known/ai-plugin.json
+2023-08-10 10:46:36,121 LinkBot Complete
+2023-08-10 10:46:36,136 62 Processing AskMarcie
+2023-08-10 10:46:36,162 AskMarcie Complete
+2023-08-10 10:46:36,178 63 Processing ask_my_first_million_podcast_chatbot
+2023-08-10 10:46:36,955 ask_my_first_million_podcast_chatbot Whitelist Success
+2023-08-10 10:46:38,979 ask_my_first_million_podcast_chatbot Stimulate Error: Not a plugin function
+2023-08-10 10:46:38,997 ask_my_first_million_podcast_chatbot Complete
+2023-08-10 10:46:39,013 64 Processing askvg
+2023-08-10 10:46:39,040 askvg Complete
+2023-08-10 10:46:39,055 65 Processing stylist
+2023-08-10 10:46:39,555 stylist Whitelist Success
+2023-08-10 10:46:42,496 stylist Stimulate Error: Not a plugin function
+2023-08-10 10:46:42,515 stylist Complete
+2023-08-10 10:46:42,530 66 Processing AskTheCode
+2023-08-10 10:46:43,093 AskTheCode Whitelist Success
+2023-08-10 10:46:45,404 AskTheCode Stimulate Error: Not a plugin function
+2023-08-10 10:46:45,422 AskTheCode Complete
+2023-08-10 10:46:45,437 67 Processing askyourcode
+2023-08-10 10:47:06,624 askyourcode Whitelist Error: HTTPSConnectionPool(host='plugin.askyourcode.ai', port=443): Max retries exceeded with url: /.well-known/ai-plugin.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0C9CD98A0>, 'Connection to plugin.askyourcode.ai timed out. (connect timeout=None)'))
+2023-08-10 10:47:06,641 askyourcode Complete
+2023-08-10 10:47:06,656 68 Processing AskYourKG
+2023-08-10 10:47:07,867 AskYourKG Whitelist Success
+2023-08-10 10:47:19,353 AskYourKG Stimulate Error: Not a plugin function
+2023-08-10 10:47:19,370 AskYourKG Complete
+2023-08-10 10:47:19,386 69 Processing askyourpdf
+2023-08-10 10:47:20,040 askyourpdf Whitelist Success
+2023-08-10 10:47:22,730 askyourpdf Stimulate Error: Not a plugin function
+2023-08-10 10:47:22,747 askyourpdf Complete
+2023-08-10 10:47:22,763 70 Processing askyourpdf
+2023-08-10 10:47:22,789 askyourpdf Complete
+2023-08-10 10:47:22,805 71 Processing assetOvi
+2023-08-10 10:47:23,764 assetOvi Whitelist Success
+2023-08-10 10:47:28,728 assetOvi Stimulate Success
+2023-08-10 10:47:28,745 assetOvi Complete
+2023-08-10 10:47:28,761 72 Processing astroinsights
+2023-08-10 10:47:29,592 astroinsights Whitelist Error: 401 Client Error: Unauthorized for url: https://plugin.astro-insights.net/.well-known/ai-plugin.json
+2023-08-10 10:47:29,614 astroinsights Complete
+2023-08-10 10:47:29,630 73 Processing astrodaily
+2023-08-10 10:47:30,117 astrodaily Whitelist Success
+2023-08-10 10:47:33,473 astrodaily Stimulate Success
+2023-08-10 10:47:33,491 astrodaily Complete
+2023-08-10 10:47:33,508 74 Processing AusPetrolPrices
+2023-08-10 10:47:33,534 AusPetrolPrices Complete
+2023-08-10 10:47:33,549 75 Processing AusSurfReport
+2023-08-10 10:47:33,576 AusSurfReport Complete
+2023-08-10 10:47:33,593 76 Processing Austrian_Bank_Rates
+2023-08-10 10:47:34,659 Austrian_Bank_Rates Whitelist Success
+2023-08-10 10:47:37,770 Austrian_Bank_Rates Stimulate Success
+2023-08-10 10:47:37,788 Austrian_Bank_Rates Complete
+2023-08-10 10:47:37,804 77 Processing AutoInfra1
+2023-08-10 10:47:37,830 AutoInfra1 Complete
+2023-08-10 10:47:37,845 78 Processing Avalara
+2023-08-10 10:47:37,870 Avalara Complete
+2023-08-10 10:47:37,886 79 Processing avian
+2023-08-10 10:47:37,913 avian Complete
+2023-08-10 10:47:37,928 80 Processing website
+2023-08-10 10:47:37,954 website Complete
+2023-08-10 10:47:37,969 81 Processing Back4App
+2023-08-10 10:47:37,994 Back4App Complete
+2023-08-10 10:47:38,009 82 Processing Bardeen
+2023-08-10 10:47:38,743 Bardeen Whitelist Success
+2023-08-10 10:47:50,505 Bardeen Stimulate Success
+2023-08-10 10:47:50,523 Bardeen Complete
+2023-08-10 10:47:50,540 83 Processing bart_realtime
+2023-08-10 10:47:51,013 bart_realtime Whitelist Success
+2023-08-10 10:47:54,018 bart_realtime Stimulate Success
+2023-08-10 10:47:54,036 bart_realtime Complete
+2023-08-10 10:47:54,051 84 Processing nba_stats
+2023-08-10 10:47:54,571 nba_stats Whitelist Success
+2023-08-10 10:48:04,427 nba_stats Stimulate Success
+2023-08-10 10:48:04,444 nba_stats Complete
+2023-08-10 10:48:04,459 85 Processing bgg_assistant
+2023-08-10 10:48:06,229 bgg_assistant Whitelist Success
+2023-08-10 10:48:13,645 bgg_assistant Stimulate Error: Not a plugin function
+2023-08-10 10:48:13,664 bgg_assistant Complete
+2023-08-10 10:48:13,680 86 Processing bibguru
+2023-08-10 10:48:14,163 bibguru Whitelist Success
+2023-08-10 10:48:19,577 bibguru Stimulate Success
+2023-08-10 10:48:19,595 bibguru Complete
+2023-08-10 10:48:19,610 87 Processing bible
+2023-08-10 10:48:19,636 bible Complete
+2023-08-10 10:48:19,651 88 Processing bibliography_crossref
+2023-08-10 10:48:20,367 bibliography_crossref Whitelist Success
+2023-08-10 10:48:28,832 bibliography_crossref Stimulate Success
+2023-08-10 10:48:28,850 bibliography_crossref Complete
+2023-08-10 10:48:28,866 89 Processing bibsonomy
+2023-08-10 10:48:28,891 bibsonomy Complete
+2023-08-10 10:48:28,906 90 Processing bild
+2023-08-10 10:48:28,935 bild Complete
+2023-08-10 10:48:28,952 91 Processing BitcoinSentiment
+2023-08-10 10:48:28,978 BitcoinSentiment Complete
+2023-08-10 10:48:28,995 92 Processing biztoc
+2023-08-10 10:48:29,635 biztoc Whitelist Success
+2023-08-10 10:48:31,854 biztoc Stimulate Success
+2023-08-10 10:48:31,875 biztoc Complete
+2023-08-10 10:48:31,892 93 Processing blended
+2023-08-10 10:48:47,932 blended Whitelist Error: 504 Server Error: Gateway Time-out for url: https://plugin.blended.app/.well-known/ai-plugin.json
+2023-08-10 10:48:47,953 blended Complete
+2023-08-10 10:48:47,971 94 Processing blockatlas
+2023-08-10 10:48:48,233 blockatlas Whitelist Success
+2023-08-10 10:48:50,981 blockatlas Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 10:48:51,000 blockatlas Complete
+2023-08-10 10:48:51,015 95 Processing Bohita
+2023-08-10 10:48:51,041 Bohita Complete
+2023-08-10 10:48:51,056 96 Processing booktickets
+2023-08-10 10:48:51,842 booktickets Whitelist Success
+2023-08-10 10:48:57,137 booktickets Stimulate Success
+2023-08-10 10:48:57,156 booktickets Complete
+2023-08-10 10:48:57,170 97 Processing bookworm
+2023-08-10 10:48:57,196 bookworm Complete
+2023-08-10 10:48:57,211 98 Processing boolio
+2023-08-10 10:48:58,688 boolio Whitelist Success
+2023-08-10 10:49:04,440 boolio Stimulate Error: Expecting value: line 1 column 3 (char 2)
+2023-08-10 10:49:04,459 boolio Complete
+2023-08-10 10:49:04,474 99 Processing BOXIL_SaaS
+2023-08-10 10:49:04,499 BOXIL_SaaS Complete
+2023-08-10 10:49:04,513 100 Processing bramework
+2023-08-10 10:49:04,540 bramework Complete
+2023-08-10 10:49:04,556 101 Processing brandfetch
+2023-08-10 10:49:05,206 brandfetch Whitelist Success
+2023-08-10 10:49:07,746 brandfetch Stimulate Error: Not a plugin function
+2023-08-10 10:49:07,764 brandfetch Complete
+2023-08-10 10:49:07,779 102 Processing Broadway
+2023-08-10 10:49:07,806 Broadway Complete
+2023-08-10 10:49:07,821 103 Processing BrowserOp
+2023-08-10 10:49:08,938 BrowserOp Whitelist Success
+2023-08-10 10:49:12,960 BrowserOp Stimulate Error: Not a plugin function
+2023-08-10 10:49:12,978 BrowserOp Complete
+2023-08-10 10:49:12,993 104 Processing BrowserPilot
+2023-08-10 10:49:14,160 BrowserPilot Whitelist Success
+2023-08-10 10:49:20,665 BrowserPilot Stimulate Success
+2023-08-10 10:49:20,683 BrowserPilot Complete
+2023-08-10 10:49:20,698 105 Processing BubbleGoods
+2023-08-10 10:49:20,724 BubbleGoods Complete
+2023-08-10 10:49:20,739 106 Processing buildbetter
+2023-08-10 10:49:20,770 buildbetter Complete
+2023-08-10 10:49:20,785 107 Processing buywisely
+2023-08-10 10:49:21,926 buywisely Whitelist Success
+2023-08-10 10:49:25,965 buywisely Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 10:49:25,985 buywisely Complete
+2023-08-10 10:49:26,000 108 Processing buzz
+2023-08-10 10:49:26,343 buzz Whitelist Success
+2023-08-10 10:49:38,802 buzz Stimulate Success
+2023-08-10 10:49:38,820 buzz Complete
+2023-08-10 10:49:38,836 109 Processing ByByAI
+2023-08-10 10:49:39,260 ByByAI Whitelist Success
+2023-08-10 10:49:43,701 ByByAI Stimulate Success
+2023-08-10 10:49:43,720 ByByAI Complete
+2023-08-10 10:49:43,736 110 Processing CLevelResume
+2023-08-10 10:49:44,285 CLevelResume Whitelist Success
+2023-08-10 10:49:47,102 CLevelResume Stimulate Error: Not a plugin function
+2023-08-10 10:49:47,119 CLevelResume Complete
+2023-08-10 10:49:47,135 111 Processing C3_Glide
+2023-08-10 10:49:47,688 C3_Glide Whitelist Success
+2023-08-10 10:49:57,008 C3_Glide Stimulate Error: Not a plugin function
+2023-08-10 10:49:57,026 C3_Glide Complete
+2023-08-10 10:49:57,041 112 Processing calculator
+2023-08-10 10:49:58,132 calculator Whitelist Success
+2023-08-10 10:50:00,441 calculator Stimulate Success
+2023-08-10 10:50:00,458 calculator Complete
+2023-08-10 10:50:00,473 113 Processing calculatortools
+2023-08-10 10:50:00,498 calculatortools Complete
+2023-08-10 10:50:00,513 114 Processing california_law_search
+2023-08-10 10:50:00,540 california_law_search Complete
+2023-08-10 10:50:00,557 115 Processing caloriechat
+2023-08-10 10:50:00,584 caloriechat Complete
+2023-08-10 10:50:00,599 116 Processing shimmer_calorie_counter
+2023-08-10 10:50:00,625 shimmer_calorie_counter Complete
+2023-08-10 10:50:00,640 117 Processing CapCut
+2023-08-10 10:50:00,666 CapCut Complete
+2023-08-10 10:50:00,681 118 Processing career_copilot
+2023-08-10 10:50:01,365 career_copilot Whitelist Success
+2023-08-10 10:50:09,693 career_copilot Stimulate Error: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/chatgpt/jobs?userId=123456&linkedinUrl=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fjohndoe&location=San+Francisco&title=Software+Engineer&seniority=INTERMEDIATE&skills=Java&skills=Python&skills=JavaScript&salaryMin=100000 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D0AE938130>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-08-10 10:50:09,711 career_copilot Complete
+2023-08-10 10:50:09,726 119 Processing cargurus
+2023-08-10 10:50:09,751 cargurus Complete
+2023-08-10 10:50:09,767 120 Processing CarYardBard
+2023-08-10 10:50:09,793 CarYardBard Complete
+2023-08-10 10:50:09,810 121 Processing Catch_Them_All
+2023-08-10 10:50:09,837 Catch_Them_All Complete
+2023-08-10 10:50:09,853 122 Processing CryptoPrices
+2023-08-10 10:50:09,883 CryptoPrices Complete
+2023-08-10 10:50:09,900 123 Processing chabadCenters
+2023-08-10 10:50:10,561 chabadCenters Whitelist Success
+2023-08-10 10:50:13,291 chabadCenters Stimulate Success
+2023-08-10 10:50:13,309 chabadCenters Complete
+2023-08-10 10:50:13,324 124 Processing chacaMarketProduct
+2023-08-10 10:50:15,970 chacaMarketProduct Whitelist Success
+2023-08-10 10:50:22,724 chacaMarketProduct Stimulate Error: Not a plugin function
+2023-08-10 10:50:22,742 chacaMarketProduct Complete
+2023-08-10 10:50:22,758 125 Processing Chainstack
+2023-08-10 10:50:24,586 Chainstack Whitelist Success
+2023-08-10 10:50:26,436 Chainstack Stimulate Error: Not a plugin function
+2023-08-10 10:50:26,454 Chainstack Complete
+2023-08-10 10:50:26,470 126 Processing champdex
+2023-08-10 10:50:26,983 champdex Whitelist Success
+2023-08-10 10:50:28,479 champdex Stimulate Error: Not a plugin function
+2023-08-10 10:50:28,499 champdex Complete
+2023-08-10 10:50:28,514 127 Processing nonprofits
+2023-08-10 10:50:29,073 nonprofits Whitelist Success
+2023-08-10 10:50:31,183 nonprofits Stimulate Error: Not a plugin function
+2023-08-10 10:50:31,204 nonprofits Complete
+2023-08-10 10:50:31,221 128 Processing ChargeMyEV
+2023-08-10 10:50:31,768 ChargeMyEV Whitelist Success
+2023-08-10 10:50:32,789 error_code=None error_message="'checkAvailablePlannedTeslaVehicleSuperchargerStationsGETAndParams' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.6.name'" error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-08-10 10:50:32,789 ChargeMyEV Stimulate Error: 'checkAvailablePlannedTeslaVehicleSuperchargerStationsGETAndParams' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.6.name'
+2023-08-10 10:50:32,808 ChargeMyEV Complete
+2023-08-10 10:50:32,823 129 Processing charity
+2023-08-10 10:50:32,849 charity Complete
+2023-08-10 10:50:32,864 130 Processing chart
+2023-08-10 10:50:32,891 chart Complete
+2023-08-10 10:50:32,906 131 Processing chat_raku_journey
+2023-08-10 10:50:32,934 chat_raku_journey Complete
+2023-08-10 10:50:32,951 132 Processing chat_stack_search
+2023-08-10 10:50:32,977 chat_stack_search Complete
+2023-08-10 10:50:32,993 133 Processing ChatTMDB
+2023-08-10 10:50:35,008 Attempting to load an OpenAPI "3.1.0" spec.  This may result in degraded performance. Convert your OpenAPI spec to 3.1.* spec for better support.
+2023-08-10 10:50:35,017 ChatTMDB Whitelist Success
+2023-08-10 10:50:36,936 ChatTMDB Stimulate Error: Not a plugin function
+2023-08-10 10:50:36,955 ChatTMDB Complete
+2023-08-10 10:50:36,971 134 Processing chattoolfinder
+2023-08-10 10:50:37,655 chattoolfinder Whitelist Success
+2023-08-10 10:50:40,935 chattoolfinder Stimulate Error: Not a plugin function
+2023-08-10 10:50:40,953 chattoolfinder Complete
+2023-08-10 10:50:40,969 135 Processing ChatWithBible
+2023-08-10 10:50:40,996 ChatWithBible Complete
+2023-08-10 10:50:41,012 136 Processing Confluence
+2023-08-10 10:50:41,041 Confluence Complete
+2023-08-10 10:50:41,056 137 Processing chat_with_excel
+2023-08-10 10:50:41,082 chat_with_excel Complete
+2023-08-10 10:50:41,099 138 Processing ChatWithQuran
+2023-08-10 10:50:41,143 ChatWithQuran Complete
+2023-08-10 10:50:41,163 139 Processing chat_with_workspace
+2023-08-10 10:50:41,190 chat_with_workspace Complete
+2023-08-10 10:50:41,208 140 Processing chat_with_data
+2023-08-10 10:50:41,234 chat_with_data Complete
+2023-08-10 10:50:41,250 141 Processing chat_afi
+2023-08-10 10:50:41,526 chat_afi Whitelist Success
+2023-08-10 10:50:48,248 chat_afi Stimulate Success
+2023-08-10 10:50:48,266 chat_afi Complete
+2023-08-10 10:50:48,283 142 Processing ChatOCR
+2023-08-10 10:50:48,310 ChatOCR Complete
+2023-08-10 10:50:48,325 143 Processing chatspot
+2023-08-10 10:50:49,454 chatspot Whitelist Success
+2023-08-10 10:51:01,003 chatspot Stimulate Error: Not a plugin function
+2023-08-10 10:51:01,021 chatspot Complete
+2023-08-10 10:51:01,036 144 Processing SSH
+2023-08-10 10:51:01,063 SSH Complete
+2023-08-10 10:51:01,078 145 Processing ChatWithGit
+2023-08-10 10:51:01,860 ChatWithGit Whitelist Success
+2023-08-10 10:51:05,981 ChatWithGit Stimulate Success
+2023-08-10 10:51:05,999 ChatWithGit Complete
+2023-08-10 10:51:06,015 146 Processing chatwithpdf
+2023-08-10 10:51:06,041 chatwithpdf Complete
+2023-08-10 10:51:06,055 147 Processing chatwithwebsite
+2023-08-10 10:51:06,081 chatwithwebsite Complete
+2023-08-10 10:51:06,097 148 Processing Check_Point_Security
+2023-08-10 10:51:06,349 Check_Point_Security Whitelist Error: 403 Client Error: Forbidden for url: https://tp-chatgpt.checkpoint.com/.well-known/ai-plugin.json
+2023-08-10 10:51:06,376 Check_Point_Security Complete
+2023-08-10 10:51:06,393 149 Processing uptime
+2023-08-10 10:51:07,384 uptime Whitelist Success
+2023-08-10 10:51:12,984 uptime Stimulate Error: Not a plugin function
+2023-08-10 10:51:13,002 uptime Complete
+2023-08-10 10:51:13,017 150 Processing Checkers
+2023-08-10 10:51:13,044 Checkers Complete
+2023-08-10 10:51:13,060 151 Processing CheckmarxCheckAI
+2023-08-10 10:51:13,085 CheckmarxCheckAI Complete
+2023-08-10 10:51:13,109 152 Processing CheckTheChain
+2023-08-10 10:51:13,145 CheckTheChain Complete
+2023-08-10 10:51:13,162 153 Processing Chess
+2023-08-10 10:51:13,188 Chess Complete
+2023-08-10 10:51:13,203 154 Processing chicago_data_portal
+2023-08-10 10:51:14,415 chicago_data_portal Whitelist Success
+2023-08-10 10:51:15,933 chicago_data_portal Stimulate Error: Not a plugin function
+2023-08-10 10:51:15,951 chicago_data_portal Complete
+2023-08-10 10:51:15,967 155 Processing Clay
+2023-08-10 10:51:15,994 Clay Complete
+2023-08-10 10:51:16,009 156 Processing clearbit_integration
+2023-08-10 10:51:16,037 clearbit_integration Complete
+2023-08-10 10:51:16,052 157 Processing climesumer
+2023-08-10 10:51:17,131 climesumer Whitelist Success
+2023-08-10 10:51:19,541 climesumer Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 10:51:19,560 climesumer Complete
+2023-08-10 10:51:19,576 158 Processing clinical_trial_radar
+2023-08-10 10:51:19,602 clinical_trial_radar Complete
+2023-08-10 10:51:19,617 159 Processing clinical_trial_radar
+2023-08-10 10:51:19,645 clinical_trial_radar Complete
+2023-08-10 10:51:19,661 160 Processing clinq
+2023-08-10 10:51:19,687 clinq Complete
+2023-08-10 10:51:19,702 161 Processing CloudDiagramGen
+2023-08-10 10:51:19,727 CloudDiagramGen Complete
+2023-08-10 10:51:19,743 162 Processing cloudflare_radar
+2023-08-10 10:51:19,770 cloudflare_radar Complete
+2023-08-10 10:51:19,785 163 Processing code_library_help
+2023-08-10 10:51:19,811 code_library_help Complete
+2023-08-10 10:51:19,825 164 Processing code_runner
+2023-08-10 10:51:19,852 code_runner Complete
+2023-08-10 10:51:19,867 165 Processing code_runner
+2023-08-10 10:51:19,897 code_runner Complete
+2023-08-10 10:51:19,913 166 Processing CodeCastWandbox
+2023-08-10 10:51:19,939 CodeCastWandbox Complete
+2023-08-10 10:51:19,953 167 Processing coderpad
+2023-08-10 10:51:19,979 coderpad Complete
+2023-08-10 10:51:19,995 168 Processing Codeulator
+2023-08-10 10:51:20,021 Codeulator Complete
+2023-08-10 10:51:20,036 169 Processing coffee_helper
+2023-08-10 10:51:20,584 coffee_helper Whitelist Success
+2023-08-10 10:51:24,539 coffee_helper Stimulate Error: Not a plugin function
+2023-08-10 10:51:24,557 coffee_helper Complete
+2023-08-10 10:51:24,572 170 Processing coincap
+2023-08-10 10:51:24,735 coincap Whitelist Error: HTTPSConnectionPool(host='coincap.gptplug.chat', port=443): Max retries exceeded with url: /.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D0C9D893F0>: Failed to resolve 'coincap.gptplug.chat' ([Errno 11001] getaddrinfo failed)"))
+2023-08-10 10:51:24,753 coincap Complete
+2023-08-10 10:51:24,768 171 Processing color_palette
+2023-08-10 10:51:24,794 color_palette Complete
+2023-08-10 10:51:24,810 172 Processing CommonEvents
+2023-08-10 10:51:26,369 CommonEvents Whitelist Success
+2023-08-10 10:51:29,859 CommonEvents Stimulate Success
+2023-08-10 10:51:29,879 CommonEvents Complete
+2023-08-10 10:51:29,896 173 Processing CompaniesInTheUK
+2023-08-10 10:51:29,923 CompaniesInTheUK Complete
+2023-08-10 10:51:29,940 174 Processing Company_Transcripts
+2023-08-10 10:51:29,968 Company_Transcripts Complete
+2023-08-10 10:51:29,986 175 Processing Product_Comparison
+2023-08-10 10:51:30,014 Product_Comparison Complete
+2023-08-10 10:51:30,030 176 Processing competitorppcads
+2023-08-10 10:51:31,355 competitorppcads Whitelist Success
+2023-08-10 10:51:34,635 competitorppcads Stimulate Success
+2023-08-10 10:51:34,654 competitorppcads Complete
+2023-08-10 10:51:34,669 177 Processing ContentRewriter
+2023-08-10 10:51:34,695 ContentRewriter Complete
+2023-08-10 10:51:34,710 178 Processing ContentApp
+2023-08-10 10:51:34,737 ContentApp Complete
+2023-08-10 10:51:34,755 179 Processing convert_assistant
+2023-08-10 10:51:35,734 convert_assistant Whitelist Success
+2023-08-10 10:51:43,916 convert_assistant Stimulate Error: Not a plugin function
+2023-08-10 10:51:43,934 convert_assistant Complete
+2023-08-10 10:51:43,950 180 Processing converter_app
+2023-08-10 10:51:44,352 converter_app Whitelist Success
+2023-08-10 10:51:47,733 converter_app Stimulate Success
+2023-08-10 10:51:47,751 converter_app Complete
+2023-08-10 10:51:47,768 181 Processing copilot
+2023-08-10 10:51:48,531 Unsupported APIPropertyLocation "header" for parameter host. Valid values are ['query', 'path'] Ignoring optional parameter
+2023-08-10 10:51:48,531 Unsupported APIPropertyLocation "header" for parameter host. Valid values are ['query', 'path'] Ignoring optional parameter
+2023-08-10 10:51:48,533 copilot Whitelist Success
+2023-08-10 10:51:51,829 error_code=None error_message="'get_vehicles_for_sale_by_coordinates_vehicles_for_sale_by_coordinates_get' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.4.name'" error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-08-10 10:51:51,829 copilot Stimulate Error: 'get_vehicles_for_sale_by_coordinates_vehicles_for_sale_by_coordinates_get' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.4.name'
+2023-08-10 10:51:51,847 copilot Complete
+2023-08-10 10:51:51,862 182 Processing copywriter
+2023-08-10 10:51:51,888 copywriter Complete
+2023-08-10 10:51:51,903 183 Processing Coupert
+2023-08-10 10:51:52,451 Coupert Whitelist Success
+2023-08-10 10:51:54,986 Coupert Stimulate Error: Not a plugin function
+2023-08-10 10:51:55,017 Coupert Complete
+2023-08-10 10:51:55,036 184 Processing coupons_by_tenereteam
+2023-08-10 10:51:56,193 coupons_by_tenereteam Whitelist Success
+2023-08-10 10:52:01,372 coupons_by_tenereteam Stimulate Success
+2023-08-10 10:52:01,390 coupons_by_tenereteam Complete
+2023-08-10 10:52:01,406 185 Processing CourseHero
+2023-08-10 10:52:01,432 CourseHero Complete
+2023-08-10 10:52:01,447 186 Processing Coursera
+2023-08-10 10:52:01,475 Coursera Complete
+2023-08-10 10:52:01,491 187 Processing crafty_clues
+2023-08-10 10:52:02,406 crafty_clues Whitelist Success
+2023-08-10 10:52:24,694 crafty_clues Stimulate Success
+2023-08-10 10:52:24,711 crafty_clues Complete
+2023-08-10 10:52:24,727 188 Processing CranePumpsManuals
+2023-08-10 10:52:25,350 CranePumpsManuals Whitelist Success
+2023-08-10 10:52:27,601 CranePumpsManuals Stimulate Success
+2023-08-10 10:52:27,619 CranePumpsManuals Complete
+2023-08-10 10:52:27,635 189 Processing create_qr_code
+2023-08-10 10:52:28,072 create_qr_code Whitelist Success
+2023-08-10 10:52:31,207 create_qr_code Stimulate Success
+2023-08-10 10:52:31,226 create_qr_code Complete
+2023-08-10 10:52:31,242 190 Processing Creaticode_Extension_of_MIT_Scratch
+2023-08-10 10:52:31,270 Creaticode_Extension_of_MIT_Scratch Complete
+2023-08-10 10:52:31,285 191 Processing creativemind
+2023-08-10 10:52:32,020 creativemind Whitelist Success
+2023-08-10 10:52:36,737 creativemind Stimulate Success
+2023-08-10 10:52:36,755 creativemind Complete
+2023-08-10 10:52:36,771 192 Processing CreatuityStores
+2023-08-10 10:52:37,285 CreatuityStores Whitelist Success
+2023-08-10 11:02:38,912 Retrying oplangchain.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised Timeout: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600).
+2023-08-10 11:02:44,894 CreatuityStores Stimulate Success
+2023-08-10 11:02:44,912 CreatuityStores Complete
+2023-08-10 11:02:44,929 193 Processing CreditYelp
+2023-08-10 11:02:45,934 CreditYelp Whitelist Success
+2023-08-10 11:02:50,290 CreditYelp Stimulate Success
+2023-08-10 11:02:50,309 CreditYelp Complete
+2023-08-10 11:02:50,326 194 Processing CribbageScorer
+2023-08-10 11:02:51,172 CribbageScorer Whitelist Success
+2023-08-10 11:02:54,259 CribbageScorer Stimulate Success
+2023-08-10 11:02:54,278 CribbageScorer Complete
+2023-08-10 11:02:54,294 195 Processing crypto_jobs_list
+2023-08-10 11:02:54,321 crypto_jobs_list Complete
+2023-08-10 11:02:54,337 196 Processing cryptoPriceAndNews
+2023-08-10 11:02:54,790 cryptoPriceAndNews Whitelist Success
+2023-08-10 11:02:55,102 error_code=502 error_message='Bad gateway.' error_param=None error_type=cf_bad_gateway message='OpenAI API error received' stream_error=False
+2023-08-10 11:02:55,102 cryptoPriceAndNews Stimulate Error: Bad gateway. {"error":{"code":502,"message":"Bad gateway.","param":null,"type":"cf_bad_gateway"}} 502 {'error': {'code': 502, 'message': 'Bad gateway.', 'param': None, 'type': 'cf_bad_gateway'}} {'Date': 'Thu, 10 Aug 2023 15:02:57 GMT', 'Content-Type': 'application/json', 'Content-Length': '84', 'Connection': 'keep-alive', 'X-Frame-Options': 'SAMEORIGIN', 'Referrer-Policy': 'same-origin', 'Cache-Control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'Expires': 'Thu, 01 Jan 1970 00:00:01 GMT', 'Server': 'cloudflare', 'CF-RAY': '7f491f6cfdb1370e-MIA', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-08-10 11:02:55,120 cryptoPriceAndNews Complete
+2023-08-10 11:02:55,135 197 Processing crypto_price_checker
+2023-08-10 11:02:56,364 crypto_price_checker Whitelist Success
+2023-08-10 11:03:00,900 crypto_price_checker Stimulate Success
+2023-08-10 11:03:00,919 crypto_price_checker Complete
+2023-08-10 11:03:00,936 198 Processing cryptopulse
+2023-08-10 11:03:01,317 cryptopulse Whitelist Success
+2023-08-10 11:03:03,725 cryptopulse Stimulate Success
+2023-08-10 11:03:03,743 cryptopulse Complete
+2023-08-10 11:03:03,759 199 Processing cryptomation
+2023-08-10 11:03:04,711 cryptomation Whitelist Success
+2023-08-10 11:03:11,333 cryptomation Stimulate Error: Not a plugin function
+2023-08-10 11:03:11,351 cryptomation Complete
+2023-08-10 11:03:11,366 200 Processing csv_creator
+2023-08-10 11:03:11,746 csv_creator Whitelist Success
+2023-08-10 11:03:16,012 csv_creator Stimulate Success
+2023-08-10 11:03:16,031 csv_creator Complete
+2023-08-10 11:03:16,048 201 Processing CSVExport
+2023-08-10 11:03:16,076 CSVExport Complete
+2023-08-10 11:03:16,093 202 Processing CTCP
+2023-08-10 11:03:17,244 CTCP Whitelist Success
+2023-08-10 11:03:20,444 CTCP Stimulate Success
+2023-08-10 11:03:20,463 CTCP Complete
+2023-08-10 11:03:20,479 203 Processing currencyconverter
+2023-08-10 11:03:20,507 currencyconverter Complete
+2023-08-10 11:03:20,523 204 Processing currencyconverter
+2023-08-10 11:03:20,561 currencyconverter Complete
+2023-08-10 11:03:20,582 205 Processing currencyconverter
+2023-08-10 11:03:20,616 currencyconverter Complete
+2023-08-10 11:03:20,632 206 Processing currency_today
+2023-08-10 11:03:31,188 currency_today Whitelist Success
+2023-08-10 11:03:34,763 currency_today Stimulate Success
+2023-08-10 11:03:34,781 currency_today Complete
+2023-08-10 11:03:34,797 207 Processing CustomKnowledge
+2023-08-10 11:03:34,823 CustomKnowledge Complete
+2023-08-10 11:03:34,840 208 Processing daigram
+2023-08-10 11:03:36,309 daigram Whitelist Success
+2023-08-10 11:03:42,769 daigram Stimulate Success
+2023-08-10 11:03:42,787 daigram Complete
+2023-08-10 11:03:42,803 209 Processing daily_learning
+2023-08-10 11:03:47,322 daily_learning Whitelist Error: Unable to parse spec from source http://localhost:3000/openapi.yaml
+2023-08-10 11:03:47,340 daily_learning Complete
+2023-08-10 11:03:47,356 210 Processing dailybot
+2023-08-10 11:03:47,382 dailybot Complete
+2023-08-10 11:03:47,397 211 Processing DAIZY
+2023-08-10 11:03:47,426 DAIZY Complete
+2023-08-10 11:03:47,441 212 Processing dart
+2023-08-10 11:03:47,468 dart Complete
+2023-08-10 11:03:47,486 213 Processing data_interpreter
+2023-08-10 11:03:47,515 data_interpreter Complete
+2023-08-10 11:03:47,531 214 Processing datasheetchat
+2023-08-10 11:03:48,276 datasheetchat Whitelist Success
+2023-08-10 11:03:53,363 datasheetchat Stimulate Error: Not a plugin function
+2023-08-10 11:03:53,382 datasheetchat Complete
+2023-08-10 11:03:53,399 215 Processing DayApp
+2023-08-10 11:03:53,874 DayApp Whitelist Success
+2023-08-10 11:03:56,729 DayApp Stimulate Success
+2023-08-10 11:03:56,749 DayApp Complete
+2023-08-10 11:03:56,765 216 Processing Deal_Dazzle
+2023-08-10 11:03:59,183 Deal_Dazzle Whitelist Error: 'NoneType' object has no attribute 'values'
+2023-08-10 11:03:59,204 Deal_Dazzle Complete
+2023-08-10 11:03:59,222 217 Processing decision_journal
+2023-08-10 11:03:59,252 decision_journal Complete
+2023-08-10 11:03:59,269 218 Processing deepmemory
+2023-08-10 11:04:00,538 deepmemory Whitelist Success
+2023-08-10 11:04:02,570 deepmemory Stimulate Error: Not a plugin function
+2023-08-10 11:04:02,590 deepmemory Complete
+2023-08-10 11:04:02,607 219 Processing defillama
+2023-08-10 11:04:04,523 defillama Whitelist Success
+2023-08-10 11:04:06,515 defillama Stimulate Error: Not a plugin function
+2023-08-10 11:04:06,534 defillama Complete
+2023-08-10 11:04:06,551 220 Processing definitive_facts
+2023-08-10 11:04:06,578 definitive_facts Complete
+2023-08-10 11:04:06,594 221 Processing yachtSearch
+2023-08-10 11:04:07,478 yachtSearch Whitelist Success
+2023-08-10 11:04:11,812 yachtSearch Stimulate Success
+2023-08-10 11:04:11,831 yachtSearch Complete
+2023-08-10 11:04:11,846 222 Processing deployscript
+2023-08-10 11:04:11,872 deployscript Complete
+2023-08-10 11:04:11,888 223 Processing dev
+2023-08-10 11:04:12,451 dev Whitelist Success
+2023-08-10 11:04:15,621 dev Stimulate Success
+2023-08-10 11:04:15,640 dev Complete
+2023-08-10 11:04:15,656 224 Processing DeveloperDocSearcher
+2023-08-10 11:04:15,683 DeveloperDocSearcher Complete
+2023-08-10 11:04:15,699 225 Processing Devhunt
+2023-08-10 11:04:15,725 Devhunt Complete
+2023-08-10 11:04:15,741 226 Processing Diagrams
+2023-08-10 11:04:15,768 Diagrams Complete
+2023-08-10 11:04:15,785 227 Processing diary
+2023-08-10 11:04:15,813 diary Complete
+2023-08-10 11:04:15,828 228 Processing Diffbot
+2023-08-10 11:04:16,518 Unsupported APIPropertyLocation "header" for parameter user-agent. Valid values are ['query', 'path'] Ignoring optional parameter
+2023-08-10 11:04:16,518 Unsupported APIPropertyLocation "header" for parameter user-agent. Valid values are ['query', 'path'] Ignoring optional parameter
+2023-08-10 11:04:16,520 Diffbot Whitelist Success
+2023-08-10 11:04:25,574 Diffbot Stimulate Error: Not a plugin function
+2023-08-10 11:04:25,595 Diffbot Complete
+2023-08-10 11:04:25,610 229 Processing directual
+2023-08-10 11:04:25,637 directual Complete
+2023-08-10 11:04:25,652 230 Processing disteur
+2023-08-10 11:04:25,679 disteur Complete
+2023-08-10 11:04:25,695 231 Processing diceroller
+2023-08-10 11:04:26,392 diceroller Whitelist Success
+2023-08-10 11:04:37,280 diceroller Stimulate Error: Not a plugin function
+2023-08-10 11:04:37,300 diceroller Complete
+2023-08-10 11:04:37,316 232 Processing DobaWorldFactory
+2023-08-10 11:04:38,033 DobaWorldFactory Whitelist Success
+2023-08-10 11:04:42,132 DobaWorldFactory Stimulate Success
+2023-08-10 11:04:42,150 DobaWorldFactory Complete
+2023-08-10 11:04:42,167 233 Processing dlc
+2023-08-10 11:04:42,194 dlc Complete
+2023-08-10 11:04:42,209 234 Processing improved_semantic_search
+2023-08-10 11:04:42,237 improved_semantic_search Complete
+2023-08-10 11:04:42,254 235 Processing docx_maker
+2023-08-10 11:04:42,681 docx_maker Whitelist Success
+2023-08-10 11:04:45,226 docx_maker Stimulate Error: Not a plugin function
+2023-08-10 11:04:45,245 docx_maker Complete
+2023-08-10 11:04:45,261 236 Processing dfa
+2023-08-10 11:04:46,498 dfa Whitelist Success
+2023-08-10 11:04:50,392 dfa Stimulate Success
+2023-08-10 11:04:50,418 dfa Complete
+2023-08-10 11:04:50,437 237 Processing domains
+2023-08-10 11:04:50,727 domains Whitelist Success
+2023-08-10 11:04:54,420 domains Stimulate Success
+2023-08-10 11:04:54,440 domains Complete
+2023-08-10 11:04:54,457 238 Processing domatron
+2023-08-10 11:04:55,128 domatron Whitelist Success
+2023-08-10 11:04:57,555 domatron Stimulate Success
+2023-08-10 11:04:57,574 domatron Complete
+2023-08-10 11:04:57,590 239 Processing DoorDashNearbyStores
+2023-08-10 11:04:57,616 DoorDashNearbyStores Complete
+2023-08-10 11:04:57,631 240 Processing dover_outreach
+2023-08-10 11:04:58,214 dover_outreach Whitelist Success
+2023-08-10 11:05:05,869 dover_outreach Stimulate Error: Expecting property name enclosed in double quotes: line 3 column 1 (char 987)
+2023-08-10 11:05:05,888 dover_outreach Complete
+2023-08-10 11:05:05,905 241 Processing Dr_Thoths_Tarot
+2023-08-10 11:05:06,386 Dr_Thoths_Tarot Whitelist Success
+2023-08-10 11:05:11,551 Dr_Thoths_Tarot Stimulate Error: Not a plugin function
+2023-08-10 11:05:11,571 Dr_Thoths_Tarot Complete
+2023-08-10 11:05:11,586 242 Processing draw
+2023-08-10 11:05:11,612 draw Complete
+2023-08-10 11:05:11,628 243 Processing DreamInterpreter
+2023-08-10 11:05:12,604 DreamInterpreter Whitelist Success
+2023-08-10 11:05:27,827 DreamInterpreter Stimulate Success
+2023-08-10 11:05:27,846 DreamInterpreter Complete
+2023-08-10 11:05:27,861 244 Processing DreamReader
+2023-08-10 11:05:33,035 DreamReader Whitelist Error: HTTPSConnectionPool(host='dream.putaojie.top', port=443): Max retries exceeded with url: /.well-known/ai-plugin.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D0C9D8BF70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-08-10 11:05:33,053 DreamReader Complete
+2023-08-10 11:05:33,069 245 Processing drink_maestro
+2023-08-10 11:05:33,711 drink_maestro Whitelist Success
+2023-08-10 11:05:36,147 drink_maestro Stimulate Success
+2023-08-10 11:05:36,166 drink_maestro Complete
+2023-08-10 11:05:36,181 246 Processing DuoduoEnglish
+2023-08-10 11:05:37,009 DuoduoEnglish Whitelist Error: 404 Client Error: Not Found for url: https://n4nbxo32xi.execute-api.ap-northeast-1.amazonaws.com/.well-known/ai-plugin.json
+2023-08-10 11:05:37,032 DuoduoEnglish Complete
+2023-08-10 11:05:37,050 247 Processing earthImagesAndVisualizations
+2023-08-10 11:05:38,574 earthImagesAndVisualizations Whitelist Success
+2023-08-10 11:05:42,867 earthImagesAndVisualizations Stimulate Success
+2023-08-10 11:05:42,885 earthImagesAndVisualizations Complete
+2023-08-10 11:05:42,902 248 Processing earthquake
+2023-08-10 11:05:45,065 earthquake Whitelist Success
+2023-08-10 11:05:48,546 earthquake Stimulate Success
+2023-08-10 11:05:48,564 earthquake Complete
+2023-08-10 11:05:48,582 249 Processing EasyProductSearch
+2023-08-10 11:05:49,055 EasyProductSearch Whitelist Success
+2023-08-10 11:05:54,189 EasyProductSearch Stimulate Error: Not a plugin function
+2023-08-10 11:05:54,208 EasyProductSearch Complete
+2023-08-10 11:05:54,224 250 Processing resume
+2023-08-10 11:05:58,793 resume Whitelist Error: 503 Server Error: Service Unavailable for url: https://easy-resume.net/.well-known/ai-plugin.json
+2023-08-10 11:05:58,820 resume Complete
+2023-08-10 11:05:58,839 251 Processing ebayfinds
+2023-08-10 11:05:58,877 ebayfinds Complete
+2023-08-10 11:05:58,898 252 Processing edmunds_cars
+2023-08-10 11:05:58,930 edmunds_cars Complete
+2023-08-10 11:05:58,947 253 Processing Eduguide
+2023-08-10 11:05:59,413 Eduguide Whitelist Success
+2023-08-10 11:06:11,683 Eduguide Stimulate Error: Not a plugin function
+2023-08-10 11:06:11,706 Eduguide Complete
+2023-08-10 11:06:11,730 254 Processing edX
+2023-08-10 11:06:14,548 edX Whitelist Success
+2023-08-10 11:06:19,739 edX Stimulate Error: Not a plugin function
+2023-08-10 11:06:19,758 edX Complete
+2023-08-10 11:06:19,774 255 Processing Emotimg
+2023-08-10 11:06:19,800 Emotimg Complete
+2023-08-10 11:06:19,817 256 Processing empregosagro
+2023-08-10 11:06:20,512 empregosagro Whitelist Success
+2023-08-10 11:06:24,476 empregosagro Stimulate Error: Not a plugin function
+2023-08-10 11:06:24,495 empregosagro Complete
+2023-08-10 11:06:24,510 257 Processing hashtag
+2023-08-10 11:06:24,957 hashtag Whitelist Success
+2023-08-10 11:06:30,360 hashtag Stimulate Success
+2023-08-10 11:06:30,379 hashtag Complete
+2023-08-10 11:06:30,396 258 Processing Eraser
+2023-08-10 11:06:30,423 Eraser Complete
+2023-08-10 11:06:30,439 259 Processing eSIM_Data_Package_Assistant
+2023-08-10 11:06:32,140 eSIM_Data_Package_Assistant Whitelist Success
+2023-08-10 11:06:40,190 eSIM_Data_Package_Assistant Stimulate Error: Not a plugin function
+2023-08-10 11:06:40,208 eSIM_Data_Package_Assistant Complete
+2023-08-10 11:06:40,225 260 Processing Etihad_Airline
+2023-08-10 11:06:40,252 Etihad_Airline Complete
+2023-08-10 11:06:40,268 261 Processing everyprint3d
+2023-08-10 11:06:40,296 everyprint3d Complete
+2023-08-10 11:06:40,313 262 Processing everysize
+2023-08-10 11:06:40,497 everysize Whitelist Error: 403 Client Error: Forbidden for url: https://everysize.com/.well-known/ai-plugin.json
+2023-08-10 11:06:40,527 everysize Complete
+2023-08-10 11:06:40,545 263 Processing exchangerates
+2023-08-10 11:06:41,282 exchangerates Whitelist Success
+2023-08-10 11:07:04,879 exchangerates Stimulate Success
+2023-08-10 11:07:04,900 exchangerates Complete
+2023-08-10 11:07:04,917 264 Processing exercise
+2023-08-10 11:07:05,624 exercise Whitelist Error: 502 Server Error: Bad Gateway for url: https://k9xh3x-5003.csb.app/.well-known/ai-plugin.json
+2023-08-10 11:07:05,650 exercise Complete
+2023-08-10 11:07:05,669 265 Processing expedia
+2023-08-10 11:07:05,701 expedia Complete
+2023-08-10 11:07:05,720 266 Processing Experiences
+2023-08-10 11:07:05,750 Experiences Complete
+2023-08-10 11:07:05,768 267 Processing exportchat
+2023-08-10 11:07:06,433 exportchat Whitelist Success
+2023-08-10 11:07:08,425 exportchat Stimulate Error: 'username'
+2023-08-10 11:07:08,444 exportchat Complete
+2023-08-10 11:07:08,460 268 Processing export_chat_to_pdf
+2023-08-10 11:07:09,019 export_chat_to_pdf Whitelist Success
+2023-08-10 11:07:25,066 export_chat_to_pdf Stimulate Success
+2023-08-10 11:07:25,083 export_chat_to_pdf Complete
+2023-08-10 11:07:25,099 269 Processing export_to_pdf
+2023-08-10 11:07:25,126 export_to_pdf Complete
+2023-08-10 11:07:25,142 270 Processing express_tracking
+2023-08-10 11:07:25,848 express_tracking Whitelist Success
+2023-08-10 11:07:32,848 express_tracking Stimulate Error: Not a plugin function
+2023-08-10 11:07:32,867 express_tracking Complete
+2023-08-10 11:07:32,883 271 Processing FaceTheFacts
+2023-08-10 11:07:33,265 FaceTheFacts Whitelist Error: HTTPSConnectionPool(host='api.facethefacts-api.de', port=443): Max retries exceeded with url: /.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D0C9D893C0>: Failed to resolve 'api.facethefacts-api.de' ([Errno 11001] getaddrinfo failed)"))
+2023-08-10 11:07:33,284 FaceTheFacts Complete
+2023-08-10 11:07:33,300 272 Processing shimmer_daily
+2023-08-10 11:07:35,408 shimmer_daily Whitelist Success
+2023-08-10 11:07:37,788 shimmer_daily Stimulate Success
+2023-08-10 11:07:37,807 shimmer_daily Complete
+2023-08-10 11:07:37,823 273 Processing fca
+2023-08-10 11:07:42,359 fca Whitelist Success
+2023-08-10 11:07:44,905 fca Stimulate Error: Not a plugin function
+2023-08-10 11:07:44,923 fca Complete
+2023-08-10 11:07:44,939 274 Processing fengshui
+2023-08-10 11:07:44,965 fengshui Complete
+2023-08-10 11:07:44,981 275 Processing Ferryhopper
+2023-08-10 11:07:45,947 Ferryhopper Whitelist Success
+2023-08-10 11:07:49,832 Ferryhopper Stimulate Success
+2023-08-10 11:07:49,852 Ferryhopper Complete
+2023-08-10 11:07:49,870 276 Processing Figlet
+2023-08-10 11:07:51,375 Figlet Whitelist Success
+2023-08-10 11:07:54,096 Figlet Stimulate Success
+2023-08-10 11:07:54,115 Figlet Complete
+2023-08-10 11:07:54,131 277 Processing RetrieveInfo
+2023-08-10 11:07:54,566 RetrieveInfo Whitelist Success
+2023-08-10 11:07:56,866 RetrieveInfo Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:07:56,886 RetrieveInfo Complete
+2023-08-10 11:07:56,902 278 Processing filmfindr
+2023-08-10 11:07:56,930 filmfindr Complete
+2023-08-10 11:07:56,947 279 Processing factcheck
+2023-08-10 11:07:57,943 factcheck Whitelist Success
+2023-08-10 11:08:05,299 factcheck Stimulate Success
+2023-08-10 11:08:05,318 factcheck Complete
+2023-08-10 11:08:05,335 280 Processing findafreelancer
+2023-08-10 11:08:05,804 findafreelancer Whitelist Success
+2023-08-10 11:08:09,660 findafreelancer Stimulate Success
+2023-08-10 11:08:09,679 findafreelancer Complete
+2023-08-10 11:08:09,695 281 Processing findatour
+2023-08-10 11:08:10,081 findatour Whitelist Success
+2023-08-10 11:08:13,796 findatour Stimulate Success
+2023-08-10 11:08:13,816 findatour Complete
+2023-08-10 11:08:13,833 282 Processing freelancetalent
+2023-08-10 11:08:14,328 freelancetalent Whitelist Success
+2023-08-10 11:08:16,550 freelancetalent Stimulate Error: Not a plugin function
+2023-08-10 11:08:16,569 freelancetalent Complete
+2023-08-10 11:08:16,585 283 Processing finnabolag
+2023-08-10 11:08:17,230 finnabolag Whitelist Success
+2023-08-10 11:08:19,941 finnabolag Stimulate Success
+2023-08-10 11:08:19,961 finnabolag Complete
+2023-08-10 11:08:19,977 284 Processing fiscalnote
+2023-08-10 11:08:20,691 fiscalnote Whitelist Success
+2023-08-10 11:08:24,307 fiscalnote Stimulate Error: Not a plugin function
+2023-08-10 11:08:24,325 fiscalnote Complete
+2023-08-10 11:08:24,342 285 Processing FlashcardsGenerator
+2023-08-10 11:08:24,923 FlashcardsGenerator Whitelist Success
+2023-08-10 11:08:35,212 FlashcardsGenerator Stimulate Error: Not a plugin function
+2023-08-10 11:08:35,230 FlashcardsGenerator Complete
+2023-08-10 11:08:35,246 286 Processing Flowise_Support
+2023-08-10 11:08:36,293 Flowise_Support Whitelist Success
+2023-08-10 11:08:37,345 error_code=None error_message="'Query Flowise Support' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.0.name'" error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-08-10 11:08:37,345 Flowise_Support Stimulate Error: 'Query Flowise Support' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.0.name'
+2023-08-10 11:08:37,366 Flowise_Support Complete
+2023-08-10 11:08:37,382 287 Processing For_io
+2023-08-10 11:08:38,267 For_io Whitelist Success
+2023-08-10 11:08:44,273 For_io Stimulate Success
+2023-08-10 11:08:44,291 For_io Complete
+2023-08-10 11:08:44,308 288 Processing forex_gpt
+2023-08-10 11:08:44,336 forex_gpt Complete
+2023-08-10 11:08:44,351 289 Processing FormaCloudChatGPT
+2023-08-10 11:08:45,419 FormaCloudChatGPT Whitelist Success
+2023-08-10 11:08:48,642 FormaCloudChatGPT Stimulate Error: Unterminated string starting at: line 2 column 23 (char 24)
+2023-08-10 11:08:48,661 FormaCloudChatGPT Complete
+2023-08-10 11:08:48,678 290 Processing formgenerator
+2023-08-10 11:08:49,873 formgenerator Whitelist Success
+2023-08-10 11:08:54,693 formgenerator Stimulate Success
+2023-08-10 11:08:54,712 formgenerator Complete
+2023-08-10 11:08:54,728 291 Processing convertPDF
+2023-08-10 11:08:54,755 convertPDF Complete
+2023-08-10 11:08:54,772 292 Processing Free_Kiddie_Books
+2023-08-10 11:08:54,803 Free_Kiddie_Books Complete
+2023-08-10 11:08:54,820 293 Processing FreshTech
+2023-08-10 11:08:54,849 FreshTech Complete
+2023-08-10 11:08:54,867 294 Processing fundsdbsearch
+2023-08-10 11:08:56,103 fundsdbsearch Whitelist Success
+2023-08-10 11:08:59,808 fundsdbsearch Stimulate Error: Not a plugin function
+2023-08-10 11:08:59,828 fundsdbsearch Complete
+2023-08-10 11:08:59,845 295 Processing g2_dot_com
+2023-08-10 11:09:00,202 g2_dot_com Whitelist Error: Unable to parse spec from source https://www.g2.com/openai.json
+2023-08-10 11:09:00,223 g2_dot_com Complete
+2023-08-10 11:09:00,240 296 Processing game_box
+2023-08-10 11:09:00,268 game_box Complete
+2023-08-10 11:09:00,284 297 Processing game_info_fetcher
+2023-08-10 11:09:01,023 game_info_fetcher Whitelist Success
+2023-08-10 11:09:06,493 game_info_fetcher Stimulate Error: Not a plugin function
+2023-08-10 11:09:06,511 game_info_fetcher Complete
+2023-08-10 11:09:06,528 298 Processing GameSight
+2023-08-10 11:09:07,785 GameSight Whitelist Success
+2023-08-10 11:09:12,011 GameSight Stimulate Success
+2023-08-10 11:09:12,030 GameSight Complete
+2023-08-10 11:09:12,047 299 Processing Gate2AI
+2023-08-10 11:09:13,216 Gate2AI Whitelist Success
+2023-08-10 11:09:15,816 Gate2AI Stimulate Success
+2023-08-10 11:09:15,835 Gate2AI Complete
+2023-08-10 11:09:15,852 300 Processing GeoGuru
+2023-08-10 11:09:15,879 GeoGuru Complete
+2023-08-10 11:09:15,896 301 Processing get_social_proof
+2023-08-10 11:09:15,925 get_social_proof Complete
+2023-08-10 11:09:15,942 302 Processing GetByBus
+2023-08-10 11:09:15,972 GetByBus Complete
+2023-08-10 11:09:15,990 303 Processing getyourguide_activity_search
+2023-08-10 11:09:16,020 getyourguide_activity_search Complete
+2023-08-10 11:09:16,037 304 Processing GifApi
+2023-08-10 11:09:17,045 GifApi Whitelist Success
+2023-08-10 11:09:19,796 GifApi Stimulate Success
+2023-08-10 11:09:19,815 GifApi Complete
+2023-08-10 11:09:19,832 305 Processing vafl
+2023-08-10 11:09:19,860 vafl Complete
+2023-08-10 11:09:19,876 306 Processing gift_suggester
+2023-08-10 11:09:19,904 gift_suggester Complete
+2023-08-10 11:09:19,922 307 Processing GIFTSENSAI
+2023-08-10 11:09:19,954 GIFTSENSAI Complete
+2023-08-10 11:09:19,970 308 Processing giftwrap
+2023-08-10 11:09:20,823 giftwrap Whitelist Success
+2023-08-10 11:09:28,789 giftwrap Stimulate Success
+2023-08-10 11:09:28,809 giftwrap Complete
+2023-08-10 11:09:28,826 309 Processing giga
+2023-08-10 11:09:28,852 giga Complete
+2023-08-10 11:09:28,868 310 Processing GigTown
+2023-08-10 11:09:29,370 GigTown Whitelist Success
+2023-08-10 11:09:33,135 GigTown Stimulate Success
+2023-08-10 11:09:33,153 GigTown Complete
+2023-08-10 11:09:33,169 311 Processing airqualityforeast
+2023-08-10 11:09:33,720 airqualityforeast Whitelist Success
+2023-08-10 11:09:37,436 airqualityforeast Stimulate Success
+2023-08-10 11:09:37,454 airqualityforeast Complete
+2023-08-10 11:09:37,470 312 Processing gitUserRepoStats
+2023-08-10 11:09:37,839 gitUserRepoStats Whitelist Success
+2023-08-10 11:09:42,727 gitUserRepoStats Stimulate Success
+2023-08-10 11:09:42,746 gitUserRepoStats Complete
+2023-08-10 11:09:42,762 313 Processing Glamai
+2023-08-10 11:09:43,313 Glamai Whitelist Error: 403 Client Error: Forbidden for url: https://chatgpt.glamai.com/.well-known/ai-plugin.json
+2023-08-10 11:09:43,333 Glamai Complete
+2023-08-10 11:09:43,349 314 Processing Glowing
+2023-08-10 11:09:43,377 Glowing Complete
+2023-08-10 11:09:43,394 315 Processing godaddy_domains
+2023-08-10 11:09:43,421 godaddy_domains Complete
+2023-08-10 11:09:43,439 316 Processing gofynd
+2023-08-10 11:09:45,763 gofynd Whitelist Success
+2023-08-10 11:09:51,952 gofynd Stimulate Success
+2023-08-10 11:09:51,972 gofynd Complete
+2023-08-10 11:09:51,989 317 Processing golden_data_plugin
+2023-08-10 11:09:52,017 golden_data_plugin Complete
+2023-08-10 11:09:52,033 318 Processing googletrends
+2023-08-10 11:09:52,766 googletrends Whitelist Success
+2023-08-10 11:10:02,948 googletrends Stimulate Error: Not a plugin function
+2023-08-10 11:10:02,966 googletrends Complete
+2023-08-10 11:10:02,982 319 Processing goplusv1
+2023-08-10 11:10:05,744 goplusv1 Whitelist Success
+2023-08-10 11:10:08,144 goplusv1 Stimulate Error: Not a plugin function
+2023-08-10 11:10:08,164 goplusv1 Complete
+2023-08-10 11:10:08,181 320 Processing got2go_plugin_v1
+2023-08-10 11:10:08,635 got2go_plugin_v1 Whitelist Success
+2023-08-10 11:10:13,370 got2go_plugin_v1 Stimulate Error: Not a plugin function
+2023-08-10 11:10:13,389 got2go_plugin_v1 Complete
+2023-08-10 11:10:13,405 321 Processing gowithguide
+2023-08-10 11:10:13,925 gowithguide Whitelist Success
+2023-08-10 11:10:22,469 gowithguide Stimulate Success
+2023-08-10 11:10:22,487 gowithguide Complete
+2023-08-10 11:10:22,503 322 Processing grabjobs
+2023-08-10 11:10:22,531 grabjobs Complete
+2023-08-10 11:10:22,547 323 Processing GraduateResume
+2023-08-10 11:10:23,077 GraduateResume Whitelist Success
+2023-08-10 11:10:28,291 GraduateResume Stimulate Error: Not a plugin function
+2023-08-10 11:10:28,311 GraduateResume Complete
+2023-08-10 11:10:28,327 324 Processing Graph_Constructor
+2023-08-10 11:10:28,834 Graph_Constructor Whitelist Success
+2023-08-10 11:10:33,856 Graph_Constructor Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:10:33,876 Graph_Constructor Complete
+2023-08-10 11:10:33,893 325 Processing hackit_web_scanner
+2023-08-10 11:10:35,202 hackit_web_scanner Whitelist Success
+2023-08-10 11:10:44,252 hackit_web_scanner Stimulate Error: Not a plugin function
+2023-08-10 11:10:44,272 hackit_web_scanner Complete
+2023-08-10 11:10:44,289 326 Processing hacktrack
+2023-08-10 11:10:45,207 hacktrack Whitelist Success
+2023-08-10 11:10:49,294 hacktrack Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:10:49,316 hacktrack Complete
+2023-08-10 11:10:49,334 327 Processing hadith
+2023-08-10 11:10:49,713 hadith Whitelist Success
+2023-08-10 11:10:54,730 hadith Stimulate Success
+2023-08-10 11:10:54,749 hadith Complete
+2023-08-10 11:10:54,766 328 Processing HaffPrice
+2023-08-10 11:10:54,794 HaffPrice Complete
+2023-08-10 11:10:54,812 329 Processing retrieval
+2023-08-10 11:10:55,272 retrieval Whitelist Success
+2023-08-10 11:10:59,646 retrieval Stimulate Success
+2023-08-10 11:10:59,665 retrieval Complete
+2023-08-10 11:10:59,681 330 Processing haulingbuddies
+2023-08-10 11:11:00,124 haulingbuddies Whitelist Success
+2023-08-10 11:11:05,562 haulingbuddies Stimulate Error: Not a plugin function
+2023-08-10 11:11:05,581 haulingbuddies Complete
+2023-08-10 11:11:05,597 331 Processing hdbcarpark
+2023-08-10 11:11:07,422 hdbcarpark Whitelist Success
+2023-08-10 11:11:13,839 hdbcarpark Stimulate Success
+2023-08-10 11:11:13,858 hdbcarpark Complete
+2023-08-10 11:11:13,874 332 Processing HederaAccountInfo
+2023-08-10 11:11:14,306 HederaAccountInfo Whitelist Success
+2023-08-10 11:11:17,247 HederaAccountInfo Stimulate Success
+2023-08-10 11:11:17,266 HederaAccountInfo Complete
+2023-08-10 11:11:17,283 333 Processing heygen
+2023-08-10 11:11:17,632 heygen Whitelist Success
+2023-08-10 11:11:21,725 heygen Stimulate Success
+2023-08-10 11:11:21,744 heygen Complete
+2023-08-10 11:11:21,761 334 Processing hicollectors
+2023-08-10 11:11:21,788 hicollectors Complete
+2023-08-10 11:11:21,803 335 Processing highPerplexity
+2023-08-10 11:11:22,362 highPerplexity Whitelist Success
+2023-08-10 11:11:28,985 highPerplexity Stimulate Success
+2023-08-10 11:11:29,004 highPerplexity Complete
+2023-08-10 11:11:29,020 336 Processing Horoscope
+2023-08-10 11:11:29,673 Horoscope Whitelist Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:11:29,694 Horoscope Complete
+2023-08-10 11:11:29,710 337 Processing Horoscopes_by_Inner_Self
+2023-08-10 11:11:29,738 Horoscopes_by_Inner_Self Complete
+2023-08-10 11:11:29,753 338 Processing webhooks
+2023-08-10 11:11:29,784 webhooks Complete
+2023-08-10 11:11:29,800 339 Processing hubbubworld_hubbub_1
+2023-08-10 11:11:29,828 hubbubworld_hubbub_1 Complete
+2023-08-10 11:11:29,844 340 Processing pod_designer
+2023-08-10 11:11:30,528 pod_designer Whitelist Success
+2023-08-10 11:11:49,966 pod_designer Stimulate Success
+2023-08-10 11:11:49,985 pod_designer Complete
+2023-08-10 11:11:50,003 341 Processing Humanize
+2023-08-10 11:11:50,032 Humanize Complete
+2023-08-10 11:11:50,048 342 Processing i_am_rich
+2023-08-10 11:11:50,078 i_am_rich Complete
+2023-08-10 11:11:50,095 343 Processing I_Ching
+2023-08-10 11:11:50,793 I_Ching Whitelist Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:11:50,817 I_Ching Complete
+2023-08-10 11:11:50,833 344 Processing IbottaShopping
+2023-08-10 11:11:50,862 IbottaShopping Complete
+2023-08-10 11:11:50,879 345 Processing IdeaOrganiser
+2023-08-10 11:11:50,910 IdeaOrganiser Complete
+2023-08-10 11:11:50,925 346 Processing Lucas
+2023-08-10 11:11:51,578 Lucas Whitelist Success
+2023-08-10 11:11:54,841 Lucas Stimulate Error: Not a plugin function
+2023-08-10 11:11:54,860 Lucas Complete
+2023-08-10 11:11:54,877 347 Processing ImageEditor
+2023-08-10 11:11:54,905 ImageEditor Complete
+2023-08-10 11:11:54,924 348 Processing ImageSearch
+2023-08-10 11:11:55,344 ImageSearch Whitelist Success
+2023-08-10 11:11:59,833 ImageSearch Stimulate Error: Not a plugin function
+2023-08-10 11:11:59,852 ImageSearch Complete
+2023-08-10 11:11:59,869 349 Processing IndoorPlants
+2023-08-10 11:12:00,287 IndoorPlants Whitelist Success
+2023-08-10 11:12:01,718 IndoorPlants Stimulate Error: Expecting property name enclosed in double quotes: line 3 column 1 (char 176)
+2023-08-10 11:12:01,738 IndoorPlants Complete
+2023-08-10 11:12:01,755 350 Processing indoorplantbot
+2023-08-10 11:12:02,408 indoorplantbot Whitelist Success
+2023-08-10 11:12:08,676 indoorplantbot Stimulate Error: Not a plugin function
+2023-08-10 11:12:08,696 indoorplantbot Complete
+2023-08-10 11:12:08,713 351 Processing infojobs
+2023-08-10 11:12:08,741 infojobs Complete
+2023-08-10 11:12:08,758 352 Processing instabase
+2023-08-10 11:12:08,789 instabase Complete
+2023-08-10 11:12:08,805 353 Processing Instacart
+2023-08-10 11:12:08,835 Instacart Complete
+2023-08-10 11:12:08,868 354 Processing InstaSite
+2023-08-10 11:12:09,337 InstaSite Whitelist Error: 404 Client Error: Not Found for url: https://landing.pyxl.uk/.well-known/ai-plugin.json
+2023-08-10 11:12:09,358 InstaSite Complete
+2023-08-10 11:12:09,375 355 Processing InterestRates
+2023-08-10 11:12:09,405 InterestRates Complete
+2023-08-10 11:12:09,422 356 Processing invoice_creator
+2023-08-10 11:12:09,907 invoice_creator Whitelist Success
+2023-08-10 11:12:12,006 invoice_creator Stimulate Error: Not a plugin function
+2023-08-10 11:12:12,025 invoice_creator Complete
+2023-08-10 11:12:12,045 357 Processing IsotonixProducts
+2023-08-10 11:12:21,255 IsotonixProducts Whitelist Error: 404 Client Error: Not Found for url: https://www.isotonix.com/.well-known/ai-plugin.json
+2023-08-10 11:12:21,276 IsotonixProducts Complete
+2023-08-10 11:12:21,293 358 Processing locator
+2023-08-10 11:12:21,321 locator Complete
+2023-08-10 11:12:21,337 359 Processing italy_latest_news
+2023-08-10 11:12:22,609 italy_latest_news Whitelist Success
+2023-08-10 11:12:24,259 italy_latest_news Stimulate Success
+2023-08-10 11:12:24,279 italy_latest_news Complete
+2023-08-10 11:12:24,296 360 Processing ixigo_trip_planner
+2023-08-10 11:12:24,325 ixigo_trip_planner Complete
+2023-08-10 11:12:24,341 361 Processing jamesallen_search
+2023-08-10 11:12:24,732 jamesallen_search Whitelist Success
+2023-08-10 11:12:27,093 jamesallen_search Stimulate Error: Extra data: line 1 column 3 (char 2)
+2023-08-10 11:12:27,114 jamesallen_search Complete
+2023-08-10 11:12:27,131 362 Processing html_css_japanese_stroke_viewer
+2023-08-10 11:12:27,579 html_css_japanese_stroke_viewer Whitelist Success
+2023-08-10 11:12:28,684 error_code=None error_message="'get_character_practice_board_html_getCharacterPresentationHTML__characterFamily___character__get' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.1.name'" error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-08-10 11:12:28,684 html_css_japanese_stroke_viewer Stimulate Error: 'get_character_practice_board_html_getCharacterPresentationHTML__characterFamily___character__get' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.1.name'
+2023-08-10 11:12:28,704 html_css_japanese_stroke_viewer Complete
+2023-08-10 11:12:28,720 363 Processing JetBookClick
+2023-08-10 11:12:28,748 JetBookClick Complete
+2023-08-10 11:12:28,764 364 Processing JiggyBase_retrieval
+2023-08-10 11:12:28,794 JiggyBase_retrieval Complete
+2023-08-10 11:12:28,811 365 Processing jini
+2023-08-10 11:12:30,133 jini Whitelist Success
+2023-08-10 11:12:36,083 jini Stimulate Error: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /?query=latest%20news%20about%20technology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D0CA6C3E80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-08-10 11:12:36,102 jini Complete
+2023-08-10 11:12:36,119 366 Processing jio
+2023-08-10 11:12:37,984 jio Whitelist Success
+2023-08-10 11:12:40,932 jio Stimulate Error: Not a plugin function
+2023-08-10 11:12:40,951 jio Complete
+2023-08-10 11:12:40,967 367 Processing JiraTalk
+2023-08-10 11:12:40,996 JiraTalk Complete
+2023-08-10 11:12:41,012 368 Processing job_cover_letter
+2023-08-10 11:12:42,069 job_cover_letter Whitelist Success
+2023-08-10 11:12:47,197 job_cover_letter Stimulate Error: Expecting property name enclosed in double quotes: line 3 column 1 (char 876)
+2023-08-10 11:12:47,215 job_cover_letter Complete
+2023-08-10 11:12:47,231 369 Processing JobDescription
+2023-08-10 11:12:47,897 JobDescription Whitelist Success
+2023-08-10 11:12:51,973 JobDescription Stimulate Error: Not a plugin function
+2023-08-10 11:12:51,992 JobDescription Complete
+2023-08-10 11:12:52,010 370 Processing JobInterview
+2023-08-10 11:12:52,710 JobInterview Whitelist Success
+2023-08-10 11:12:59,864 JobInterview Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:12:59,885 JobInterview Complete
+2023-08-10 11:12:59,902 371 Processing job_search
+2023-08-10 11:13:00,746 job_search Whitelist Success
+2023-08-10 11:13:02,438 job_search Stimulate Error: Not a plugin function
+2023-08-10 11:13:02,459 job_search Complete
+2023-08-10 11:13:02,476 372 Processing indeed
+2023-08-10 11:13:03,051 indeed Whitelist Success
+2023-08-10 11:13:06,542 indeed Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:13:06,562 indeed Complete
+2023-08-10 11:13:06,579 373 Processing job_search_uk
+2023-08-10 11:13:06,609 job_search_uk Complete
+2023-08-10 11:13:06,625 374 Processing jobsearch
+2023-08-10 11:13:07,792 jobsearch Whitelist Success
+2023-08-10 11:23:07,797 jobsearch Stimulate Error: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-08-10 11:23:07,817 jobsearch Complete
+2023-08-10 11:23:07,837 375 Processing jopilot
+2023-08-10 11:23:08,499 jopilot Whitelist Success
+2023-08-10 11:23:14,490 jopilot Stimulate Error: Not a plugin function
+2023-08-10 11:23:14,517 jopilot Complete
+2023-08-10 11:23:14,533 376 Processing jots
+2023-08-10 11:23:14,559 jots Complete
+2023-08-10 11:23:14,575 377 Processing kakakucom
+2023-08-10 11:23:14,603 kakakucom Complete
+2023-08-10 11:23:14,620 378 Processing kakakucom_travel
+2023-08-10 11:23:16,240 kakakucom_travel Whitelist Success
+2023-08-10 11:23:22,480 kakakucom_travel Stimulate Success
+2023-08-10 11:23:22,507 kakakucom_travel Complete
+2023-08-10 11:23:22,522 379 Processing idou
+2023-08-10 11:23:23,505 idou Whitelist Error: 403 Client Error: Forbidden for url: https://idou.me/.well-known/ai-plugin.json
+2023-08-10 11:23:23,533 idou Complete
+2023-08-10 11:23:23,548 380 Processing KalendarAI
+2023-08-10 11:23:23,574 KalendarAI Complete
+2023-08-10 11:23:23,589 381 Processing KargoTakip
+2023-08-10 11:23:26,325 KargoTakip Whitelist Success
+2023-08-10 11:23:28,336 KargoTakip Stimulate Error: Not a plugin function
+2023-08-10 11:23:28,363 KargoTakip Complete
+2023-08-10 11:23:28,379 382 Processing KAYAK
+2023-08-10 11:23:28,405 KAYAK Complete
+2023-08-10 11:23:28,421 383 Processing internetSearch
+2023-08-10 11:23:28,451 internetSearch Complete
+2023-08-10 11:23:28,469 384 Processing keyplays_football
+2023-08-10 11:23:29,074 Unsupported APIPropertyLocation "header" for parameter openai-subdivision-1-iso-code. Valid values are ['query', 'path'] Ignoring optional parameter
+2023-08-10 11:23:29,075 Unsupported APIPropertyLocation "header" for parameter openai-subdivision-1-iso-code. Valid values are ['query', 'path'] Ignoring optional parameter
+2023-08-10 11:23:29,075 Unsupported APIPropertyLocation "header" for parameter openai-subdivision-1-iso-code. Valid values are ['query', 'path'] Ignoring optional parameter
+2023-08-10 11:23:29,075 Unsupported APIPropertyLocation "header" for parameter openai-subdivision-1-iso-code. Valid values are ['query', 'path'] Ignoring optional parameter
+2023-08-10 11:23:29,077 keyplays_football Whitelist Success
+2023-08-10 11:23:40,998 keyplays_football Stimulate Success
+2023-08-10 11:23:41,026 keyplays_football Complete
+2023-08-10 11:23:41,042 385 Processing keywordexplorer
+2023-08-10 11:23:42,484 keywordexplorer Whitelist Success
+2023-08-10 11:23:56,132 keywordexplorer Stimulate Success
+2023-08-10 11:23:56,159 keywordexplorer Complete
+2023-08-10 11:23:56,174 386 Processing kiwicom_assistant_and_flights_search
+2023-08-10 11:23:56,201 kiwicom_assistant_and_flights_search Complete
+2023-08-10 11:23:56,217 387 Processing KlarnaProducts
+2023-08-10 11:23:56,434 KlarnaProducts Whitelist Success
+2023-08-10 11:23:59,676 KlarnaProducts Stimulate Success
+2023-08-10 11:23:59,704 KlarnaProducts Complete
+2023-08-10 11:23:59,720 388 Processing travelActivityHotel
+2023-08-10 11:24:01,150 travelActivityHotel Whitelist Error: Expecting value: line 2 column 1 (char 2)
+2023-08-10 11:24:01,180 travelActivityHotel Complete
+2023-08-10 11:24:01,195 389 Processing kokoro
+2023-08-10 11:24:01,908 kokoro Whitelist Success
+2023-08-10 11:24:04,277 kokoro Stimulate Success
+2023-08-10 11:24:04,305 kokoro Complete
+2023-08-10 11:24:04,320 390 Processing konkanitranslator
+2023-08-10 11:24:05,016 konkanitranslator Whitelist Success
+2023-08-10 11:24:09,182 konkanitranslator Stimulate Error: Not a plugin function
+2023-08-10 11:24:09,209 konkanitranslator Complete
+2023-08-10 11:24:09,224 391 Processing konnectz
+2023-08-10 11:24:09,252 konnectz Complete
+2023-08-10 11:24:09,267 392 Processing korea_subway
+2023-08-10 11:24:11,221 korea_subway Whitelist Success
+2023-08-10 11:24:14,975 korea_subway Stimulate Success
+2023-08-10 11:24:15,002 korea_subway Complete
+2023-08-10 11:24:15,017 393 Processing kraftful
+2023-08-10 11:24:15,469 kraftful Whitelist Success
+2023-08-10 11:24:19,055 kraftful Stimulate Success
+2023-08-10 11:24:19,082 kraftful Complete
+2023-08-10 11:24:19,097 394 Processing Kyujinbox
+2023-08-10 11:24:19,123 Kyujinbox Complete
+2023-08-10 11:24:19,138 395 Processing lawyer_lookup
+2023-08-10 11:24:19,575 lawyer_lookup Whitelist Success
+2023-08-10 11:24:21,921 lawyer_lookup Stimulate Error: 'username'
+2023-08-10 11:24:21,948 lawyer_lookup Complete
+2023-08-10 11:24:21,963 396 Processing LawyerPR_PreliminaryReview
+2023-08-10 11:24:22,420 LawyerPR_PreliminaryReview Whitelist Success
+2023-08-10 11:24:29,151 LawyerPR_PreliminaryReview Stimulate Success
+2023-08-10 11:24:29,178 LawyerPR_PreliminaryReview Complete
+2023-08-10 11:24:29,193 397 Processing LegalQA
+2023-08-10 11:24:30,109 LegalQA Whitelist Success
+2023-08-10 11:24:46,862 LegalQA Stimulate Success
+2023-08-10 11:24:46,890 LegalQA Complete
+2023-08-10 11:24:46,904 398 Processing BriefingJuridico
+2023-08-10 11:24:47,432 BriefingJuridico Whitelist Success
+2023-08-10 11:24:50,451 BriefingJuridico Stimulate Success
+2023-08-10 11:24:50,481 BriefingJuridico Complete
+2023-08-10 11:24:50,497 399 Processing letter_creator
+2023-08-10 11:24:50,865 letter_creator Whitelist Success
+2023-08-10 11:24:55,804 letter_creator Stimulate Success
+2023-08-10 11:24:55,831 letter_creator Complete
+2023-08-10 11:24:55,846 400 Processing levinbot
+2023-08-10 11:24:56,488 levinbot Whitelist Success
+2023-08-10 11:25:01,986 levinbot Stimulate Success
+2023-08-10 11:25:02,014 levinbot Complete
+2023-08-10 11:25:02,029 401 Processing product_recommendation
+2023-08-10 11:25:03,240 product_recommendation Whitelist Error: Unable to parse spec from source https://lexi.chat/openapi.yaml
+2023-08-10 11:25:03,280 product_recommendation Complete
+2023-08-10 11:25:03,299 402 Processing LGTM
+2023-08-10 11:25:04,226 LGTM Whitelist Success
+2023-08-10 11:25:07,515 LGTM Stimulate Success
+2023-08-10 11:25:07,542 LGTM Complete
+2023-08-10 11:25:07,558 403 Processing Likewise
+2023-08-10 11:25:07,586 Likewise Complete
+2023-08-10 11:25:07,602 404 Processing lincolnbot
+2023-08-10 11:25:08,204 lincolnbot Whitelist Success
+2023-08-10 11:25:13,638 lincolnbot Stimulate Success
+2023-08-10 11:25:13,666 lincolnbot Complete
+2023-08-10 11:25:13,681 405 Processing Lingo
+2023-08-10 11:25:16,463 Lingo Whitelist Success
+2023-08-10 11:25:24,091 Lingo Stimulate Success
+2023-08-10 11:25:24,119 Lingo Complete
+2023-08-10 11:25:24,135 406 Processing link_analyzer
+2023-08-10 11:25:26,124 link_analyzer Whitelist Success
+2023-08-10 11:25:33,493 link_analyzer Stimulate Success
+2023-08-10 11:25:33,520 link_analyzer Complete
+2023-08-10 11:25:33,536 407 Processing linkhouse
+2023-08-10 11:25:33,564 linkhouse Complete
+2023-08-10 11:25:33,580 408 Processing PodcastDatabase
+2023-08-10 11:25:33,608 PodcastDatabase Complete
+2023-08-10 11:25:33,625 409 Processing ListFriendly
+2023-08-10 11:25:34,158 ListFriendly Whitelist Success
+2023-08-10 11:25:36,748 ListFriendly Stimulate Error: Not a plugin function
+2023-08-10 11:25:36,775 ListFriendly Complete
+2023-08-10 11:25:36,791 410 Processing litmaps
+2023-08-10 11:25:37,318 litmaps Whitelist Success
+2023-08-10 11:25:45,026 litmaps Stimulate Error: Not a plugin function
+2023-08-10 11:25:45,055 litmaps Complete
+2023-08-10 11:25:45,071 411 Processing eSportsLive
+2023-08-10 11:25:46,180 eSportsLive Whitelist Success
+2023-08-10 11:25:59,227 eSportsLive Stimulate Success
+2023-08-10 11:25:59,254 eSportsLive Complete
+2023-08-10 11:25:59,269 412 Processing liveinboxer
+2023-08-10 11:25:59,296 liveinboxer Complete
+2023-08-10 11:25:59,310 413 Processing local
+2023-08-10 11:26:03,298 local Whitelist Success
+2023-08-10 11:26:08,625 local Stimulate Success
+2023-08-10 11:26:08,653 local Complete
+2023-08-10 11:26:08,667 414 Processing Love_Coupons
+2023-08-10 11:26:09,748 Love_Coupons Whitelist Success
+2023-08-10 11:26:12,454 Love_Coupons Stimulate Success
+2023-08-10 11:26:12,483 Love_Coupons Complete
+2023-08-10 11:26:12,499 415 Processing lsongai
+2023-08-10 11:26:13,261 lsongai Whitelist Success
+2023-08-10 11:26:16,278 lsongai Stimulate Success
+2023-08-10 11:26:16,306 lsongai Complete
+2023-08-10 11:26:16,322 416 Processing lucid
+2023-08-10 11:26:16,351 lucid Complete
+2023-08-10 11:26:16,367 417 Processing magic
+2023-08-10 11:26:16,402 magic Complete
+2023-08-10 11:26:16,419 418 Processing magic_conch
+2023-08-10 11:26:17,029 magic_conch Whitelist Success
+2023-08-10 11:26:22,555 magic_conch Stimulate Error: Not a plugin function
+2023-08-10 11:26:22,582 magic_conch Complete
+2023-08-10 11:26:22,598 419 Processing magi_codex
+2023-08-10 11:26:23,030 magi_codex Whitelist Success
+2023-08-10 11:26:25,236 magi_codex Stimulate Error: Not a plugin function
+2023-08-10 11:26:25,263 magi_codex Complete
+2023-08-10 11:26:25,279 420 Processing Magnetis
+2023-08-10 11:26:25,305 Magnetis Complete
+2023-08-10 11:26:25,321 421 Processing Maimovie
+2023-08-10 11:26:25,348 Maimovie Complete
+2023-08-10 11:26:25,363 422 Processing make_an_excel_sheet
+2023-08-10 11:26:25,930 make_an_excel_sheet Whitelist Success
+2023-08-10 11:26:30,492 make_an_excel_sheet Stimulate Success
+2023-08-10 11:26:30,519 make_an_excel_sheet Complete
+2023-08-10 11:26:30,534 423 Processing Man_of_Many
+2023-08-10 11:26:32,079 Man_of_Many Whitelist Success
+2023-08-10 11:26:38,240 Man_of_Many Stimulate Success
+2023-08-10 11:26:38,267 Man_of_Many Complete
+2023-08-10 11:26:38,283 424 Processing Manorlead
+2023-08-10 11:26:38,310 Manorlead Complete
+2023-08-10 11:26:38,325 425 Processing MantiumRetriever
+2023-08-10 11:26:38,352 MantiumRetriever Complete
+2023-08-10 11:26:38,368 426 Processing maps
+2023-08-10 11:26:39,717 maps Whitelist Success
+2023-08-10 11:26:43,375 maps Stimulate Success
+2023-08-10 11:26:43,406 maps Complete
+2023-08-10 11:26:43,421 427 Processing mbti
+2023-08-10 11:26:43,451 mbti Complete
+2023-08-10 11:26:43,467 428 Processing minecraftexpert
+2023-08-10 11:26:44,262 minecraftexpert Whitelist Success
+2023-08-10 11:26:58,462 minecraftexpert Stimulate Error: Not a plugin function
+2023-08-10 11:26:58,491 minecraftexpert Complete
+2023-08-10 11:26:58,509 429 Processing medecinedata
+2023-08-10 11:26:58,537 medecinedata Complete
+2023-08-10 11:26:58,554 430 Processing mediaready
+2023-08-10 11:26:59,263 mediaready Whitelist Success
+2023-08-10 11:27:11,228 mediaready Stimulate Error: Not a plugin function
+2023-08-10 11:27:11,255 mediaready Complete
+2023-08-10 11:27:11,270 431 Processing memecreator
+2023-08-10 11:27:11,296 memecreator Complete
+2023-08-10 11:27:11,310 432 Processing MemeGenerator
+2023-08-10 11:27:11,837 MemeGenerator Whitelist Success
+2023-08-10 11:27:15,174 MemeGenerator Stimulate Success
+2023-08-10 11:27:15,208 MemeGenerator Complete
+2023-08-10 11:27:15,226 433 Processing memorybank
+2023-08-10 11:27:15,254 memorybank Complete
+2023-08-10 11:27:15,272 434 Processing mercari_search
+2023-08-10 11:27:15,803 mercari_search Whitelist Error: 403 Client Error: Forbidden for url: https://eliza-api.mercari.com/.well-known/ai-plugin.json
+2023-08-10 11:27:15,832 mercari_search Complete
+2023-08-10 11:27:15,848 435 Processing MermaidChart
+2023-08-10 11:27:16,440 MermaidChart Whitelist Success
+2023-08-10 11:27:21,529 MermaidChart Stimulate Error: Not a plugin function
+2023-08-10 11:27:21,555 MermaidChart Complete
+2023-08-10 11:27:21,571 436 Processing message_in_a_bottle
+2023-08-10 11:27:22,272 message_in_a_bottle Whitelist Success
+2023-08-10 11:27:24,214 message_in_a_bottle Stimulate Error: Not a plugin function
+2023-08-10 11:27:24,241 message_in_a_bottle Complete
+2023-08-10 11:27:24,256 437 Processing metamentor
+2023-08-10 11:27:24,904 metamentor Whitelist Success
+2023-08-10 11:27:27,933 metamentor Stimulate Error: Not a plugin function
+2023-08-10 11:27:27,959 metamentor Complete
+2023-08-10 11:27:27,974 438 Processing MetaPath
+2023-08-10 11:27:30,582 MetaPath Whitelist Success
+2023-08-10 11:27:33,295 MetaPath Stimulate Success
+2023-08-10 11:27:33,321 MetaPath Complete
+2023-08-10 11:27:33,337 439 Processing metaphor_search_api
+2023-08-10 11:27:33,364 metaphor_search_api Complete
+2023-08-10 11:27:33,379 440 Processing michelangelo
+2023-08-10 11:27:33,407 michelangelo Complete
+2023-08-10 11:27:33,425 441 Processing midpage_caselaw
+2023-08-10 11:27:33,452 midpage_caselaw Complete
+2023-08-10 11:27:33,468 442 Processing domainNameDiscovery
+2023-08-10 11:27:33,504 domainNameDiscovery Complete
+2023-08-10 11:27:33,531 443 Processing mightyowl_education
+2023-08-10 11:27:33,566 mightyowl_education Complete
+2023-08-10 11:27:33,586 444 Processing career_test
+2023-08-10 11:27:34,046 career_test Whitelist Success
+2023-08-10 11:27:42,790 career_test Stimulate Error: Not a plugin function
+2023-08-10 11:27:42,821 career_test Complete
+2023-08-10 11:27:42,836 445 Processing mindful_data_ai
+2023-08-10 11:27:43,344 mindful_data_ai Whitelist Success
+2023-08-10 11:27:47,906 mindful_data_ai Stimulate Success
+2023-08-10 11:27:47,936 mindful_data_ai Complete
+2023-08-10 11:27:47,951 446 Processing minecraft_modding_guide
+2023-08-10 11:27:47,977 minecraft_modding_guide Complete
+2023-08-10 11:27:47,993 447 Processing text_games
+2023-08-10 11:27:48,023 text_games Complete
+2023-08-10 11:27:48,041 448 Processing mini_habits
+2023-08-10 11:27:48,076 mini_habits Complete
+2023-08-10 11:27:48,094 449 Processing Mino
+2023-08-10 11:27:48,851 Mino Whitelist Success
+2023-08-10 11:27:50,060 Mino Stimulate Error: Unterminated string starting at: line 2 column 21 (char 22)
+2023-08-10 11:27:50,089 Mino Complete
+2023-08-10 11:27:50,105 450 Processing mintbaseaction
+2023-08-10 11:27:50,132 mintbaseaction Complete
+2023-08-10 11:27:50,148 451 Processing mintbasesearch
+2023-08-10 11:27:50,192 mintbasesearch Complete
+2023-08-10 11:27:50,209 452 Processing TwentyMinutenCHNews
+2023-08-10 11:27:51,571 TwentyMinutenCHNews Whitelist Success
+2023-08-10 11:27:55,320 TwentyMinutenCHNews Stimulate Success
+2023-08-10 11:27:55,347 TwentyMinutenCHNews Complete
+2023-08-10 11:27:55,362 453 Processing MixerBox_Calculator_accurate_answers
+2023-08-10 11:27:55,388 MixerBox_Calculator_accurate_answers Complete
+2023-08-10 11:27:55,404 454 Processing MixerBox_ChatDrive_AI_drive_assistant
+2023-08-10 11:27:55,433 MixerBox_ChatDrive_AI_drive_assistant Complete
+2023-08-10 11:27:55,451 455 Processing MixerBox_ChatMap_map
+2023-08-10 11:27:55,483 MixerBox_ChatMap_map Complete
+2023-08-10 11:27:55,500 456 Processing MixerBox_ChatPDF_PDF_reader_analyzer
+2023-08-10 11:27:55,529 MixerBox_ChatPDF_PDF_reader_analyzer Complete
+2023-08-10 11:27:55,547 457 Processing MixerBox_ChatVideo_YouTube_video_summarizer
+2023-08-10 11:27:55,574 MixerBox_ChatVideo_YouTube_video_summarizer Complete
+2023-08-10 11:27:55,591 458 Processing MixerBox_Diagrams_AI_diagram_generator
+2023-08-10 11:27:55,620 MixerBox_Diagrams_AI_diagram_generator Complete
+2023-08-10 11:27:55,637 459 Processing MixerBox_FreecableTV
+2023-08-10 11:27:56,449 MixerBox_FreecableTV Whitelist Success
+2023-08-10 11:27:59,432 MixerBox_FreecableTV Stimulate Success
+2023-08-10 11:27:59,463 MixerBox_FreecableTV Complete
+2023-08-10 11:27:59,480 460 Processing MixerBox_ImageGen_Al_image_generation
+2023-08-10 11:27:59,511 MixerBox_ImageGen_Al_image_generation Complete
+2023-08-10 11:27:59,528 461 Processing MixerBox_News
+2023-08-10 11:28:00,268 MixerBox_News Whitelist Success
+2023-08-10 11:28:03,467 MixerBox_News Stimulate Success
+2023-08-10 11:28:03,494 MixerBox_News Complete
+2023-08-10 11:28:03,509 462 Processing MixerBox_OnePlayer_music
+2023-08-10 11:28:04,036 MixerBox_OnePlayer_music Whitelist Success
+2023-08-10 11:28:06,583 MixerBox_OnePlayer_music Stimulate Success
+2023-08-10 11:28:06,610 MixerBox_OnePlayer_music Complete
+2023-08-10 11:28:06,625 463 Processing MixerBox_PhotoMagic_AI_image_enhancer
+2023-08-10 11:28:06,651 MixerBox_PhotoMagic_AI_image_enhancer Complete
+2023-08-10 11:28:06,666 464 Processing MixerBox_Podcasts
+2023-08-10 11:28:07,258 MixerBox_Podcasts Whitelist Success
+2023-08-10 11:28:09,777 MixerBox_Podcasts Stimulate Success
+2023-08-10 11:28:09,804 MixerBox_Podcasts Complete
+2023-08-10 11:28:09,820 465 Processing MixerBox_Prompt_Pro_ideal_responses
+2023-08-10 11:28:09,846 MixerBox_Prompt_Pro_ideal_responses Complete
+2023-08-10 11:28:09,862 466 Processing MixerBox_QR_code_generator
+2023-08-10 11:28:09,891 MixerBox_QR_code_generator Complete
+2023-08-10 11:28:09,908 467 Processing MixerBox_Scholar_academic_paper_search_engine
+2023-08-10 11:28:09,938 MixerBox_Scholar_academic_paper_search_engine Complete
+2023-08-10 11:28:09,956 468 Processing MixerBox_Translate_AI_language_tutor
+2023-08-10 11:28:10,612 MixerBox_Translate_AI_language_tutor Whitelist Success
+2023-08-10 11:28:25,791 MixerBox_Translate_AI_language_tutor Stimulate Error: Not a plugin function
+2023-08-10 11:28:25,818 MixerBox_Translate_AI_language_tutor Complete
+2023-08-10 11:28:25,833 469 Processing MixerBox_Weather
+2023-08-10 11:28:26,421 MixerBox_Weather Whitelist Success
+2023-08-10 11:28:40,176 MixerBox_Weather Stimulate Error: Not a plugin function
+2023-08-10 11:28:40,204 MixerBox_Weather Complete
+2023-08-10 11:28:40,219 470 Processing MixerBox_WebSearchG_web_search
+2023-08-10 11:28:40,245 MixerBox_WebSearchG_web_search Complete
+2023-08-10 11:28:40,260 471 Processing MLPaperReader
+2023-08-10 11:28:40,727 MLPaperReader Whitelist Success
+2023-08-10 11:28:44,100 MLPaperReader Stimulate Success
+2023-08-10 11:28:44,127 MLPaperReader Complete
+2023-08-10 11:28:44,141 472 Processing Major_League_Baseball_Statistics_Plugin
+2023-08-10 11:28:44,919 Major_League_Baseball_Statistics_Plugin Whitelist Success
+2023-08-10 11:28:46,457 Major_League_Baseball_Statistics_Plugin Stimulate Error: Not a plugin function
+2023-08-10 11:28:46,483 Major_League_Baseball_Statistics_Plugin Complete
+2023-08-10 11:28:46,499 473 Processing mobula
+2023-08-10 11:28:47,724 mobula Whitelist Success
+2023-08-10 11:28:51,512 mobula Stimulate Success
+2023-08-10 11:28:51,539 mobula Complete
+2023-08-10 11:28:51,555 474 Processing mojito
+2023-08-10 11:28:51,581 mojito Complete
+2023-08-10 11:28:51,596 475 Processing momemnt_of_zen_spext
+2023-08-10 11:28:52,472 momemnt_of_zen_spext Whitelist Success
+2023-08-10 11:29:03,273 momemnt_of_zen_spext Stimulate Error: Not a plugin function
+2023-08-10 11:29:03,300 momemnt_of_zen_spext Complete
+2023-08-10 11:29:03,315 476 Processing momentxguidex
+2023-08-10 11:29:04,041 momentxguidex Whitelist Success
+2023-08-10 11:29:13,330 momentxguidex Stimulate Error: Not a plugin function
+2023-08-10 11:29:13,356 momentxguidex Complete
+2023-08-10 11:29:13,371 477 Processing monarch
+2023-08-10 11:29:13,995 monarch Whitelist Success
+2023-08-10 11:29:18,288 monarch Stimulate Error: Not a plugin function
+2023-08-10 11:29:18,314 monarch Complete
+2023-08-10 11:29:18,329 478 Processing moodo
+2023-08-10 11:29:18,357 moodo Complete
+2023-08-10 11:29:18,373 479 Processing mpc_wallet
+2023-08-10 11:29:20,077 mpc_wallet Whitelist Success
+2023-08-10 11:29:23,830 mpc_wallet Stimulate Error: Not a plugin function
+2023-08-10 11:29:23,858 mpc_wallet Complete
+2023-08-10 11:29:23,875 480 Processing music
+2023-08-10 11:29:23,903 music Complete
+2023-08-10 11:29:23,919 481 Processing MyWritingCompanion
+2023-08-10 11:29:24,180 MyWritingCompanion Whitelist Success
+2023-08-10 11:29:26,687 MyWritingCompanion Stimulate Success
+2023-08-10 11:29:26,714 MyWritingCompanion Complete
+2023-08-10 11:29:26,729 482 Processing mytomorrows_clinical_trial_search
+2023-08-10 11:29:27,685 mytomorrows_clinical_trial_search Whitelist Error: Unsupported type: int
+2023-08-10 11:29:27,712 mytomorrows_clinical_trial_search Complete
+2023-08-10 11:29:27,727 483 Processing Namr
+2023-08-10 11:29:28,324 Namr Whitelist Error: 401 Client Error: Unauthorized for url: https://www.namr.pro/.well-known/ai-plugin.json
+2023-08-10 11:29:28,355 Namr Complete
+2023-08-10 11:29:28,371 484 Processing nasaMediaExplorer
+2023-08-10 11:29:28,763 nasaMediaExplorer Whitelist Success
+2023-08-10 11:29:42,615 nasaMediaExplorer Stimulate Error: Not a plugin function
+2023-08-10 11:29:42,642 nasaMediaExplorer Complete
+2023-08-10 11:29:42,658 485 Processing ndricks_sports_api
+2023-08-10 11:29:43,004 ndricks_sports_api Whitelist Success
+2023-08-10 11:29:54,308 ndricks_sports_api Stimulate Error: Not a plugin function
+2023-08-10 11:29:54,336 ndricks_sports_api Complete
+2023-08-10 11:29:54,351 486 Processing netools
+2023-08-10 11:29:56,947 netools Whitelist Success
+2023-08-10 11:30:00,488 netools Stimulate Success
+2023-08-10 11:30:00,515 netools Complete
+2023-08-10 11:30:00,529 487 Processing Netlify
+2023-08-10 11:30:01,391 Netlify Whitelist Success
+2023-08-10 11:30:14,832 Netlify Stimulate Success
+2023-08-10 11:30:14,859 Netlify Complete
+2023-08-10 11:30:14,874 488 Processing networkMonitor
+2023-08-10 11:30:14,900 networkMonitor Complete
+2023-08-10 11:30:14,916 489 Processing newegg_ai_pcbuild
+2023-08-10 11:30:14,942 newegg_ai_pcbuild Complete
+2023-08-10 11:30:14,958 490 Processing TopNews
+2023-08-10 11:30:15,845 TopNews Whitelist Success
+2023-08-10 11:30:18,226 TopNews Stimulate Error: Not a plugin function
+2023-08-10 11:30:18,252 TopNews Complete
+2023-08-10 11:30:18,268 491 Processing NewsPilot
+2023-08-10 11:30:19,408 NewsPilot Whitelist Success
+2023-08-10 11:30:22,160 NewsPilot Stimulate Success
+2023-08-10 11:30:22,188 NewsPilot Complete
+2023-08-10 11:30:22,205 492 Processing nextpaper
+2023-08-10 11:30:22,826 nextpaper Whitelist Success
+2023-08-10 11:30:25,788 nextpaper Stimulate Success
+2023-08-10 11:30:25,815 nextpaper Complete
+2023-08-10 11:30:25,831 493 Processing nftguru
+2023-08-10 11:30:27,092 nftguru Whitelist Success
+2023-08-10 11:30:38,018 nftguru Stimulate Error: Not a plugin function
+2023-08-10 11:30:38,046 nftguru Complete
+2023-08-10 11:30:38,061 494 Processing NFTNewsRoundup
+2023-08-10 11:30:38,088 NFTNewsRoundup Complete
+2023-08-10 11:30:38,104 495 Processing NFTs
+2023-08-10 11:30:38,134 NFTs Complete
+2023-08-10 11:30:38,151 496 Processing Occupation_Skills_and_Course_Recommender
+2023-08-10 11:30:38,651 Occupation_Skills_and_Course_Recommender Whitelist Success
+2023-08-10 11:30:48,466 Occupation_Skills_and_Course_Recommender Stimulate Error: Not a plugin function
+2023-08-10 11:30:48,494 Occupation_Skills_and_Course_Recommender Complete
+2023-08-10 11:30:48,509 497 Processing nominus_com
+2023-08-10 11:30:48,870 nominus_com Whitelist Success
+2023-08-10 11:30:50,821 nominus_com Stimulate Success
+2023-08-10 11:30:50,849 nominus_com Complete
+2023-08-10 11:30:50,864 498 Processing noteable
+2023-08-10 11:30:50,890 noteable Complete
+2023-08-10 11:30:50,905 499 Processing notes_ai_sync
+2023-08-10 11:30:50,932 notes_ai_sync Complete
+2023-08-10 11:30:50,948 500 Processing Now
+2023-08-10 11:30:51,429 Now Whitelist Success
+2023-08-10 11:31:01,103 Now Stimulate Success
+2023-08-10 11:31:01,130 Now Complete
+2023-08-10 11:31:01,145 501 Processing Numerology
+2023-08-10 11:31:01,818 Numerology Whitelist Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:31:01,848 Numerology Complete
+2023-08-10 11:31:01,867 502 Processing OfferZen_world
+2023-08-10 11:31:03,002 OfferZen_world Whitelist Success
+2023-08-10 11:31:12,368 OfferZen_world Stimulate Success
+2023-08-10 11:31:12,395 OfferZen_world Complete
+2023-08-10 11:31:12,410 503 Processing OhMyPlug
+2023-08-10 11:31:14,356 OhMyPlug Whitelist Success
+2023-08-10 11:31:21,019 OhMyPlug Stimulate Success
+2023-08-10 11:31:21,045 OhMyPlug Complete
+2023-08-10 11:31:21,060 504 Processing omio
+2023-08-10 11:31:21,210 omio Whitelist Error: 403 Client Error: Forbidden for url: https://omio.com/.well-known/ai-plugin.json
+2023-08-10 11:31:21,237 omio Complete
+2023-08-10 11:31:21,253 505 Processing owd
+2023-08-10 11:31:21,952 owd Whitelist Success
+2023-08-10 11:31:24,953 owd Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:31:24,980 owd Complete
+2023-08-10 11:31:24,995 506 Processing find_stock_ideas
+2023-08-10 11:31:25,022 find_stock_ideas Complete
+2023-08-10 11:31:25,037 507 Processing OnlyTriviaUp
+2023-08-10 11:31:25,581 OnlyTriviaUp Whitelist Error: Unable to parse spec from source https://only-trivia-up.thx.pw/openapi.yaml
+2023-08-10 11:31:25,609 OnlyTriviaUp Complete
+2023-08-10 11:31:25,628 508 Processing openarch
+2023-08-10 11:31:27,187 openarch Whitelist Success
+2023-08-10 11:31:29,572 openarch Stimulate Error: Not a plugin function
+2023-08-10 11:31:29,599 openarch Complete
+2023-08-10 11:31:29,614 509 Processing university_lecture_retrieval
+2023-08-10 11:31:29,640 university_lecture_retrieval Complete
+2023-08-10 11:31:29,657 510 Processing opentrivia
+2023-08-10 11:31:29,707 opentrivia Complete
+2023-08-10 11:31:29,725 511 Processing opentable_v2
+2023-08-10 11:31:29,754 opentable_v2 Complete
+2023-08-10 11:31:29,771 512 Processing opentools
+2023-08-10 11:31:30,289 opentools Whitelist Success
+2023-08-10 11:31:32,627 opentools Stimulate Success
+2023-08-10 11:31:32,653 opentools Complete
+2023-08-10 11:31:32,668 513 Processing OptionsPro
+2023-08-10 11:31:33,341 OptionsPro Whitelist Success
+2023-08-10 11:31:46,108 OptionsPro Stimulate Error: Not a plugin function
+2023-08-10 11:31:46,134 OptionsPro Complete
+2023-08-10 11:31:46,149 514 Processing outreach_ai
+2023-08-10 11:31:46,175 outreach_ai Complete
+2023-08-10 11:31:46,191 515 Processing Outschool
+2023-08-10 11:31:46,566 Outschool Whitelist Success
+2023-08-10 11:31:51,860 Outschool Stimulate Success
+2023-08-10 11:31:51,888 Outschool Complete
+2023-08-10 11:31:51,903 516 Processing owis
+2023-08-10 11:31:51,930 owis Complete
+2023-08-10 11:31:51,946 517 Processing Owler
+2023-08-10 11:31:51,977 Owler Complete
+2023-08-10 11:31:51,994 518 Processing OwlJourney
+2023-08-10 11:31:52,020 OwlJourney Complete
+2023-08-10 11:31:52,036 519 Processing PEForNFTs
+2023-08-10 11:31:52,063 PEForNFTs Complete
+2023-08-10 11:31:52,079 520 Processing pagewhisperer
+2023-08-10 11:31:52,106 pagewhisperer Complete
+2023-08-10 11:31:52,121 521 Processing paperchat
+2023-08-10 11:31:53,632 paperchat Whitelist Success
+2023-08-10 11:32:07,948 paperchat Stimulate Success
+2023-08-10 11:32:07,975 paperchat Complete
+2023-08-10 11:32:07,990 522 Processing paperpile
+2023-08-10 11:32:08,429 paperpile Whitelist Success
+2023-08-10 11:32:13,349 paperpile Stimulate Error: Not a plugin function
+2023-08-10 11:32:13,376 paperpile Complete
+2023-08-10 11:32:13,391 523 Processing Paraphraser
+2023-08-10 11:32:14,641 Paraphraser Whitelist Success
+2023-08-10 11:32:19,894 Paraphraser Stimulate Success
+2023-08-10 11:32:19,922 Paraphraser Complete
+2023-08-10 11:32:19,937 524 Processing locate_inventory_for_electronic_components
+2023-08-10 11:32:20,411 locate_inventory_for_electronic_components Whitelist Success
+2023-08-10 11:32:22,591 locate_inventory_for_electronic_components Stimulate Error: Not a plugin function
+2023-08-10 11:32:22,618 locate_inventory_for_electronic_components Complete
+2023-08-10 11:32:22,633 525 Processing PartyPlanner
+2023-08-10 11:32:35,411 PartyPlanner Whitelist Error: 503 Server Error: Service Unavailable for url: https://party-planner-api.plugin-port-api.com/.well-known/ai-plugin.json
+2023-08-10 11:32:35,438 PartyPlanner Complete
+2023-08-10 11:32:35,453 526 Processing passiveDNS
+2023-08-10 11:32:35,976 passiveDNS Whitelist Success
+2023-08-10 11:32:41,601 passiveDNS Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:32:41,629 passiveDNS Complete
+2023-08-10 11:32:41,645 527 Processing paxiai
+2023-08-10 11:32:42,975 paxiai Whitelist Success
+2023-08-10 11:32:45,895 paxiai Stimulate Success
+2023-08-10 11:32:45,921 paxiai Complete
+2023-08-10 11:32:45,936 528 Processing paypay_gourmet
+2023-08-10 11:32:45,963 paypay_gourmet Complete
+2023-08-10 11:32:45,979 529 Processing pdf_creator
+2023-08-10 11:32:46,446 pdf_creator Whitelist Success
+2023-08-10 11:32:48,911 pdf_creator Stimulate Error: Not a plugin function
+2023-08-10 11:32:48,939 pdf_creator Complete
+2023-08-10 11:32:48,956 530 Processing pdf_maker
+2023-08-10 11:32:50,304 pdf_maker Whitelist Success
+2023-08-10 11:32:55,164 pdf_maker Stimulate Success
+2023-08-10 11:32:55,191 pdf_maker Complete
+2023-08-10 11:32:55,206 531 Processing ph_ai_news_query
+2023-08-10 11:32:55,233 ph_ai_news_query Complete
+2023-08-10 11:32:55,248 532 Processing penrose_research_analyst
+2023-08-10 11:32:55,279 penrose_research_analyst Complete
+2023-08-10 11:32:55,296 533 Processing perfect_chirp
+2023-08-10 11:32:55,327 perfect_chirp Complete
+2023-08-10 11:32:55,343 534 Processing Persona
+2023-08-10 11:32:56,865 Persona Whitelist Success
+2023-08-10 11:32:58,875 Persona Stimulate Error: Not a plugin function
+2023-08-10 11:32:58,902 Persona Complete
+2023-08-10 11:32:58,917 535 Processing PHITURE
+2023-08-10 11:32:59,764 PHITURE Whitelist Success
+2023-08-10 11:33:04,347 PHITURE Stimulate Success
+2023-08-10 11:33:04,375 PHITURE Complete
+2023-08-10 11:33:04,390 536 Processing photorealistic
+2023-08-10 11:33:04,759 photorealistic Whitelist Success
+2023-08-10 11:33:06,961 photorealistic Stimulate Success
+2023-08-10 11:33:06,989 photorealistic Complete
+2023-08-10 11:33:07,008 537 Processing task
+2023-08-10 11:33:07,036 task Complete
+2023-08-10 11:33:07,053 538 Processing PixellowChatWithImage
+2023-08-10 11:33:07,087 PixellowChatWithImage Complete
+2023-08-10 11:33:07,103 539 Processing placid
+2023-08-10 11:33:07,131 placid Complete
+2023-08-10 11:33:07,148 540 Processing Planfit
+2023-08-10 11:33:09,457 Planfit Whitelist Success
+2023-08-10 11:33:15,227 Planfit Stimulate Error: Not a plugin function
+2023-08-10 11:33:15,254 Planfit Complete
+2023-08-10 11:33:15,269 541 Processing PlaylistFollow
+2023-08-10 11:33:15,296 PlaylistFollow Complete
+2023-08-10 11:33:15,311 542 Processing PlaylistAI
+2023-08-10 11:33:15,339 PlaylistAI Complete
+2023-08-10 11:33:15,355 543 Processing plooral
+2023-08-10 11:33:16,150 plooral Whitelist Success
+2023-08-10 11:33:20,491 plooral Stimulate Success
+2023-08-10 11:33:20,520 plooral Complete
+2023-08-10 11:33:20,536 544 Processing PlugFinder
+2023-08-10 11:33:21,761 PlugFinder Whitelist Success
+2023-08-10 11:33:25,699 PlugFinder Stimulate Success
+2023-08-10 11:33:25,726 PlugFinder Complete
+2023-08-10 11:33:25,742 545 Processing Pluginpedia
+2023-08-10 11:33:26,154 Pluginpedia Whitelist Success
+2023-08-10 11:33:30,584 Pluginpedia Stimulate Success
+2023-08-10 11:33:30,612 Pluginpedia Complete
+2023-08-10 11:33:30,627 546 Processing podcastSearch
+2023-08-10 11:33:31,368 podcastSearch Whitelist Success
+2023-08-10 11:33:33,316 podcastSearch Stimulate Error: Not a plugin function
+2023-08-10 11:33:33,343 podcastSearch Complete
+2023-08-10 11:33:33,359 547 Processing PointsRecap
+2023-08-10 11:33:33,971 PointsRecap Whitelist Success
+2023-08-10 11:33:43,094 PointsRecap Stimulate Error: Not a plugin function
+2023-08-10 11:33:43,123 PointsRecap Complete
+2023-08-10 11:33:43,137 548 Processing polarr
+2023-08-10 11:33:43,921 polarr Whitelist Success
+2023-08-10 11:34:08,160 polarr Stimulate Success
+2023-08-10 11:34:08,191 polarr Complete
+2023-08-10 11:34:08,209 549 Processing pollthepeople
+2023-08-10 11:34:08,715 pollthepeople Whitelist Success
+2023-08-10 11:34:22,480 pollthepeople Stimulate Error: Not a plugin function
+2023-08-10 11:34:22,507 pollthepeople Complete
+2023-08-10 11:34:22,523 550 Processing polygon
+2023-08-10 11:34:22,549 polygon Complete
+2023-08-10 11:34:22,564 551 Processing popfun_ai
+2023-08-10 11:34:22,592 popfun_ai Complete
+2023-08-10 11:34:22,609 552 Processing StockData
+2023-08-10 11:34:23,665 StockData Whitelist Success
+2023-08-10 11:34:28,560 StockData Stimulate Success
+2023-08-10 11:34:28,587 StockData Complete
+2023-08-10 11:34:28,602 553 Processing portfoliopilot
+2023-08-10 11:34:29,567 portfoliopilot Whitelist Success
+2023-08-10 11:34:35,865 portfoliopilot Stimulate Error: Not a plugin function
+2023-08-10 11:34:35,893 portfoliopilot Complete
+2023-08-10 11:34:35,910 554 Processing PortfoliosLab
+2023-08-10 11:34:36,954 PortfoliosLab Whitelist Success
+2023-08-10 11:34:39,956 PortfoliosLab Stimulate Error: Not a plugin function
+2023-08-10 11:34:39,991 PortfoliosLab Complete
+2023-08-10 11:34:40,010 555 Processing Google_Ads_Shopping_Microsoft_Ads_pay_per_click
+2023-08-10 11:34:40,625 Google_Ads_Shopping_Microsoft_Ads_pay_per_click Whitelist Success
+2023-08-10 11:34:52,186 Google_Ads_Shopping_Microsoft_Ads_pay_per_click Stimulate Error: Not a plugin function
+2023-08-10 11:34:52,214 Google_Ads_Shopping_Microsoft_Ads_pay_per_click Complete
+2023-08-10 11:34:52,231 556 Processing prayer_times
+2023-08-10 11:34:54,614 prayer_times Whitelist Success
+2023-08-10 11:34:57,615 prayer_times Stimulate Success
+2023-08-10 11:34:57,642 prayer_times Complete
+2023-08-10 11:34:57,658 557 Processing Preply
+2023-08-10 11:34:58,494 Preply Whitelist Success
+2023-08-10 11:35:08,142 Preply Stimulate Error: Not a plugin function
+2023-08-10 11:35:08,170 Preply Complete
+2023-08-10 11:35:08,188 558 Processing PrimeLoupe
+2023-08-10 11:35:08,978 PrimeLoupe Whitelist Success
+2023-08-10 11:35:17,361 PrimeLoupe Stimulate Success
+2023-08-10 11:35:17,387 PrimeLoupe Complete
+2023-08-10 11:35:17,403 559 Processing search
+2023-08-10 11:35:18,456 search Whitelist Success
+2023-08-10 11:35:35,274 search Stimulate Success
+2023-08-10 11:35:35,301 search Complete
+2023-08-10 11:35:35,316 560 Processing Prompt_Hotkey
+2023-08-10 11:35:35,343 Prompt_Hotkey Complete
+2023-08-10 11:35:35,358 561 Processing rephrase
+2023-08-10 11:35:35,387 rephrase Complete
+2023-08-10 11:35:35,402 562 Processing promptest
+2023-08-10 11:35:35,431 promptest Complete
+2023-08-10 11:35:35,448 563 Processing PromptRecruit
+2023-08-10 11:35:35,476 PromptRecruit Complete
+2023-08-10 11:35:35,493 564 Processing property_finder_uk
+2023-08-10 11:35:35,521 property_finder_uk Complete
+2023-08-10 11:35:35,539 565 Processing property_finder_uk
+2023-08-10 11:35:35,572 property_finder_uk Complete
+2023-08-10 11:35:35,589 566 Processing ptcg_price_research
+2023-08-10 11:35:36,355 ptcg_price_research Whitelist Success
+2023-08-10 11:35:38,798 ptcg_price_research Stimulate Success
+2023-08-10 11:35:38,825 ptcg_price_research Complete
+2023-08-10 11:35:38,841 567 Processing PuginAI
+2023-08-10 11:35:39,364 PuginAI Whitelist Success
+2023-08-10 11:35:45,037 PuginAI Stimulate Success
+2023-08-10 11:35:45,064 PuginAI Complete
+2023-08-10 11:35:45,080 568 Processing Puzzle_Constructor
+2023-08-10 11:35:45,559 Puzzle_Constructor Whitelist Success
+2023-08-10 11:40:49,180 Puzzle_Constructor Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:40:49,211 Puzzle_Constructor Complete
+2023-08-10 11:40:49,227 569 Processing QEEQ
+2023-08-10 11:40:50,121 QEEQ Whitelist Success
+2023-08-10 11:40:54,097 QEEQ Stimulate Error: Not a plugin function
+2023-08-10 11:40:54,124 QEEQ Complete
+2023-08-10 11:40:54,139 570 Processing qrCodes
+2023-08-10 11:40:55,350 qrCodes Whitelist Success
+2023-08-10 11:40:59,310 qrCodes Stimulate Success
+2023-08-10 11:40:59,337 qrCodes Complete
+2023-08-10 11:40:59,352 571 Processing qreator
+2023-08-10 11:40:59,799 qreator Whitelist Success
+2023-08-10 11:41:01,837 qreator Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:41:01,865 qreator Complete
+2023-08-10 11:41:01,880 572 Processing qsRankings
+2023-08-10 11:41:01,907 qsRankings Complete
+2023-08-10 11:41:01,923 573 Processing QuakePH
+2023-08-10 11:41:01,952 QuakePH Complete
+2023-08-10 11:41:01,968 574 Processing quantumKemChecker
+2023-08-10 11:41:01,997 quantumKemChecker Complete
+2023-08-10 11:41:02,014 575 Processing questmate
+2023-08-10 11:41:03,866 questmate Whitelist Success
+2023-08-10 11:41:10,438 questmate Stimulate Success
+2023-08-10 11:41:10,466 questmate Complete
+2023-08-10 11:41:10,482 576 Processing quick_news_digest
+2023-08-10 11:41:10,509 quick_news_digest Complete
+2023-08-10 11:41:10,525 577 Processing QuickBlog
+2023-08-10 11:41:10,555 QuickBlog Complete
+2023-08-10 11:41:10,571 578 Processing ads
+2023-08-10 11:41:10,598 ads Complete
+2023-08-10 11:41:10,613 579 Processing QuickPage
+2023-08-10 11:41:10,640 QuickPage Complete
+2023-08-10 11:41:10,655 580 Processing quickrecall
+2023-08-10 11:41:10,681 quickrecall Complete
+2023-08-10 11:41:10,696 581 Processing QuiverQuantitative
+2023-08-10 11:41:10,723 QuiverQuantitative Complete
+2023-08-10 11:41:10,738 582 Processing quizizz
+2023-08-10 11:41:12,020 quizizz Whitelist Success
+2023-08-10 11:41:30,428 quizizz Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:41:30,455 quizizz Complete
+2023-08-10 11:41:30,470 583 Processing QyrusTestPilot
+2023-08-10 11:41:32,636 QyrusTestPilot Whitelist Success
+2023-08-10 11:41:35,790 QyrusTestPilot Stimulate Success
+2023-08-10 11:41:35,817 QyrusTestPilot Complete
+2023-08-10 11:41:35,833 584 Processing recipe_finder
+2023-08-10 11:41:35,859 recipe_finder Complete
+2023-08-10 11:41:35,874 585 Processing RecombinantAI
+2023-08-10 11:41:35,903 RecombinantAI Complete
+2023-08-10 11:41:35,919 586 Processing reflect_notes
+2023-08-10 11:41:35,946 reflect_notes Complete
+2023-08-10 11:41:35,963 587 Processing reminders
+2023-08-10 11:41:35,991 reminders Complete
+2023-08-10 11:41:36,007 588 Processing rephraseai
+2023-08-10 11:41:36,945 rephraseai Whitelist Success
+2023-08-10 11:41:42,290 rephraseai Stimulate Success
+2023-08-10 11:41:42,318 rephraseai Complete
+2023-08-10 11:41:42,334 589 Processing repo_inspector
+2023-08-10 11:41:42,361 repo_inspector Complete
+2023-08-10 11:41:42,377 590 Processing repo_radar
+2023-08-10 11:41:43,591 repo_radar Whitelist Success
+2023-08-10 11:51:46,493 Retrying oplangchain.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised Timeout: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600).
+2023-08-10 11:51:52,297 repo_radar Stimulate Success
+2023-08-10 11:51:52,330 repo_radar Complete
+2023-08-10 11:51:52,347 591 Processing repo_radar
+2023-08-10 11:51:53,014 repo_radar Whitelist Success
+2023-08-10 11:51:54,780 repo_radar Stimulate Error: Not a plugin function
+2023-08-10 11:51:54,807 repo_radar Complete
+2023-08-10 11:51:54,823 592 Processing researchbyvector
+2023-08-10 11:51:54,849 researchbyvector Complete
+2023-08-10 11:51:54,866 593 Processing Responsive
+2023-08-10 11:51:54,904 Responsive Complete
+2023-08-10 11:51:54,930 594 Processing resumer
+2023-08-10 11:51:56,587 resumer Whitelist Success
+2023-08-10 11:51:58,198 resumer Stimulate Error: Not a plugin function
+2023-08-10 11:51:58,225 resumer Complete
+2023-08-10 11:51:58,241 595 Processing ResumeCopilot
+2023-08-10 11:51:58,912 ResumeCopilot Whitelist Success
+2023-08-10 11:52:01,805 ResumeCopilot Stimulate Success
+2023-08-10 11:52:01,833 ResumeCopilot Complete
+2023-08-10 11:52:01,848 596 Processing resume_creator
+2023-08-10 11:52:02,242 resume_creator Whitelist Success
+2023-08-10 11:52:06,961 resume_creator Stimulate Success
+2023-08-10 11:52:06,989 resume_creator Complete
+2023-08-10 11:52:07,005 597 Processing reviewreader
+2023-08-10 11:52:07,031 reviewreader Complete
+2023-08-10 11:52:07,046 598 Processing RiskmonsterCorpDB
+2023-08-10 11:52:07,076 RiskmonsterCorpDB Complete
+2023-08-10 11:52:07,091 599 Processing RoboAd
+2023-08-10 11:52:07,548 RoboAd Whitelist Success
+2023-08-10 11:52:13,759 RoboAd Stimulate Success
+2023-08-10 11:52:13,788 RoboAd Complete
+2023-08-10 11:52:13,805 600 Processing RoboAd
+2023-08-10 11:52:14,272 RoboAd Whitelist Success
+2023-08-10 11:52:19,953 RoboAd Stimulate Success
+2023-08-10 11:52:19,981 RoboAd Complete
+2023-08-10 11:52:19,997 601 Processing Rogo
+2023-08-10 11:52:20,024 Rogo Complete
+2023-08-10 11:52:20,039 602 Processing Roshi
+2023-08-10 11:52:20,888 Roshi Whitelist Success
+2023-08-10 11:52:24,055 Roshi Stimulate Success
+2023-08-10 11:52:24,084 Roshi Complete
+2023-08-10 11:52:24,101 603 Processing RPAMAKER
+2023-08-10 11:52:24,128 RPAMAKER Complete
+2023-08-10 11:52:24,144 604 Processing Runes
+2023-08-10 11:52:24,815 Runes Whitelist Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:52:24,845 Runes Complete
+2023-08-10 11:52:24,862 605 Processing SASpeedCameras
+2023-08-10 11:52:24,889 SASpeedCameras Complete
+2023-08-10 11:52:24,906 606 Processing safetorun
+2023-08-10 11:52:24,934 safetorun Complete
+2023-08-10 11:52:24,951 607 Processing sahih_ai
+2023-08-10 11:52:25,967 sahih_ai Whitelist Success
+2023-08-10 11:52:31,694 sahih_ai Stimulate Success
+2023-08-10 11:52:31,722 sahih_ai Complete
+2023-08-10 11:52:31,739 608 Processing sakenowa
+2023-08-10 11:52:31,766 sakenowa Complete
+2023-08-10 11:52:31,783 609 Processing retrieval
+2023-08-10 11:52:32,219 retrieval Whitelist Success
+2023-08-10 11:52:35,888 retrieval Stimulate Success
+2023-08-10 11:52:35,916 retrieval Complete
+2023-08-10 11:52:35,931 610 Processing save
+2023-08-10 11:52:35,959 save Complete
+2023-08-10 11:52:35,974 611 Processing savvy_trader_ai
+2023-08-10 11:52:36,555 savvy_trader_ai Whitelist Success
+2023-08-10 11:52:38,734 savvy_trader_ai Stimulate Success
+2023-08-10 11:52:38,763 savvy_trader_ai Complete
+2023-08-10 11:52:38,779 612 Processing SceneXplain
+2023-08-10 11:52:38,807 SceneXplain Complete
+2023-08-10 11:52:38,823 613 Processing scholar_assist
+2023-08-10 11:52:38,852 scholar_assist Complete
+2023-08-10 11:52:38,868 614 Processing scholarai
+2023-08-10 11:52:38,896 scholarai Complete
+2023-08-10 11:52:38,911 615 Processing scholarly
+2023-08-10 11:52:40,147 scholarly Whitelist Success
+2023-08-10 11:53:46,078 scholarly Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:53:46,108 scholarly Complete
+2023-08-10 11:53:46,124 616 Processing scholarly_graph_link
+2023-08-10 11:53:47,083 scholarly_graph_link Whitelist Error: 404 Client Error: Not Found for url: https://api.datacite.org/.well-known/ai-plugin.json
+2023-08-10 11:53:47,113 scholarly_graph_link Complete
+2023-08-10 11:53:47,129 617 Processing ScholarlyInsight
+2023-08-10 11:53:47,791 ScholarlyInsight Whitelist Success
+2023-08-10 11:53:56,623 ScholarlyInsight Stimulate Error: Not a plugin function
+2023-08-10 11:53:56,652 ScholarlyInsight Complete
+2023-08-10 11:53:56,668 618 Processing science
+2023-08-10 11:53:56,695 science Complete
+2023-08-10 11:53:56,710 619 Processing website_scraper
+2023-08-10 11:53:57,287 website_scraper Whitelist Success
+2023-08-10 11:54:00,010 website_scraper Stimulate Success
+2023-08-10 11:54:00,038 website_scraper Complete
+2023-08-10 11:54:00,054 620 Processing web_scraper
+2023-08-10 11:54:00,081 web_scraper Complete
+2023-08-10 11:54:00,097 621 Processing scrapingbee
+2023-08-10 11:54:01,209 scrapingbee Whitelist Success
+2023-08-10 11:54:11,461 scrapingbee Stimulate Error: Not a plugin function
+2023-08-10 11:54:11,489 scrapingbee Complete
+2023-08-10 11:54:11,504 622 Processing companieshouse
+2023-08-10 11:54:12,286 companieshouse Whitelist Success
+2023-08-10 11:54:14,307 companieshouse Stimulate Error: Not a plugin function
+2023-08-10 11:54:14,334 companieshouse Complete
+2023-08-10 11:54:14,350 623 Processing seatsaero
+2023-08-10 11:54:14,377 seatsaero Complete
+2023-08-10 11:54:14,392 624 Processing sixtysecsite
+2023-08-10 11:54:14,421 sixtysecsite Complete
+2023-08-10 11:54:14,439 625 Processing Weather_and_Train_and_in_Korea
+2023-08-10 11:54:16,631 Weather_and_Train_and_in_Korea Whitelist Success
+2023-08-10 11:54:20,252 Weather_and_Train_and_in_Korea Stimulate Success
+2023-08-10 11:54:20,279 Weather_and_Train_and_in_Korea Complete
+2023-08-10 11:54:20,295 626 Processing Sembot
+2023-08-10 11:54:20,322 Sembot Complete
+2023-08-10 11:54:20,337 627 Processing Sentence_Beasts
+2023-08-10 11:54:20,376 Sentence_Beasts Complete
+2023-08-10 11:54:20,393 628 Processing three_sentence_service
+2023-08-10 11:54:20,420 three_sentence_service Complete
+2023-08-10 11:54:20,436 629 Processing SentimentAnalysisTool
+2023-08-10 11:54:21,316 SentimentAnalysisTool Whitelist Success
+2023-08-10 11:54:23,229 SentimentAnalysisTool Stimulate Success
+2023-08-10 11:54:23,257 SentimentAnalysisTool Complete
+2023-08-10 11:54:23,272 630 Processing SEO
+2023-08-10 11:54:23,301 SEO Complete
+2023-08-10 11:54:23,316 631 Processing seo_assistant
+2023-08-10 11:54:23,850 seo_assistant Whitelist Success
+2023-08-10 11:54:30,248 seo_assistant Stimulate Success
+2023-08-10 11:54:30,275 seo_assistant Complete
+2023-08-10 11:54:30,291 632 Processing seoanalysis
+2023-08-10 11:54:30,725 seoanalysis Whitelist Success
+2023-08-10 11:54:34,341 seoanalysis Stimulate Error: Not a plugin function
+2023-08-10 11:54:34,368 seoanalysis Complete
+2023-08-10 11:54:34,385 633 Processing SEO
+2023-08-10 11:54:34,412 SEO Complete
+2023-08-10 11:54:34,428 634 Processing serpstat_seo_tool
+2023-08-10 11:54:34,456 serpstat_seo_tool Complete
+2023-08-10 11:54:34,473 635 Processing serviceCheck
+2023-08-10 11:54:34,501 serviceCheck Complete
+2023-08-10 11:54:34,518 636 Processing sg_parking_model
+2023-08-10 11:54:36,820 sg_parking_model Whitelist Success
+2023-08-10 11:54:41,961 sg_parking_model Stimulate Success
+2023-08-10 11:54:41,988 sg_parking_model Complete
+2023-08-10 11:54:42,004 637 Processing SheinDiscovery
+2023-08-10 11:54:42,031 SheinDiscovery Complete
+2023-08-10 11:54:42,047 638 Processing Shop
+2023-08-10 11:54:42,075 Shop Complete
+2023-08-10 11:54:42,090 639 Processing Shop_AIssistant
+2023-08-10 11:54:42,118 Shop_AIssistant Complete
+2023-08-10 11:54:42,134 640 Processing shopbest
+2023-08-10 11:54:43,577 shopbest Whitelist Success
+2023-08-10 11:54:49,341 shopbest Stimulate Success
+2023-08-10 11:54:49,369 shopbest Complete
+2023-08-10 11:54:49,384 641 Processing shoprewards
+2023-08-10 11:54:50,436 shoprewards Whitelist Success
+2023-08-10 11:54:54,183 shoprewards Stimulate Error: Not a plugin function
+2023-08-10 11:54:54,212 shoprewards Complete
+2023-08-10 11:54:54,228 642 Processing SHOPCOMProducts
+2023-08-10 11:55:12,018 SHOPCOMProducts Whitelist Success
+2023-08-10 11:55:15,675 SHOPCOMProducts Stimulate Error: Not a plugin function
+2023-08-10 11:55:15,703 SHOPCOMProducts Complete
+2023-08-10 11:55:15,718 643 Processing shoppingfinder
+2023-08-10 11:55:16,758 shoppingfinder Whitelist Success
+2023-08-10 11:55:19,867 shoppingfinder Stimulate Success
+2023-08-10 11:55:19,894 shoppingfinder Complete
+2023-08-10 11:55:19,910 644 Processing ShoppingTools
+2023-08-10 11:55:20,824 ShoppingTools Whitelist Success
+2023-08-10 11:55:27,209 ShoppingTools Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 11:55:27,238 ShoppingTools Complete
+2023-08-10 11:55:27,253 645 Processing QASMShor
+2023-08-10 11:55:28,044 QASMShor Whitelist Success
+2023-08-10 11:55:32,889 QASMShor Stimulate Success
+2023-08-10 11:55:32,916 QASMShor Complete
+2023-08-10 11:55:32,932 646 Processing show_me_diagrams
+2023-08-10 11:55:33,187 show_me_diagrams Whitelist Success
+2023-08-10 11:55:35,738 show_me_diagrams Stimulate Success
+2023-08-10 11:55:35,766 show_me_diagrams Complete
+2023-08-10 11:55:35,782 647 Processing shownotes
+2023-08-10 11:55:35,809 shownotes Complete
+2023-08-10 11:55:35,825 648 Processing shuto
+2023-08-10 11:55:35,856 shuto Complete
+2023-08-10 11:55:35,872 649 Processing sic
+2023-08-10 11:55:37,289 sic Whitelist Success
+2023-08-10 11:55:48,083 sic Stimulate Error: Not a plugin function
+2023-08-10 11:55:48,111 sic Complete
+2023-08-10 11:55:48,127 650 Processing SignalPlus
+2023-08-10 11:55:49,957 SignalPlus Whitelist Success
+2023-08-10 11:55:53,669 SignalPlus Stimulate Error: Not a plugin function
+2023-08-10 11:55:53,698 SignalPlus Complete
+2023-08-10 11:55:53,714 651 Processing SimplyCodes
+2023-08-10 11:55:53,742 SimplyCodes Complete
+2023-08-10 11:55:53,757 652 Processing singlestore
+2023-08-10 11:55:53,789 singlestore Complete
+2023-08-10 11:55:53,804 653 Processing Skrive
+2023-08-10 11:55:53,833 Skrive Complete
+2023-08-10 11:55:53,848 654 Processing SkyscannerFlights
+2023-08-10 11:55:53,876 SkyscannerFlights Complete
+2023-08-10 11:55:53,891 655 Processing sleek_choice
+2023-08-10 11:55:54,227 sleek_choice Whitelist Success
+2023-08-10 11:55:59,430 sleek_choice Stimulate Success
+2023-08-10 11:55:59,458 sleek_choice Complete
+2023-08-10 11:55:59,475 656 Processing smart_connections
+2023-08-10 11:55:59,504 smart_connections Complete
+2023-08-10 11:55:59,521 657 Processing smart_slides
+2023-08-10 11:55:59,916 smart_slides Whitelist Success
+2023-08-10 11:56:09,556 smart_slides Stimulate Success
+2023-08-10 11:56:09,585 smart_slides Complete
+2023-08-10 11:56:09,600 658 Processing smarter_contracts
+2023-08-10 11:56:10,149 smarter_contracts Whitelist Success
+2023-08-10 11:56:19,894 smarter_contracts Stimulate Error: Not a plugin function
+2023-08-10 11:56:19,925 smarter_contracts Complete
+2023-08-10 11:56:19,943 659 Processing smarttsicketsai
+2023-08-10 11:56:20,656 smarttsicketsai Whitelist Success
+2023-08-10 11:56:22,259 smarttsicketsai Stimulate Error: Not a plugin function
+2023-08-10 11:56:22,287 smarttsicketsai Complete
+2023-08-10 11:56:22,303 660 Processing SnappyGifts
+2023-08-10 11:56:22,719 SnappyGifts Whitelist Success
+2023-08-10 11:56:26,054 SnappyGifts Stimulate Error: Not a plugin function
+2023-08-10 11:56:26,082 SnappyGifts Complete
+2023-08-10 11:56:26,098 661 Processing socialsearch
+2023-08-10 11:56:26,822 socialsearch Whitelist Success
+2023-08-10 11:56:31,357 socialsearch Stimulate Error: Not a plugin function
+2023-08-10 11:56:31,385 socialsearch Complete
+2023-08-10 11:56:31,401 662 Processing solana
+2023-08-10 11:56:31,853 solana Whitelist Success
+2023-08-10 11:56:43,124 solana Stimulate Error: Not a plugin function
+2023-08-10 11:56:43,151 solana Complete
+2023-08-10 11:56:43,167 663 Processing Space
+2023-08-10 11:56:43,195 Space Complete
+2023-08-10 11:56:43,212 664 Processing stellarexplorer
+2023-08-10 11:56:43,738 stellarexplorer Whitelist Success
+2023-08-10 11:56:47,981 stellarexplorer Stimulate Success
+2023-08-10 11:56:48,010 stellarexplorer Complete
+2023-08-10 11:56:48,026 665 Processing spacedata
+2023-08-10 11:56:48,054 spacedata Complete
+2023-08-10 11:56:48,071 666 Processing ubSPARQL
+2023-08-10 11:56:48,103 ubSPARQL Complete
+2023-08-10 11:56:48,119 667 Processing speak
+2023-08-10 11:56:48,498 speak Whitelist Success
+2023-08-10 11:56:54,358 speak Stimulate Success
+2023-08-10 11:56:54,387 speak Complete
+2023-08-10 11:56:54,404 668 Processing speechki_tts_plugin
+2023-08-10 11:56:54,432 speechki_tts_plugin Complete
+2023-08-10 11:56:54,452 669 Processing speedy_seo_marketing
+2023-08-10 11:56:54,485 speedy_seo_marketing Complete
+2023-08-10 11:56:54,502 670 Processing Smart_Price_Finder
+2023-08-10 11:56:54,529 Smart_Price_Finder Complete
+2023-08-10 11:56:54,545 671 Processing Spirify_model_qrcode
+2023-08-10 11:56:56,951 Spirify_model_qrcode Whitelist Success
+2023-08-10 11:57:00,233 Spirify_model_qrcode Stimulate Success
+2023-08-10 11:57:00,260 Spirify_model_qrcode Complete
+2023-08-10 11:57:00,276 672 Processing spreadsheets_ai
+2023-08-10 11:57:00,303 spreadsheets_ai Complete
+2023-08-10 11:57:00,319 673 Processing ssense_recommendations
+2023-08-10 11:57:06,892 ssense_recommendations Whitelist Success
+2023-08-10 11:57:09,364 ssense_recommendations Stimulate Error: Not a plugin function
+2023-08-10 11:57:09,392 ssense_recommendations Complete
+2023-08-10 11:57:09,408 674 Processing stackoverflow_plus
+2023-08-10 11:57:10,073 stackoverflow_plus Whitelist Success
+2023-08-10 11:57:16,120 stackoverflow_plus Stimulate Success
+2023-08-10 11:57:16,148 stackoverflow_plus Complete
+2023-08-10 11:57:16,163 675 Processing statisfinapp
+2023-08-10 11:57:16,725 statisfinapp Whitelist Success
+2023-08-10 11:57:20,077 statisfinapp Stimulate Success
+2023-08-10 11:57:20,105 statisfinapp Complete
+2023-08-10 11:57:20,122 676 Processing Staypia
+2023-08-10 11:57:20,149 Staypia Complete
+2023-08-10 11:57:20,166 677 Processing sre
+2023-08-10 11:57:21,253 sre Whitelist Success
+2023-08-10 11:57:25,409 sre Stimulate Success
+2023-08-10 11:57:25,436 sre Complete
+2023-08-10 11:57:25,452 678 Processing StepStone_JobSearch
+2023-08-10 11:57:25,479 StepStone_JobSearch Complete
+2023-08-10 11:57:25,495 679 Processing stoic
+2023-08-10 11:57:26,475 stoic Whitelist Success
+2023-08-10 11:57:28,719 stoic Stimulate Success
+2023-08-10 11:57:28,750 stoic Complete
+2023-08-10 11:57:28,767 680 Processing storybird_stories
+2023-08-10 11:57:29,826 storybird_stories Whitelist Success
+2023-08-10 11:57:32,354 storybird_stories Stimulate Success
+2023-08-10 11:57:32,382 storybird_stories Complete
+2023-08-10 11:57:32,398 681 Processing storybooks
+2023-08-10 11:57:32,881 storybooks Whitelist Success
+2023-08-10 11:57:45,786 storybooks Stimulate Success
+2023-08-10 11:57:45,814 storybooks Complete
+2023-08-10 11:57:45,830 682 Processing strology
+2023-08-10 11:57:46,282 strology Whitelist Success
+2023-08-10 11:57:48,831 strology Stimulate Success
+2023-08-10 11:57:48,861 strology Complete
+2023-08-10 11:57:48,878 683 Processing Substack_IQ
+2023-08-10 11:57:48,906 Substack_IQ Complete
+2023-08-10 11:57:48,923 684 Processing Sudoku
+2023-08-10 11:57:53,150 Sudoku Whitelist Success
+2023-08-10 11:57:55,218 Sudoku Stimulate Error: Not a plugin function
+2023-08-10 11:57:55,246 Sudoku Complete
+2023-08-10 11:57:55,261 685 Processing Supercharger
+2023-08-10 11:57:55,649 Supercharger Whitelist Success
+2023-08-10 12:03:00,087 Supercharger Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 12:03:00,116 Supercharger Complete
+2023-08-10 12:03:00,133 686 Processing supercolleague
+2023-08-10 12:03:00,161 supercolleague Complete
+2023-08-10 12:03:00,177 687 Processing ssfineart
+2023-08-10 12:03:00,800 ssfineart Whitelist Success
+2023-08-10 12:03:05,989 ssfineart Stimulate Success
+2023-08-10 12:03:06,018 ssfineart Complete
+2023-08-10 12:03:06,034 688 Processing Surveillance_API
+2023-08-10 12:03:07,456 Surveillance_API Whitelist Success
+2023-08-10 12:05:09,510 Surveillance_API Stimulate Error: Not a plugin function
+2023-08-10 12:05:09,539 Surveillance_API Complete
+2023-08-10 12:05:09,555 689 Processing Swft
+2023-08-10 12:05:12,126 Swft Whitelist Success
+2023-08-10 12:05:27,831 Swft Stimulate Error: Not a plugin function
+2023-08-10 12:05:27,859 Swft Complete
+2023-08-10 12:05:27,875 690 Processing Tabechoku
+2023-08-10 12:05:27,903 Tabechoku Complete
+2023-08-10 12:05:27,919 691 Processing Tabelog
+2023-08-10 12:05:27,951 Tabelog Complete
+2023-08-10 12:05:27,966 692 Processing Tabor
+2023-08-10 12:05:29,367 Tabor Whitelist Success
+2023-08-10 12:05:32,963 Tabor Stimulate Error: Not a plugin function
+2023-08-10 12:05:32,990 Tabor Complete
+2023-08-10 12:05:33,006 693 Processing Tagvenue_top_venues_for_hire_in_UK_and_beyond
+2023-08-10 12:05:34,168 Tagvenue_top_venues_for_hire_in_UK_and_beyond Whitelist Success
+2023-08-10 12:05:42,676 Tagvenue_top_venues_for_hire_in_UK_and_beyond Stimulate Error: Not a plugin function
+2023-08-10 12:05:42,704 Tagvenue_top_venues_for_hire_in_UK_and_beyond Complete
+2023-08-10 12:05:42,720 694 Processing tailor_erp
+2023-08-10 12:05:42,748 tailor_erp Complete
+2023-08-10 12:05:42,764 695 Processing tailor_erp
+2023-08-10 12:05:42,794 tailor_erp Complete
+2023-08-10 12:05:42,810 696 Processing take_code_captures
+2023-08-10 12:05:43,152 take_code_captures Whitelist Success
+2023-08-10 12:05:55,335 take_code_captures Stimulate Error: Not a plugin function
+2023-08-10 12:05:55,367 take_code_captures Complete
+2023-08-10 12:05:55,385 697 Processing TalentOrg
+2023-08-10 12:05:56,082 TalentOrg Whitelist Success
+2023-08-10 12:05:58,289 TalentOrg Stimulate Error: Not a plugin function
+2023-08-10 12:05:58,317 TalentOrg Complete
+2023-08-10 12:05:58,333 698 Processing Talk_Laws_Brazil
+2023-08-10 12:05:58,361 Talk_Laws_Brazil Complete
+2023-08-10 12:05:58,379 699 Processing talkwithdocs
+2023-08-10 12:05:59,231 talkwithdocs Whitelist Success
+2023-08-10 12:06:02,005 talkwithdocs Stimulate Error: Not a plugin function
+2023-08-10 12:06:02,035 talkwithdocs Complete
+2023-08-10 12:06:02,053 700 Processing Talkface_IELTS_Prep
+2023-08-10 12:06:04,224 Talkface_IELTS_Prep Whitelist Success
+2023-08-10 12:06:09,039 Talkface_IELTS_Prep Stimulate Error: Not a plugin function
+2023-08-10 12:06:09,069 Talkface_IELTS_Prep Complete
+2023-08-10 12:06:09,086 701 Processing talkfpl
+2023-08-10 12:06:09,477 talkfpl Whitelist Success
+2023-08-10 12:06:13,468 talkfpl Stimulate Error: Not a plugin function
+2023-08-10 12:06:13,496 talkfpl Complete
+2023-08-10 12:06:13,514 702 Processing Tarot
+2023-08-10 12:06:14,163 Tarot Whitelist Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 12:06:14,193 Tarot Complete
+2023-08-10 12:06:14,210 703 Processing TaskML
+2023-08-10 12:06:14,238 TaskML Complete
+2023-08-10 12:06:14,255 704 Processing TaskOracle
+2023-08-10 12:06:56,842 TaskOracle Whitelist Success
+2023-08-10 12:07:14,137 TaskOracle Stimulate Error: Not a plugin function
+2023-08-10 12:07:14,167 TaskOracle Complete
+2023-08-10 12:07:14,184 705 Processing recipe_retrieval
+2023-08-10 12:07:14,576 recipe_retrieval Whitelist Success
+2023-08-10 12:07:17,721 recipe_retrieval Stimulate Error: Not a plugin function
+2023-08-10 12:07:17,754 recipe_retrieval Complete
+2023-08-10 12:07:17,772 706 Processing TechPulse
+2023-08-10 12:07:18,217 TechPulse Whitelist Success
+2023-08-10 12:07:20,632 TechPulse Stimulate Success
+2023-08-10 12:07:20,661 TechPulse Complete
+2023-08-10 12:07:20,676 707 Processing telegraph_export
+2023-08-10 12:07:21,270 telegraph_export Whitelist Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 12:07:21,301 telegraph_export Complete
+2023-08-10 12:07:21,317 708 Processing TelescopeLabs
+2023-08-10 12:07:21,346 TelescopeLabs Complete
+2023-08-10 12:07:21,373 709 Processing TestosteronBoostDiet
+2023-08-10 12:07:21,410 TestosteronBoostDiet Complete
+2023-08-10 12:07:21,428 710 Processing word_and_character_count
+2023-08-10 12:07:21,852 word_and_character_count Whitelist Success
+2023-08-10 12:07:37,991 word_and_character_count Stimulate Success
+2023-08-10 12:07:38,019 word_and_character_count Complete
+2023-08-10 12:07:38,035 711 Processing bolt
+2023-08-10 12:07:38,063 bolt Complete
+2023-08-10 12:07:38,079 712 Processing The_Diet_Search
+2023-08-10 12:07:39,719 The_Diet_Search Whitelist Success
+2023-08-10 12:07:42,081 The_Diet_Search Stimulate Error: Not a plugin function
+2023-08-10 12:07:42,109 The_Diet_Search Complete
+2023-08-10 12:07:42,125 713 Processing TheKnot
+2023-08-10 12:07:42,722 TheKnot Whitelist Success
+2023-08-10 12:07:45,884 TheKnot Stimulate Success
+2023-08-10 12:07:45,912 TheKnot Complete
+2023-08-10 12:07:45,929 714 Processing remembotron
+2023-08-10 12:07:45,957 remembotron Complete
+2023-08-10 12:07:45,974 715 Processing themeparkhipster
+2023-08-10 12:07:46,392 themeparkhipster Whitelist Success
+2023-08-10 12:07:51,073 themeparkhipster Stimulate Success
+2023-08-10 12:07:51,101 themeparkhipster Complete
+2023-08-10 12:07:51,117 716 Processing TicTacToe
+2023-08-10 12:07:51,875 TicTacToe Whitelist Success
+2023-08-10 12:07:55,220 error_code=None error_message="'Play a move in the Tic Tac Toe game' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.0.name'" error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-08-10 12:07:55,220 TicTacToe Stimulate Error: 'Play a move in the Tic Tac Toe game' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.0.name'
+2023-08-10 12:07:55,250 TicTacToe Complete
+2023-08-10 12:07:55,267 717 Processing TickTick
+2023-08-10 12:07:55,296 TickTick Complete
+2023-08-10 12:07:55,312 718 Processing timemachine
+2023-08-10 12:08:10,900 timemachine Whitelist Success
+2023-08-10 12:08:20,261 timemachine Stimulate Error: Not a plugin function
+2023-08-10 12:08:20,289 timemachine Complete
+2023-08-10 12:08:20,305 719 Processing timenavi
+2023-08-10 12:08:20,332 timenavi Complete
+2023-08-10 12:08:20,349 720 Processing timeport
+2023-08-10 12:08:20,377 timeport Complete
+2023-08-10 12:08:20,393 721 Processing tint_bolt
+2023-08-10 12:08:20,421 tint_bolt Complete
+2023-08-10 12:08:20,437 722 Processing tira
+2023-08-10 12:08:23,812 tira Whitelist Success
+2023-08-10 12:08:31,498 tira Stimulate Success
+2023-08-10 12:08:31,526 tira Complete
+2023-08-10 12:08:31,542 723 Processing Todays_Top_Deal
+2023-08-10 12:08:31,948 Todays_Top_Deal Whitelist Success
+2023-08-10 12:08:37,214 Todays_Top_Deal Stimulate Success
+2023-08-10 12:08:37,242 Todays_Top_Deal Complete
+2023-08-10 12:08:37,259 724 Processing TokenInsights
+2023-08-10 12:08:38,303 TokenInsights Whitelist Success
+2023-08-10 12:08:41,781 TokenInsights Stimulate Success
+2023-08-10 12:08:41,810 TokenInsights Complete
+2023-08-10 12:08:41,826 725 Processing tombradybot
+2023-08-10 12:08:42,565 tombradybot Whitelist Success
+2023-08-10 12:08:47,706 tombradybot Stimulate Error: Not a plugin function
+2023-08-10 12:08:47,734 tombradybot Complete
+2023-08-10 12:08:47,749 726 Processing weather
+2023-08-10 12:08:47,777 weather Complete
+2023-08-10 12:08:47,793 727 Processing TomTom
+2023-08-10 12:08:47,823 TomTom Complete
+2023-08-10 12:08:47,839 728 Processing toolblox
+2023-08-10 12:08:49,093 toolblox Whitelist Success
+2023-08-10 12:08:55,314 toolblox Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 12:08:55,344 toolblox Complete
+2023-08-10 12:08:55,361 729 Processing find_agency
+2023-08-10 12:08:55,773 find_agency Whitelist Success
+2023-08-10 12:08:58,791 find_agency Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 12:08:58,819 find_agency Complete
+2023-08-10 12:08:58,836 730 Processing tophap
+2023-08-10 12:08:59,246 tophap Whitelist Success
+2023-08-10 12:09:05,737 tophap Stimulate Error: Not a plugin function
+2023-08-10 12:09:05,765 tophap Complete
+2023-08-10 12:09:05,782 731 Processing total_query_meta_search_engine
+2023-08-10 12:09:05,810 total_query_meta_search_engine Complete
+2023-08-10 12:09:05,827 732 Processing twrail
+2023-08-10 12:09:05,859 twrail Complete
+2023-08-10 12:09:05,876 733 Processing tradersinsight
+2023-08-10 12:09:06,299 tradersinsight Whitelist Success
+2023-08-10 12:09:09,189 tradersinsight Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 12:09:09,219 tradersinsight Complete
+2023-08-10 12:09:09,234 734 Processing FinTorch_Trading_Assistant
+2023-08-10 12:09:09,262 FinTorch_Trading_Assistant Complete
+2023-08-10 12:09:09,278 735 Processing qe_val
+2023-08-10 12:09:09,307 qe_val Complete
+2023-08-10 12:09:09,324 736 Processing travelmyth
+2023-08-10 12:09:09,995 travelmyth Whitelist Success
+2023-08-10 12:09:16,690 travelmyth Stimulate Error: Expecting value: line 9 column 26 (char 1179)
+2023-08-10 12:09:16,719 travelmyth Complete
+2023-08-10 12:09:16,736 737 Processing trax_codes
+2023-08-10 12:09:16,766 trax_codes Complete
+2023-08-10 12:09:16,784 738 Processing trending_music
+2023-08-10 12:09:17,111 trending_music Whitelist Success
+2023-08-10 12:09:19,443 trending_music Stimulate Success
+2023-08-10 12:09:19,471 trending_music Complete
+2023-08-10 12:09:19,487 739 Processing Trip
+2023-08-10 12:09:19,515 Trip Complete
+2023-08-10 12:09:19,532 740 Processing trypcom
+2023-08-10 12:09:20,731 trypcom Whitelist Success
+2023-08-10 12:09:21,845 trypcom Stimulate Error: Expecting property name enclosed in double quotes: line 3 column 1 (char 120)
+2023-08-10 12:09:21,874 trypcom Complete
+2023-08-10 12:09:21,890 741 Processing TrySpree
+2023-08-10 12:09:22,542 TrySpree Whitelist Success
+2023-08-10 12:09:24,935 TrySpree Stimulate Success
+2023-08-10 12:09:24,964 TrySpree Complete
+2023-08-10 12:09:24,981 742 Processing turing_developer_search
+2023-08-10 12:09:25,335 turing_developer_search Whitelist Success
+2023-08-10 12:09:32,148 turing_developer_search Stimulate Success
+2023-08-10 12:09:32,176 turing_developer_search Complete
+2023-08-10 12:09:32,192 743 Processing turo_search
+2023-08-10 12:09:32,221 turo_search Complete
+2023-08-10 12:09:32,237 744 Processing tutory
+2023-08-10 12:09:32,267 tutory Complete
+2023-08-10 12:09:32,283 745 Processing twtData
+2023-08-10 12:09:38,065 twtData Whitelist Success
+2023-08-10 12:09:40,252 twtData Stimulate Error: Not a plugin function
+2023-08-10 12:09:40,281 twtData Complete
+2023-08-10 12:09:40,296 746 Processing txyz
+2023-08-10 12:09:41,135 txyz Whitelist Success
+2023-08-10 12:09:43,455 txyz Stimulate Error: Not a plugin function
+2023-08-10 12:09:43,483 txyz Complete
+2023-08-10 12:09:43,499 747 Processing Typeform
+2023-08-10 12:09:43,527 Typeform Complete
+2023-08-10 12:09:43,544 748 Processing typescript_analyzer
+2023-08-10 12:09:45,972 typescript_analyzer Whitelist Error: Objects not yet supported
+2023-08-10 12:09:46,004 typescript_analyzer Complete
+2023-08-10 12:09:46,021 749 Processing uberchord
+2023-08-10 12:09:46,469 uberchord Whitelist Success
+2023-08-10 12:09:48,704 uberchord Stimulate Success
+2023-08-10 12:09:48,735 uberchord Complete
+2023-08-10 12:09:48,756 750 Processing HousePricesInTheUK
+2023-08-10 12:09:48,790 HousePricesInTheUK Complete
+2023-08-10 12:09:48,818 751 Processing uk_latest_news
+2023-08-10 12:09:48,857 uk_latest_news Complete
+2023-08-10 12:09:48,874 752 Processing uk_politics
+2023-08-10 12:09:48,902 uk_politics Complete
+2023-08-10 12:09:48,919 753 Processing books
+2023-08-10 12:09:48,948 books Complete
+2023-08-10 12:09:48,965 754 Processing uniket
+2023-08-10 12:09:52,036 uniket Whitelist Success
+2023-08-10 12:09:57,689 uniket Stimulate Success
+2023-08-10 12:09:57,718 uniket Complete
+2023-08-10 12:09:57,734 755 Processing universal
+2023-08-10 12:09:57,761 universal Complete
+2023-08-10 12:09:57,777 756 Processing upskillr
+2023-08-10 12:09:57,806 upskillr Complete
+2023-08-10 12:09:57,823 757 Processing urbanladder
+2023-08-10 12:09:59,980 urbanladder Whitelist Success
+2023-08-10 12:10:05,586 urbanladder Stimulate Error: Not a plugin function
+2023-08-10 12:10:05,621 urbanladder Complete
+2023-08-10 12:10:05,640 758 Processing federal_law_search
+2023-08-10 12:10:05,673 federal_law_search Complete
+2023-08-10 12:10:05,692 759 Processing UwU_Translator
+2023-08-10 12:10:06,284 UwU_Translator Whitelist Success
+2023-08-10 12:10:08,908 UwU_Translator Stimulate Success
+2023-08-10 12:10:08,936 UwU_Translator Complete
+2023-08-10 12:10:08,952 760 Processing ValidatorAI
+2023-08-10 12:10:09,555 ValidatorAI Whitelist Success
+2023-08-10 12:10:12,653 ValidatorAI Stimulate Success
+2023-08-10 12:10:12,682 ValidatorAI Complete
+2023-08-10 12:10:12,699 761 Processing VBOUT_v50
+2023-08-10 12:10:12,727 VBOUT_v50 Complete
+2023-08-10 12:10:12,744 762 Processing vehicledata
+2023-08-10 12:10:17,982 vehicledata Whitelist Success
+2023-08-10 12:10:23,809 vehicledata Stimulate Success
+2023-08-10 12:10:23,838 vehicledata Complete
+2023-08-10 12:10:23,855 763 Processing tour_activities_suggestion_for_veltra
+2023-08-10 12:10:24,574 tour_activities_suggestion_for_veltra Whitelist Success
+2023-08-10 12:10:47,830 tour_activities_suggestion_for_veltra Stimulate Error: Not a plugin function
+2023-08-10 12:10:47,858 tour_activities_suggestion_for_veltra Complete
+2023-08-10 12:10:47,874 764 Processing VideoCaptions
+2023-08-10 12:10:48,471 VideoCaptions Whitelist Success
+2023-08-10 12:10:53,007 VideoCaptions Stimulate Success
+2023-08-10 12:10:53,036 VideoCaptions Complete
+2023-08-10 12:10:53,053 765 Processing video_highlight
+2023-08-10 12:10:53,525 video_highlight Whitelist Success
+2023-08-10 12:10:55,791 video_highlight Stimulate Error: Not a plugin function
+2023-08-10 12:10:55,819 video_highlight Complete
+2023-08-10 12:10:55,835 766 Processing video_insights
+2023-08-10 12:10:55,863 video_insights Complete
+2023-08-10 12:10:55,880 767 Processing Video_summary
+2023-08-10 12:10:57,212 Video_summary Whitelist Success
+2023-08-10 12:11:01,850 Video_summary Stimulate Success
+2023-08-10 12:11:01,878 Video_summary Complete
+2023-08-10 12:11:01,895 768 Processing video_insights_io
+2023-08-10 12:11:01,923 video_insights_io Complete
+2023-08-10 12:11:01,941 769 Processing vidiq_youtube_research
+2023-08-10 12:11:01,974 vidiq_youtube_research Complete
+2023-08-10 12:11:01,991 770 Processing vio_com
+2023-08-10 12:11:03,112 vio_com Whitelist Success
+2023-08-10 12:11:08,164 vio_com Stimulate Success
+2023-08-10 12:11:08,192 vio_com Complete
+2023-08-10 12:11:08,209 771 Processing Visla
+2023-08-10 12:11:08,238 Visla Complete
+2023-08-10 12:11:08,256 772 Processing visualize_your_data
+2023-08-10 12:11:08,290 visualize_your_data Complete
+2023-08-10 12:11:08,308 773 Processing vivian
+2023-08-10 12:11:08,650 vivian Whitelist Success
+2023-08-10 12:11:12,534 vivian Stimulate Error: Not a plugin function
+2023-08-10 12:11:12,562 vivian Complete
+2023-08-10 12:11:12,578 774 Processing vivid_seats
+2023-08-10 12:11:12,608 vivid_seats Complete
+2023-08-10 12:11:12,624 775 Processing voiceover
+2023-08-10 12:11:13,958 voiceover Whitelist Success
+2023-08-10 12:11:17,285 voiceover Stimulate Success
+2023-08-10 12:11:17,313 voiceover Complete
+2023-08-10 12:11:17,330 776 Processing VoxScript
+2023-08-10 12:11:17,358 VoxScript Complete
+2023-08-10 12:11:17,375 777 Processing VPLATE
+2023-08-10 12:11:19,243 VPLATE Whitelist Success
+2023-08-10 12:11:21,116 VPLATE Stimulate Error: Not a plugin function
+2023-08-10 12:11:21,145 VPLATE Complete
+2023-08-10 12:11:21,162 778 Processing wahi
+2023-08-10 12:11:21,601 wahi Whitelist Success
+2023-08-10 12:11:35,160 wahi Stimulate Success
+2023-08-10 12:11:35,187 wahi Complete
+2023-08-10 12:11:35,204 779 Processing wanted_job_search
+2023-08-10 12:11:47,787 wanted_job_search Whitelist Success
+2023-08-10 12:11:51,209 wanted_job_search Stimulate Success
+2023-08-10 12:11:51,238 wanted_job_search Complete
+2023-08-10 12:11:51,254 780 Processing wantedlyVisit
+2023-08-10 12:11:51,282 wantedlyVisit Complete
+2023-08-10 12:11:51,298 781 Processing water_tracker
+2023-08-10 12:11:51,327 water_tracker Complete
+2023-08-10 12:11:51,343 782 Processing Weather
+2023-08-10 12:11:52,053 Weather Whitelist Success
+2023-08-10 12:11:55,766 Weather Stimulate Success
+2023-08-10 12:11:55,795 Weather Complete
+2023-08-10 12:11:55,811 783 Processing weather_meteosource
+2023-08-10 12:11:55,839 weather_meteosource Complete
+2023-08-10 12:11:55,855 784 Processing metar
+2023-08-10 12:11:56,487 metar Whitelist Success
+2023-08-10 12:11:58,953 metar Stimulate Success
+2023-08-10 12:11:58,981 metar Complete
+2023-08-10 12:11:58,997 785 Processing Weather_Forecast
+2023-08-10 12:11:59,426 Weather_Forecast Whitelist Success
+2023-08-10 12:12:01,650 Weather_Forecast Stimulate Success
+2023-08-10 12:12:01,678 Weather_Forecast Complete
+2023-08-10 12:12:01,694 786 Processing WeatherWizard
+2023-08-10 12:12:02,055 WeatherWizard Whitelist Success
+2023-08-10 12:12:04,746 WeatherWizard Stimulate Success
+2023-08-10 12:12:04,774 WeatherWizard Complete
+2023-08-10 12:12:04,790 787 Processing web_requests
+2023-08-10 12:12:05,800 web_requests Whitelist Success
+2023-08-10 12:12:08,856 web_requests Stimulate Error: Not a plugin function
+2023-08-10 12:12:08,885 web_requests Complete
+2023-08-10 12:12:08,901 788 Processing Web3_User_Activity
+2023-08-10 12:12:08,929 Web3_User_Activity Complete
+2023-08-10 12:12:08,946 789 Processing web5
+2023-08-10 12:12:09,743 web5 Whitelist Success
+2023-08-10 12:12:14,968 web5 Stimulate Error: Not a plugin function
+2023-08-10 12:12:14,996 web5 Complete
+2023-08-10 12:12:15,013 790 Processing Webbots
+2023-08-10 12:12:15,041 Webbots Complete
+2023-08-10 12:12:15,057 791 Processing web_dev
+2023-08-10 12:12:15,089 web_dev Complete
+2023-08-10 12:12:15,106 792 Processing websum
+2023-08-10 12:12:15,585 websum Whitelist Success
+2023-08-10 12:12:21,360 websum Stimulate Error: Not a plugin function
+2023-08-10 12:12:21,389 websum Complete
+2023-08-10 12:12:21,405 793 Processing WebPilot
+2023-08-10 12:12:22,113 WebPilot Whitelist Success
+2023-08-10 12:12:31,157 WebPilot Stimulate Success
+2023-08-10 12:12:31,185 WebPilot Complete
+2023-08-10 12:12:31,202 794 Processing WebRewind
+2023-08-10 12:12:31,607 WebRewind Whitelist Success
+2023-08-10 12:12:39,197 WebRewind Stimulate Error: Expecting value: line 1 column 1 (char 0)
+2023-08-10 12:12:39,226 WebRewind Complete
+2023-08-10 12:12:39,242 795 Processing website_performance_insights
+2023-08-10 12:12:39,270 website_performance_insights Complete
+2023-08-10 12:12:39,287 796 Processing WebsiteChat
+2023-08-10 12:12:54,537 WebsiteChat Whitelist Error: HTTPSConnectionPool(host='plugin.chatshape.com', port=443): Max retries exceeded with url: /.well-known/ai-plugin.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D0CA037B20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-08-10 12:12:54,566 WebsiteChat Complete
+2023-08-10 12:12:54,582 797 Processing welt_news_verse
+2023-08-10 12:12:55,886 welt_news_verse Whitelist Success
+2023-08-10 12:12:57,731 welt_news_verse Stimulate Success
+2023-08-10 12:12:57,762 welt_news_verse Complete
+2023-08-10 12:12:57,780 798 Processing what_to_watch
+2023-08-10 12:12:58,228 what_to_watch Whitelist Success
+2023-08-10 12:13:00,748 what_to_watch Stimulate Success
+2023-08-10 12:13:00,777 what_to_watch Complete
+2023-08-10 12:13:00,793 799 Processing what_to_watch
+2023-08-10 12:13:01,070 what_to_watch Whitelist Success
+2023-08-10 12:13:03,136 what_to_watch Stimulate Error: Not a plugin function
+2023-08-10 12:13:03,165 what_to_watch Complete
+2023-08-10 12:13:03,180 800 Processing surge_ai_trends
+2023-08-10 12:13:04,019 surge_ai_trends Whitelist Success
+2023-08-10 12:13:05,068 surge_ai_trends Stimulate Error: Unterminated string starting at: line 2 column 21 (char 22)
+2023-08-10 12:13:05,096 surge_ai_trends Complete
+2023-08-10 12:13:05,113 801 Processing whimsical
+2023-08-10 12:13:05,439 whimsical Whitelist Success
+2023-08-10 12:13:10,019 whimsical Stimulate Success
+2023-08-10 12:13:10,048 whimsical Complete
+2023-08-10 12:13:10,066 802 Processing WhizList
+2023-08-10 12:13:10,095 WhizList Complete
+2023-08-10 12:13:10,113 803 Processing whois_domain_checker
+2023-08-10 12:13:11,339 whois_domain_checker Whitelist Success
+2023-08-10 12:13:14,059 whois_domain_checker Stimulate Error: Not a plugin function
+2023-08-10 12:13:14,088 whois_domain_checker Complete
+2023-08-10 12:13:14,105 804 Processing wikidocs
+2023-08-10 12:13:14,134 wikidocs Complete
+2023-08-10 12:13:14,151 805 Processing wikipedia
+2023-08-10 12:13:14,179 wikipedia Complete
+2023-08-10 12:13:14,195 806 Processing wishbucket
+2023-08-10 12:13:14,631 wishbucket Whitelist Success
+2023-08-10 12:13:19,273 wishbucket Stimulate Success
+2023-08-10 12:13:19,306 wishbucket Complete
+2023-08-10 12:13:19,326 807 Processing WizeCharts
+2023-08-10 12:13:19,361 WizeCharts Complete
+2023-08-10 12:13:19,382 808 Processing Wolfram
+2023-08-10 12:13:19,413 Wolfram Complete
+2023-08-10 12:13:19,434 809 Processing word_counter
+2023-08-10 12:13:19,471 word_counter Complete
+2023-08-10 12:13:19,493 810 Processing word_sneak
+2023-08-10 12:13:20,029 word_sneak Whitelist Success
+2023-08-10 12:13:23,901 word_sneak Stimulate Error: Not a plugin function
+2023-08-10 12:13:23,930 word_sneak Complete
+2023-08-10 12:13:23,948 811 Processing WordCloud
+2023-08-10 12:13:24,404 WordCloud Whitelist Success
+2023-08-10 12:13:27,227 WordCloud Stimulate Success
+2023-08-10 12:13:27,256 WordCloud Complete
+2023-08-10 12:13:27,273 812 Processing wordly_guess_the_word_game
+2023-08-10 12:13:28,176 wordly_guess_the_word_game Whitelist Success
+2023-08-10 12:13:31,197 wordly_guess_the_word_game Stimulate Success
+2023-08-10 12:13:31,226 wordly_guess_the_word_game Complete
+2023-08-10 12:13:31,243 813 Processing wordspro
+2023-08-10 12:13:31,817 wordspro Whitelist Success
+2023-08-10 12:13:34,715 wordspro Stimulate Success
+2023-08-10 12:13:34,745 wordspro Complete
+2023-08-10 12:13:34,762 814 Processing workoutGenerator
+2023-08-10 12:13:35,435 workoutGenerator Whitelist Success
+2023-08-10 12:13:56,417 workoutGenerator Stimulate Success
+2023-08-10 12:13:56,447 workoutGenerator Complete
+2023-08-10 12:13:56,465 815 Processing worldbankdata
+2023-08-10 12:13:57,256 worldbankdata Whitelist Success
+2023-08-10 12:14:02,565 worldbankdata Stimulate Success
+2023-08-10 12:14:02,596 worldbankdata Complete
+2023-08-10 12:14:02,614 816 Processing news
+2023-08-10 12:14:03,074 news Whitelist Success
+2023-08-10 12:14:06,985 news Stimulate Success
+2023-08-10 12:14:07,016 news Complete
+2023-08-10 12:14:07,033 817 Processing worldrecords
+2023-08-10 12:14:07,500 worldrecords Whitelist Error: Unable to parse spec from source /openapi.json
+2023-08-10 12:14:07,532 worldrecords Complete
+2023-08-10 12:14:07,548 818 Processing woxo
+2023-08-10 12:14:08,027 woxo Whitelist Success
+2023-08-10 12:14:26,248 woxo Stimulate Success
+2023-08-10 12:14:26,278 woxo Complete
+2023-08-10 12:14:26,295 819 Processing wpinteract
+2023-08-10 12:14:26,323 wpinteract Complete
+2023-08-10 12:14:26,342 820 Processing WPressGenie
+2023-08-10 12:14:26,819 WPressGenie Whitelist Success
+2023-08-10 12:14:42,858 WPressGenie Stimulate Error: Not a plugin function
+2023-08-10 12:14:42,887 WPressGenie Complete
+2023-08-10 12:14:42,904 821 Processing WriteEasy
+2023-08-10 12:14:42,935 WriteEasy Complete
+2023-08-10 12:14:42,952 822 Processing xkcdai
+2023-08-10 12:14:43,689 xkcdai Whitelist Success
+2023-08-10 12:15:00,038 xkcdai Stimulate Error: Not a plugin function
+2023-08-10 12:15:00,070 xkcdai Complete
+2023-08-10 12:15:00,088 823 Processing Xpapers_arXiv_paper_database
+2023-08-10 12:15:01,074 Xpapers_arXiv_paper_database Whitelist Success
+2023-08-10 12:15:04,720 Xpapers_arXiv_paper_database Stimulate Success
+2023-08-10 12:15:04,749 Xpapers_arXiv_paper_database Complete
+2023-08-10 12:15:04,766 824 Processing XtalPi
+2023-08-10 12:15:04,794 XtalPi Complete
+2023-08-10 12:15:04,812 825 Processing XWeather
+2023-08-10 12:15:05,386 XWeather Whitelist Success
+2023-08-10 12:15:08,295 XWeather Stimulate Success
+2023-08-10 12:15:08,324 XWeather Complete
+2023-08-10 12:15:08,340 826 Processing yabble
+2023-08-10 12:15:08,369 yabble Complete
+2023-08-10 12:15:08,387 827 Processing form
+2023-08-10 12:15:08,920 form Whitelist Success
+2023-08-10 12:15:11,416 form Stimulate Success
+2023-08-10 12:15:11,445 form Complete
+2023-08-10 12:15:11,462 828 Processing ai_council
+2023-08-10 12:15:12,157 ai_council Whitelist Success
+2023-08-10 12:15:23,023 ai_council Stimulate Success
+2023-08-10 12:15:23,052 ai_council Complete
+2023-08-10 12:15:23,069 829 Processing youtube_summaries
+2023-08-10 12:15:23,100 youtube_summaries Complete
+2023-08-10 12:15:23,117 830 Processing yt_caption_retriever
+2023-08-10 12:15:24,141 yt_caption_retriever Whitelist Success
+2023-08-10 12:15:25,952 yt_caption_retriever Stimulate Error: Not a plugin function
+2023-08-10 12:15:25,981 yt_caption_retriever Complete
+2023-08-10 12:15:25,998 831 Processing Zapier
+2023-08-10 12:15:26,028 Zapier Complete
+2023-08-10 12:15:26,045 832 Processing ZeoRoutePlanner
+2023-08-10 12:15:27,747 ZeoRoutePlanner Whitelist Error: Unsupported APIPropertyLocation "body" for parameter addresses. Valid values are ['query', 'path']
+2023-08-10 12:15:27,777 ZeoRoutePlanner Complete
+2023-08-10 12:15:27,794 833 Processing Zhibo8Sports
+2023-08-10 12:15:30,088 Zhibo8Sports Whitelist Error: Unable to parse spec from source https://gptplugin.duoduocdn.com/openapi.yaml
+2023-08-10 12:15:30,119 Zhibo8Sports Complete
