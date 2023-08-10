@@ -17,7 +17,7 @@ setup(
         install_requires=[
             'requests',
             'openai',
-            'langchain',
+            'oplangchain',
             'python-dotenv',
         ], # add any additional packages
         
