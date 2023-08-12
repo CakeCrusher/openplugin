@@ -1,6 +1,8 @@
 # PyPI `openplugincore`
 This is the meat of OpenPlugin, it contains all tools you need to interface with ChatGPT plugins as you do on ChatGPT Pro itself.
 
+Dependant on [`oplangchain`](https://github.com/CakeCrusher/langchain/tree/oplangchain), a derrivative of [`langchain`](https://github.com/langchain-ai/langchain), built specifically for openplugin.
+
 ## Watch out
 Issues and concerns to look out for
 - python version : `openplugincore` requires python version >= `3.10`
