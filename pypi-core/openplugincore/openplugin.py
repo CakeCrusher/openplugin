@@ -1,3 +1,5 @@
+# C:\Projects\OpenPlugin\openplugin\pypi-core\openplugincore\openplugin.py
+
 import json
 from urllib.error import HTTPError
 import requests

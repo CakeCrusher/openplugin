@@ -1,3 +1,5 @@
+# C:\Projects\OpenPlugin\openplugin\pypi-core\openplugincore\openplugin_memo.py
+
 import requests
 from openplugincore import OpenPlugin
 import os
@@ -19,17 +21,23 @@ class OpenPluginMemo:
             self.plugins_directory[key] = value
         print('MEMO READY')
 
+    def init_openplugin(self, plugin_name=None, root_url=None):
+        if not plugin_name and not root_url:
+            raise Exception('Plugin name not found')
+        plugin = OpenPlugin(plugin_name=plugin_name, root_url=root_url, openai_api_key=os.getenv('OPENAI_API_KEY'))
+        plugin.init()
+        return plugin
+
     def init_plugin(self, plugin_name):
         if not self.plugins_directory:
             raise Exception('Plugin directory not initialized')
         plugin_url = self.plugins_directory.get(plugin_name)
         if plugin_url is None:
             raise Exception('Plugin not found')
-        plugin = OpenPlugin(plugin_name=plugin_name, openai_api_key=os.getenv('OPENAI_API_KEY'))
-        plugin.init()
+        plugin = self.init_openplugin(plugin_name=plugin_name)
         self.add_plugin(plugin)
         return plugin
-
+    
     # method to add an OpenPlugin to the plugins map
     def add_plugin(self, plugin):
         if not plugin.name:
