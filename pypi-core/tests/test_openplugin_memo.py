@@ -46,3 +46,23 @@ def test_retrieve_plugins():
     open_plugin_memo.remove_plugin('__testing__')
     todo_openplugin = open_plugin_memo.get_plugin('__testing__')
     assert todo_openplugin is None
+
+def test_root_url_full_suite():
+    open_plugin_memo = OpenPluginMemo()
+    open_plugin_memo.init()
+
+    todo_openplugin = open_plugin_memo.init_openplugin(root_url='http://127.0.0.1:3333')
+    assert todo_openplugin.manifest is not None
+    assert len(todo_openplugin.functions) == 2
+
+    response = todo_openplugin.fetch_plugin(
+        messages=todo_plugin["messages"],
+        model='gpt-3.5-turbo-0613',
+    )
+
+    assert response is not None
+    assert response['role'] == 'function'
+    assert response['name'] == 'addTodo'
+
+    json_content = json.loads(response['content'])
+    assert json_content['todo'] == todo_plugin['request_out.json()']['todo']
