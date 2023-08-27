@@ -6,6 +6,9 @@ todo_plugin = {
             "content": "add 'buy milk' to my todo list"
         }
     ],
+    "plugin_headers": {
+        "Authorization": "Bearer secret"
+    },
     "chat_completion_of_function": {
         "role": "assistant",
         "content": None,
