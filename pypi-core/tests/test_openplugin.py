@@ -45,7 +45,9 @@ def test_openapi_to_functions_and_call_api_fn(todo_openplugin):
     # test call_api_fn
     request_out = todo_openplugin.call_api_fn(
         todo_plugin["llm_chain_out"]["name"],
-        todo_plugin["llm_chain_out"]["arguments"]
+        todo_plugin["llm_chain_out"]["arguments"],
+        todo_plugin["plugin_headers"]
+        
     )
     assert request_out.json() == todo_plugin["request_out.json()"]
 
@@ -53,6 +55,7 @@ def test_openapi_to_functions_and_call_api_fn(todo_openplugin):
 def test_fetch_plugin(todo_openplugin):
     response = todo_openplugin.fetch_plugin(
         messages=todo_plugin["messages"],
+        plugin_headers=todo_plugin["plugin_headers"], # tests for service_auth headers
         model="gpt-3.5-turbo-0613"
     )
     assert response is not None
@@ -127,11 +130,12 @@ def test_messages():
                 "content": "please add that to my todo list"
             }
         ],
+        plugin_headers=todo_plugin["plugin_headers"],
         model='gpt-3.5-turbo-0613',
         truncate=True
     )
 
-    todos_request = requests.get("http://localhost:3333/todos")
+    todos_request = requests.get("http://localhost:3333/todos", headers=todo_plugin["plugin_headers"])
     todos_body = todos_request.json()
 
     assert todo in response["content"]

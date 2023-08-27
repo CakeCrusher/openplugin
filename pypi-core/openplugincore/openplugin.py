@@ -128,7 +128,7 @@ class OpenPlugin:
         
         return langchain_messages
 
-    def fetch_plugin(self, messages: list[dict], truncate: Union[bool, int] = False, truncate_offset: int = 0, **chatgpt_args) -> ChatgptFunctionMessage:
+    def fetch_plugin(self, messages: list[dict], plugin_headers: dict = None, truncate: Union[bool, int] = False, truncate_offset: int = 0, **chatgpt_args) -> ChatgptFunctionMessage:
         model = chatgpt_args.get("model", None)
         if model not in ["gpt-3.5-turbo-0613", "gpt-4-0613"]:
             raise ValueError("Model must be either gpt-3.5-turbo-0613 or gpt-4-0613")
@@ -203,12 +203,12 @@ class OpenPlugin:
             print(f"\"{self.name}\" llm_chain_out: ", json.dumps(llm_chain_out, indent=2))
 
         # make the api call
-        def request_chain(name,arguments):
+        def request_chain(name,arguments,headers):
             res = self.call_api_fn(
-                name, arguments, headers=None, params=None
+                name, arguments, headers, params=None
             )
             return res
-        request_out = request_chain(**llm_chain_out)
+        request_out = request_chain(**llm_chain_out, headers=plugin_headers)
         json_response = request_out.json()
 
         if truncate:
