@@ -16,6 +16,11 @@ def test_initiate_todo_with_url():
     assert plugin.manifest is not None
     assert plugin.manifest.get("name_for_model") == "todo"
 
+def test_initiate_todo_with_manifest():
+    plugin = OpenPlugin(root_url="http://localhost:3333", manifest=todo_plugin["manifest"])
+    assert plugin.manifest is not None
+    assert plugin.manifest.get("name_for_human") == todo_plugin["manifest"]["name_for_human"]
+
 @pytest.fixture
 def todo_openplugin():
     plugin = OpenPlugin("__testing__")

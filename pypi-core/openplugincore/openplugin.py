@@ -25,11 +25,11 @@ plugin_configs: Dict[str, PluginConfigs] = {}
 
 
 class OpenPlugin:
-    def __init__(self, plugin_name: str = None, openai_api_key: str = None, root_url: str = None, verbose: bool = False):
+    def __init__(self, plugin_name: str = None, openai_api_key: str = None, root_url: str = None, manifest = None,  verbose: bool = False):
         self.name: str = plugin_name
         self.root_url: str = root_url
         self.description: str = None
-        self.manifest: Any = None
+        self.manifest: Any = manifest
         self.functions: List[Dict[str, Any]] = None
         self.call_api_fn: Callable = None
         self.verbose: bool = verbose
@@ -64,7 +64,8 @@ class OpenPlugin:
             except KeyError:
                 # throw error
                 raise KeyError("Plugin not found")
-        self.manifest = self.fetch_manifest(self.root_url)
+        if not self.manifest:
+            self.manifest = self.fetch_manifest(self.root_url)
         self.functions, self.call_api_fn = self.openapi_to_functions_and_call_api_fn(self.manifest)
 
     def fetch_manifest(self, root_url: str) -> Any:
