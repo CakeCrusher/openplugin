@@ -27,9 +27,11 @@ def test_initiate_and_fetch_todo():
     # fetch after chatgpt response
     response = plugin.fetch_plugin(
         messages=todo_plugin["messages"],
+        return_assistant_message=True,
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
+    response = response["function_message"]
     assert response is not None
     assert response["role"] == "function"
     assert response["name"] == "addTodo"
@@ -49,9 +51,11 @@ def test_initiate_and_fetch_LGTM():
                 "content": chatgpt_prompt
             }
         ],
+        return_assistant_message=True,
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
+    response = response["function_message"]
 
     assert response is not None
     assert response["role"] == "function"
@@ -74,9 +78,11 @@ def test_initiate_and_fetch_yt_caption_retriever():
                 "content": chatgpt_prompt
             }
         ],
+        return_assistant_message=True,
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
+    response = response["function_message"]
 
     assert response is not None
     assert response["role"] == "function"
@@ -98,9 +104,11 @@ def test_initiate_and_fetch_twtData():
                 "content": chatgpt_prompt
             }
         ],
+        return_assistant_message=True,
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
+    response = response["function_message"]
 
     assert response is not None
     assert response["role"] == "function"
@@ -123,9 +131,11 @@ def test_initiate_and_fetch_surge_ai_trends():
                 "content": chatgpt_prompt
             }
         ],
+        return_assistant_message=True,
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
+    response = response["function_message"]
 
     assert response is not None
     assert response["role"] == "function"
@@ -147,9 +157,11 @@ def test_initiate_and_fetch_speedy_marketing():
                 "content": chatgpt_prompt
             }
         ],
+        return_assistant_message=True,
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
+    response = response["function_message"]
 
     assert response is not None
     assert response["role"] == "function"
@@ -172,9 +184,11 @@ def test_initiate_and_fetch_scholarai():
                 "content": chatgpt_prompt
             }
         ],
+        return_assistant_message=True,
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
+    response = response["function_message"]
 
     assert response is not None
     assert response["role"] == "function"
@@ -196,9 +210,11 @@ def test_initiate_and_fetch_rephrase():
                 "content": chatgpt_prompt
             }
         ],
+        return_assistant_message=True,
         model="gpt-3.5-turbo-0613",
         temperature=0,
     )
+    response = response["function_message"]
 
     assert response is not None
     assert response["role"] == "function"

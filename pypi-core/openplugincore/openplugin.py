@@ -128,7 +128,7 @@ class OpenPlugin:
         
         return langchain_messages
 
-    def fetch_plugin(self, messages: list[dict], plugin_headers: dict = None, truncate: Union[bool, int] = False, truncate_offset: int = 0, **chatgpt_args) -> ChatgptFunctionMessage:
+    def fetch_plugin(self, messages: list[dict], plugin_headers: dict = None, truncate: Union[bool, int] = False, truncate_offset: int = 0, return_assistant_message: bool = False, **chatgpt_args) -> ChatgptFunctionMessage:
         model = chatgpt_args.get("model", None)
         if model not in ["gpt-3.5-turbo-0613", "gpt-4-0613"]:
             raise ValueError("Model must be either gpt-3.5-turbo-0613 or gpt-4-0613")
@@ -221,10 +221,26 @@ class OpenPlugin:
         if self.verbose:
             print(f"\"{self.name}\" json_response: ", json.dumps(json_response, indent=2))
         try:
-            return ChatgptFunctionMessage(
+            # arguments should be stringified json
+            assistant_message = ChatgptAssistantMessage(
+                role="assistant",
+                content=None,
+                function_call= {
+                    "name": llm_chain_out["name"],
+                    "arguments": json.dumps(llm_chain_out["arguments"])
+                }
+            )
+            function_message = ChatgptFunctionMessage(
                 role="function",
                 name=llm_chain_out["name"],
                 content=json.dumps(json_response)
             )
+            if return_assistant_message:
+                return {
+                    "assistant_message": assistant_message,
+                    "function_message": function_message
+                }
+            else:
+                return function_message
         except json.decoder.JSONDecodeError:
             raise json.decoder.JSONDecodeError(f"API call failed, API returned the following non-JSON response:\n{response.content}")
