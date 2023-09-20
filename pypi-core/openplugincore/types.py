@@ -6,7 +6,8 @@ class AssistantRole(Enum):
 
 class ChatgptAssistantMessage(TypedDict):
     role: AssistantRole
-    content: str
+    content: Any
+    function_call: Any
 
 class FunctionRole(Enum):
     FUNCTION = "function"
