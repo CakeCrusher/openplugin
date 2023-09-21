@@ -8683,3 +8683,1133 @@
 2023-08-22 11:21:12,830 848 Skipping Zapier
 2023-08-22 11:21:12,889 849 Skipping ZeoRoutePlanner
 2023-08-22 11:21:12,948 850 Skipping Zhibo8Sports
+2023-09-21 00:00:18,227 Ai_PDF Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin-3c56b9d4c8a6465998395f28b6a445b2-jexkai4vea-uc.a.run.app/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652C9A0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:00,672 0 Processing analytics
+2023-09-21 00:06:00,708 analytics Complete
+2023-09-21 00:06:00,776 1 Skipping ab_judge
+2023-09-21 00:06:00,834 2 Skipping AardvarkAI
+2023-09-21 00:06:00,908 3 Skipping bestever
+2023-09-21 00:06:00,927 4 Processing AaronBrowser
+2023-09-21 00:06:03,389 AaronBrowser Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //aaron-web-browser.aaronplugins.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652F220>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:03,423 AaronBrowser Complete
+2023-09-21 00:06:03,442 5 Processing AaronChatPDF
+2023-09-21 00:06:03,476 AaronChatPDF Complete
+2023-09-21 00:06:03,495 6 Processing AaronCodeReview
+2023-09-21 00:06:03,531 AaronCodeReview Complete
+2023-09-21 00:06:03,584 7 Skipping Confluence
+2023-09-21 00:06:03,636 8 Skipping GoogleDocs
+2023-09-21 00:06:03,690 9 Skipping Notion
+2023-09-21 00:06:03,709 10 Processing AaronResumeBuilder
+2023-09-21 00:06:03,745 AaronResumeBuilder Complete
+2023-09-21 00:06:03,799 11 Skipping abc_to_audio
+2023-09-21 00:06:03,818 12 Processing ABC_Website_Maker
+2023-09-21 00:06:03,853 ABC_Website_Maker Complete
+2023-09-21 00:06:03,910 13 Skipping able_plugin
+2023-09-21 00:06:03,929 14 Processing ableNetworkMonitor
+2023-09-21 00:06:03,964 ableNetworkMonitor Complete
+2023-09-21 00:06:04,019 15 Skipping AbleStyle
+2023-09-21 00:06:04,098 16 Skipping AbridgedDueDiligence
+2023-09-21 00:06:04,167 17 Skipping access_google_sheets
+2023-09-21 00:06:04,221 18 Skipping access_link
+2023-09-21 00:06:04,280 19 Skipping access_pdf
+2023-09-21 00:06:04,300 20 Processing access_pdf_export
+2023-09-21 00:06:04,335 access_pdf_export Complete
+2023-09-21 00:06:04,388 21 Skipping accurate_pdf_reader
+2023-09-21 00:06:04,440 22 Skipping acquire
+2023-09-21 00:06:04,493 23 Skipping ad4mat
+2023-09-21 00:06:04,512 24 Processing adzviser
+2023-09-21 00:06:04,549 adzviser Complete
+2023-09-21 00:06:04,624 25 Skipping AeroDex
+2023-09-21 00:06:04,679 26 Skipping Affilitizer
+2023-09-21 00:06:04,736 27 Skipping AFinChat
+2023-09-21 00:06:04,799 28 Skipping AgentSQL
+2023-09-21 00:06:04,855 29 Skipping Agones
+2023-09-21 00:06:04,909 30 Skipping aiAgents
+2023-09-21 00:06:04,964 31 Skipping ai_data_analyst
+2023-09-21 00:06:04,983 32 Processing Ai_Drive
+2023-09-21 00:06:07,361 Ai_Drive Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //ai-drive-plugin-qvg2narjsa-uc.a.run.app/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22BF730>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:07,395 Ai_Drive Complete
+2023-09-21 00:06:07,460 33 Skipping aiextensions
+2023-09-21 00:06:07,525 34 Skipping findagift
+2023-09-21 00:06:07,604 35 Skipping Ai_PDF
+2023-09-21 00:06:07,660 36 Skipping AIQuest
+2023-09-21 00:06:07,680 37 Processing ai_search_engine
+2023-09-21 00:06:07,717 ai_search_engine Complete
+2023-09-21 00:06:07,775 38 Skipping aitoolhunt
+2023-09-21 00:06:07,833 39 Skipping chatwithvideo
+2023-09-21 00:06:07,911 40 Skipping AI2sql
+2023-09-21 00:06:07,937 41 Processing ai4erp_model
+2023-09-21 00:06:10,328 ai4erp_model Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //ai4erp.onlinegbc.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E2516170>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:10,366 ai4erp_model Complete
+2023-09-21 00:06:10,425 42 Skipping AIMaster
+2023-09-21 00:06:10,485 43 Skipping tmRecommender
+2023-09-21 00:06:10,547 44 Skipping article_writer
+2023-09-21 00:06:10,567 45 Processing content_repurposer
+2023-09-21 00:06:10,603 content_repurposer Complete
+2023-09-21 00:06:10,658 46 Skipping AIstrologer
+2023-09-21 00:06:10,715 47 Skipping aitickerchat_document_retrieval
+2023-09-21 00:06:10,773 48 Skipping AladinSearchBooks
+2023-09-21 00:06:10,827 49 Skipping alarm_advisor
+2023-09-21 00:06:10,880 50 Skipping albadoc
+2023-09-21 00:06:10,933 51 Skipping Alchemy
+2023-09-21 00:06:11,005 52 Skipping Algorithma
+2023-09-21 00:06:11,025 53 Processing AlphaNotes
+2023-09-21 00:06:11,059 AlphaNotes Complete
+2023-09-21 00:06:11,112 54 Skipping find_teachers
+2023-09-21 00:06:11,168 55 Skipping amazonfinds
+2023-09-21 00:06:11,227 56 Skipping amazongiftchooser
+2023-09-21 00:06:11,284 57 Skipping Ambition
+2023-09-21 00:06:11,336 58 Skipping anabot
+2023-09-21 00:06:11,388 59 Skipping analyticsai
+2023-09-21 00:06:11,406 60 Processing analyze_act
+2023-09-21 00:06:11,443 analyze_act Complete
+2023-09-21 00:06:11,496 61 Skipping andorra_news_flats_traffic_work__search
+2023-09-21 00:06:11,515 62 Processing AnyBarChart
+2023-09-21 00:06:11,550 AnyBarChart Complete
+2023-09-21 00:06:11,602 63 Skipping ApexMap
+2023-09-21 00:06:11,653 64 Skipping API_documentation_Bot
+2023-09-21 00:06:11,709 65 Skipping AppyPieAIAppBuilder
+2023-09-21 00:06:11,762 66 Skipping argil
+2023-09-21 00:06:11,816 67 Skipping ArtCollection
+2023-09-21 00:06:11,835 68 Processing ASH
+2023-09-21 00:06:14,188 ASH Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //api.lagogal.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652C0D0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:14,222 ASH Complete
+2023-09-21 00:06:14,275 69 Skipping LinkBot
+2023-09-21 00:06:14,335 70 Skipping AskMarcie
+2023-09-21 00:06:14,389 71 Skipping ask_my_first_million_podcast_chatbot
+2023-09-21 00:06:14,443 72 Skipping askvg
+2023-09-21 00:06:14,497 73 Skipping stylist
+2023-09-21 00:06:14,516 74 Processing AskForQrcode
+2023-09-21 00:06:16,838 AskForQrcode Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //askforqrcode.magicslides.app/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E244A110>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:16,872 AskForQrcode Complete
+2023-09-21 00:06:16,923 75 Skipping AskTheCode
+2023-09-21 00:06:16,974 76 Skipping askyourcode
+2023-09-21 00:06:17,024 77 Skipping querydatabase
+2023-09-21 00:06:17,075 78 Skipping AskYourKG
+2023-09-21 00:06:17,126 79 Skipping askyourpdf
+2023-09-21 00:06:17,177 80 Skipping askyourpdf
+2023-09-21 00:06:17,228 81 Skipping PHITURE
+2023-09-21 00:06:17,246 82 Processing Aspose_Words_Cloud
+2023-09-21 00:06:17,280 Aspose_Words_Cloud Complete
+2023-09-21 00:06:17,334 83 Skipping assetOvi
+2023-09-21 00:06:17,352 84 Processing AstroAlert
+2023-09-21 00:06:19,714 AstroAlert Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //kwilliams.pythonanywhere.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22C4730>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:19,749 AstroAlert Complete
+2023-09-21 00:06:19,801 85 Skipping astroinsights
+2023-09-21 00:06:19,853 86 Skipping astrodaily
+2023-09-21 00:06:19,871 87 Processing Astrology
+2023-09-21 00:06:22,393 Astrology Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //astrology.divinationzone.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22BF130>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:22,429 Astrology Complete
+2023-09-21 00:06:22,447 88 Processing ATSResumeCopilot
+2023-09-21 00:06:24,787 ATSResumeCopilot Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //dbea2352-8fb7-43e9-a230-8f49987ba84d.plugin.webbot.chat/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E24EA050>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:24,822 ATSResumeCopilot Complete
+2023-09-21 00:06:24,874 89 Skipping AusPetrolPrices
+2023-09-21 00:06:24,927 90 Skipping AusSurfReport
+2023-09-21 00:06:24,980 91 Skipping Austrian_Bank_Rates
+2023-09-21 00:06:24,998 92 Processing authNetworkMonitor
+2023-09-21 00:06:25,032 authNetworkMonitor Complete
+2023-09-21 00:06:25,050 93 Processing auto_prompt
+2023-09-21 00:06:25,084 auto_prompt Complete
+2023-09-21 00:06:25,135 94 Skipping AutoInfra1
+2023-09-21 00:06:25,187 95 Skipping Avalara
+2023-09-21 00:06:25,240 96 Skipping avian
+2023-09-21 00:06:25,292 97 Skipping website
+2023-09-21 00:06:25,311 98 Processing emails
+2023-09-21 00:06:25,345 emails Complete
+2023-09-21 00:06:25,398 99 Skipping tools
+2023-09-21 00:06:25,418 100 Processing scheduling
+2023-09-21 00:06:25,452 scheduling Complete
+2023-09-21 00:06:25,506 101 Skipping Back4App
+2023-09-21 00:06:25,558 102 Skipping Bardeen
+2023-09-21 00:06:25,610 103 Skipping bart_realtime
+2023-09-21 00:06:25,629 104 Processing earningcall1
+2023-09-21 00:06:25,666 earningcall1 Complete
+2023-09-21 00:06:25,721 105 Skipping bgg_assistant
+2023-09-21 00:06:25,776 106 Skipping bibguru
+2023-09-21 00:06:25,829 107 Skipping bible
+2023-09-21 00:06:25,881 108 Skipping bibliography_crossref
+2023-09-21 00:06:25,949 109 Skipping bibsonomy
+2023-09-21 00:06:26,002 110 Skipping bild
+2023-09-21 00:06:26,056 111 Skipping BitcoinSentiment
+2023-09-21 00:06:26,110 112 Skipping biztoc
+2023-09-21 00:06:26,164 113 Skipping blended
+2023-09-21 00:06:26,217 114 Skipping blockatlas
+2023-09-21 00:06:26,270 115 Skipping Bohita
+2023-09-21 00:06:26,323 116 Skipping dynamic_qr
+2023-09-21 00:06:26,375 117 Skipping booktickets
+2023-09-21 00:06:26,429 118 Skipping bookworm
+2023-09-21 00:06:26,484 119 Skipping boolio
+2023-09-21 00:06:26,537 120 Skipping BOXIL_SaaS
+2023-09-21 00:06:26,589 121 Skipping bramework
+2023-09-21 00:06:26,641 122 Skipping brandfetch
+2023-09-21 00:06:26,698 123 Skipping Broadway
+2023-09-21 00:06:26,717 124 Processing browser
+2023-09-21 00:06:26,753 browser Complete
+2023-09-21 00:06:26,806 125 Skipping BrowserOp
+2023-09-21 00:06:26,859 126 Skipping BrowserPilot
+2023-09-21 00:06:26,910 127 Skipping BubbleGoods
+2023-09-21 00:06:26,964 128 Skipping buildbetter
+2023-09-21 00:06:27,017 129 Skipping buywisely
+2023-09-21 00:06:27,071 130 Skipping buzz
+2023-09-21 00:06:27,125 131 Skipping ByByAI
+2023-09-21 00:06:27,178 132 Skipping CLevelResume
+2023-09-21 00:06:27,230 133 Skipping calculator
+2023-09-21 00:06:27,282 134 Skipping calculatortools
+2023-09-21 00:06:27,335 135 Skipping california_law_search
+2023-09-21 00:06:27,389 136 Skipping shimmer_calorie_counter
+2023-09-21 00:06:27,407 137 Processing canar_ai_job_agent
+2023-09-21 00:06:29,756 canar_ai_job_agent Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //chat.gptplugin.decanaria.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E2515990>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:29,795 canar_ai_job_agent Complete
+2023-09-21 00:06:29,814 138 Processing canva
+2023-09-21 00:06:29,848 canva Complete
+2023-09-21 00:06:29,900 139 Skipping CapCut
+2023-09-21 00:06:29,955 140 Skipping career_copilot
+2023-09-21 00:06:30,008 141 Skipping cargurus
+2023-09-21 00:06:30,061 142 Skipping CarYardBard
+2023-09-21 00:06:30,115 143 Skipping Catch_Them_All
+2023-09-21 00:06:30,167 144 Skipping CryptoPrices
+2023-09-21 00:06:30,185 145 Processing conscious_creators_spext
+2023-09-21 00:06:32,520 conscious_creators_spext Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin.consciouscreators.spext.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C63CE620>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:32,555 conscious_creators_spext Complete
+2023-09-21 00:06:32,573 146 Processing Cello_Square_v2
+2023-09-21 00:06:34,920 Cello_Square_v2 Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin.cellosquare.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DA230>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:34,955 Cello_Square_v2 Complete
+2023-09-21 00:06:35,007 147 Skipping chabadCenters
+2023-09-21 00:06:35,059 148 Skipping chacaMarketProduct
+2023-09-21 00:06:35,111 149 Skipping Chainstack
+2023-09-21 00:06:35,164 150 Skipping champdex
+2023-09-21 00:06:35,216 151 Skipping nonprofits
+2023-09-21 00:06:35,269 152 Skipping ChargeMyEV
+2023-09-21 00:06:35,320 153 Skipping charity
+2023-09-21 00:06:35,371 154 Skipping chart
+2023-09-21 00:06:35,424 155 Skipping chat_raku_journey
+2023-09-21 00:06:35,475 156 Skipping chat_stack_search
+2023-09-21 00:06:35,533 157 Skipping ChatTMDB
+2023-09-21 00:06:35,592 158 Skipping chattoolfinder
+2023-09-21 00:06:35,645 159 Skipping ChatWithBible
+2023-09-21 00:06:35,662 160 Processing chat_with_calendars
+2023-09-21 00:06:35,697 chat_with_calendars Complete
+2023-09-21 00:06:35,751 161 Skipping chat_with_excel
+2023-09-21 00:06:35,804 162 Skipping chat_with_workspace
+2023-09-21 00:06:35,857 163 Skipping chat_with_data
+2023-09-21 00:06:35,910 164 Skipping chat_afi
+2023-09-21 00:06:35,928 165 Processing ChatBlog
+2023-09-21 00:06:35,963 ChatBlog Complete
+2023-09-21 00:06:35,981 166 Processing ChatFeedSync
+2023-09-21 00:06:36,016 ChatFeedSync Complete
+2023-09-21 00:06:36,071 167 Skipping ChatOCR
+2023-09-21 00:06:36,125 168 Skipping SSH
+2023-09-21 00:06:36,145 169 Processing chatwithcode
+2023-09-21 00:06:36,182 chatwithcode Complete
+2023-09-21 00:06:36,200 170 Processing aifriend
+2023-09-21 00:06:36,235 aifriend Complete
+2023-09-21 00:06:36,290 171 Skipping ChatWithGit
+2023-09-21 00:06:36,312 172 Processing chatwithinstructions
+2023-09-21 00:06:36,349 chatwithinstructions Complete
+2023-09-21 00:06:36,411 173 Skipping chatwithpdf
+2023-09-21 00:06:36,488 174 Skipping chatwithwebsite
+2023-09-21 00:06:36,562 175 Skipping Check_Point_Security
+2023-09-21 00:06:36,625 176 Skipping uptime
+2023-09-21 00:06:36,684 177 Skipping Checkers
+2023-09-21 00:06:36,741 178 Skipping CheckmarxCheckAI
+2023-09-21 00:06:36,803 179 Skipping CheckTheChain
+2023-09-21 00:06:36,859 180 Skipping Chess
+2023-09-21 00:06:36,928 181 Skipping chicago_data_portal
+2023-09-21 00:06:36,947 182 Processing ChithraImageEditor
+2023-09-21 00:06:36,990 ChithraImageEditor Complete
+2023-09-21 00:06:37,045 183 Skipping Clay
+2023-09-21 00:06:37,119 184 Skipping clearbit_integration
+2023-09-21 00:06:37,177 185 Skipping climesumer
+2023-09-21 00:06:37,232 186 Skipping clinical_trial_radar
+2023-09-21 00:06:37,290 187 Skipping clinical_trial_radar
+2023-09-21 00:06:37,345 188 Skipping clinq
+2023-09-21 00:06:37,364 189 Processing close_crm
+2023-09-21 00:06:37,400 close_crm Complete
+2023-09-21 00:06:37,454 190 Skipping CloudDiagramGen
+2023-09-21 00:06:37,508 191 Skipping cloudflare_radar
+2023-09-21 00:06:37,566 192 Skipping code_runner
+2023-09-21 00:06:37,628 193 Skipping code_runner
+2023-09-21 00:06:37,684 194 Skipping Codecademy
+2023-09-21 00:06:37,740 195 Skipping CodeCastWandbox
+2023-09-21 00:06:37,800 196 Skipping coderpad
+2023-09-21 00:06:37,853 197 Skipping Codeulator
+2023-09-21 00:06:37,907 198 Skipping coffee_helper
+2023-09-21 00:06:37,966 199 Skipping coincap
+2023-09-21 00:06:38,020 200 Skipping color_palette
+2023-09-21 00:06:38,078 201 Skipping CommonEvents
+2023-09-21 00:06:38,134 202 Skipping CompaniesInTheUK
+2023-09-21 00:06:38,153 203 Processing company_enrichment
+2023-09-21 00:06:38,190 company_enrichment Complete
+2023-09-21 00:06:38,248 204 Skipping Company_Transcripts
+2023-09-21 00:06:38,303 205 Skipping Product_Comparison
+2023-09-21 00:06:38,322 206 Processing conceptmap
+2023-09-21 00:06:55,719 conceptmap Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin.concept-map.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22C45B0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:55,755 conceptmap Complete
+2023-09-21 00:06:55,808 207 Skipping consensus_search
+2023-09-21 00:06:55,863 208 Skipping ContentRewriter
+2023-09-21 00:06:55,916 209 Skipping ContentApp
+2023-09-21 00:06:55,935 210 Processing contentifyMarketingAI
+2023-09-21 00:06:58,300 contentifyMarketingAI Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //contentify-app.uc.r.appspot.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652D150>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:06:58,335 contentifyMarketingAI Complete
+2023-09-21 00:06:58,388 211 Skipping convert_assistant
+2023-09-21 00:06:58,443 212 Skipping converter_app
+2023-09-21 00:06:58,497 213 Skipping copilot
+2023-09-21 00:06:58,551 214 Skipping copywriter
+2023-09-21 00:06:58,570 215 Processing coqc
+2023-09-21 00:07:00,909 coqc Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //coq-chatgpt.livecode.ch/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652EEF0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:00,946 coqc Complete
+2023-09-21 00:07:00,999 216 Skipping Coupert
+2023-09-21 00:07:01,053 217 Skipping coupons_by_tenereteam
+2023-09-21 00:07:01,112 218 Skipping CourseHero
+2023-09-21 00:07:01,165 219 Skipping Coursera
+2023-09-21 00:07:01,219 220 Skipping crafty_clues
+2023-09-21 00:07:01,274 221 Skipping CranePumpsManuals
+2023-09-21 00:07:01,327 222 Skipping create_qr_code
+2023-09-21 00:07:01,381 223 Skipping Creaticode_Extension_of_MIT_Scratch
+2023-09-21 00:07:01,441 224 Skipping creativemind
+2023-09-21 00:07:01,497 225 Skipping CreatuityStores
+2023-09-21 00:07:01,555 226 Skipping CreditYelp
+2023-09-21 00:07:01,612 227 Skipping CribbageScorer
+2023-09-21 00:07:01,632 228 Processing CrosswordGenius
+2023-09-21 00:07:04,001 CrosswordGenius Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //oypetazaprv2liei35oxpr7wje0ibdls.lambda-url.eu-west-2.on.aws/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652C610>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:04,037 CrosswordGenius Complete
+2023-09-21 00:07:04,089 229 Skipping crypto_jobs_list
+2023-09-21 00:07:04,142 230 Skipping cryptoPriceAndNews
+2023-09-21 00:07:04,194 231 Skipping crypto_price_checker
+2023-09-21 00:07:04,247 232 Skipping cryptopulse
+2023-09-21 00:07:04,265 233 Processing everstake
+2023-09-21 00:07:06,630 everstake Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //chatgpt-01.everstake.one/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C64DD510>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:06,665 everstake Complete
+2023-09-21 00:07:06,722 234 Skipping cryptomation
+2023-09-21 00:07:06,778 235 Skipping csv_creator
+2023-09-21 00:07:06,833 236 Skipping CSVExport
+2023-09-21 00:07:06,892 237 Skipping CSVExportPlus
+2023-09-21 00:07:06,946 238 Skipping CTCP
+2023-09-21 00:07:07,000 239 Skipping currencyconverter
+2023-09-21 00:07:07,055 240 Skipping currencyconverter
+2023-09-21 00:07:07,110 241 Skipping currencyconverter
+2023-09-21 00:07:07,167 242 Skipping currency_today
+2023-09-21 00:07:07,224 243 Skipping CustomKnowledge
+2023-09-21 00:07:07,245 244 Processing cve
+2023-09-21 00:07:07,289 cve Complete
+2023-09-21 00:07:07,320 245 Processing dafny_checker
+2023-09-21 00:07:09,674 dafny_checker Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //dafny-chatgpt.livecode.ch/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22BC190>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:09,710 dafny_checker Complete
+2023-09-21 00:07:09,765 246 Skipping daigram
+2023-09-21 00:07:09,819 247 Skipping daily_learning
+2023-09-21 00:07:09,872 248 Skipping dailybot
+2023-09-21 00:07:09,925 249 Skipping DAIZY
+2023-09-21 00:07:09,979 250 Skipping dart
+2023-09-21 00:07:10,039 251 Skipping data_interpreter
+2023-09-21 00:07:10,094 252 Skipping datasheetchat
+2023-09-21 00:07:10,147 253 Skipping DayApp
+2023-09-21 00:07:10,201 254 Skipping Deal_Dazzle
+2023-09-21 00:07:10,219 255 Processing deardiary
+2023-09-21 00:07:12,579 deardiary Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //deardiary.capabase.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22C4AC0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:12,617 deardiary Complete
+2023-09-21 00:07:12,639 256 Processing decision_diagrams
+2023-09-21 00:07:14,985 decision_diagrams Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //diagram.thegptpodcast.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DCA90>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:15,020 decision_diagrams Complete
+2023-09-21 00:07:15,073 257 Skipping decision_journal
+2023-09-21 00:07:15,091 258 Processing DecisionMatrix
+2023-09-21 00:07:17,455 DecisionMatrix Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin.thegptpodcast.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E2502E00>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:17,491 DecisionMatrix Complete
+2023-09-21 00:07:17,547 259 Skipping deepmemory
+2023-09-21 00:07:17,605 260 Skipping defillama
+2023-09-21 00:07:17,662 261 Skipping definitive_facts
+2023-09-21 00:07:17,716 262 Skipping yachtSearch
+2023-09-21 00:07:17,772 263 Skipping dev
+2023-09-21 00:07:17,828 264 Skipping DeveloperDocSearcher
+2023-09-21 00:07:17,882 265 Skipping Devhunt
+2023-09-21 00:07:17,937 266 Skipping Diagrams
+2023-09-21 00:07:17,955 267 Processing diagrams_show_me
+2023-09-21 00:07:20,290 diagrams_show_me Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //showme.redstarplugin.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22BD630>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:20,326 diagrams_show_me Complete
+2023-09-21 00:07:20,382 268 Skipping diary
+2023-09-21 00:07:20,435 269 Skipping Diffbot
+2023-09-21 00:07:20,491 270 Skipping digital_pet
+2023-09-21 00:07:20,547 271 Skipping directual
+2023-09-21 00:07:20,602 272 Skipping disteur
+2023-09-21 00:07:20,657 273 Skipping diceroller
+2023-09-21 00:07:20,711 274 Skipping DobaWorldFactory
+2023-09-21 00:07:20,729 275 Processing doc_editor
+2023-09-21 00:07:23,076 doc_editor Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin.editor.aidocmaker.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DC640>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:23,111 doc_editor Complete
+2023-09-21 00:07:23,165 276 Skipping doc_maker
+2023-09-21 00:07:23,183 277 Processing doc_maker_v2
+2023-09-21 00:07:25,527 doc_maker_v2 Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin.maker.aidocmaker.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C6418520>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:25,563 doc_maker_v2 Complete
+2023-09-21 00:07:25,616 278 Skipping dlc
+2023-09-21 00:07:25,670 279 Skipping improved_semantic_search
+2023-09-21 00:07:25,728 280 Skipping dfa
+2023-09-21 00:07:25,782 281 Skipping domains
+2023-09-21 00:07:25,835 282 Skipping domatron
+2023-09-21 00:07:25,889 283 Skipping DoorDashNearbyStores
+2023-09-21 00:07:25,943 284 Skipping dover_outreach
+2023-09-21 00:07:25,997 285 Skipping Dr_Thoths_Tarot
+2023-09-21 00:07:26,052 286 Skipping draw
+2023-09-21 00:07:26,106 287 Skipping DreamInterpreter
+2023-09-21 00:07:26,163 288 Skipping Dream_Interpreter
+2023-09-21 00:07:26,218 289 Skipping DreamReader
+2023-09-21 00:07:26,272 290 Skipping drink_maestro
+2023-09-21 00:07:26,325 291 Skipping DuoduoEnglish
+2023-09-21 00:07:26,379 292 Skipping earthImagesAndVisualizations
+2023-09-21 00:07:26,433 293 Skipping earthquake
+2023-09-21 00:07:26,487 294 Skipping EasyProductSearch
+2023-09-21 00:07:26,541 295 Skipping resume
+2023-09-21 00:07:26,595 296 Skipping ebayfinds
+2023-09-21 00:07:26,651 297 Skipping edmunds_cars
+2023-09-21 00:07:26,715 298 Skipping Eduguide
+2023-09-21 00:07:26,768 299 Skipping edX
+2023-09-21 00:07:26,822 300 Skipping EmailByNylas
+2023-09-21 00:07:26,875 301 Skipping Emotimg
+2023-09-21 00:07:26,930 302 Skipping empregosagro
+2023-09-21 00:07:26,986 303 Skipping hashtag
+2023-09-21 00:07:27,041 304 Skipping Eraser
+2023-09-21 00:07:27,094 305 Skipping eSIM_Data_Package_Assistant
+2023-09-21 00:07:27,149 306 Skipping Etihad_Airline
+2023-09-21 00:07:27,201 307 Skipping everyprint3d
+2023-09-21 00:07:27,257 308 Skipping everysize
+2023-09-21 00:07:27,310 309 Skipping exchangerates
+2023-09-21 00:07:27,364 310 Skipping exercise
+2023-09-21 00:07:27,419 311 Skipping expedia
+2023-09-21 00:07:27,473 312 Skipping Experiences
+2023-09-21 00:07:27,530 313 Skipping exportchat
+2023-09-21 00:07:27,588 314 Skipping export_chat_to_pdf
+2023-09-21 00:07:27,642 315 Skipping express_tracking
+2023-09-21 00:07:27,701 316 Skipping FaceTheFacts
+2023-09-21 00:07:27,720 317 Processing factfanatic
+2023-09-21 00:07:30,083 factfanatic Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //factfanatic.capabase.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652E8F0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:30,119 factfanatic Complete
+2023-09-21 00:07:30,136 318 Processing FakeAGI
+2023-09-21 00:07:30,172 FakeAGI Complete
+2023-09-21 00:07:30,226 319 Skipping fca
+2023-09-21 00:07:30,244 320 Processing FederalResume
+2023-09-21 00:07:32,595 FederalResume Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //c-federal-resume.copilot.us/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DC1F0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:32,631 FederalResume Complete
+2023-09-21 00:07:32,689 321 Skipping fengshui
+2023-09-21 00:07:32,743 322 Skipping Ferryhopper
+2023-09-21 00:07:32,798 323 Skipping Figlet
+2023-09-21 00:07:32,852 324 Skipping filmfindr
+2023-09-21 00:07:32,907 325 Skipping factcheck
+2023-09-21 00:07:32,970 326 Skipping findafreelancer
+2023-09-21 00:07:33,025 327 Skipping findatour
+2023-09-21 00:07:33,081 328 Skipping freelancetalent
+2023-09-21 00:07:33,136 329 Skipping finnabolag
+2023-09-21 00:07:33,192 330 Skipping fiscalnote
+2023-09-21 00:07:33,249 331 Skipping FlashcardsGenerator
+2023-09-21 00:07:33,319 332 Skipping flight_tracker
+2023-09-21 00:07:33,374 333 Skipping Flowise_Support
+2023-09-21 00:07:33,430 334 Skipping For_io
+2023-09-21 00:07:33,486 335 Skipping forex_gpt
+2023-09-21 00:07:33,544 336 Skipping FormaCloudChatGPT
+2023-09-21 00:07:33,602 337 Skipping formgenerator
+2023-09-21 00:07:33,622 338 Processing fortunecookie
+2023-09-21 00:07:36,012 fortunecookie Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //fortunecookie.capabase.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DCD30>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:36,048 fortunecookie Complete
+2023-09-21 00:07:36,101 339 Skipping convertPDF
+2023-09-21 00:07:36,155 340 Skipping Free_Kiddie_Books
+2023-09-21 00:07:36,211 341 Skipping FreshTech
+2023-09-21 00:07:36,265 342 Skipping fundsdbsearch
+2023-09-21 00:07:36,320 343 Skipping g2_dot_com
+2023-09-21 00:07:36,375 344 Skipping game_box
+2023-09-21 00:07:36,431 345 Skipping game_info_fetcher
+2023-09-21 00:07:36,486 346 Skipping GameSight
+2023-09-21 00:07:36,542 347 Skipping Gate2AI
+2023-09-21 00:07:36,596 348 Skipping get_social_proof
+2023-09-21 00:07:36,654 349 Skipping GetByBus
+2023-09-21 00:07:36,708 350 Skipping getyourguide_activity_search
+2023-09-21 00:07:36,763 351 Skipping GifApi
+2023-09-21 00:07:36,816 352 Skipping vafl
+2023-09-21 00:07:36,872 353 Skipping gift_suggester
+2023-09-21 00:07:36,927 354 Skipping GIFTSENSAI
+2023-09-21 00:07:36,981 355 Skipping giftwrap
+2023-09-21 00:07:37,036 356 Skipping giga
+2023-09-21 00:07:37,091 357 Skipping GigTown
+2023-09-21 00:07:37,152 358 Skipping airqualityforeast
+2023-09-21 00:07:37,211 359 Skipping gitUserRepoStats
+2023-09-21 00:07:37,266 360 Skipping Glamai
+2023-09-21 00:07:37,321 361 Skipping Glowing
+2023-09-21 00:07:37,339 362 Processing goforfitness
+2023-09-21 00:07:39,682 goforfitness Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin-bot-dot-health-hero-bot.oa.r.appspot.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E25141F0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:39,720 goforfitness Complete
+2023-09-21 00:07:39,774 363 Skipping godaddy_domains
+2023-09-21 00:07:39,828 364 Skipping gofynd
+2023-09-21 00:07:39,881 365 Skipping golden_data_plugin
+2023-09-21 00:07:39,936 366 Skipping goplusv1
+2023-09-21 00:07:39,991 367 Skipping got2go_plugin_v1
+2023-09-21 00:07:40,045 368 Skipping gowithguide
+2023-09-21 00:07:40,099 369 Skipping grabjobs
+2023-09-21 00:07:40,155 370 Skipping GraduateResume
+2023-09-21 00:07:40,209 371 Skipping Graph_Constructor
+2023-09-21 00:07:40,265 372 Skipping hackit_web_scanner
+2023-09-21 00:07:40,320 373 Skipping hacktrack
+2023-09-21 00:07:40,376 374 Skipping hadith
+2023-09-21 00:07:40,431 375 Skipping HaffPrice
+2023-09-21 00:07:40,451 376 Processing haircaresimplified
+2023-09-21 00:07:42,807 haircaresimplified Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //haircaresimplified.capabase.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C64DD9C0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:42,845 haircaresimplified Complete
+2023-09-21 00:07:42,900 377 Skipping retrieval
+2023-09-21 00:07:42,954 378 Skipping haulingbuddies
+2023-09-21 00:07:43,009 379 Skipping hdbcarpark
+2023-09-21 00:07:43,064 380 Skipping HederaAccountInfo
+2023-09-21 00:07:43,082 381 Processing HeyGen
+2023-09-21 00:07:45,435 HeyGen Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //openai-plugin.heygen.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22C41C0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:45,474 HeyGen Complete
+2023-09-21 00:07:45,534 382 Skipping hicollectors
+2023-09-21 00:07:45,595 383 Skipping highPerplexity
+2023-09-21 00:07:45,653 384 Skipping Horoscope
+2023-09-21 00:07:45,711 385 Skipping Horoscopes_by_Inner_Self
+2023-09-21 00:07:45,732 386 Processing hotpepper_gourmet
+2023-09-21 00:07:48,096 hotpepper_gourmet Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //chat-api.hotpepper.jp/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DD1B0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:48,138 hotpepper_gourmet Complete
+2023-09-21 00:07:48,196 387 Skipping How_Long_To_Beat
+2023-09-21 00:07:48,282 388 Skipping webhooks
+2023-09-21 00:07:48,343 389 Skipping hubbubworld_hubbub_1
+2023-09-21 00:07:48,397 390 Skipping pod_designer
+2023-09-21 00:07:48,453 391 Skipping Humanize
+2023-09-21 00:07:48,507 392 Skipping i_am_rich
+2023-09-21 00:07:48,565 393 Skipping I_Ching
+2023-09-21 00:07:48,621 394 Skipping IbottaShopping
+2023-09-21 00:07:48,680 395 Skipping IdeaOrganiser
+2023-09-21 00:07:48,739 396 Skipping Lucas
+2023-09-21 00:07:48,802 397 Skipping ifttt_queries_and_actions
+2023-09-21 00:07:48,823 398 Processing image_converter
+2023-09-21 00:07:48,862 image_converter Complete
+2023-09-21 00:07:48,919 399 Skipping ImageEditor
+2023-09-21 00:07:48,983 400 Skipping ImageSearch
+2023-09-21 00:07:49,005 401 Processing imgenic
+2023-09-21 00:07:51,377 imgenic Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //chat.imgenic.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652D6C0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:51,414 imgenic Complete
+2023-09-21 00:07:51,469 402 Skipping IndoorPlants
+2023-09-21 00:07:51,524 403 Skipping indoorplantbot
+2023-09-21 00:07:51,579 404 Skipping infojobs
+2023-09-21 00:07:51,634 405 Skipping Instacart
+2023-09-21 00:07:51,690 406 Skipping InstaSite
+2023-09-21 00:07:51,745 407 Skipping InterestRates
+2023-09-21 00:07:51,763 408 Processing Invoice
+2023-09-21 00:07:54,111 Invoice Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //c-invoice.copilot.us/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22C49A0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:54,147 Invoice Complete
+2023-09-21 00:07:54,201 409 Skipping invoice_creator
+2023-09-21 00:07:54,219 410 Processing invoices
+2023-09-21 00:07:54,256 invoices Complete
+2023-09-21 00:07:54,275 411 Processing io_livecode_ch
+2023-09-21 00:07:54,313 io_livecode_ch Complete
+2023-09-21 00:07:54,368 412 Skipping IsotonixProducts
+2023-09-21 00:07:54,424 413 Skipping locator
+2023-09-21 00:07:54,479 414 Skipping italy_latest_news
+2023-09-21 00:07:54,536 415 Skipping ixigo_trip_planner
+2023-09-21 00:07:54,592 416 Skipping jamesallen_search
+2023-09-21 00:07:54,612 417 Processing japan_opendata
+2023-09-21 00:07:56,957 japan_opendata Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //japan-opendata-chatgpt-plugin.fooqoo56.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DC6D0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:07:56,995 japan_opendata Complete
+2023-09-21 00:07:57,052 418 Skipping html_css_japanese_stroke_viewer
+2023-09-21 00:07:57,110 419 Skipping JetBookClick
+2023-09-21 00:07:57,169 420 Skipping JiggyBase_retrieval
+2023-09-21 00:07:57,228 421 Skipping jini
+2023-09-21 00:07:57,286 422 Skipping jio
+2023-09-21 00:07:57,345 423 Skipping JiraTalk
+2023-09-21 00:07:57,405 424 Skipping job_cover_letter
+2023-09-21 00:07:57,461 425 Skipping JobDescription
+2023-09-21 00:07:57,519 426 Skipping JobInterview
+2023-09-21 00:07:57,581 427 Skipping job_search
+2023-09-21 00:07:57,663 428 Skipping indeed
+2023-09-21 00:07:57,726 429 Skipping job_search_uk
+2023-09-21 00:07:57,801 430 Skipping jobsearch
+2023-09-21 00:07:57,832 431 Processing Jooii
+2023-09-21 00:07:57,871 Jooii Complete
+2023-09-21 00:07:57,927 432 Skipping jopilot
+2023-09-21 00:07:57,984 433 Skipping jots
+2023-09-21 00:07:58,041 434 Skipping search_products_in_CAFE24
+2023-09-21 00:07:58,126 435 Skipping kakakucom
+2023-09-21 00:07:58,185 436 Skipping kakakucom_travel
+2023-09-21 00:07:58,243 437 Skipping idou
+2023-09-21 00:07:58,310 438 Skipping KalendarAI
+2023-09-21 00:07:58,371 439 Skipping KargoTakip
+2023-09-21 00:07:58,429 440 Skipping KAYAK
+2023-09-21 00:07:58,494 441 Skipping internetSearch
+2023-09-21 00:07:58,555 442 Skipping keyplays_football
+2023-09-21 00:07:58,621 443 Skipping keywordexplorer
+2023-09-21 00:07:58,680 444 Skipping kidsstories
+2023-09-21 00:07:58,740 445 Skipping kiwicom_assistant_and_flights_search
+2023-09-21 00:07:58,798 446 Skipping KlarnaProducts
+2023-09-21 00:07:58,818 447 Processing klick_medocean
+2023-09-21 00:07:58,856 klick_medocean Complete
+2023-09-21 00:07:58,933 448 Skipping travelActivityHotel
+2023-09-21 00:07:58,997 449 Skipping kokoro
+2023-09-21 00:07:59,101 450 Skipping konkanitranslator
+2023-09-21 00:07:59,205 451 Skipping konnectz
+2023-09-21 00:07:59,316 452 Skipping korea_subway
+2023-09-21 00:07:59,386 453 Skipping kraftful
+2023-09-21 00:07:59,453 454 Skipping kurumaerabi
+2023-09-21 00:07:59,512 455 Skipping Kyujinbox
+2023-09-21 00:07:59,578 456 Skipping lawyer_lookup
+2023-09-21 00:07:59,643 457 Skipping LawyerPR_PreliminaryReview
+2023-09-21 00:07:59,704 458 Skipping LegalQA
+2023-09-21 00:07:59,772 459 Skipping BriefingJuridico
+2023-09-21 00:07:59,846 460 Skipping letter_creator
+2023-09-21 00:07:59,910 461 Skipping levinbot
+2023-09-21 00:07:59,970 462 Skipping product_recommendation
+2023-09-21 00:08:00,034 463 Skipping product_recommendation
+2023-09-21 00:08:00,096 464 Skipping LGTM
+2023-09-21 00:08:00,175 465 Skipping Likewise
+2023-09-21 00:08:00,249 466 Skipping lincolnbot
+2023-09-21 00:08:00,310 467 Skipping Lingo
+2023-09-21 00:08:00,371 468 Skipping link_analyzer
+2023-09-21 00:08:00,436 469 Skipping linkReader
+2023-09-21 00:08:00,511 470 Skipping linkhouse
+2023-09-21 00:08:00,577 471 Skipping PodcastDatabase
+2023-09-21 00:08:00,657 472 Skipping ListFriendly
+2023-09-21 00:08:00,739 473 Skipping litmaps
+2023-09-21 00:08:00,831 474 Skipping eSportsLive
+2023-09-21 00:08:00,893 475 Skipping liveinboxer
+2023-09-21 00:08:00,954 476 Skipping local
+2023-09-21 00:08:01,012 477 Skipping Love_Coupons
+2023-09-21 00:08:01,072 478 Skipping lsongai
+2023-09-21 00:08:01,135 479 Skipping lucid
+2023-09-21 00:08:01,194 480 Skipping magic
+2023-09-21 00:08:01,251 481 Skipping magic_conch
+2023-09-21 00:08:01,309 482 Skipping magi_codex
+2023-09-21 00:08:01,329 483 Processing magicslides
+2023-09-21 00:08:01,367 magicslides Complete
+2023-09-21 00:08:01,425 484 Skipping Magnetis
+2023-09-21 00:08:01,445 485 Processing Maibook
+2023-09-21 00:08:03,796 Maibook Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //bookpluginprod.mycelebs.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DC1F0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:03,833 Maibook Complete
+2023-09-21 00:08:03,888 486 Skipping Maimovie
+2023-09-21 00:08:03,945 487 Skipping make_an_excel_sheet
+2023-09-21 00:08:03,999 488 Skipping Man_of_Many
+2023-09-21 00:08:04,054 489 Skipping MantiumRetriever
+2023-09-21 00:08:04,110 490 Skipping maps
+2023-09-21 00:08:04,128 491 Processing maps_pro
+2023-09-21 00:08:04,166 maps_pro Complete
+2023-09-21 00:08:04,223 492 Skipping mbti
+2023-09-21 00:08:04,280 493 Skipping minecraftexpert
+2023-09-21 00:08:04,335 494 Skipping meal_planner
+2023-09-21 00:08:04,393 495 Skipping medecinedata
+2023-09-21 00:08:04,450 496 Skipping mediaready
+2023-09-21 00:08:04,507 497 Skipping medicaldeviceeu
+2023-09-21 00:08:04,531 498 Processing MedicalResume
+2023-09-21 00:08:06,887 MedicalResume Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //c-medical-resume.copilot.us/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DC3A0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:06,925 MedicalResume Complete
+2023-09-21 00:08:06,979 499 Skipping memecreator
+2023-09-21 00:08:07,034 500 Skipping MemeGenerator
+2023-09-21 00:08:07,090 501 Skipping memorybank
+2023-09-21 00:08:07,146 502 Skipping mercari_search
+2023-09-21 00:08:07,201 503 Skipping MermaidChart
+2023-09-21 00:08:07,258 504 Skipping message_in_a_bottle
+2023-09-21 00:08:07,313 505 Skipping metamentor
+2023-09-21 00:08:07,369 506 Skipping metaphor_search_api
+2023-09-21 00:08:07,423 507 Skipping michelangelo
+2023-09-21 00:08:07,478 508 Skipping midpage_caselaw
+2023-09-21 00:08:07,534 509 Skipping domainNameDiscovery
+2023-09-21 00:08:07,590 510 Skipping mightyowl_education
+2023-09-21 00:08:07,646 511 Skipping career_test
+2023-09-21 00:08:07,701 512 Skipping mindful_data_ai
+2023-09-21 00:08:07,760 513 Skipping minecraft_modding_guide
+2023-09-21 00:08:07,816 514 Skipping text_games
+2023-09-21 00:08:07,870 515 Skipping mini_habits
+2023-09-21 00:08:07,925 516 Skipping Mino
+2023-09-21 00:08:07,980 517 Skipping mintbaseaction
+2023-09-21 00:08:08,036 518 Skipping mintbasesearch
+2023-09-21 00:08:08,094 519 Skipping TwentyMinutenCHNews
+2023-09-21 00:08:08,148 520 Skipping MixerBox_Calculator_accurate_answers
+2023-09-21 00:08:08,166 521 Processing MixerBox_Calendar_AI_assistant
+2023-09-21 00:08:08,204 MixerBox_Calendar_AI_assistant Complete
+2023-09-21 00:08:08,261 522 Skipping MixerBox_ChatDrive_AI_drive_assistant
+2023-09-21 00:08:08,317 523 Skipping MixerBox_ChatMap_map
+2023-09-21 00:08:08,372 524 Skipping MixerBox_ChatPDF_PDF_reader_analyzer
+2023-09-21 00:08:08,429 525 Skipping MixerBox_ChatVideo_YouTube_video_summarizer
+2023-09-21 00:08:08,486 526 Skipping MixerBox_Diagrams_AI_diagram_generator
+2023-09-21 00:08:08,505 527 Processing MixerBox_FindPlugin_plugin_finder
+2023-09-21 00:08:08,545 MixerBox_FindPlugin_plugin_finder Complete
+2023-09-21 00:08:08,601 528 Skipping MixerBox_FreecableTV
+2023-09-21 00:08:08,657 529 Skipping MixerBox_ImageGen_Al_image_generation
+2023-09-21 00:08:08,711 530 Skipping MixerBox_News
+2023-09-21 00:08:08,769 531 Skipping MixerBox_OnePlayer_music
+2023-09-21 00:08:08,823 532 Skipping MixerBox_PhotoMagic_AI_image_enhancer
+2023-09-21 00:08:08,878 533 Skipping MixerBox_Podcasts
+2023-09-21 00:08:08,935 534 Skipping MixerBox_Prompt_Pro_ideal_responses
+2023-09-21 00:08:08,990 535 Skipping MixerBox_QR_code_generator
+2023-09-21 00:08:09,066 536 Skipping MixerBox_Scholar_academic_paper_search_engine
+2023-09-21 00:08:09,122 537 Skipping MixerBox_Translate_AI_language_tutor
+2023-09-21 00:08:09,177 538 Skipping MixerBox_Weather
+2023-09-21 00:08:09,234 539 Skipping MixerBox_WebSearchG_web_search
+2023-09-21 00:08:09,293 540 Skipping MLPaperReader
+2023-09-21 00:08:09,348 541 Skipping Major_League_Baseball_Statistics_Plugin
+2023-09-21 00:08:09,404 542 Skipping Mobitrix
+2023-09-21 00:08:09,459 543 Skipping mobula
+2023-09-21 00:08:09,516 544 Skipping mojito
+2023-09-21 00:08:09,581 545 Skipping momemnt_of_zen_spext
+2023-09-21 00:08:09,637 546 Skipping momentxguidex
+2023-09-21 00:08:09,693 547 Skipping monarch
+2023-09-21 00:08:09,748 548 Skipping moodo
+2023-09-21 00:08:09,768 549 Processing movienight
+2023-09-21 00:08:12,136 movienight Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //movienight.capabase.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E240BB80>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:12,173 movienight Complete
+2023-09-21 00:08:12,228 550 Skipping moviesdetective
+2023-09-21 00:08:12,284 551 Skipping mpc_wallet
+2023-09-21 00:08:12,302 552 Processing murdermystery
+2023-09-21 00:08:14,675 murdermystery Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //murdermystery.capabase.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652FFA0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:14,712 murdermystery Complete
+2023-09-21 00:08:14,768 553 Skipping music
+2023-09-21 00:08:14,826 554 Skipping MyWritingCompanion
+2023-09-21 00:08:14,845 555 Processing myskinroutine
+2023-09-21 00:08:17,201 myskinroutine Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //myskinroutine.capabase.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22C4850>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:17,241 myskinroutine Complete
+2023-09-21 00:08:17,301 556 Skipping mytomorrows_clinical_trial_search
+2023-09-21 00:08:17,326 557 Processing namepedia
+2023-09-21 00:08:19,649 namepedia Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //namepedia.capabase.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652C820>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:19,687 namepedia Complete
+2023-09-21 00:08:19,748 558 Skipping Namr
+2023-09-21 00:08:19,807 559 Skipping nasaMediaExplorer
+2023-09-21 00:08:19,865 560 Skipping ndricks_sports_api
+2023-09-21 00:08:19,921 561 Skipping netools
+2023-09-21 00:08:19,978 562 Skipping Netlify
+2023-09-21 00:08:20,034 563 Skipping newegg_ai_pcbuild
+2023-09-21 00:08:20,092 564 Skipping TopNews
+2023-09-21 00:08:20,110 565 Processing newsimoji
+2023-09-21 00:08:22,466 newsimoji Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //kauai-hacks.ricky-robinett.workers.dev/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C64DD600>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:22,504 newsimoji Complete
+2023-09-21 00:08:22,561 566 Skipping NewsPilot
+2023-09-21 00:08:22,620 567 Skipping nextpaper
+2023-09-21 00:08:22,678 568 Skipping nftguru
+2023-09-21 00:08:22,738 569 Skipping NFTNewsRoundup
+2023-09-21 00:08:22,797 570 Skipping NFTs
+2023-09-21 00:08:22,854 571 Skipping Occupation_Skills_and_Course_Recommender
+2023-09-21 00:08:22,910 572 Skipping nominus_com
+2023-09-21 00:08:22,966 573 Skipping noteable
+2023-09-21 00:08:23,022 574 Skipping notes_ai_sync
+2023-09-21 00:08:23,082 575 Skipping Now
+2023-09-21 00:08:23,146 576 Skipping Numerology
+2023-09-21 00:08:23,203 577 Skipping OfferZen_world
+2023-09-21 00:08:23,263 578 Skipping OhMyPlug
+2023-09-21 00:08:23,281 579 Processing okappyPublicApi
+2023-09-21 00:08:23,321 okappyPublicApi Complete
+2023-09-21 00:08:23,378 580 Skipping omio
+2023-09-21 00:08:23,434 581 Skipping owd
+2023-09-21 00:08:23,490 582 Skipping find_stock_ideas
+2023-09-21 00:08:23,546 583 Skipping OnlyTriviaUp
+2023-09-21 00:08:23,609 584 Skipping openarch
+2023-09-21 00:08:23,670 585 Skipping university_lecture_retrieval
+2023-09-21 00:08:23,690 586 Processing open_prompt_library
+2023-09-21 00:08:26,053 open_prompt_library Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //prompt-library-q75da7fnhq-uw.a.run.app/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DCDF0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:26,090 open_prompt_library Complete
+2023-09-21 00:08:26,148 587 Skipping opentrivia
+2023-09-21 00:08:26,207 588 Skipping opentable_v2
+2023-09-21 00:08:26,264 589 Skipping opentools
+2023-09-21 00:08:26,321 590 Skipping OptionsPro
+2023-09-21 00:08:26,339 591 Processing outreach
+2023-09-21 00:08:26,378 outreach Complete
+2023-09-21 00:08:26,434 592 Skipping outreach_ai
+2023-09-21 00:08:26,491 593 Skipping Outschool
+2023-09-21 00:08:26,546 594 Skipping owis
+2023-09-21 00:08:26,602 595 Skipping Owler
+2023-09-21 00:08:26,659 596 Skipping OwlJourney
+2023-09-21 00:08:26,726 597 Skipping PEForNFTs
+2023-09-21 00:08:26,784 598 Skipping pagewhisperer
+2023-09-21 00:08:26,840 599 Skipping paperchat
+2023-09-21 00:08:26,898 600 Skipping paperpile
+2023-09-21 00:08:26,917 601 Processing Papr_Memory
+2023-09-21 00:08:26,955 Papr_Memory Complete
+2023-09-21 00:08:27,014 602 Skipping Paraphraser
+2023-09-21 00:08:27,070 603 Skipping locate_inventory_for_electronic_components
+2023-09-21 00:08:27,127 604 Skipping PartyPlanner
+2023-09-21 00:08:27,187 605 Skipping passiveDNS
+2023-09-21 00:08:27,244 606 Skipping paxiai
+2023-09-21 00:08:27,301 607 Skipping paypay_gourmet
+2023-09-21 00:08:27,357 608 Skipping pdf_creator
+2023-09-21 00:08:27,413 609 Skipping pdf_maker
+2023-09-21 00:08:27,431 610 Processing pdfreader
+2023-09-21 00:08:27,468 pdfreader Complete
+2023-09-21 00:08:27,524 611 Skipping ph_ai_news_query
+2023-09-21 00:08:27,581 612 Skipping penrose_research_analyst
+2023-09-21 00:08:27,636 613 Skipping perfect_chirp
+2023-09-21 00:08:27,694 614 Skipping Persona
+2023-09-21 00:08:27,750 615 Skipping photorealistic
+2023-09-21 00:08:27,805 616 Skipping task
+2023-09-21 00:08:27,861 617 Skipping PixellowChatWithImage
+2023-09-21 00:08:27,919 618 Skipping placid
+2023-09-21 00:08:27,976 619 Skipping Planfit
+2023-09-21 00:08:28,033 620 Skipping PlaylistFollow
+2023-09-21 00:08:28,052 621 Processing PlaylistAI_for_Amazon_Music
+2023-09-21 00:08:28,091 PlaylistAI_for_Amazon_Music Complete
+2023-09-21 00:08:28,110 622 Processing PlaylistAI_for_Deezer
+2023-09-21 00:08:28,149 PlaylistAI_for_Deezer Complete
+2023-09-21 00:08:28,167 623 Processing PlaylistAI_for_Spotify
+2023-09-21 00:08:28,206 PlaylistAI_for_Spotify Complete
+2023-09-21 00:08:28,283 624 Skipping plooral
+2023-09-21 00:08:28,340 625 Skipping PlugFinder
+2023-09-21 00:08:28,397 626 Skipping Pluginpedia
+2023-09-21 00:08:28,457 627 Skipping podcastSearch
+2023-09-21 00:08:28,515 628 Skipping PointsRecap
+2023-09-21 00:08:28,575 629 Skipping polarr
+2023-09-21 00:08:28,633 630 Skipping pollthepeople
+2023-09-21 00:08:28,694 631 Skipping polygon
+2023-09-21 00:08:28,761 632 Skipping popfun_ai
+2023-09-21 00:08:28,829 633 Skipping StockData
+2023-09-21 00:08:28,886 634 Skipping portfoliopilot
+2023-09-21 00:08:28,944 635 Skipping PortfoliosLab
+2023-09-21 00:08:28,963 636 Processing MicrosoftPowerAutomate
+2023-09-21 00:08:29,002 MicrosoftPowerAutomate Complete
+2023-09-21 00:08:29,059 637 Skipping Power_Dynamics_365
+2023-09-21 00:08:29,115 638 Skipping Google_Ads_Shopping_Microsoft_Ads_pay_per_click
+2023-09-21 00:08:29,178 639 Skipping prayer_times
+2023-09-21 00:08:29,250 640 Skipping Preply
+2023-09-21 00:08:29,274 641 Processing presentation_plugin
+2023-09-21 00:08:31,635 presentation_plugin Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //present.pyxl.uk/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DC550>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:31,673 presentation_plugin Complete
+2023-09-21 00:08:31,730 642 Skipping PrimeLoupe
+2023-09-21 00:08:31,751 643 Processing printify
+2023-09-21 00:08:31,791 printify Complete
+2023-09-21 00:08:31,848 644 Skipping search
+2023-09-21 00:08:31,868 645 Processing youtube
+2023-09-21 00:08:34,206 youtube Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //prodigilink-video-search.onrender.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22C4C40>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:34,244 youtube Complete
+2023-09-21 00:08:34,265 646 Processing ProjectPlan365
+2023-09-21 00:08:36,612 ProjectPlan365 Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //online.projectplan365.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E2503A90>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:36,650 ProjectPlan365 Complete
+2023-09-21 00:08:36,668 647 Processing prompt_generator
+2023-09-21 00:08:36,707 prompt_generator Complete
+2023-09-21 00:08:36,768 648 Skipping Prompt_Hotkey
+2023-09-21 00:08:36,827 649 Skipping rephrase
+2023-09-21 00:08:36,884 650 Skipping promptest
+2023-09-21 00:08:36,946 651 Skipping PromptRecruit
+2023-09-21 00:08:37,004 652 Skipping property_finder_uk
+2023-09-21 00:08:37,066 653 Skipping property_finder_uk
+2023-09-21 00:08:37,125 654 Skipping ptcg_price_research
+2023-09-21 00:08:37,145 655 Processing PubMedResearch
+2023-09-21 00:08:37,182 PubMedResearch Complete
+2023-09-21 00:08:37,242 656 Skipping PuginAI
+2023-09-21 00:08:37,304 657 Skipping Puzzle_Constructor
+2023-09-21 00:08:37,363 658 Skipping QEEQ
+2023-09-21 00:08:37,419 659 Skipping qrCodes
+2023-09-21 00:08:37,477 660 Skipping qreator
+2023-09-21 00:08:37,534 661 Skipping qsRankings
+2023-09-21 00:08:37,590 662 Skipping QuakePH
+2023-09-21 00:08:37,646 663 Skipping quantumKemChecker
+2023-09-21 00:08:37,703 664 Skipping questmate
+2023-09-21 00:08:37,761 665 Skipping quick_news_digest
+2023-09-21 00:08:37,818 666 Skipping ads
+2023-09-21 00:08:37,877 667 Skipping QuickPage
+2023-09-21 00:08:37,935 668 Skipping quickrecall
+2023-09-21 00:08:37,993 669 Skipping quickSEO_gpt
+2023-09-21 00:08:38,013 670 Processing quick_url
+2023-09-21 00:08:38,050 quick_url Complete
+2023-09-21 00:08:38,107 671 Skipping quick_voicegpt
+2023-09-21 00:08:38,163 672 Skipping QuiverQuantitative
+2023-09-21 00:08:38,222 673 Skipping quizizz
+2023-09-21 00:08:38,280 674 Skipping QyrusTestPilot
+2023-09-21 00:08:38,300 675 Processing random
+2023-09-21 00:08:40,639 random Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //randomgpt.astrian.moe/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22EF0D0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:40,679 random Complete
+2023-09-21 00:08:40,699 676 Processing rcs_ai
+2023-09-21 00:08:40,738 rcs_ai Complete
+2023-09-21 00:08:40,758 677 Processing receipt_assistant
+2023-09-21 00:08:40,795 receipt_assistant Complete
+2023-09-21 00:08:40,851 678 Skipping recipe_finder
+2023-09-21 00:08:40,907 679 Skipping RecombinantAI
+2023-09-21 00:08:40,926 680 Processing RecruiterInterview
+2023-09-21 00:08:43,279 RecruiterInterview Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //c-interview-questions.copilot.us/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22BF490>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:43,318 RecruiterInterview Complete
+2023-09-21 00:08:43,336 681 Processing RedesignResumeOrCV
+2023-09-21 00:08:45,701 RedesignResumeOrCV Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //redesign-resume.copilot.us/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E2503430>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:45,740 RedesignResumeOrCV Complete
+2023-09-21 00:08:45,799 682 Skipping reflect_notes
+2023-09-21 00:08:45,862 683 Skipping reminders
+2023-09-21 00:08:45,918 684 Skipping repo_inspector
+2023-09-21 00:08:45,975 685 Skipping repo_radar
+2023-09-21 00:08:46,035 686 Skipping repo_radar
+2023-09-21 00:08:46,054 687 Processing ResearchButler
+2023-09-21 00:08:46,094 ResearchButler Complete
+2023-09-21 00:08:46,151 688 Skipping researchbyvector
+2023-09-21 00:08:46,208 689 Skipping Responsive
+2023-09-21 00:08:46,266 690 Skipping resumer
+2023-09-21 00:08:46,325 691 Skipping ResumeCopilot
+2023-09-21 00:08:46,384 692 Skipping resume_creator
+2023-09-21 00:08:46,405 693 Processing revelo_talent_finder
+2023-09-21 00:08:48,741 revelo_talent_finder Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //api.companies.revelo.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247C652F310>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:48,779 revelo_talent_finder Complete
+2023-09-21 00:08:48,838 694 Skipping reviewreader
+2023-09-21 00:08:48,894 695 Skipping RiskmonsterCorpDB
+2023-09-21 00:08:48,951 696 Skipping RoboAd
+2023-09-21 00:08:49,007 697 Skipping Rogo
+2023-09-21 00:08:49,063 698 Skipping Roshi
+2023-09-21 00:08:49,118 699 Skipping RPAMAKER
+2023-09-21 00:08:49,174 700 Skipping Runes
+2023-09-21 00:08:49,193 701 Processing rvshare
+2023-09-21 00:08:49,231 rvshare Complete
+2023-09-21 00:08:49,250 702 Processing S3_API_File_Storage_Provider
+2023-09-21 00:08:49,287 S3_API_File_Storage_Provider Complete
+2023-09-21 00:08:49,344 703 Skipping SASpeedCameras
+2023-09-21 00:08:49,402 704 Skipping safetorun
+2023-09-21 00:08:49,459 705 Skipping sahih_ai
+2023-09-21 00:08:49,516 706 Skipping sakenowa
+2023-09-21 00:08:49,575 707 Skipping retrieval
+2023-09-21 00:08:49,631 708 Skipping save
+2023-09-21 00:08:49,686 709 Skipping savvy_trader_ai
+2023-09-21 00:08:49,743 710 Skipping SceneXplain
+2023-09-21 00:08:49,804 711 Skipping scholar_assist
+2023-09-21 00:08:49,865 712 Skipping scholarai
+2023-09-21 00:08:49,941 713 Skipping scholarly
+2023-09-21 00:08:50,000 714 Skipping scholarly_graph_link
+2023-09-21 00:08:50,060 715 Skipping ScholarlyInsight
+2023-09-21 00:08:50,119 716 Skipping schoolsupplylist
+2023-09-21 00:08:50,176 717 Skipping science
+2023-09-21 00:08:50,234 718 Skipping website_scraper
+2023-09-21 00:08:50,290 719 Skipping web_scraper
+2023-09-21 00:08:50,350 720 Skipping scrapingbee
+2023-09-21 00:08:50,409 721 Skipping companieshouse
+2023-09-21 00:08:50,465 722 Skipping seatsaero
+2023-09-21 00:08:50,520 723 Skipping sixtysecsite
+2023-09-21 00:08:50,577 724 Skipping Weather_and_Train_and_in_Korea
+2023-09-21 00:08:50,638 725 Skipping Sembot
+2023-09-21 00:08:50,695 726 Skipping Sentence_Beasts
+2023-09-21 00:08:50,754 727 Skipping three_sentence_service
+2023-09-21 00:08:50,813 728 Skipping SentimentAnalysisTool
+2023-09-21 00:08:50,871 729 Skipping seo_assistant
+2023-09-21 00:08:50,946 730 Skipping seoanalysis
+2023-09-21 00:08:51,005 731 Skipping SEO
+2023-09-21 00:08:51,063 732 Skipping serpstat_seo_tool
+2023-09-21 00:08:51,121 733 Skipping serviceCheck
+2023-09-21 00:08:51,180 734 Skipping sg_parking_model
+2023-09-21 00:08:51,237 735 Skipping SheinDiscovery
+2023-09-21 00:08:51,295 736 Skipping Shop
+2023-09-21 00:08:51,352 737 Skipping Shop_AIssistant
+2023-09-21 00:08:51,427 738 Skipping shopbest
+2023-09-21 00:08:51,489 739 Skipping shoprewards
+2023-09-21 00:08:51,551 740 Skipping SHOPCOMProducts
+2023-09-21 00:08:51,610 741 Skipping shoppingfinder
+2023-09-21 00:08:51,680 742 Skipping ShoppingTools
+2023-09-21 00:08:51,738 743 Skipping QASMShor
+2023-09-21 00:08:51,758 744 Processing short_video_trends
+2023-09-21 00:08:51,797 short_video_trends Complete
+2023-09-21 00:08:51,855 745 Skipping shownotes
+2023-09-21 00:08:51,915 746 Skipping shuto
+2023-09-21 00:08:51,971 747 Skipping sic
+2023-09-21 00:08:51,990 748 Processing sid_search
+2023-09-21 00:08:52,030 sid_search Complete
+2023-09-21 00:08:52,087 749 Skipping SignalPlus
+2023-09-21 00:08:52,108 750 Processing SigTech
+2023-09-21 00:08:52,146 SigTech Complete
+2023-09-21 00:08:52,202 751 Skipping SimplyCodes
+2023-09-21 00:08:52,258 752 Skipping singlestore
+2023-09-21 00:08:52,315 753 Skipping Skrive
+2023-09-21 00:08:52,372 754 Skipping SkyPoint_AI
+2023-09-21 00:08:52,429 755 Skipping SkyscannerFlights
+2023-09-21 00:08:52,486 756 Skipping sleek_choice
+2023-09-21 00:08:52,505 757 Processing slide_maker
+2023-09-21 00:08:54,888 slide_maker Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin.slides.aidocmaker.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22C46A0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:08:54,928 slide_maker Complete
+2023-09-21 00:08:54,991 758 Skipping smart_connections
+2023-09-21 00:08:55,054 759 Skipping smart_slides
+2023-09-21 00:08:55,113 760 Skipping smarter_contracts
+2023-09-21 00:08:55,172 761 Skipping smarttsicketsai
+2023-09-21 00:08:55,232 762 Skipping SnappyGifts
+2023-09-21 00:08:55,295 763 Skipping socialsearch
+2023-09-21 00:08:55,355 764 Skipping solana
+2023-09-21 00:08:55,415 765 Skipping Space
+2023-09-21 00:08:55,478 766 Skipping stellarexplorer
+2023-09-21 00:08:55,542 767 Skipping spacedata
+2023-09-21 00:08:55,610 768 Skipping ubSPARQL
+2023-09-21 00:08:55,669 769 Skipping speak
+2023-09-21 00:08:55,727 770 Skipping speechki_tts_plugin
+2023-09-21 00:08:55,787 771 Skipping speedy_seo_marketing
+2023-09-21 00:08:55,845 772 Skipping Smart_Price_Finder
+2023-09-21 00:08:55,909 773 Skipping Spirify_model_qrcode
+2023-09-21 00:08:55,928 774 Processing Splitgraph
+2023-09-21 00:08:55,967 Splitgraph Complete
+2023-09-21 00:08:56,033 775 Skipping sponsoredpro
+2023-09-21 00:08:56,100 776 Skipping ssense_recommendations
+2023-09-21 00:08:56,160 777 Skipping stackoverflow_plus
+2023-09-21 00:08:56,219 778 Skipping statisfinapp
+2023-09-21 00:08:56,281 779 Skipping Staypia
+2023-09-21 00:08:56,343 780 Skipping sre
+2023-09-21 00:08:56,402 781 Skipping StepStone_JobSearch
+2023-09-21 00:08:56,460 782 Skipping stoic
+2023-09-21 00:08:56,521 783 Skipping storybird_stories
+2023-09-21 00:08:56,582 784 Skipping storybooks
+2023-09-21 00:08:56,643 785 Skipping strology
+2023-09-21 00:08:56,708 786 Skipping Substack_IQ
+2023-09-21 00:08:56,770 787 Skipping Sudoku
+2023-09-21 00:08:56,828 788 Skipping Supercharger
+2023-09-21 00:08:56,886 789 Skipping supercolleague
+2023-09-21 00:08:56,906 790 Processing Supermetrics
+2023-09-21 00:08:56,945 Supermetrics Complete
+2023-09-21 00:08:57,004 791 Skipping ssfineart
+2023-09-21 00:08:57,069 792 Skipping Surveillance_API
+2023-09-21 00:08:57,088 793 Processing survey_sparrow
+2023-09-21 00:08:57,127 survey_sparrow Complete
+2023-09-21 00:08:57,184 794 Skipping Swft
+2023-09-21 00:08:57,242 795 Skipping Tabechoku
+2023-09-21 00:08:57,300 796 Skipping Tabelog
+2023-09-21 00:08:57,358 797 Skipping Tabor
+2023-09-21 00:08:57,416 798 Skipping Tagvenue_top_venues_for_hire_in_UK_and_beyond
+2023-09-21 00:08:57,476 799 Skipping tailor_erp
+2023-09-21 00:08:57,533 800 Skipping take_code_captures
+2023-09-21 00:08:57,594 801 Skipping TalentOrg
+2023-09-21 00:08:57,654 802 Skipping Talk_Laws_Brazil
+2023-09-21 00:08:57,711 803 Skipping talkwithdocs
+2023-09-21 00:08:57,770 804 Skipping talkfpl
+2023-09-21 00:08:57,831 805 Skipping tanpilot
+2023-09-21 00:08:57,888 806 Skipping tanpilot
+2023-09-21 00:08:57,946 807 Skipping Tarot
+2023-09-21 00:08:58,003 808 Skipping TaskML
+2023-09-21 00:08:58,081 809 Skipping TaskOracle
+2023-09-21 00:08:58,139 810 Skipping recipe_retrieval
+2023-09-21 00:08:58,201 811 Skipping TechPulse
+2023-09-21 00:08:58,259 812 Skipping telegraph_export
+2023-09-21 00:08:58,317 813 Skipping TelescopeLabs
+2023-09-21 00:08:58,376 814 Skipping TestosteronBoostDiet
+2023-09-21 00:08:58,433 815 Skipping word_and_character_count
+2023-09-21 00:08:58,495 816 Skipping bolt
+2023-09-21 00:08:58,563 817 Skipping The_Diet_Search
+2023-09-21 00:08:58,627 818 Skipping TheKnot
+2023-09-21 00:08:58,689 819 Skipping remembotron
+2023-09-21 00:08:58,755 820 Skipping themeparkhipster
+2023-09-21 00:08:58,823 821 Skipping theresanaiforthat
+2023-09-21 00:08:58,845 822 Processing think_school_spext
+2023-09-21 00:09:01,206 think_school_spext Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //plugin.thinkschool.spext.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E2516BF0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:09:01,245 think_school_spext Complete
+2023-09-21 00:09:01,304 823 Skipping TicTacToe
+2023-09-21 00:09:01,361 824 Skipping TickTick
+2023-09-21 00:09:01,380 825 Processing tilnote
+2023-09-21 00:09:01,421 tilnote Complete
+2023-09-21 00:09:01,439 826 Processing TimeMachine
+2023-09-21 00:09:01,478 TimeMachine Complete
+2023-09-21 00:09:01,535 827 Skipping timemachine
+2023-09-21 00:09:01,601 828 Skipping timenavi
+2023-09-21 00:09:01,662 829 Skipping timeport
+2023-09-21 00:09:01,721 830 Skipping tint_bolt
+2023-09-21 00:09:01,782 831 Skipping tira
+2023-09-21 00:09:01,804 832 Processing TLDRTool
+2023-09-21 00:09:04,169 TLDRTool Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //tldr.adielaine.repl.co/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22BC190>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:09:04,201 TLDRTool Complete
+2023-09-21 00:09:04,262 833 Skipping Todays_Top_Deal
+2023-09-21 00:09:04,328 834 Skipping TokenInsights
+2023-09-21 00:09:04,389 835 Skipping tokyo_opendata
+2023-09-21 00:09:04,448 836 Skipping weather
+2023-09-21 00:09:04,508 837 Skipping TomTom
+2023-09-21 00:09:04,570 838 Skipping toolblox
+2023-09-21 00:09:04,630 839 Skipping find_agency
+2023-09-21 00:09:04,693 840 Skipping tophap
+2023-09-21 00:09:04,713 841 Processing topical_authority
+2023-09-21 00:09:04,758 topical_authority Complete
+2023-09-21 00:09:04,831 842 Skipping total_query_meta_search_engine
+2023-09-21 00:09:04,939 843 Skipping twrail
+2023-09-21 00:09:05,028 844 Skipping tradersinsight
+2023-09-21 00:09:05,119 845 Skipping FinTorch_Trading_Assistant
+2023-09-21 00:09:05,216 846 Skipping trambellir_treatments
+2023-09-21 00:09:05,279 847 Skipping qe_val
+2023-09-21 00:09:05,301 848 Processing Travel_Planning
+2023-09-21 00:09:07,673 Travel_Planning Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //travelplanning.sinclinal.com/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DC730>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:09:07,712 Travel_Planning Complete
+2023-09-21 00:09:07,732 849 Processing TRAVELKO
+2023-09-21 00:09:07,773 TRAVELKO Complete
+2023-09-21 00:09:07,834 850 Skipping travelmyth
+2023-09-21 00:09:07,894 851 Skipping trax_codes
+2023-09-21 00:09:07,954 852 Skipping trending_music
+2023-09-21 00:09:08,022 853 Skipping Trip
+2023-09-21 00:09:08,084 854 Skipping trypcom
+2023-09-21 00:09:08,144 855 Skipping TrySpree
+2023-09-21 00:09:08,164 856 Processing TTS11labs
+2023-09-21 00:09:08,204 TTS11labs Complete
+2023-09-21 00:09:08,261 857 Skipping turing_developer_search
+2023-09-21 00:09:08,329 858 Skipping turo_search
+2023-09-21 00:09:08,388 859 Skipping tutory
+2023-09-21 00:09:08,449 860 Skipping twtData
+2023-09-21 00:09:08,510 861 Skipping ResearchAI
+2023-09-21 00:09:08,576 862 Skipping Typeform
+2023-09-21 00:09:08,636 863 Skipping typescript_analyzer
+2023-09-21 00:09:08,695 864 Skipping uberchord
+2023-09-21 00:09:08,754 865 Skipping HousePricesInTheUK
+2023-09-21 00:09:08,819 866 Skipping uk_latest_news
+2023-09-21 00:09:08,894 867 Skipping uk_politics
+2023-09-21 00:09:08,961 868 Skipping books
+2023-09-21 00:09:09,023 869 Skipping universal
+2023-09-21 00:09:09,088 870 Skipping upskillr
+2023-09-21 00:09:09,155 871 Skipping urbanladder
+2023-09-21 00:09:09,218 872 Skipping federal_law_search
+2023-09-21 00:09:09,288 873 Skipping UwU_Translator
+2023-09-21 00:09:09,362 874 Skipping ValidatorAI
+2023-09-21 00:09:09,384 875 Processing VBOUT_v51
+2023-09-21 00:09:09,426 VBOUT_v51 Complete
+2023-09-21 00:09:09,501 876 Skipping vehicledata
+2023-09-21 00:09:09,564 877 Skipping tour_activities_suggestion_for_veltra
+2023-09-21 00:09:09,632 878 Skipping VideoCaptions
+2023-09-21 00:09:09,698 879 Skipping video_highlight
+2023-09-21 00:09:09,773 880 Skipping Video_summary
+2023-09-21 00:09:09,839 881 Skipping video_insights_io
+2023-09-21 00:09:09,903 882 Skipping vidiq_youtube_research
+2023-09-21 00:09:09,972 883 Skipping vio_com
+2023-09-21 00:09:10,039 884 Skipping Visla
+2023-09-21 00:09:10,105 885 Skipping visualize_your_data
+2023-09-21 00:09:10,170 886 Skipping vivian
+2023-09-21 00:09:10,234 887 Skipping vivid_seats
+2023-09-21 00:09:10,303 888 Skipping voiceover
+2023-09-21 00:09:10,373 889 Skipping vomo
+2023-09-21 00:09:10,434 890 Skipping VoxScript
+2023-09-21 00:09:10,498 891 Skipping VPLATE
+2023-09-21 00:09:10,569 892 Skipping wahi
+2023-09-21 00:09:10,589 893 Processing wallet_passes
+2023-09-21 00:09:10,631 wallet_passes Complete
+2023-09-21 00:09:10,695 894 Skipping wanted_job_search
+2023-09-21 00:09:10,754 895 Skipping wantedlyVisit
+2023-09-21 00:09:10,812 896 Skipping water_tracker
+2023-09-21 00:09:10,870 897 Skipping weather
+2023-09-21 00:09:10,939 898 Skipping Weather
+2023-09-21 00:09:11,002 899 Skipping weather_meteosource
+2023-09-21 00:09:11,070 900 Skipping metar
+2023-09-21 00:09:11,134 901 Skipping Weather_Forecast
+2023-09-21 00:09:11,197 902 Skipping WeatherWizard
+2023-09-21 00:09:11,260 903 Skipping web_requests
+2023-09-21 00:09:11,282 904 Processing web_search_ai
+2023-09-21 00:09:11,325 web_search_ai Complete
+2023-09-21 00:09:11,427 905 Skipping Web3_User_Activity
+2023-09-21 00:09:11,518 906 Skipping web5
+2023-09-21 00:09:11,593 907 Skipping Webbots
+2023-09-21 00:09:11,674 908 Skipping web_dev
+2023-09-21 00:09:11,738 909 Skipping websum
+2023-09-21 00:09:11,803 910 Skipping WebPilot
+2023-09-21 00:09:11,878 911 Skipping WebRewind
+2023-09-21 00:09:11,944 912 Skipping website_performance_insights
+2023-09-21 00:09:12,021 913 Skipping welt_news_verse
+2023-09-21 00:09:12,090 914 Skipping what_to_watch
+2023-09-21 00:09:12,156 915 Skipping what_to_watch
+2023-09-21 00:09:12,219 916 Skipping surge_ai_trends
+2023-09-21 00:09:12,286 917 Skipping WhizList
+2023-09-21 00:09:12,352 918 Skipping whois_domain_checker
+2023-09-21 00:09:12,421 919 Skipping wikidocs
+2023-09-21 00:09:12,484 920 Skipping wikipedia
+2023-09-21 00:09:12,550 921 Skipping wishbucket
+2023-09-21 00:09:12,613 922 Skipping WizeCharts
+2023-09-21 00:09:12,676 923 Skipping Wolfram
+2023-09-21 00:09:12,743 924 Skipping word_counter
+2023-09-21 00:09:12,802 925 Skipping word_sneak
+2023-09-21 00:09:12,861 926 Skipping WordCloud
+2023-09-21 00:09:12,922 927 Skipping wordly_guess_the_word_game
+2023-09-21 00:09:12,984 928 Skipping wordspro
+2023-09-21 00:09:13,049 929 Skipping workoutGenerator
+2023-09-21 00:09:13,110 930 Skipping worldbankdata
+2023-09-21 00:09:13,174 931 Skipping news
+2023-09-21 00:09:13,234 932 Skipping worldrecords
+2023-09-21 00:09:13,292 933 Skipping woxo
+2023-09-21 00:09:13,350 934 Skipping wpinteract
+2023-09-21 00:09:13,416 935 Skipping WPressGenie
+2023-09-21 00:09:13,477 936 Skipping WriteEasy
+2023-09-21 00:09:13,545 937 Skipping xkcdai
+2023-09-21 00:09:13,622 938 Skipping Xpapers_arXiv_paper_database
+2023-09-21 00:09:13,690 939 Skipping XtalPi
+2023-09-21 00:09:13,770 940 Skipping XWeather
+2023-09-21 00:09:13,840 941 Skipping yabble
+2023-09-21 00:09:13,909 942 Skipping form
+2023-09-21 00:09:13,983 943 Skipping ai_council
+2023-09-21 00:09:14,051 944 Skipping youtube_summaries
+2023-09-21 00:09:14,121 945 Skipping yt_caption_retriever
+2023-09-21 00:09:14,205 946 Skipping youtubeVideoSummarizer
+2023-09-21 00:09:14,289 947 Skipping Zapier
+2023-09-21 00:09:14,313 948 Processing tarot_reading_search
+2023-09-21 00:09:16,711 tarot_reading_search Whitelist Error: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //thelema.ai/.well-known/ai-plugin.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000247E22DB610>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)"))
+2023-09-21 00:09:16,755 tarot_reading_search Complete
+2023-09-21 00:09:16,820 949 Skipping ZeoRoutePlanner
+2023-09-21 00:09:16,891 950 Skipping Zhibo8Sports
