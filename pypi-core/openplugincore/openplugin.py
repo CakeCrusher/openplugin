@@ -10,7 +10,7 @@ from .utils.constants import openai_models_info
 from .utils.prompting import estimate_tokens, tokens_to_chars, truncate_json_root
 from oplangchain.chains.openai_functions.openapi import openapi_spec_to_openai_fn
 from oplangchain.utilities.openapi import OpenAPISpec
-from oplangchain.output_parsers.openai_functions import JsonOutputFunctionsParser
+from oplangchain.output_parsers.openai_functions import JsonOutputFunctionsParser, FunctionCallNotExecuted
 from oplangchain.prompts import ChatPromptTemplate
 from oplangchain.chat_models import ChatOpenAI
 from oplangchain.schema import HumanMessage, AIMessage, SystemMessage, FunctionMessage
@@ -187,6 +187,8 @@ class OpenPlugin:
                 raise ValueError("Not a plugin function")
             else:
                 raise e
+        except FunctionCallNotExecuted as e:
+            raise FunctionCallNotExecuted(e)
         if llm_chain_out["name"] not in [function["name"] for function in self.functions]:
             raise ValueError("Not a plugin function")
 
@@ -209,7 +211,33 @@ class OpenPlugin:
                 name, arguments, headers, params=None
             )
             return res
+        
+        # make the api call
+        function_lookup = {fn["name"]: fn for fn in self.functions}
+        def request_chain(name, arguments, headers):
+            print(
+                "request_chain name: {}, arguments: {}".format(name, json.dumps(arguments))
+            )
+
+            # Get the expected parameters for the function
+            expected_params = function_lookup[name]["parameters"]["properties"]
+
+            # Find the appropriate wrapping key
+            wrapping_key = next(
+                (key for key in ["data", "json", "params"] if key in expected_params), None
+            )
+
+            # If a wrapping key is found and it's not already in the arguments, wrap the arguments
+            if wrapping_key and wrapping_key not in arguments:
+                arguments = {wrapping_key: arguments}
+
+            res = self.call_api_fn(name, arguments, headers, params=None)
+            return res
+
         request_out = request_chain(**llm_chain_out, headers=plugin_headers)
+        # if request_out.status_code is not within 200s then raise http error
+        if request_out.status_code < 200 or request_out.status_code >= 300:
+            raise HTTPError(f"API call failed, API returned the following non-JSON response:\n{request_out.content}")
         json_response = request_out.json()
 
         if truncate:
