@@ -319,6 +319,31 @@ def test_initiate_and_fetch_askyourpdf():
 
     assert len(json_content["summary"]) > 0
 
+def test_initiate_and_fetch_show_me_diagrams():
+    plugin = OpenPlugin("show_me_diagrams", verbose=True)
+    assert plugin.manifest is not None
+    
+    # create chatgpt request that will call the addTodo function
+    chatgpt_prompt = 'Take this diagram to explain how a car works using a mermaid diagram of type graph. Return the link.'
+    response = plugin.fetch_plugin(
+        messages=[
+            {
+                "role": "user",
+                "content": chatgpt_prompt
+            }
+        ],
+        model="gpt-3.5-turbo-0613",
+        temperature=0,
+    )
+
+    assert response is not None
+    assert response["role"] == "function"
+    json_content = json.loads(response["content"])
+
+    print(json.dumps(json_content, indent=2))
+
+    assert json_content["diagramLanguage"] == "mermaid"
+
 """
 TEMPLATE for testing a new plugin
 0. test the plugin with a prompt in ChatGPT

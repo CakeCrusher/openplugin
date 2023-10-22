@@ -237,7 +237,13 @@ class OpenPlugin:
         request_out = request_chain(**llm_chain_out, headers=plugin_headers)
         # if request_out.status_code is not within 200s then raise http error
         if request_out.status_code < 200 or request_out.status_code >= 300:
-            raise HTTPError(f"API call failed, API returned the following non-JSON response:\n{request_out.content}")
+            raise HTTPError(
+                url=self.manifest["api"]["url"],
+                code=request_out.status_code,
+                msg=f"Call to \"{self.name}\" API failed",
+                hdrs={},
+                fp=None,
+            )
         json_response = request_out.json()
 
         if truncate:
