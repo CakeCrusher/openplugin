@@ -38,7 +38,7 @@ def test_initiate_and_fetch_todo():
     json_content = json.loads(response["content"])
     assert json_content["todo"] == "buy milk"
 
-def test_initiate_and_fetch_LGTM():
+def test_initiate_and_fetch_LGTM_gpt_4():
     plugin = OpenPlugin("LGTM")
     assert plugin.manifest is not None
 
@@ -52,7 +52,7 @@ def test_initiate_and_fetch_LGTM():
             }
         ],
         return_assistant_message=True,
-        model="gpt-3.5-turbo-0613",
+        model="gpt-4-1106-preview",
         temperature=0,
     )
     response = response["function_message"]
@@ -65,7 +65,7 @@ def test_initiate_and_fetch_LGTM():
     assert json_content["image_url"].startswith("https://lgtm.lol")
 
 
-def test_initiate_and_fetch_yt_caption_retriever():
+def test_initiate_and_fetch_yt_caption_retriever_gpt_4():
     plugin = OpenPlugin("yt_caption_retriever")
     assert plugin.manifest is not None
 
@@ -79,7 +79,7 @@ def test_initiate_and_fetch_yt_caption_retriever():
             }
         ],
         return_assistant_message=True,
-        model="gpt-3.5-turbo-0613",
+        model="gpt-4-1106-preview",
         temperature=0,
     )
     response = response["function_message"]
@@ -105,7 +105,7 @@ def test_initiate_and_fetch_twtData():
             }
         ],
         return_assistant_message=True,
-        model="gpt-3.5-turbo-0613",
+        model="gpt-3.5-turbo-1106",
         temperature=0,
     )
     response = response["function_message"]
@@ -132,7 +132,7 @@ def test_initiate_and_fetch_surge_ai_trends():
             }
         ],
         return_assistant_message=True,
-        model="gpt-3.5-turbo-0613",
+        model="gpt-3.5-turbo-1106",
         temperature=0,
     )
     response = response["function_message"]
@@ -211,7 +211,7 @@ def test_initiate_and_fetch_rephrase():
             }
         ],
         return_assistant_message=True,
-        model="gpt-3.5-turbo-0613",
+        model="gpt-3.5-turbo-1106",
         temperature=0,
     )
     response = response["function_message"]
@@ -236,7 +236,7 @@ def test_initiate_and_fetch_DreamInterpreter():
                 "content": chatgpt_prompt
             }
         ],
-        model="gpt-3.5-turbo-0613",
+        model="gpt-3.5-turbo-1106",
         temperature=0,
     )
 
@@ -260,7 +260,7 @@ def test_initiate_and_fetch_portfoliopilot():
                 "content": chatgpt_prompt
             }
         ],
-        model="gpt-3.5-turbo-0613",
+        model="gpt-3.5-turbo-1106",
         temperature=0,
     )
 
@@ -285,7 +285,7 @@ def test_initiate_and_fetch_Ai_PDF():
                 "content": chatgpt_prompt
             }
         ],
-        model="gpt-3.5-turbo-0613",
+        model="gpt-3.5-turbo-1106",
         temperature=0,
     )
 
@@ -309,7 +309,7 @@ def test_initiate_and_fetch_askyourpdf():
                 "content": chatgpt_prompt
             }
         ],
-        model="gpt-3.5-turbo-0613",
+        model="gpt-3.5-turbo-1106",
         temperature=0,
     )
 
@@ -332,7 +332,7 @@ def test_initiate_and_fetch_show_me_diagrams():
                 "content": chatgpt_prompt
             }
         ],
-        model="gpt-3.5-turbo-0613",
+        model="gpt-3.5-turbo-1106",
         temperature=0,
     )
 

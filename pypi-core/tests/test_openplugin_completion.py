@@ -27,7 +27,7 @@ def test_openplugin_completion():
                 "content": f"add '{todo}' to my todo list"
             }
         ],
-        model = "gpt-3.5-turbo-0613",
+        model = "gpt-3.5-turbo-1106",
         temperature = 0,
     )
 
@@ -49,7 +49,7 @@ def test_openplugin_completion_with_url():
                 "content": f"add '{todo}' to my todo list"
             }
         ],
-        model = "gpt-3.5-turbo-0613",
+        model = "gpt-3.5-turbo-1106",
         temperature = 0,
     )
 

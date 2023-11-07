@@ -62,7 +62,7 @@ def test_fetch_plugin(todo_openplugin):
         messages=todo_plugin["messages"],
         return_assistant_message=True,
         plugin_headers=todo_plugin["plugin_headers"], # tests for service_auth headers
-        model="gpt-3.5-turbo-0613"
+        model="gpt-3.5-turbo-1106"
     )
     assert response is not None
 
@@ -73,7 +73,7 @@ def test_fetch_plugin(todo_openplugin):
     assert not assistant_message["content"]
     assert assistant_message["function_call"]["name"] == "addTodo"
     assert type(assistant_message["function_call"]["arguments"]) == str
-    assert json.loads(assistant_message["function_call"]["arguments"])["json"]["todo"] == "buy milk" # "json" object needed due to oplangchain
+    assert json.loads(assistant_message["function_call"]["arguments"])["todo"] == "buy milk" # "json" object needed due to oplangchain
 
     function_message = response["function_message"]
     assert function_message["role"] == "function"
@@ -90,11 +90,11 @@ def test_truncated_response():
                 "content": "summarize this video https://www.youtube.com/watch?v=gZVeRQkxCdc"
             }
         ],
-        model='gpt-3.5-turbo-0613',
+        model='gpt-3.5-turbo-1106',
         truncate=True,
     )
     assert response is not None
-    assert estimate_tokens(response['content']) > 3600 and estimate_tokens(response['content']) < 3800
+    assert estimate_tokens(response['content']) > 9800 and estimate_tokens(response['content']) < 11000
 
 def test_messages():
     plugin = OpenPlugin('__testing__', verbose=True)
@@ -148,7 +148,7 @@ def test_messages():
             }
         ],
         plugin_headers=todo_plugin["plugin_headers"],
-        model='gpt-3.5-turbo-0613',
+        model='gpt-3.5-turbo-1106',
         truncate=True
     )
 
