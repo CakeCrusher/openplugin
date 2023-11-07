@@ -10,6 +10,8 @@
 
 OpenPlugin official client, [openplugin.io](https://www.openplugin.io/), is now in closed beta!
 
+[My Patreon](https://www.patreon.com/SebastianSosa)
+
 ## Supported plugins [PLUGINS.md](https://github.com/CakeCrusher/openplugin-clients/blob/main/PLUGINS.md)
 <i>demo</i>
 
