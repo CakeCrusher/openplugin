@@ -6,7 +6,7 @@
 </div>
 
 
-[Join Discord Server](https://discord.gg/AfHcVutBUT) 
+[Join Discord Server (now OpenGPTs)](https://discord.gg/Qd5YTvTA) 
 
 OpenPlugin official client, [openplugin.io](https://www.openplugin.io/), is now in closed beta!
 
